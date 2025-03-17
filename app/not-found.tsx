@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import ComingSoon from './coming-soon';
 
 export default function NotFound() {
   return (
