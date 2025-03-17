@@ -24,7 +24,7 @@ export default function NotFound() {
             Page Not Found
           </h2>
           <p className="text-gray-600 mb-8 text-lg">
-            The page you're looking for doesn't exist or under Development.
+            The page you&apos;re looking for doesn&apos;t exist or under Development.
           </p>
           <Link
             href="/"

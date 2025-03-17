@@ -32,7 +32,7 @@ const Hero = () => {
             {/* Foundation Principles */}
             <section className="bg-white rounded-t-full w-full h-full lg:px-50 px-10 lg:py-70 py-20 text-center lg:mt-[-8vw] mt-[-10vw]">
                 <main className=" mb-16">
-                    <h2 className="text-center text-[#0E7EA0] lg:text-[4.0vw] text-[8.0vw] font-bold mb-10">Manokalp's Foundational Principles</h2>
+                    <h2 className="text-center text-[#0E7EA0] lg:text-[4.0vw] text-[8.0vw] font-bold mb-10">Manokalp&apos;s Foundational Principles</h2>
                     <div className="flex justify-center flex-col px-[5vw]">
                         <div className="flex flex-row justify-start items-center text-center gap-4 mb-6">
                             <Image src="/principles/1.webp" alt="mental health icon" width={100} height={100} />
