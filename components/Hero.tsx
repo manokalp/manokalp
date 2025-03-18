@@ -58,7 +58,7 @@ const Hero = () => {
             </section>
 
             {/* Quick Fix Links  */}
-            <section className="bg-[#F1F1F1] w-full h-full lg:px-40 px-10 lg:py-20 py-10 mt-[-10vw]">
+            <section className="bg-[#F1F1F1] w-full h-full lg:px-40 px-10 lg:pt-20 pb-[50vw] py-10 mt-[-10vw] mb-[-45vw] ">
                 <div className="grid lg:grid-cols-3 grid-cols-1 gap-8">
                     {/* Card 1 */}
                     <div className="bg-[#0E7EA0] rounded-3xl  text-white text-center">
