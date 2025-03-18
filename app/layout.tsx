@@ -7,7 +7,7 @@ import { Suspense } from 'react'
 import Loading from '@/components/Loading'
 
 const inter = Inter({ subsets: ['latin'] })
-const playfair = Playfair_Display({ subsets: ['latin'] })
+// const playfair = Playfair_Display({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Manokalp',

@@ -78,8 +78,8 @@ const ASPD = () => {
                 <div className="flex flex-col lg:flex-row justify-center lg:gap-40 gap-10 items-center text-center mb-20">
 
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Antisocial Personality Disorder (ASPD) is a complex psychiatric disorder
-                        characterized by a persistent pattern of disrespect and disregard for others' rights. ASPD individuals are more likely to demonstrate lack of empathy,
-                        manipulativeness, and lack of concern for society's norms without guilt. Even though the disorder affects approximately 1-4% of the general population, it is disproportionately represented in prisons, where 50-80% of inmates can have the disorder.</p>
+                        characterized by a persistent pattern of disrespect and disregard for others&apos; rights. ASPD individuals are more likely to demonstrate lack of empathy,
+                        manipulativeness, and lack of concern for society&apos;s norms without guilt. Even though the disorder affects approximately 1-4% of the general population, it is disproportionately represented in prisons, where 50-80% of inmates can have the disorder.</p>
 
 
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">ASPD is one of the DSM-5 Cluster B personality disorders, such as borderline, histrionic, and narcissistic personality disorders. ASPD is among the most challenging mental health conditions to treat because individuals with the disorder lack awareness of what they are doing and are not typically motivated to see the doctor or receive treatment.</p>
@@ -133,7 +133,7 @@ const ASPD = () => {
 
                         <Image src="/quick_links/2.webp" alt="stressed person" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
-                            <h3 className="text-xl font-bold mb-4">A steady pattern of disrespect and violation of other individuals' rights since the age of 15 years.</h3>
+                            <h3 className="text-xl font-bold mb-4">A steady pattern of disrespect and violation of other individuals&apos; rights since the age of 15 years.</h3>
                         </div>
                     </div>
 
@@ -201,7 +201,7 @@ const ASPD = () => {
                             <li className="mb-8 border-b-[2px]">Dialectical Behavior Therapy for emotional dysregulation and
                                 impulsivity</li>
                             <li className="mb-8 border-b-[2px]">Mentalization-Based Treatment to develop the capacity to
-                                understand one's own and others' mental states</li>
+                                understand one&apos;s own and others&apos; mental states</li>
                             <li className="mb-8 border-b-[2px]">Contingency management interventions that reinforce good
                                 behaviors</li>
                         </ul>
@@ -215,7 +215,7 @@ const ASPD = () => {
             <section className="bg-[#FFD266] w-full h-full lg:px-40 px-10 lg:pt-20 lg:pb-[50vw] pt-20 pb-50 mb-[-45vw] text-center z-0 ">
                 <h2 className={`text-[#0E7EA0] text-[3.5vw] font-bold ${playfair.className} mb-10`}>Prognosis and Future Outlook</h2>
                 <div className="flex flex-col lg:flex-row justify-between items-center text-left text-black gap-20">
-                    <p>The progression of ASPD is quite variable between individuals: Others have a slow decrease in antisocial behavior with advancing age, more specifically after 40 years ("burnout" phenomenon) Others have chronic patterns of antisocial behavior that persist across life Positive outcomes are associated with secure employment, good social support, and no use of drugs Early intervention, particularly childhood conduct disorder intervention, has the power to alter development Social and Clinical Challenges ASPD presents serious challenges to the treatment community and society: Individuals with ASPD rarely seek out treatment voluntarily Adherence to treatment is usually deleterious The stigmata related to diagnosis may impact modes of treatment </p>
+                    <p>The progression of ASPD is quite variable between individuals: Others have a slow decrease in antisocial behavior with advancing age, more specifically after 40 years (&quot;burnout&quot; phenomenon) Others have chronic patterns of antisocial behavior that persist across life Positive outcomes are associated with secure employment, good social support, and no use of drugs Early intervention, particularly childhood conduct disorder intervention, has the power to alter development Social and Clinical Challenges ASPD presents serious challenges to the treatment community and society: Individuals with ASPD rarely seek out treatment voluntarily Adherence to treatment is usually deleterious The stigmata related to diagnosis may impact modes of treatment </p>
                     <p> The disorder carries important societal costs in terms of criminal justice involvement, drug abuse, and domestic violence Ethical considerations of coercive treatment versus autonomy Conclusion Antisocial Personality Disorder is a complex, multifaceted disorder with environmental, neurobiological, and genetic etiology. While treatment is challenging, an integrated treatment plan for individual symptoms and expressions of behavior can improve outcomes. Early intervention of precursor disorders like conduct disorder is the most hopeful pathway to prevention. The development of specialized, evidence-based treatments is a primary area for future research and clinical innovation in the treatment of this difficult disorder.</p>
                 </div>
             </section>
