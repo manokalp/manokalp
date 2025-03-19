@@ -3,9 +3,9 @@ import Link from "next/link"
 
 const Footer = () => {
     return (
-        <footer className="bg-transparent z-20">
+        <footer className="bg-transparent z-20 relative">
             {/* Newsletter */}
-            <div className="bg-[#0E7EA0] text-white py-40 rounded-t-full z-20 relative">
+            <div className="bg-[#0E7EA0] text-white py-40 rounded-t-full z-20 ">
                 <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
                     <div className="flex flex-col items-center text-center">
                         <h2 className="lg:text-[4.0vw] text-[8.5vw] font-bold mb-4">BOOK AN APPOINTMENT</h2>
