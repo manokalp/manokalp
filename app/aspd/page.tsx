@@ -56,7 +56,7 @@ const ASPD = () => {
             {/* ASPD Hero Desktop  */}
 
             <div className="w-full hidden lg:block text-center ">
-                <h2 className="lg:text-[5vw] text-[6vw] text-[#0E7EA0] font-semibold relative z-10 ">Antisocial Personality Disorder<br /> (ASPD)</h2>
+                <h2 className="lg:text-[5vw] text-[6vw] text-[#0E7EA0] font-semibold relative z-10 font-[playfull]">Antisocial Personality Disorder<br /> (ASPD)</h2>
                 <Image src="/asdp.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full  lg:mt-[-16vw] mt-[-25vw]  z-0" />
             </div>
 
@@ -65,14 +65,14 @@ const ASPD = () => {
             <div className="w-full lg:hidden block text-center ">
 
                 <Image src="/asdp.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full    z-0" />
-                <h2 className="lg:text-[5vw] text-[6vw] text-[#0E7EA0] font-semibold relative z-10 mt-[-20vw] mb-10">Antisocial Personality Disorder<br /> (ASPD)</h2>
+                <h2 className="lg:text-[5vw] text-[6vw] text-[#0E7EA0] font-semibold relative z-10 mt-[-20vw] mb-10 font-[playfull]">Antisocial Personality Disorder<br /> (ASPD)</h2>
             </div>
 
 
             {/* The Harsh Truth Section  */}
-            <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-40 py-20 text-center lg:mt-[-20vw] mt-[-10vw]">
+            <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-40 py-20 text-center lg:mt-[-20vw] mt-[-4vw]">
                 <div className="flex flex-col justify-center items-center lg:mb-20 mb-10">
-                    <h2 className="lg:text-[4.0vw] text-[8.5vw] font-bold">Introduction</h2>
+                    <h2 className="lg:text-[4.0vw] text-[8.5vw] font-bold font-[playfull]">Introduction</h2>
 
                 </div>
                 <div className="flex flex-col lg:flex-row justify-center lg:gap-40 gap-10 items-center text-center mb-20">
@@ -212,9 +212,9 @@ const ASPD = () => {
             </section>
 
             {/* Prognosis and Future Outlook Section*/}
-            <section className="bg-[#FFD266] w-full h-full lg:px-40 px-10 lg:pt-20 lg:pb-[50vw] pt-20 pb-50 mb-[-45vw] text-center z-0 ">
-                <h2 className={`text-[#0E7EA0] text-[3.5vw] font-bold ${playfair.className} mb-10`}>Prognosis and Future Outlook</h2>
-                <div className="flex flex-col lg:flex-row justify-between items-center text-left text-black gap-20">
+            <section className="bg-[#FFD266] w-full h-full lg:px-40 px-10 lg:pt-20 lg:pb-[50vw] pt-20 pb-50 mb-[-60vw] text-center z-0 ">
+                <h2 className={`text-[#0E7EA0] lg:text-[3.5vw] text-[8vw] font-bold ${playfair.className} mb-10`}>Prognosis and Future Outlook</h2>
+                <div className="flex flex-col lg:flex-row justify-between items-center text-left text-black gap-20 mb-40">
                     <p>The progression of ASPD is quite variable between individuals: Others have a slow decrease in antisocial behavior with advancing age, more specifically after 40 years (&quot;burnout&quot; phenomenon) Others have chronic patterns of antisocial behavior that persist across life Positive outcomes are associated with secure employment, good social support, and no use of drugs Early intervention, particularly childhood conduct disorder intervention, has the power to alter development Social and Clinical Challenges ASPD presents serious challenges to the treatment community and society: Individuals with ASPD rarely seek out treatment voluntarily Adherence to treatment is usually deleterious The stigmata related to diagnosis may impact modes of treatment </p>
                     <p> The disorder carries important societal costs in terms of criminal justice involvement, drug abuse, and domestic violence Ethical considerations of coercive treatment versus autonomy Conclusion Antisocial Personality Disorder is a complex, multifaceted disorder with environmental, neurobiological, and genetic etiology. While treatment is challenging, an integrated treatment plan for individual symptoms and expressions of behavior can improve outcomes. Early intervention of precursor disorders like conduct disorder is the most hopeful pathway to prevention. The development of specialized, evidence-based treatments is a primary area for future research and clinical innovation in the treatment of this difficult disorder.</p>
                 </div>
