@@ -1,8 +1,8 @@
 "use client"
 import Image from "next/image"
 import Link from "next/link"
-import { useState } from 'react';
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+// import { useState } from 'react';
+// import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import playfair from "../../fonts/playfair.module.css"
 
 
@@ -133,10 +133,10 @@ const Relationship = () => {
                     <div className="[perspective:1000px] cursor-pointer">
                         <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
                             <div className="absolute inset-0 bg-[#0E7EA0]  w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [backface-visibility:hidden]">
-                                <h3 className="lg:text-[1.5vw] text-[4vw] font-bold">'I' Language</h3>
+                                <h3 className="lg:text-[1.5vw] text-[4vw] font-bold">&apos;I&apos; Language</h3>
                             </div>
                             <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                                <p className="lg:text-[1vw] text-[3vw]">Encouraging partners to express their feelings from their own perspective (e.g., "I feel hurt when..." instead of "You always...")</p>
+                                <p className="lg:text-[1vw] text-[3vw]">Encouraging partners to express their feelings from their own perspective (e.g., &quot;I feel hurt when...&quot; instead of &quot;You always...&quot;)</p>
                             </div>
                         </div>
                     </div>
