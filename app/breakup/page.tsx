@@ -1,8 +1,7 @@
 "use client"
 import Image from "next/image"
 import Link from "next/link"
-import { useState } from 'react';
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+// import { useState } from 'react';
 import playfair from "../../fonts/playfair.module.css"
 
 const tips = [
@@ -68,15 +67,8 @@ const carouselData = [
 
 const BreakUp = () => {
 
-    const [currentIndex, setCurrentIndex] = useState(0);
+    // const [currentIndex, setCurrentIndex] = useState(0);
 
-    const handleNext = () => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % carouselData.length);
-    };
-
-    const handlePrev = () => {
-        setCurrentIndex((prevIndex) => (prevIndex - 1 + carouselData.length) % carouselData.length);
-    };
     return (
         <main className="w-full h-full flex justify-center flex-col  bg-white ">
             {/* Hero Desktop  */}
@@ -124,7 +116,7 @@ const BreakUp = () => {
                 {carouselData.map((slide, index) => (
                     <div
                         key={index}
-                        className={`absolute w-full h-full  transition-opacity duration-500 ${index === currentIndex ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}
+                        className={`absolute w-full h-full  transition-opacity duration-500 `}
                         style={{ backgroundImage: `url(${slide.background})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
                     >
                         <div className="w-full h-full bg-black bg-opacity-60 flex flex-col justify-center items-center px-10 py-2">
@@ -150,7 +142,7 @@ const BreakUp = () => {
             {/* Quick Fix Links  */}
             <section className="bg-white w-full h-full lg:px-20 px-10 lg:py-20 py-10 text-center">
                 <h2 className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] ${playfair.className} mb-8`}>Symptoms of a Breakup</h2>
-                <p className="text-black lg:text-[1.5vw] text-[3vw] mb-12">A breakup is not just a change in one's relationship status but also influences emotional,
+                <p className="text-black lg:text-[1.5vw] text-[3vw] mb-12">A breakup is not just a change in one&apos;s relationship status but also influences emotional,
                     psychological, and even physical health. Some of the symptoms are:</p>
                 <div className="grid lg:grid-cols-4 grid-cols-1 gap-4">
                     {/* Card 1 */}
@@ -248,7 +240,7 @@ const BreakUp = () => {
                 <h2 className={`text-[#0E7EA0] lg:text-[3.5vw] text-[8vw] font-bold ${playfair.className} mb-10`}>Conclusion</h2>
                 <div className="flex flex-col lg:flex-row justify-between items-center text-left text-black gap-20 mb-40">
                     <p>Breakups are a common phenomenon, but they affect people differently. They can be painful, but they also provide a chance to grow and discover oneself. Identifying the reasons for a breakup, the symptoms, and proactively healing from it can ease the process for people. </p>
-                    <p>Though the hurt will seem unbearable in the beginning, time, care, and help can ease one's way into a better, more satisfying future. Every ending paves the way for a new beginning.                    </p>
+                    <p>Though the hurt will seem unbearable in the beginning, time, care, and help can ease one&apos;s way into a better, more satisfying future. Every ending paves the way for a new beginning.                    </p>
                 </div>
             </section>
         </main>
