@@ -29,7 +29,7 @@ const Relationship = () => {
                 </div>
                 <div className="flex flex-col lg:flex-row justify-center lg:gap-30 gap-10 items-center text-center mb-20">
 
-                    <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Couples' compatibility refers to the degree to which two individuals in a romantic relationship understand, respect, and align with each other’s life philosophies, goals, and personal traits. While it’s common for partners to have some differences, compatible couples can accept these differences and deal with them in a way that promotes harmony and growth in the relationship. They enjoy each other's company without trying to change each other. </p>
+                    <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Couples&apos; compatibility refers to the degree to which two individuals in a romantic relationship understand, respect, and align with each other&apos;s life philosophies, goals, and personal traits. While it&apos;s common for partners to have some differences, compatible couples can accept these differences and deal with them in a way that promotes harmony and growth in the relationship. They enjoy each other's company without trying to change each other. </p>
 
 
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">The success of communication relies not only on sending the message but also on its proper interpretation by the recipient.
@@ -49,7 +49,7 @@ const Relationship = () => {
                         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium">Effective communication is vital for maintaining a healthy relationship. Research shows that couples who communicate well are more likely to sustain strong, lasting bonds. Miscommunication or poor communication, on the other hand, can erode trust and contribute to emotional distress, leading to dissatisfaction in the relationship. As the social exchange theory suggests, negative communication tends to increase stress and diminish relationship satisfaction, while positive communication can help resolve conflicts and promote relationship well-being.</p>
                     </div>
                     <div className="lg:w-1/2">
-                        <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium">This evolving nature of compatibility means that while certain core values—such as trust, honesty, and commitment—tend to remain, other aspects of a relationship might shift as partners grow. A relationship's success relies on the couple’s ability to adapt and navigate these changes together.</p>
+                        <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium">This evolving nature of compatibility means that while certain core values—such as trust, honesty, and commitment—tend to remain, other aspects of a relationship might shift as partners grow. A relationship&apos;s success relies on the couple&apos;s ability to adapt and navigate these changes together.</p>
                     </div>
                 </div>
             </section>
@@ -62,7 +62,7 @@ const Relationship = () => {
                     </div>
                     <div className="lg:w-1/2">
                         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium">A compatible partner isn’t necessarily someone who fits into your predefined box, but someone who complements you and with whom you can build a balanced, collaborative relationship.
-                            It's important not to confuse love with compatibility. Love can spark quickly, but true compatibility requires time, understanding, and communication to develop. It’s the foundation of a lasting relationship where both partners grow together.</p>
+                            It&apos;s important not to confuse love with compatibility. Love can spark quickly, but true compatibility requires time, understanding, and communication to develop. It’s the foundation of a lasting relationship where both partners grow together.</p>
                     </div>
                 </div>
             </section>
@@ -80,7 +80,7 @@ const Relationship = () => {
                         <Image src="/quick_links/2.webp" alt="stressed person" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Calmness</h3>
-                            <p className="text-sm">Partners should feel comfortable and at ease in each other's presence. While passion is essential, true compatibility is marked by a sense of peace and security, where neither partner feels anxious or apprehensive.</p>
+                            <p className="text-sm">Partners should feel comfortable and at ease in each other&apos;s presence. While passion is essential, true compatibility is marked by a sense of peace and security, where neither partner feels anxious or apprehensive.</p>
                         </div>
                     </div>
 
@@ -89,7 +89,7 @@ const Relationship = () => {
                         <Image src="/quick_links/1.webp" alt="person meditating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Growth </h3>
-                            <p className="text-sm">Compatible couples grow together. Instead of "falling in love" with passion alone, they "rise in love," meaning they evolve and adapt through conflicts and challenges, building resilience and tolerance over time.</p>
+                            <p className="text-sm">Compatible couples grow together. Instead of &quot;falling in love&quot; with passion alone, they &quot;rise in love,&quot; meaning they evolve and adapt through conflicts and challenges, building resilience and tolerance over time.</p>
                         </div>
                     </div>
 
@@ -118,7 +118,7 @@ const Relationship = () => {
                         <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Love Language </h3>
-                            <p className="text-sm">Every couple has unique ways of expressing love. Compatible couples understand each other’s emotional needs, communicate effectively, and adapt to each other's preferred modes of affection and support.</p>
+                            <p className="text-sm">Every couple has unique ways of expressing love. Compatible couples understand each other&apos;s emotional needs, communicate effectively, and adapt to each other's preferred modes of affection and support.</p>
                         </div>
                     </div>
                     {/* Card 6 */}
@@ -137,7 +137,7 @@ const Relationship = () => {
             <section className="bg-[#FFD266] w-full h-full lg:px-40 px-10 lg:pt-20 lg:pb-[50vw] pt-20 pb-50 mb-[-60vw] text-center z-0 ">
                 <h2 className={`text-[#0E7EA0] lg:text-[3.5vw] text-[8vw] font-bold ${playfair.className} mb-10`}>The Life Cycle of Love in Couples</h2>
                 <div className="flex flex-col lg:flex-row justify-between items-center text-left text-black gap-20 mb-50">
-                    <p>Love in relationships tends to evolve over time. Initially, couples experience "falling in love," a passionate and intense phase. However, as the relationship matures, expectations change, and partners learn to love differently.
+                    <p>Love in relationships tends to evolve over time. Initially, couples experience &quot;falling in love,&quot; a passionate and intense phase. However, as the relationship matures, expectations change, and partners learn to love differently.
                     Over time, love transitions into a deeper connection, marked by genuine friendship, </p>
                     <p> Over time, love transitions into a deeper connection, marked by genuine friendship, mutual respect, and the ability to accept each other without needing to change one another. This stage represents true compatibility, where both partners choose acceptance over rejection and are able to love each other as they are.</p>
                 </div>
