@@ -10,7 +10,8 @@ const Relationship = () => {
         <main className="w-full h-full flex justify-center flex-col  bg-white ">
             {/* ASPD Hero Desktop  */}
             <div className="w-full hidden lg:block text-center ">
-                <h2 className="lg:text-[5vw] text-black font-semibold relative z-10 font-[playfull] translate-y-40">Relationship <br />Communication</h2>
+                <h2 className="lg:text-[5vw] text-black font-semibold relative z-10 font-[playfull] translate-y-40">Couples <br/>
+                Compatibility</h2>
                 <Image src="/couples.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full  lg:mt-[-16vw]  z-0" />
             </div>
 
@@ -18,7 +19,8 @@ const Relationship = () => {
             <div className="w-full lg:hidden block text-center ">
 
                 <Image src="/couples.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full     z-0" />
-                <h2 className="lg:text-[5vw] text-[6vw] text-black font-semibold relative z-10 font-[playfull] mt-[-10vw] mb-10">Relationship <br />Communication</h2>
+                <h2 className="lg:text-[5vw] text-[6vw] text-black font-semibold relative z-10 font-[playfull] mt-[-10vw] mb-10">Couples <br/>
+                Compatibility</h2>
             </div>
 
             {/* The Harsh Truth Section  */}
