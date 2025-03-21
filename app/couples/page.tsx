@@ -29,7 +29,7 @@ const Relationship = () => {
                 </div>
                 <div className="flex flex-col lg:flex-row justify-center lg:gap-30 gap-10 items-center text-center mb-20">
 
-                    <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Couples&apos; compatibility refers to the degree to which two individuals in a romantic relationship understand, respect, and align with each other&apos;s life philosophies, goals, and personal traits. While it&apos;s common for partners to have some differences, compatible couples can accept these differences and deal with them in a way that promotes harmony and growth in the relationship. They enjoy each other's company without trying to change each other. </p>
+                    <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Couples&apos; compatibility refers to the degree to which two individuals in a romantic relationship understand, respect, and align with each other&apos;s life philosophies, goals, and personal traits. While it&apos;s common for partners to have some differences, compatible couples can accept these differences and deal with them in a way that promotes harmony and growth in the relationship. They enjoy each other&apos;s company without trying to change each other. </p>
 
 
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">The success of communication relies not only on sending the message but also on its proper interpretation by the recipient.
@@ -118,7 +118,7 @@ const Relationship = () => {
                         <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Love Language </h3>
-                            <p className="text-sm">Every couple has unique ways of expressing love. Compatible couples understand each other&apos;s emotional needs, communicate effectively, and adapt to each other's preferred modes of affection and support.</p>
+                            <p className="text-sm">Every couple has unique ways of expressing love. Compatible couples understand each other&apos;s emotional needs, communicate effectively, and adapt to each other&apos;s preferred modes of affection and support.</p>
                         </div>
                     </div>
                     {/* Card 6 */}
