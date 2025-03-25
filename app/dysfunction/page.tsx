@@ -51,7 +51,7 @@ const Dysfunction = () => {
 
                 <div className="flex flex-col lg:flex-row justify-between gap-8 text-left">
                     <div className="lg:w-1/2">
-                        <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium">Yes, sexual dysfunction is relatively common. It can result from various factors, including restrictive upbringings, sexual misinformation, poor communication, past traumatic experiences, or insecurity about one's psychosexual role. These factors can lead both men and women to become unsure about how to approach sex, sometimes causing them to withdraw altogether.</p>
+                        <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium">Yes, sexual dysfunction is relatively common. It can result from various factors, including restrictive upbringings, sexual misinformation, poor communication, past traumatic experiences, or insecurity about one&apos;s psychosexual role. These factors can lead both men and women to become unsure about how to approach sex, sometimes causing them to withdraw altogether.</p>
                     </div>
                     <div className="lg:w-1/2">
                         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium">While diminished sexual desire is more commonly reported among women, both men and women experience dysfunctions such as erectile dysfunction (ED), premature ejaculation, delayed ejaculation, vaginismus, and anorgasmia. Some conditions, like DHAT syndrome (a culturally specific condition found in northern India), involve misperceptions about potency and can contribute to anxiety and depression.</p>
