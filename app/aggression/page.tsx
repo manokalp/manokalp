@@ -176,14 +176,14 @@ const Aggression = () => {
                 <h2 className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold  ${playfair.className}`}>Solutions for Managing Aggression and Anger</h2>
                 <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">Well-managed anger and aggression entail self-awareness, emotional management, 
                 and positive coping strategies. The following are effective ways of controlling and preventing anger:</p>
-                <div className="grid lg:grid-cols-3 grid-cols-1 gap-2">
+                <div className="grid lg:grid-cols-4 grid-cols-1 gap-4">
                     {/* Card 1 */}
                     <div className="bg-[#0E7EA0] rounded-3xl  text-white text-center">
 
                         <Image src="/quick_links/2.webp" alt="stressed person" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
-                            <h3 className="text-lg font-bold mb-4">Loss of Control</h3>
-                            <p className="text-sm">Being unable to stop or cut down despite trying to do so.</p>
+                            <h3 className="text-lg font-bold mb-4">Identify Triggers and Warning Signs</h3>
+                            <p className="text-sm">Becoming aware of the circumstances, individuals, or thoughts that trigger anger can aid in taking positive action to steer clear of or deal with them successfully.</p>
                         </div>
                     </div>
 
@@ -191,8 +191,8 @@ const Aggression = () => {
                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
                         <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
-                            <h3 className="text-lg font-bold mb-4">Cravings and Obsession</h3>
-                            <p className="text-sm">Repeatedly thinking about the addictive activity or substance and having overwhelming urges to use it.</p>
+                            <h3 className="text-lg font-bold mb-4">Use Deep Breathing and Relaxation Techniques</h3>
+                            <p className="text-sm">Breathing slowly and deeply and practicing mindfulness can quiet the body's physiological anger response. Other techniques like progressive muscle relaxation or meditation can be helpful as well.</p>
                         </div>
                     </div>
 
@@ -200,8 +200,8 @@ const Aggression = () => {
                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
                         <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
-                            <h3 className="text-lg font-bold mb-4">Neglecting Responsibilities</h3>
-                            <p className="text-sm">Forgetting work, school, or family responsibilities because of addiction.</p>
+                            <h3 className="text-lg font-bold mb-4">Count to Ten</h3>
+                            <p className="text-sm">Allowing oneself a brief moment to stop and reflect before acting can avoid impulsive and regrettable behavior.</p>
                         </div>
                     </div>
 
@@ -209,8 +209,8 @@ const Aggression = () => {
                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
                         <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
-                            <h3 className="text-lg font-bold mb-4">Tolerance and Dependence</h3>
-                            <p className="text-sm">Requiring increasingly more of the substance or the behavior to produce the same effect.</p>
+                            <h3 className="text-lg font-bold mb-4">Use Positive Self-Talk</h3>
+                            <p className="text-sm">Substituting negative thoughts with soothing and logical affirmations can decrease emotional intensity. Examples are: "I am in control of my emotions" or "This situation does not define me."</p>
                         </div>
                     </div>
 
@@ -227,8 +227,8 @@ const Aggression = () => {
                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
                         <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
-                            <h3 className="text-lg font-bold mb-4">Continuing Despite Negative Consequences</h3>
-                            <p className="text-sm">Continuing the addictive behavior in spite of money, social, health, or legal issues.</p>
+                            <h3 className="text-lg font-bold mb-4">Express Anger Constructively</h3>
+                            <p className="text-sm">Rather than showing aggression, it is possible for people to assertively and respectfully express their emotions. Stating "I" statements (i.e., "I feel annoyed when.") can de-escalate disputes.</p>
                         </div>
                     </div>
 
@@ -236,8 +236,8 @@ const Aggression = () => {
                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
                         <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
-                            <h3 className="text-lg font-bold mb-4">Social Isolation</h3>
-                            <p className="text-sm">Retreating from family and friends in order to conceal addiction or out of shame and guilt.</p>
+                            <h3 className="text-lg font-bold mb-4">Get Some Exercise</h3>
+                            <p className="text-sm">Endorphins that are released with exercise can combat stress and depression. Running, yoga, and boxing are activities that can channel bottled-up rage in a healthful manner.</p>
                         </div>
                     </div>
 
@@ -245,8 +245,8 @@ const Aggression = () => {
                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
                         <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
-                            <h3 className="text-lg font-bold mb-4">Indulgence in Risky Behaviors</h3>
-                            <p className="text-sm"> Getting into hazardous behavior, such as operating under the influence of substances or indulging in unsafe habits, due to addiction.</p>
+                            <h3 className="text-lg font-bold mb-4">Take a Break</h3>
+                            <p className="text-sm">Disengaging from an angry encounter gives time to calm down and see things clearer. Doing activities such as listening to music, taking a walk, or practicing a hobby is helpful in diverting the mind.</p>
                         </div>
                     </div>
 
@@ -254,8 +254,70 @@ const Aggression = () => {
                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
                         <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
-                            <h3 className="text-lg font-bold mb-4">Denial and Rationalization</h3>
-                            <p className="text-sm">Deflecting by excuses about addictive conduct or ignoring its effect.</p>
+                            <h3 className="text-lg font-bold mb-4">IDevelop Problem-Solving Skills</h3>
+                            <p className="text-sm">Rather than ruminating on frustrations, people can set their minds towards solving problems causing them anger. Dividing issues into smaller and more manageable steps makes them easier to handle.</p>
+                        </div>
+                    </div>
+
+                    {/* Card 10 */}
+                    <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <div className="p-6">
+                            <h3 className="text-lg font-bold mb-4">Seek Guidance from Friends and Family</h3>
+                            <p className="text-sm">A conversation with a close friend, family member, or mentor can give emotional support and new ideas on how to deal with conflicts.</p>
+                        </div>
+                    </div>
+
+                    {/* Card 11 */}
+                    <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <div className="p-6">
+                            <h3 className="text-lg font-bold mb-4">Practice Forgiveness</h3>
+                            <p className="text-sm">Retaining anger and resentment can be mentally draining. Letting go of grudges and exercising empathy can aid in peaceful moving forward.</p>
+                        </div>
+                    </div>
+
+                    {/* Card 12 */}
+                    <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <div className="p-6">
+                            <h3 className="text-lg font-bold mb-4">Use Humor to Defuse Tension</h3>
+                            <p className="text-sm">Having a good sense of humor in stressful situations can give everyone a new outlook and ease tension. The caution is to never use sarcasm or humor based on someone else. </p>
+                        </div>
+                    </div>
+
+                    {/* Card 13 */}
+                    <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <div className="p-6">
+                            <h3 className="text-lg font-bold mb-4">Improve Conflict Resolution Skills</h3>
+                            <p className="text-sm">Learning good communication and bargaining skills can avoid misunderstandings and unnecessary fighting.</p>
+                        </div>
+                    </div>
+
+                    {/* Card 14 */}
+                    <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <div className="p-6">
+                            <h3 className="text-lg font-bold mb-4">Seek Professional Assistance if Needed</h3>
+                            <p className="text-sm">If anger and hostility become overpowering or destructive, therapy or anger management counseling may offer professional advice and strategies. </p>
+                        </div>
+                    </div>
+
+                    {/* Card 15 */}
+                    <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <div className="p-6">
+                            <h3 className="text-lg font-bold mb-4">Consult Medication if Advised</h3>
+                            <p className="text-sm">In some instances, a medical professional may suggest medication to assist with controlling the underlying conditions that trigger excessive anger.</p>
+                        </div>
+                    </div>
+                     {/* Card 16 */}
+                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <div className="p-6">
+                            <h3 className="text-lg font-bold mb-4">Practice a Healthy Lifestyle</h3>
+                            <p className="text-sm">Adequate sleep, a balanced diet, and minimizing caffeine or alcohol consumption can lead to improved emotional control.</p>
                         </div>
                     </div>
                 </div>
