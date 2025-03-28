@@ -43,8 +43,8 @@ const Aggression = () => {
             {/* Section */}
             <section className="bg-white w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
                 <h2 className={`text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold ${playfair.className} mb-8`}>Causes of Aggression</h2>
-                <p className="text-black lg:text-[1.25vw] text-[3.5vw] mb-10">Anger and aggression may be caused by a host of factors from 
-                within and from outside. Some of the most popular causes are:</p>
+                <p className="text-black lg:text-[1.25vw] text-[3.5vw] mb-10">Anger and aggression may be caused by a host of factors from
+                    within and from outside. Some of the most popular causes are:</p>
 
                 <div className="grid lg:grid-cols-4 grid-cols-1 gap-4 mb-60">
                     {/* Technique Card 1 */}
@@ -144,11 +144,11 @@ const Aggression = () => {
                 </div>
             </section>
 
-                      {/*  Section */}
-                      <section className="bg-white w-full h-full lg:px-60 px-10 lg:py-20 py-10 text-center">
+            {/*  Section */}
+            <section className="bg-white w-full h-full lg:px-60 px-10 lg:py-20 py-10 text-center">
                 <h2 className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}>Solutions for Aggression</h2>
-                <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">Addiction can be overcome with a combination of medical, psychological, 
-                and social support. Some of the effective solutions are:</p>
+                <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">Addiction can be overcome with a combination of medical, psychological,
+                    and social support. Some of the effective solutions are:</p>
                 <div className="flex flex-col lg:flex-row justify-between gap-4 text-black mb-16">
                     <p>Physical Symptoms:</p>
                     <p>Disturbed Self-Image</p>
@@ -174,8 +174,8 @@ const Aggression = () => {
             {/*  Links  */}
             <section className="bg-white w-full h-full lg:px-20 px-10 lg:py-20 py-10 text-center">
                 <h2 className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold  ${playfair.className}`}>Solutions for Managing Aggression and Anger</h2>
-                <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">Well-managed anger and aggression entail self-awareness, emotional management, 
-                and positive coping strategies. The following are effective ways of controlling and preventing anger:</p>
+                <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">Well-managed anger and aggression entail self-awareness, emotional management,
+                    and positive coping strategies. The following are effective ways of controlling and preventing anger:</p>
                 <div className="grid lg:grid-cols-4 grid-cols-1 gap-4">
                     {/* Card 1 */}
                     <div className="bg-[#0E7EA0] rounded-3xl  text-white text-center">
@@ -312,8 +312,8 @@ const Aggression = () => {
                             <p className="text-sm">In some instances, a medical professional may suggest medication to assist with controlling the underlying conditions that trigger excessive anger.</p>
                         </div>
                     </div>
-                     {/* Card 16 */}
-                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+                    {/* Card 16 */}
+                    <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
                         <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Practice a Healthy Lifestyle</h3>
