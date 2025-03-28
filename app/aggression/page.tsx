@@ -192,7 +192,7 @@ const Aggression = () => {
                         <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Use Deep Breathing and Relaxation Techniques</h3>
-                            <p className="text-sm">Breathing slowly and deeply and practicing mindfulness can quiet the body's physiological anger response. Other techniques like progressive muscle relaxation or meditation can be helpful as well.</p>
+                            <p className="text-sm">Breathing slowly and deeply and practicing mindfulness can quiet the body&apos;s physiological anger response. Other techniques like progressive muscle relaxation or meditation can be helpful as well.</p>
                         </div>
                     </div>
 
@@ -210,7 +210,7 @@ const Aggression = () => {
                         <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Use Positive Self-Talk</h3>
-                            <p className="text-sm">Substituting negative thoughts with soothing and logical affirmations can decrease emotional intensity. Examples are: "I am in control of my emotions" or "This situation does not define me."</p>
+                            <p className="text-sm">Substituting negative thoughts with soothing and logical affirmations can decrease emotional intensity. Examples are: &quot;I am in control of my emotions&quot; or &quot;This situation does not define me.&quot;</p>
                         </div>
                     </div>
 
@@ -228,7 +228,7 @@ const Aggression = () => {
                         <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Express Anger Constructively</h3>
-                            <p className="text-sm">Rather than showing aggression, it is possible for people to assertively and respectfully express their emotions. Stating "I" statements (i.e., "I feel annoyed when.") can de-escalate disputes.</p>
+                            <p className="text-sm">Rather than showing aggression, it is possible for people to assertively and respectfully express their emotions. Stating &quot;I&quot; statements (i.e., &quot;I feel annoyed when.&quot;) can de-escalate disputes.</p>
                         </div>
                     </div>
 
