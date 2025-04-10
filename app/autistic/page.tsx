@@ -34,7 +34,7 @@ const Lifestyle = () => {
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Autism Spectrum Disorder (ASD) is a neurodevelopmental disorder that involves communication, social interaction, and behavior. It is referred to as a spectrum disorder because it covers a broad spectrum of symptoms and severity levels, ranging from mild to severe. People with ASD can have difficulties in comprehending social cues,</p>
 
 
-                    <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">expressing emotions, and participating in normal social interactions. Although autism is a lifelong disorder, early diagnosis and treatment can make a big difference to one's quality of life and assist a person in acquiring the necessary skills to effectively function in the world.</p>
+                    <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">expressing emotions, and participating in normal social interactions. Although autism is a lifelong disorder, early diagnosis and treatment can make a big difference to one&apos;s quality of life and assist a person in acquiring the necessary skills to effectively function in the world.</p>
                 </div>
 
                 <Link href="/" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">Know More</Link>
@@ -155,7 +155,7 @@ repetitive behavior, dominant restricted interests, and sensory sensitivities.</
             <section className="bg-white w-full h-full lg:px-20 px-10 lg:py-20 py-10 text-center">
                 <h2 className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold  ${playfair.className}`}>Solutions for Managing Autism Spectrum Disorder</h2>
                 <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">While ASD cannot be cured, numerous interventions and strategies can assist people 
-with autism to live meaningful lives. Treatment options must be individually based on the person's 
+with autism to live meaningful lives. Treatment options must be individually based on the person&apos;s 
 particular needs and strengths.</p>
                 <div className="grid lg:grid-cols-3 grid-cols-1 gap-2">
                     {/* Card 1 */}
@@ -254,7 +254,7 @@ particular needs and strengths.</p>
                         <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Parental Support and Training</h3>
-                            <p className="text-sm">Empowering parents with strategies and tools to support their child's development and well-being is key to effective management of ASD.</p>
+                            <p className="text-sm">Empowering parents with strategies and tools to support their child&apos;s development and well-being is key to effective management of ASD.</p>
                         </div>
                     </div>
 
@@ -310,7 +310,7 @@ particular needs and strengths.</p>
             <section className="bg-[#FFD266] w-full h-full lg:px-80 px-10 lg:pt-20 lg:pb-[50vw] pt-20 pb-50 mb-[-60vw] text-center z-0 ">
                 <h2 className={`text-[#0E7EA0] lg:text-[3.5vw] text-[8vw] font-bold ${playfair.className} mb-10`}>Conclusion</h2>
                 <div className="flex flex-col lg:flex-row justify-between items-center text-left text-black gap-20 mb-50">
-                    <p>Autism Spectrum Disorder is a highly complex and varied condition with implications for how the individual experiences life. Difficulties certainly present themselves, yet early intervention, individualized therapy, and proper environment can improve an individual's capacity for survival immensely.</p>
+                    <p>Autism Spectrum Disorder is a highly complex and varied condition with implications for how the individual experiences life. Difficulties certainly present themselves, yet early intervention, individualized therapy, and proper environment can improve an individual&apos;s capacity for survival immensely.</p>
                     <p>By emphasizing strengths, promoting inclusivity, and offering proper resources, society can build a more accommodating and accepting world for those with autism. Greater awareness and education about ASD can contribute to making sure that those with autism get the help that they need to live happy and fulfilling lives</p>
                 </div>
             </section>
