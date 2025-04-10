@@ -42,7 +42,7 @@ const Lifestyle = () => {
 
             {/* Section */}
             <section className="bg-white w-full h-full lg:px-20 px-10 lg:py-20 py-10 text-center">
-                <h2 className={`text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold ${playfair.className} mb-8`}>Causes of Mood Disorders</h2>
+                <h2 className={`text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold ${playfair.className} mb-8`}>Causes of Autistic Disorders</h2>
                 <p className="text-black lg:text-[1.25vw] text-[3.5vw] mb-10">The causes of ASD are still unknown, but it is said to be the result of a combination 
                 of genetic and environmental factors. The major factors that contribute to autism are:</p>
 
