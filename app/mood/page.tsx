@@ -33,7 +33,7 @@ const Mood = () => {
                 </div>
                 <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
 
-                    <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Mood disorders are a class of mental disorders that directly target an individual's emotional status. They induce constant mood disturbances that vary from unrelenting melancholy and helplessness in depression to phases of hyperactivity and elation in bipolar disorder. </p>
+                    <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Mood disorders are a class of mental disorders that directly target an individual&apos;s emotional status. They induce constant mood disturbances that vary from unrelenting melancholy and helplessness in depression to phases of hyperactivity and elation in bipolar disorder. </p>
 
 
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Mood disorders affect daily functioning, interpersonal relationships, and overall functioning significantly. Recognizing their cause, symptoms, and options available is essential to manage and heal them effectively.</p>
