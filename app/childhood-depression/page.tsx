@@ -191,7 +191,7 @@ const ChildhoodDepression = () => {
                                 <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">Bullying and Peer Pressure</h3>
                             </div>
                             <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                                <p className="lg:text-[1vw] text-[3vw]">Experiencing bullying or pressure to fit in with others can be harmful to a child's mental well-being.</p>
+                                <p className="lg:text-[1vw] text-[3vw]">Experiencing bullying or pressure to fit in with others can be harmful to a child&apos;s mental well-being.</p>
                             </div>
                         </div>
                     </div>
@@ -329,7 +329,7 @@ const ChildhoodDepression = () => {
                         <Image src="/diseases/childhooddepressionv2/8.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Parental Involvement and Education</h3>
-                            <p className="text-sm"> Educating parents, fostering emotional bonding, and using positive reinforcement instead of criticism strengthens a child's sense of support and emotional connection.</p>
+                            <p className="text-sm">Educating parents, fostering emotional bonding, and using positive reinforcement instead of criticism strengthens a child&apos;s sense of support and emotional connection.</p>
                         </div>
                     </div>
 
