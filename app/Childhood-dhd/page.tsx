@@ -67,7 +67,7 @@ const ChildhoodADHD = () => {
 
                 <div className="flex flex-col lg:flex-row justify-between gap-8 text-left">
                     <div className="lg:w-1/2">
-                        <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium">Waiting for ADHD to "go away" is not advisable. Without treatment, children with ADHD may continue to struggle with emotional regulation, frustration tolerance, and completing tasks, which can lead to long-term challenges in both personal and academic life. Untreated ADHD can cause children to experience feelings of failure </p>
+                        <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium">Waiting for ADHD to &quot;go away&quot; is not advisable. Without treatment, children with ADHD may continue to struggle with emotional regulation, frustration tolerance, and completing tasks, which can lead to long-term challenges in both personal and academic life. Untreated ADHD can cause children to experience feelings of failure </p>
                     </div>
                     <div className="lg:w-1/2">
                         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium">and hopelessness, significantly impacting their self-esteem and increasing the likelihood of mental health issues. Moreover, ADHD tends to persist into adulthood, making it harder for individuals to succeed in professional settings, maintain relationships, and lead fulfilling lives. Early intervention is crucial.</p>
