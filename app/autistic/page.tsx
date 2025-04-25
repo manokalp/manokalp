@@ -19,7 +19,7 @@ const Lifestyle = () => {
             {/* ASPD Hero Mobile  */}
             <div className="w-full lg:hidden block text-center ">
 
-                <Image src="/aautistic.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full     z-0" />
+                <Image src="/autistic.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full     z-0" />
                 <h2 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] mt-[-10vw] mb-10">Lifestyle Diseases</h2>
             </div>
 

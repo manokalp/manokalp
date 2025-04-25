@@ -54,6 +54,7 @@ const Navbar = () => {
                 <Link href="/what-we-do" className="text-gray-700 hover:text-teal-600 font-medium">What We Do</Link>
                 <Link href="/psychiatrists" className="text-gray-700 hover:text-teal-600 font-medium">Our Psychiatrists</Link>
                 <Link href="/pricing" className="text-gray-700 hover:text-teal-600 font-medium">Pricing Plan</Link>
+                <Link href="/disease" className="text-gray-700 hover:text-teal-600 font-medium">Disease</Link>
                 <Link href="/faq" className="text-gray-700 hover:text-teal-600 font-medium">FAQ</Link>
                 <div className="relative group">
                     <button className="text-gray-700 hover:text-teal-600 font-medium flex items-center">
