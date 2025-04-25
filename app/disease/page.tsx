@@ -77,13 +77,26 @@ const diseases = [
         image: "/breakup.webp",
         link: "/breakup"
     },
-
     {
         name: "Childhood ADHD?",
-        description: "Guidance and support for healing after the end of a relationship.",
+        description: "Understand the signs of ADHD in children and explore strategies to support focus, behavior, and emotional development.",
         image: "/childhoodadhd.webp",
         link: "/Childhood-dhd"
+    },
+    {
+        name: "Childhood Anxiety",
+        description: "Learn how to identify and manage anxiety in children with compassionate tools that nurture emotional well-being and resilience.",
+        image: "/childhoodanxiety.webp",
+        link: "/childhood-anxiety"
+    },
+    {
+        name: "Childhood Depression",
+        description: "Discover how to recognize childhood depression early and provide the emotional support  for healing and hope.",
+        image: "/childhooddepression.webp",
+        link: "/childhood-depression"
     }
+    
+
 ];
 
 const DiseasesPage = () => {

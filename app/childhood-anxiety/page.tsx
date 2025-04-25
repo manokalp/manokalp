@@ -44,7 +44,7 @@ const ChildhoodAnxiety = () => {
                 <p className="text-black lg:text-[1.25vw] text-[3.5vw] mb-10">Childhood anxiety can be caused by a combination of genetic, environmental, 
                 and psychological factors. Some of the most prevalent causes are:</p>
 
-                <div className="grid lg:grid-cols-6 grid-cols-1 gap-4 mb-60">
+                <div className="grid lg:grid-cols-7 grid-cols-1 gap-4 mb-60">
                     {/* Technique Card 1 */}
                     <div className="[perspective:1000px] cursor-pointer ">
                         <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
