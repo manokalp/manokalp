@@ -238,12 +238,12 @@ const ChildhoodDepression = () => {
                     <div className="lg:w-1/2 h-[40vh] relative overflow-hidden rounded-xl">
                         <Image
                             src={`/diseases/childhooddepression/${activeTab === 'physical'
-                                    ? '1'
-                                    : activeTab === 'emotional'
-                                        ? '2'
-                                        : activeTab === 'behavioral'
-                                            ? '3'
-                                            : '4'
+                                ? '1'
+                                : activeTab === 'emotional'
+                                    ? '2'
+                                    : activeTab === 'behavioral'
+                                        ? '3'
+                                        : '4'
                                 }.webp`}
                             alt={`${activeTab} symptoms illustration`}
                             layout="fill"
@@ -314,51 +314,52 @@ const ChildhoodDepression = () => {
                             <p className="text-sm">Schools should provide counseling access, train staff to recognize symptoms, and cultivate a safe, inclusive environment that prevents bullying and promotes mental health.</p>
                         </div>
                     </div>
+                </div>
 
-                    {/* Card 7 */}
-                    <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-                        <Image src="/diseases/childhooddepressionv2/7.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
-                        <div className="p-6">
-                            <h3 className="text-lg font-bold mb-4">Medication (If Necessary)</h3>
-                            <p className="text-sm">In severe cases, psychiatrists may prescribe antidepressants, ensuring close monitoring to manage symptoms safely and support overall treatment effectiveness.</p>
-                        </div>
+                {/* Card 7 */}
+                <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+                    <Image src="/diseases/childhooddepressionv2/7.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                    <div className="p-6">
+                        <h3 className="text-lg font-bold mb-4">Medication (If Necessary)</h3>
+                        <p className="text-sm">In severe cases, psychiatrists may prescribe antidepressants, ensuring close monitoring to manage symptoms safely and support overall treatment effectiveness.</p>
                     </div>
+                </div>
 
-                    {/* Card 8 */}
-                    <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-                        <Image src="/diseases/childhooddepressionv2/8.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
-                        <div className="p-6">
-                            <h3 className="text-lg font-bold mb-4">Parental Involvement and Education</h3>
-                            <p className="text-sm">Educating parents, fostering emotional bonding, and using positive reinforcement instead of criticism strengthens a child&apos;s sense of support and emotional connection.</p>
-                        </div>
+                {/* Card 8 */}
+                <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+                    <Image src="/diseases/childhooddepressionv2/8.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                    <div className="p-6">
+                        <h3 className="text-lg font-bold mb-4">Parental Involvement and Education</h3>
+                        <p className="text-sm">Educating parents, fostering emotional bonding, and using positive reinforcement instead of criticism strengthens a child&apos;s sense of support and emotional connection.</p>
                     </div>
+                </div>
 
-                    {/* Card 9 */}
-                    <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-                        <Image src="/diseases/childhooddepressionv2/9.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
-                        <div className="p-6">
-                            <h3 className="text-lg font-bold mb-4">Encouraging Social Connections</h3>
-                            <p className="text-sm">Helping children build friendships, engage in group activities, and develop communication skills promotes inclusion and counters feelings of isolation or loneliness.</p>
-                        </div>
+                {/* Card 9 */}
+                <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+                    <Image src="/diseases/childhooddepressionv2/9.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                    <div className="p-6">
+                        <h3 className="text-lg font-bold mb-4">Encouraging Social Connections</h3>
+                        <p className="text-sm">Helping children build friendships, engage in group activities, and develop communication skills promotes inclusion and counters feelings of isolation or loneliness.</p>
                     </div>
+                </div>
 
-                    {/* Card 10 */}
-                    <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-                        <Image src="/diseases/childhooddepressionv2/10.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
-                        <div className="p-6">
-                            <h3 className="text-lg font-bold mb-4">Mindfulness and Relaxation Strategies</h3>
-                            <p className="text-sm"> Mindfulness practices like breathing exercises, yoga, and creative therapies help children manage anxiety, reduce stress, and improve emotional regulation.  </p>
-                        </div>
+                {/* Card 10 */}
+                <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+                    <Image src="/diseases/childhooddepressionv2/10.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                    <div className="p-6">
+                        <h3 className="text-lg font-bold mb-4">Mindfulness and Relaxation Strategies</h3>
+                        <p className="text-sm"> Mindfulness practices like breathing exercises, yoga, and creative therapies help children manage anxiety, reduce stress, and improve emotional regulation.</p>
                     </div>
+                </div>
 
-                    {/* Card 11 */}
-                    <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-                        <Image src="/diseases/childhooddepressionv2/11.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
-                        <div className="p-6">
-                            <h3 className="text-lg font-bold mb-4">Cognitive-Behavioral Therapy (CBT)</h3>
-                            <p className="text-sm">Cognitive-behavioral therapy that addresses altering negative patterns of thinking and educating coping skills can be very effective in treating anxious children.</p>
-                        </div>
+                {/* Card 11 */}
+                <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+                    <Image src="/diseases/childhooddepressionv2/11.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                    <div className="p-6">
+                        <h3 className="text-lg font-bold mb-4">Cognitive-Behavioral Therapy (CBT)</h3>
+                        <p className="text-sm">Cognitive-behavioral therapy that addresses altering negative patterns of thinking and educating coping skills can be very effective in treating anxious children.</p>
                     </div>
+                     
 
                     {/* Card 12 */}
                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">

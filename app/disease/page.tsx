@@ -94,7 +94,13 @@ const diseases = [
         description: "Discover how to recognize childhood depression early and provide the emotional support  for healing and hope.",
         image: "/childhooddepression.webp",
         link: "/childhood-depression"
-    }
+    },
+    {
+        name: "What Are Temper Tantrums?",
+        description: "Learn about temper tantrums, a common symptom of depression, and how to recognize and manage them effectively.",
+        image: "/temper.webp",
+        link: "/temper"
+    },
     
 
 ];
