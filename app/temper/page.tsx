@@ -147,7 +147,7 @@ const ChildhoodDepression = () => {
                                 <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">Unfulfilled Needs or Wants</h3>
                             </div>
                             <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                                <p className="lg:text-[1vw] text-[3vw]">When things don't go as expected, a tantrum may be used to communicate disappointment or frustration.</p>
+                                <p className="lg:text-[1vw] text-[3vw]">When things don&apos;t go as expected, a tantrum may be used to communicate disappointment or frustration.</p>
                             </div>
                         </div>
                     </div>
