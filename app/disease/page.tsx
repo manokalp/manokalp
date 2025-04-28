@@ -109,10 +109,16 @@ const diseases = [
     },
     {
         name: "Anorexia and Other Eating Disorders",
-        description: "Discover the challenges individuals face when adjusting to major life changes.",
+        description: "Explore the emotional, physical, and psychological struggles behind eating disorders.",
         image: "/anorexia.webp",
         link: "/anorexia"
     },
+    {
+        name: "Chronic Pain",
+        description: "Understand the ongoing battle with chronic pain, its impact on daily life, and strategies for managing symptoms and maintaining hope.",
+        image: "/ChronicPain.webp",
+        link: "/chronic-pain"
+    }
     
 
 ];
