@@ -104,7 +104,7 @@ const Relationship = () => {
                 <h2 className={`text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold ${playfair.className} mb-8`}>Communication Building Process by Dr. Shefali</h2>
                 <p className="text-black lg:text-[1.25vw] text-[3.5vw] mb-10">To improve communication, couples can engage in therapy that focuses on teaching and reinforcing positive communication strategies. Dr. Shefali Batra, a psychiatrist and psychotherapist, outlines various techniques, including:</p>
 
-                <div className="grid lg:grid-cols-6 grid-cols-1 gap-4 ">
+                <div className="grid lg:grid-cols-6 grid-cols-1 gap-4 mb-70">
                     {/* Technique Card 1 */}
                     <div className="[perspective:1000px] cursor-pointer ">
                         <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">

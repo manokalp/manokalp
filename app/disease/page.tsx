@@ -78,7 +78,7 @@ const diseases = [
         link: "/breakup"
     },
     {
-        name: "Childhood ADHD?",
+        name: "Childhood ADHD",
         description: "Understand the signs of ADHD in children and explore strategies to support focus, behavior, and emotional development.",
         image: "/childhoodadhd.webp",
         link: "/Childhood-dhd"
@@ -96,16 +96,22 @@ const diseases = [
         link: "/childhood-depression"
     },
     {
-        name: "What Are Temper Tantrums?",
+        name: "Temper Tantrums",
         description: "Learn about temper tantrums, a common symptom of depression, and how to recognize and manage them effectively.",
         image: "/temper.webp",
         link: "/temper"
     },
     {
-        name: "What Are Adjustment-Related Problems?",
+        name: "Adjustment-Related Problems",
         description: "Discover the challenges individuals face when adjusting to major life changes.",
         image: "/adjustment_related.webp",
         link: "/adjustment-related"
+    },
+    {
+        name: "Anorexia and Other Eating Disorders",
+        description: "Discover the challenges individuals face when adjusting to major life changes.",
+        image: "/anorexia.webp",
+        link: "/anorexia"
     },
     
 
