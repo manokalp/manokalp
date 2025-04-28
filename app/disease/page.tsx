@@ -118,7 +118,13 @@ const diseases = [
         description: "Understand the ongoing battle with chronic pain, its impact on daily life, and strategies for managing symptoms and maintaining hope.",
         image: "/ChronicPain.webp",
         link: "/chronic-pain"
-    }
+    },
+    {
+        name: "Forgetfulness",
+        description: "Understand the ongoing battle with chronic pain, its impact on daily life, and strategies for managing symptoms and maintaining hope.",
+        image: "/forgetfulness.webp",
+        link: "/forgetfulness"
+    },
     
 
 ];
