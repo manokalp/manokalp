@@ -101,6 +101,12 @@ const diseases = [
         image: "/temper.webp",
         link: "/temper"
     },
+    {
+        name: "What Are Adjustment-Related Problems?",
+        description: "Discover the challenges individuals face when adjusting to major life changes.",
+        image: "/adjustment_related.webp",
+        link: "/adjustment-related"
+    },
     
 
 ];
