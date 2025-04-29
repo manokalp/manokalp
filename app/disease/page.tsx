@@ -125,6 +125,12 @@ const diseases = [
         image: "/forgetfulness.webp",
         link: "/forgetfulness"
     },
+    {
+        name: "Impulsivity",
+        description: "Impulsivity and aggression are disruptive behavioral traits that can impair judgment, relationships, and daily functioning.",
+        image: "/impulsivity.webp",
+        link: "/impulsivity"
+    },
     
 
 ];
