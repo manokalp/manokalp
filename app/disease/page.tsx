@@ -121,7 +121,7 @@ const diseases = [
     },
     {
         name: "Forgetfulness",
-        description: "Understand the ongoing battle with chronic pain, its impact on daily life, and strategies for managing symptoms and maintaining hope.",
+        description: "Understand the ongoing battle with Forgetfulness, its impact on daily life, and strategies for managing symptoms and maintaining hope.",
         image: "/forgetfulness.webp",
         link: "/forgetfulness"
     },
@@ -130,6 +130,12 @@ const diseases = [
         description: "Impulsivity and aggression are disruptive behavioral traits that can impair judgment, relationships, and daily functioning.",
         image: "/impulsivity.webp",
         link: "/impulsivity"
+    },
+    {
+        name: "Sleep Disorders",
+        description: "Impulsivity and aggression are disruptive behavioral traits that can impair judgment, relationships, and daily functioning.",
+        image: "/sleep.webp",
+        link: "/sleep"
     },
     
 
