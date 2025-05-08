@@ -175,7 +175,7 @@ const Sleep = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >
-          Symptoms of Forgetfulness and Dementia
+          Symptoms of Sleep-Related Disorders
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">

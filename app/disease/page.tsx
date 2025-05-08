@@ -133,9 +133,15 @@ const diseases = [
     },
     {
         name: "Sleep Disorders",
-        description: "Impulsivity and aggression are disruptive behavioral traits that can impair judgment, relationships, and daily functioning.",
+        description: "Sleep disorders affect your ability to get restful sleep and can lead to fatigue, mood swings, impaired focus, and long-term health issues.",
         image: "/sleep.webp",
         link: "/sleep"
+    },
+    {
+        name: "Sexuality",
+        description: "Sexuality is a core aspect of human identity, encompassing feelings, behaviors, orientation, and intimacy. ",
+        image: "/sexuality.webp",
+        link: "/sexuality"
     },
     
 
