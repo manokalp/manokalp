@@ -143,6 +143,12 @@ const diseases = [
         image: "/sexuality.webp",
         link: "/sexuality"
     },
+    {
+        name: "Mania",
+        description: "Sexuality is a core aspect of human identity, encompassing feelings, behaviors, orientation, and intimacy. ",
+        image: "/mania.webp",
+        link: "/mania"
+    },
     
 
 ];
