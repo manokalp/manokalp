@@ -84,30 +84,30 @@ const OCD = () => {
     },
   ];
 
-  const typesData = [
-    {
-      title: "Bipolar I",
-      description:
-        "At least one full manic episode, often with depressive episodes",
-      image: "/diseases/mania/t1.webp",
-    },
-    {
-      title: "Bipolar II",
-      description: "Hypomania with recurrent major depression",
-      image: "/diseases/mania/t2.webp",
-    },
-    {
-      title: "Cyclothymia",
-      description: "Ongoing mood fluctuations with milder symptoms",
-      image: "/diseases/mania/t3.webp",
-    },
-    {
-      title: "BP-NOS",
-      description:
-        "Atypical patterns that don&apos;t meet full criteria but cause impairment",
-      image: "/diseases/mania/t4.webp",
-    },
-  ];
+  // const typesData = [
+  //   {
+  //     title: "Bipolar I",
+  //     description:
+  //       "At least one full manic episode, often with depressive episodes",
+  //     image: "/diseases/mania/t1.webp",
+  //   },
+  //   {
+  //     title: "Bipolar II",
+  //     description: "Hypomania with recurrent major depression",
+  //     image: "/diseases/mania/t2.webp",
+  //   },
+  //   {
+  //     title: "Cyclothymia",
+  //     description: "Ongoing mood fluctuations with milder symptoms",
+  //     image: "/diseases/mania/t3.webp",
+  //   },
+  //   {
+  //     title: "BP-NOS",
+  //     description:
+  //       "Atypical patterns that don&apos;t meet full criteria but cause impairment",
+  //     image: "/diseases/mania/t4.webp",
+  //   },
+  // ];
 
   type SymptomCategory = keyof typeof symptoms;
 

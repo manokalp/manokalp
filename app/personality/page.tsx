@@ -5,7 +5,8 @@ import { useState } from "react";
 import playfair from "../../fonts/playfair.module.css";
 
 const Personality = () => {
-  const [activeTab, setActiveTab] = useState<SymptomCategory>("common");
+  const [activeTab, setActiveTab] = useState<SymptomCategory>("manic");
+  const [activeCluster, setActiveCluster] = useState<number>(0); // Track active cluster tab
 
   const causes = [
     {
@@ -38,34 +39,21 @@ const Personality = () => {
   ];
 
   const symptoms = {
-    common: [
-      "Difficulty maintaining stable relationships",
-      "Extreme emotional reactivity or impulsivity",
-      "Unstable self-image or identity",
-      "Persistent feelings of emptiness or alienation",
-      "Rigid, inflexible ways of thinking and behaving"
+    manic: [
+      "Excessive energy, restlessness, or euphoria",
+      "Reduced need for sleep",
+      "Racing thoughts and pressured speech",
+      "Impulsivity and poor judgment",
+      "Grandiosity or inflated self-image",
+      "Risk-taking behaviors",
     ],
-    diagnostic: [
-      "Enduring behavior patterns that deviate from cultural expectations in cognition, affect, or impulse control",
-      "Onset in adolescence or early adulthood, with long-term stability",
-      "Impaired functioning in social, work, or personal settings",
-      "Not explained by another condition or substance use"
-    ],
-    clusterA: [
-      "Paranoid Personality Disorder: Distrust and suspicion of others",
-      "Schizoid Personality Disorder: Emotional detachment and preference for solitude",
-      "Schizotypal Personality Disorder: Eccentric beliefs and social anxiety"
-    ],
-    clusterB: [
-      "Antisocial Personality Disorder: Disregard for others and manipulative behavior",
-      "Borderline Personality Disorder: Fear of abandonment and emotional instability",
-      "Histrionic Personality Disorder: Excessive emotionality and need for attention",
-      "Narcissistic Personality Disorder: Grandiosity and lack of empathy"
-    ],
-    clusterC: [
-      "Avoidant Personality Disorder: Fear of rejection and extreme social inhibition",
-      "Dependent Personality Disorder: Excessive reliance on others for decision-making",
-      "Obsessive-Compulsive Personality Disorder (OCPD): Perfectionism and control"
+    depressive: [
+      "Low mood and loss of interest",
+      "Sleep and appetite disturbances",
+      "Fatigue and low motivation",
+      "Feelings of worthlessness or guilt",
+      "Impaired concentration",
+      "Suicidal thoughts or behaviors",
     ],
   };
 
@@ -96,7 +84,36 @@ const Personality = () => {
     },
   ];
 
-
+  const typesData = [
+    {
+      title: "Cluster A - Odd Or Eccentric Behavior",
+      disorders: [
+        "Paranoid Personality Disorder: Distrust and suspicion of others",
+        "Schizoid Personality Disorder: Emotional detachment and preference for solitude",
+        "Schizotypal Personality Disorder: Eccentric beliefs and social anxiety"
+      ],
+      image: "/diseases/personality/1.webp",
+    },
+    {
+      title: "Cluster B - Dramatic, Emotional, Or Erratic Behavior",
+      disorders: [
+        "Antisocial Personality Disorder: Disregard for others and manipulative behavior",
+        "Borderline Personality Disorder: Fear of abandonment and emotional instability",
+        "Histrionic Personality Disorder: Excessive emotionality and need for attention",
+        "Narcissistic Personality Disorder: Grandiosity and lack of empathy"
+      ],
+      image: "/diseases/personality/2.webp",
+    },
+    {
+      title: "Cluster C - Anxious Or Fearful Behavior",
+      disorders: [
+        "Avoidant Personality Disorder: Fear of rejection and extreme social inhibition",
+        "Dependent Personality Disorder: Excessive reliance on others for decision-making",
+        "Obsessive-Compulsive Personality Disorder (OCPD): Perfectionism and control"
+      ],
+      image: "/diseases/personality/3.webp",
+    }
+  ];
 
   type SymptomCategory = keyof typeof symptoms;
 
@@ -105,10 +122,10 @@ const Personality = () => {
       {/* Hero Desktop  */}
       <div className="w-full hidden lg:block text-center ">
         <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] translate-y-[3vw]">
-        What Are Personality Disorders?
+          What Are Personality Disorders?
         </h1>
         <Image
-          src="/personality.webp"
+          src="/mania.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}
@@ -120,7 +137,7 @@ const Personality = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/personality.webp"
+          src="/ChronicPain.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}
@@ -128,7 +145,7 @@ const Personality = () => {
           className="w-full     z-0"
         />
         <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] mt-[-10vw] mb-10">
-        What Are Personality Disorders?
+          What Are Personality Disorders?
         </h1>
       </div>
 
@@ -204,18 +221,17 @@ const Personality = () => {
         </div>
       </section>
 
-
-
       {/* Tab Section */}
       <section className="bg-white w-full h-full lg:px-60 px-10 lg:py-20 py-10 text-center">
         <h2
-          className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-8`}
+          className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >
-          Symptoms of Personality Disorders
+          Symptoms of Mania and Bipolar Disorder
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Symptoms are persistent and interfere with emotional, social, and occupational functioning.
+          Bipolar Disorder presents with alternating mood states that
+          significantly impact cognition, emotion, and behavior.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -229,15 +245,7 @@ const Personality = () => {
                   : "hover:bg-gray-100"
               }`}
             >
-              {tab === "common"
-                ? "Common Symptoms"
-                : tab === "diagnostic"
-                ? "DSM-5 Diagnostic Criteria"
-                : tab === "clusterA" 
-                ? "Cluster A - Odd Or Eccentric" 
-                : tab === "clusterB" 
-                ? "Cluster B - Dramatic Or Emotional" 
-                : "Cluster C - Anxious Or Fearful"}
+              {tab.charAt(0).toUpperCase() + tab.slice(1)} Symptoms
             </button>
           ))}
         </div>
@@ -256,15 +264,13 @@ const Personality = () => {
           <div className="lg:w-1/2 h-[50vh] relative overflow-hidden rounded-xl">
             <Image
               src={`/diseases/personality/${
-                activeTab === "common" || activeTab === "diagnostic"
-                  ? activeTab
-                  : activeTab === "clusterA"
-                  ? "1"
-                  : activeTab === "clusterB"
-                  ? "2"
-                  : "3"
+                activeTab === "manic"
+                  ? "4"
+                  : activeTab === "depressive"
+                  ? "5"
+                  : "6"
               }.webp`}
-              alt={`${activeTab} illustration`}
+              alt={`${activeTab} symptoms illustration`}
               layout="fill"
               objectFit="cover"
               className="transition-opacity duration-300 cursor-pointer rounded-2xl border-black border-1 object-center"
@@ -273,7 +279,64 @@ const Personality = () => {
         </div>
       </section>
 
-      {/* Cards-2 Section */}
+      {/* Cards-1 Section */}
+      <section className="bg-white w-full h-full lg:px-20 px-10 lg:py-30 py-10 text-center">
+        <h2
+          className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] mb-4 font-semibold ${playfair.className}`}
+        >
+          Types of Personality Disorders
+        </h2>
+
+        <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
+          The DSM-5 classifies personality disorders into three clusters based on behavioral patterns:
+        </p>
+
+        {/* Tab Navigation */}
+        <div className="flex justify-center mb-6 border-b border-gray-200">
+          <div className="flex">
+            {typesData.map((cluster, index) => (
+              <button 
+                key={index}
+                onClick={() => setActiveCluster(index)}
+                className={`px-4 py-2 font-medium ${
+                  activeCluster === index
+                    ? "text-[#0E7EA0] border-b-2 border-[#0E7EA0]"
+                    : "text-gray-500 hover:text-gray-700"
+                }`}
+              >
+                {cluster.title}
+              </button>
+            ))}
+          </div>
+        </div>
+        
+        {/* Active Cluster Content */}
+        <div className="mb-16 max-w-4xl mx-auto">
+          <div className="flex items-center  overflow-hidden">
+            <div className="w-1/2 ">
+              <ul className="space-y-5 text-left text-black ">
+                {typesData[activeCluster].disorders.map((disorder, index) => (
+                  <li key={index} className="border-b border-gray-300 pb-3 text-sm">
+                    {disorder}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            
+            <div className="w-1/2 h-80 relative bg-white">
+              <Image
+                src={typesData[activeCluster].image}
+                alt={typesData[activeCluster].title}
+                layout="fill"
+                objectFit="contain"
+                className="p-4"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+{/* Cards-2 Section */}
       <section className="bg-white w-full h-full lg:px-20 px-10 lg:py-30 py-10 text-center">
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold ${playfair.className}`}
