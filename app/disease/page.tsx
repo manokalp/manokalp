@@ -180,6 +180,20 @@ const diseases = [
     image: "/ocd.webp",
     link: "/ocd",
   },
+  {
+    name: "Personality Disorders?",
+    description:
+      "Personality disorders are a group of mental health conditions that affect the way a person thinks, feels, and behaves.",
+    image: "/personality.webp",
+    link: "/personality",
+  },
+  {
+    name: "Relationship Tribulations",
+    description:
+      "Relationship tribulations are challenges and difficulties that arise within interpersonal relationships.",
+    image: "/diseases/relationship/b.webp",
+    link: "/relationship-tribulations",
+  },
 ];
 
 const DiseasesPage = () => {

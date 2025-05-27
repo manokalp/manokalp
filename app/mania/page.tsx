@@ -61,25 +61,25 @@ const Mania = () => {
       title: "Psychotherapeutic Approaches",
       description:
         "CBT restructures impulsive thinking patterns, DBT builds emotional regulation, and anger management teaches control over triggers and reactive behaviors.",
-      image: "/diseases/impulsivityv2/1.webp",
+      image: "/diseases/forgetfulnessv2/2.webp",
     },
     {
       title: "Pharmacological Treatments",
       description:
         "Mood stabilizers, antipsychotics, SSRIs, and beta-blockers may be used to reduce emotional volatility and physical symptoms of aggression.",
-      image: "/diseases/impulsivityv2/2.webp",
+      image: "/diseases/forgetfulnessv2/1.webp",
     },
     {
       title: "Integrated Behavioral Programs",
       description:
         "Hospitalization for severe episodes, community mental health services, dual-diagnosis care for addiction, and vocational support assist with stability and reintegration.",
-      image: "/diseases/impulsivityv2/3.webp",
+      image: "/diseases/forgetfulnessv2/3.webp",
     },
     {
       title: "Complementary Interventions",
       description:
         "Early mood tracking, lifestyle regulation, school-based mental health education, and stigma reduction programs enhance coping, understanding, and prevention of relapses.",
-      image: "/diseases/impulsivityv2/4.webp",
+      image: "/diseases/forgetfulnessv2/4.webp",
     },
   ];
 
@@ -133,7 +133,7 @@ const Mania = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/ChronicPain.webp"
+          src="/mania.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}

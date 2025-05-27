@@ -62,13 +62,13 @@ const OCD = () => {
       title: "Psychotherapeutic Approaches",
       description:
         "CBT corrects distorted beliefs; ERP exposes individuals to feared thoughts without enabling rituals; ACT promotes acceptance; mindfulness improves focus and reduces compulsive reactivity.",
-      image: "/diseases/forgetfulnessv2/1.webp",
+      image: "/diseases/forgetfulnessv2/2.webp",
     },
     {
       title: "Pharmacological Treatments",
       description:
         "SSRIs like fluoxetine and sertraline are first-line medications; clomipramine may be added in resistant cases; antipsychotics are used for augmentation in treatment-resistant OCD.",
-      image: "/diseases/forgetfulnessv2/2.webp",
+      image: "/diseases/forgetfulnessv2/1.webp",
     },
     {
       title: "Integrated Support Programs",

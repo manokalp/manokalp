@@ -13,7 +13,7 @@ const Personality = () => {
       name: "Biological and Genetic Influences",
       description:
         "Family history, brain structure differences, and neurotransmitter imbalances involving serotonin or dopamine may predispose individuals to emotional instability, impulsivity, or distorted perceptions.",
-      image: "/genetic-factors.webp",
+      image: "/personality.webp",
       link: "/genetic-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
       textColor: "text-white",
@@ -22,7 +22,7 @@ const Personality = () => {
       name: "Psychological and Emotional Factors",
       description:
         "Negative thought patterns, social withdrawal, and coexisting disorders like anxiety, depression, or substance use often worsen emotional volatility and reinforce maladaptive coping styles.",
-      image: "/psychological-factors.webp",
+      image: "/personality.webp",
       link: "/psychological-factors",
       bgColor: "bg-[#FFD700]", // Yellow background
       textColor: "text-black",
@@ -62,13 +62,13 @@ const Personality = () => {
       title: "Psychotherapeutic Approaches",
       description:
         "CBT addresses harmful thought patterns; DBT improves emotion regulation; MBT enhances self-awareness; schema therapy restructures core beliefs; psychodynamic therapy explores developmental origins.",
-      image: "/diseases/forgetfulnessv2/1.webp",
+      image: "/diseases/forgetfulnessv2/2.webp",
     },
     {
       title: "Pharmacological Treatments",
       description:
         "Mood stabilizers help with emotional reactivity; SSRIs address coexisting anxiety or depression; antipsychotics may be used for severe mood or perceptual disturbances.",
-      image: "/diseases/forgetfulnessv2/2.webp",
+      image: "/diseases/forgetfulnessv2/1.webp",
     },
     {
       title: "Integrated Support Programs",
@@ -125,7 +125,7 @@ const Personality = () => {
           What Are Personality Disorders?
         </h1>
         <Image
-          src="/mania.webp"
+          src="/personality.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}
@@ -137,7 +137,7 @@ const Personality = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/ChronicPain.webp"
+          src="/personality.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}
@@ -280,7 +280,7 @@ const Personality = () => {
       </section>
 
       {/* Cards-1 Section */}
-      <section className="bg-white w-full h-full lg:px-20 px-10 lg:py-30 py-10 text-center">
+      <section className="bg-white w-full h-full lg:px-20 px-10 lg:pt-10 py-10 text-center">
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] mb-4 font-semibold ${playfair.className}`}
         >
@@ -337,7 +337,7 @@ const Personality = () => {
       </section>
 
 {/* Cards-2 Section */}
-      <section className="bg-white w-full h-full lg:px-20 px-10 lg:py-30 py-10 text-center">
+      <section className="bg-white w-full h-full lg:px-20 px-10 lg:pb-20  py-10 text-center">
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold ${playfair.className}`}
         >
