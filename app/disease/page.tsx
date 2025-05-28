@@ -194,6 +194,13 @@ const diseases = [
     image: "/diseases/relationship/b.webp",
     link: "/relationship-tribulations",
   },
+  {
+    name: "Schizophrenia",
+    description:
+      "Schizophrenia is a chronic psychiatric disorder that affects how individuals think, perceive, and interact with the world. It often includes episodes of psychosis, marked by hallucinations, delusions, and disorganized thinking.",
+    image: "/schizophrenia.webp",
+    link: "/schizophrenia",
+  },
 ];
 
 const DiseasesPage = () => {
