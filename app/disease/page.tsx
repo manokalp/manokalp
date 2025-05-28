@@ -201,6 +201,13 @@ const diseases = [
     image: "/schizophrenia.webp",
     link: "/schizophrenia",
   },
+  {
+    name: "Stress in Children",
+    description:
+      "Stress in children is a growing concern that affects emotional, cognitive, and social development. It occurs when children feel overwhelmed by demands or situations they cannot fully understand or control.",
+    image: "/childstress.webp",
+    link: "/childstress",
+  },
 ];
 
 const DiseasesPage = () => {
