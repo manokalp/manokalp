@@ -145,7 +145,7 @@ const Cocaine = () => {
           Cocaine is a powerful central nervous system stimulant derived from coca leaves. It creates intense but short-lived euphoria by flooding the brain with dopamine, making it highly addictive even after limited exposure.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          While initial use may feel pleasurable, continued cocaine use can lead to dependence, serious health complications, and profound psychological and social consequences that affect every aspect of a person's life.
+          While initial use may feel pleasurable, continued cocaine use can lead to dependence, serious health complications, and profound psychological and social consequences that affect every aspect of a person&apos;s life.
           </p>
         </div>
 
