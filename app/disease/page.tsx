@@ -222,6 +222,13 @@ const diseases = [
     image: "/alcohol.webp",
     link: "/alcohol",
   },
+  {
+    name: "Cannabis",
+    description:
+      "Cannabis is a plant species that contains psychoactive compounds.",
+    image: "/cannabis.webp",
+    link: "/cannabis",
+  },
 ];
 
 const DiseasesPage = () => {
