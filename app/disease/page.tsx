@@ -229,6 +229,13 @@ const diseases = [
     image: "/cannabis.webp",
     link: "/cannabis",
   },
+  {
+    name: "Cocaine",
+    description:
+      "Cocaine is a central nervous system stimulant that affects mood, behavior, and physical health.",
+    image: "/cocaine.webp",
+    link: "/cocaine",
+  },
 ];
 
 const DiseasesPage = () => {
