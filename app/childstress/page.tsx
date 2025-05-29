@@ -9,30 +9,31 @@ const StressinChildren = () => {
 
   const causes = [
     {
-      name: "Emotional and Psychological Factors",
-      description:"Low emotional awareness, self-criticism, unrealistic expectations, and limited problem-solving skills can heighten stress responses.",
+      name: "Psychological and Emotional Factors",
+      description:
+        " Unresolved trauma, low self-esteem, chronic stress, or co-occurring mental health conditions may fuel addictive behavior.",
       image: "/genetic-factors.webp", // Replace with your actual image path
       link: "/genetic-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
       textColor: "text-white",
     },
     {
-      name: "Family and Environmental Factors",
+      name: "Biological Factors",
       description:
-        " Family conflict, parental separation, academic pressure, bullying, and exposure to traumatic news can overwhelm a child's coping ability.",
-      image: "/psychological-factors.webp", // Replace with your actual image path
-      link: "/psychological-factors",
+        " Genetic predisposition, neurotransmitter imbalances, and brain changes from substance use increase addiction risk.",
+      image: "/genetic-factors.webp", // Replace with your actual image path
+      link: "/genetic-factors",
       bgColor: "bg-[#FFD700]", // Yellow background
       textColor: "text-black",
     },
     {
-      name: "Social and Peer Influences",
+      name: "Environmental and Social Factors",
       description:
-        " Friendship conflicts, peer rejection, social media pressure, and performance competition contribute to childhood stress and anxiety.",
+        "  Peer pressure, family dysfunction, exposure to substance use, and lack of social support elevate addiction risk.",
       image: "/psychological-factors.webp", // Replace with your actual image path
       link: "/psychological-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
-      textColor: "text-black",
+      textColor: "text-white",
     },
   ];
 
@@ -40,23 +41,23 @@ const StressinChildren = () => {
     emotional: [
       "Irritability, frustration, or frequent mood swings",
       "Persistent worry, fear, or anxiety",
-      "Low self-esteem or excessive self-doubt"
+      "Low self-esteem or excessive self-doubt",
     ],
     cognitive: [
       "Difficulty concentrating on studies or activities",
       "Negative thinking patterns or excessive self-blame",
-      "Poor decision-making or mental fog"
+      "Poor decision-making or mental fog",
     ],
     physical: [
       "Frequent headaches or stomachaches without medical cause",
       "Changes in appetite or sleep patterns",
-      "Unexplained fatigue or low energy"
+      "Unexplained fatigue or low energy",
     ],
     behavioral: [
       "Withdrawal from family, friends, or activities",
       "Declining academic performance or school refusal",
-      "Increased clinginess or emotional outbursts"
-    ]
+      "Increased clinginess or emotional outbursts",
+    ],
   };
 
   const solutionsData = [
@@ -80,7 +81,8 @@ const StressinChildren = () => {
     },
     {
       title: "Complementary Interventions",
-      description:"Art therapy, storytelling, guided imagery, and peer support groups allow children to express emotions and develop coping skills in a safe space.",
+      description:
+        "Art therapy, storytelling, guided imagery, and peer support groups allow children to express emotions and develop coping skills in a safe space.",
       image: "/diseases/childstress/s4.webp",
     },
   ];
@@ -117,7 +119,7 @@ const StressinChildren = () => {
       {/* Hero Desktop  */}
       <div className="w-full hidden lg:block text-center ">
         <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] translate-y-[3vw]">
-           What Is Childhood Stress?
+          What Is Childhood Stress?
         </h1>
         <Image
           src="/childstress.webp"
@@ -140,7 +142,7 @@ const StressinChildren = () => {
           className="w-full     z-0"
         />
         <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] mt-[-10vw] mb-10">
-           What Is Childhood Stress?
+          What Is Childhood Stress?
         </h1>
       </div>
 
@@ -153,10 +155,16 @@ const StressinChildren = () => {
         </div>
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Stress in children is a growing concern that affects emotional, cognitive, and social development. It occurs when children feel overwhelmed by demands or situations they cannot fully understand or control.
+            Stress in children is a growing concern that affects emotional,
+            cognitive, and social development. It occurs when children feel
+            overwhelmed by demands or situations they cannot fully understand or
+            control.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Unlike adults, children may lack the emotional tools to recognize and articulate their stress, leading to behavioral changes, academic struggles, or physical symptoms. Early identification and support are critical to fostering resilience and healthy coping skills.
+            Unlike adults, children may lack the emotional tools to recognize
+            and articulate their stress, leading to behavioral changes, academic
+            struggles, or physical symptoms. Early identification and support
+            are critical to fostering resilience and healthy coping skills.
           </p>
         </div>
 
@@ -178,7 +186,8 @@ const StressinChildren = () => {
           Causes of Schizophrenia
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-          Schizophrenia develops from a complex interplay of genetic, neurobiological, and environmental factors.
+          Schizophrenia develops from a complex interplay of genetic,
+          neurobiological, and environmental factors.
         </p>
 
         {/* Causes Grid */}
@@ -217,7 +226,8 @@ const StressinChildren = () => {
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Childhood stress manifests through emotional, cognitive, physical, and behavioral changes that vary by developmental stage.
+          Childhood stress manifests through emotional, cognitive, physical, and
+          behavioral changes that vary by developmental stage.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -276,7 +286,8 @@ const StressinChildren = () => {
         </h2>
 
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-          Childhood stress management requires supportive approaches that build resilience and healthy coping skills.
+          Childhood stress management requires supportive approaches that build
+          resilience and healthy coping skills.
         </p>
 
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">

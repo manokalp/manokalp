@@ -4,22 +4,31 @@ import Link from "next/link";
 import { useState } from "react";
 import playfair from "../../fonts/playfair.module.css";
 
-const Schizophrenia = () => {
+const StressinChildren = () => {
   const [activeTab, setActiveTab] = useState<SymptomCategory>("positive");
 
   const causes = [
     {
-      name: "Genetic and Neurobiological Factors",
-      description:"Family history, neurotransmitter imbalances—particularly dopamine and glutamate—and structural changes in the brain increase vulnerability to schizophrenia and psychosis.",
+      name: "Emotional and Psychological Factors",
+      description:"Low emotional awareness, self-criticism, unrealistic expectations, and limited problem-solving skills can heighten stress responses.",
       image: "/genetic-factors.webp", // Replace with your actual image path
       link: "/genetic-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
       textColor: "text-white",
     },
     {
-      name: "Environmental and Psychological Factors",
+      name: "Family and Environmental Factors",
       description:
-        " Early trauma, psychoactive substance use, urban stress, and unstable family environments are known to trigger or exacerbate symptoms in predisposed individuals.",
+        " Family conflict, parental separation, academic pressure, bullying, and exposure to traumatic news can overwhelm a child’s coping ability.",
+      image: "/psychological-factors.webp", // Replace with your actual image path
+      link: "/psychological-factors",
+      bgColor: "bg-[#FFD700]", // Yellow background
+      textColor: "text-black",
+    },
+    {
+      name: "Social and Peer Influences",
+      description:
+        " Friendship conflicts, peer rejection, social media pressure, and performance competition contribute to childhood stress and anxiety.",
       image: "/psychological-factors.webp", // Replace with your actual image path
       link: "/psychological-factors",
       bgColor: "bg-[#FFD700]", // Yellow background
@@ -142,17 +151,10 @@ const Schizophrenia = () => {
         </div>
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Schizophrenia is a chronic psychiatric disorder that affects how
-            individuals think, perceive, and interact with the world. It often
-            includes episodes of psychosis, marked by hallucinations, delusions,
-            and disorganized thinking.
+          Stress in children is a growing concern that affects emotional, cognitive, and social development. It occurs when children feel overwhelmed by demands or situations they cannot fully understand or control.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Affecting roughly 1% of the global population, schizophrenia
-            significantly disrupts emotional expression, cognition, and daily
-            functioning. With early intervention and a comprehensive treatment
-            plan, individuals can experience long-term improvement and better
-            integration into daily life.
+          Unlike adults, children may lack the emotional tools to recognize and articulate their stress, leading to behavioral changes, academic struggles, or physical symptoms. Early identification and support are critical to fostering resilience and healthy coping skills.
           </p>
         </div>
 
@@ -310,4 +312,4 @@ const Schizophrenia = () => {
   );
 };
 
-export default Schizophrenia;
+export default StressinChildren;
