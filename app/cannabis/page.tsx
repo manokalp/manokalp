@@ -62,7 +62,7 @@ const Cannabis = () => {
 
   const solutionsData = [
     {
-      title: "Clinical Interventions",
+      title: "Medical Interventions",
       points: [
         "Cognitive Behavioral Therapy (CBT) to address cannabis use patterns",
         "Motivational Enhancement Therapy to strengthen motivation for change",
@@ -71,7 +71,7 @@ const Cannabis = () => {
       image: "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Support Systems",
+      title: "Psychotherapeutic Interventions",
       points: [
         "Support groups specifically for cannabis cessation",
         "Family therapy to improve communication and set healthy boundaries",
@@ -80,16 +80,16 @@ const Cannabis = () => {
       image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Lifestyle Modifications",
+      title: "Behavioral and Lifestyle Strategies",
       points: [
         "Stress management techniques (mindfulness, exercise, relaxation)",
         "Development of alternative coping strategies for triggers",
         "Creating social connections in non-using environments"
       ],
-      image: "https://images.unsplash.com/photo-1549576490-b3323dd16f9b?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "https://images.unsplash.com/photo-1600189528280-a793b6b931d1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QmVoYXZpb3JhbCUyMGFuZCUyMExpZmVzdHlsZSUyMFN0cmF0ZWdpZXN8ZW58MHwwfDB8fHww",
     },
     {
-      title: "Harm Reduction Approaches",
+      title: "Complementary Interventions",
       points: [
         "Education on lower-risk consumption methods",
         "Guidance on CBD:THC ratios and product selection",
@@ -202,7 +202,7 @@ const Cannabis = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >
-          Effects and Symptoms of Cannabis Use
+          Symptoms of Cannabis Dependence
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
@@ -261,11 +261,12 @@ const Cannabis = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold ${playfair.className}`}
         >
-          Approaches to Cannabis Use Management
+          Solutions for Managing Cannabis Dependence
         </h2>
 
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-          Management strategies range from clinical interventions to harm reduction approaches depending on individual needs and usage patterns.
+        Dependence on cannabis can manifest through 
+        behavioral, cognitive, and physical changes.
         </p>
 
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">
