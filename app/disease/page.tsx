@@ -208,6 +208,20 @@ const diseases = [
     image: "/childstress.webp",
     link: "/childstress",
   },
+  {
+    name: "Unhappiness and Depressive Disorders",
+    description:
+      "Unhappiness and depressive disorders are mental health conditions that affect mood, behavior, and physical health.",
+    image: "/unhappyness.webp",
+    link: "/unhappiness",
+  },
+  {
+    name: "Alcohol",
+    description:
+      "Alcohol is a central nervous system depressant that affects mood, behavior, and physical health.",
+    image: "/alcohol.webp",
+    link: "/alcohol",
+  },
 ];
 
 const DiseasesPage = () => {
