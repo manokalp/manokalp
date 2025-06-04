@@ -7,11 +7,11 @@ const WhatWeDo = () => {
   return (
     <main className="w-full h-full flex justify-center flex-col bg-[#F1F1F1]">
       {/* Hero Section */}
-      <div className="w-full text-center bg-white pt-16 pb-8">
-        <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] translate-y-[3vw] ">
+      <div className="w-full hidden lg:block text-center ">
+        <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] translate-y-[5vw] ">
           ABOUT
         </h1>
-        <p className="lg:text-[1.5vw] text-[3vw] text-gray-700 max-w-4xl mx-auto px-4">
+        <p className="text-[1.5vw]  max-w-4xl mx-auto px-4 ">
           Founder, Psychiatrist, Cognitive Wellness Strategist | Manokalp
         </p>
         <Image
@@ -26,17 +26,17 @@ const WhatWeDo = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/diseases-banner/suicidality.webp"
+          src="/about-us/about.webp"
           alt="suicidality hero image"
           objectFit="cover"
           width={1200}
           height={100}
           className="w-full z-0"
         />
-        <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] mt-[-10vw] mb-10">
+        <h1 className="lg:text-[5vw] text-[10vw] text-white font-semibold relative z-10 font-[playfull] mt-[-50vw] mb-10">
           About
         </h1>
-        <p className="lg:text-[1.5vw] text-[3vw] text-gray-700 max-w-4xl mx-auto px-4">
+        <p className="lg:text-[1.5vw] text-[3vw] text-white max-w-4xl mx-auto px-4 mb-10">
           Founder, Psychiatrist, Cognitive Wellness Strategist | Manokalp
         </p>
       </div>
@@ -70,7 +70,7 @@ const WhatWeDo = () => {
 
       {/* Expertise Section */}
       <section className="w-full px-6 py-16 bg-white">
-        <h2 className="text-[#0E7EA0] font-[playfull] lg:text-[4vw] text-[5vw] font-semibold text-center mb-12">
+        <h2 className="text-[#0E7EA0] font-[playfull] lg:text-[4vw] text-[10vw] font-semibold text-center mb-12">
           Areas of Expertise
         </h2>
 
@@ -125,7 +125,7 @@ const WhatWeDo = () => {
 
       {/* My Philosophy Section */}
       <section className="w-full px-6 py-16 bg-white">
-        <h2 className="text-[#0E7EA0] font-[playfull] lg:text-[4vw] text-[5vw] font-semibold text-center">
+        <h2 className="text-[#0E7EA0] font-[playfull] lg:text-[4vw] text-[10vw] font-semibold text-center">
           My Philosophy
         </h2>
         
@@ -211,7 +211,7 @@ const WhatWeDo = () => {
 
             {/* Why I Started Manokalp */}
             <section className="w-full px-6 py-16 bg-white">
-        <h2 className="text-[#0E7EA0] font-[playfull] lg:text-[3vw] text-[5vw] font-semibold text-center mb-8">
+        <h2 className="text-[#0E7EA0] font-[playfull] lg:text-[3vw] text-[10vw] font-semibold text-center mb-8">
           Why I Started Manokalp
         </h2>
 
@@ -250,7 +250,7 @@ const WhatWeDo = () => {
       {/* Beyond the Clinic Section */}
       <section className="w-full px-6 py-16 bg-[#F1F1F1]">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-[#0E7EA0] font-[playfull] lg:text-[4vw] text-[5vw] font-semibold text-center mb-4">
+          <h2 className="text-[#0E7EA0] font-[playfull] lg:text-[4vw] text-[10vw] font-semibold text-center mb-4">
             Beyond the Clinic
           </h2>
           
@@ -281,7 +281,7 @@ const WhatWeDo = () => {
       
       {/* Therapy That Works Section - Updated */}
       <section className="w-full px-6 py-16 bg-[#F1F1F1]">
-        <h2 className="text-[#0E7EA0] font-[playfull] lg:text-[4vw] text-[5vw] font-semibold text-center mb-12">
+        <h2 className="text-[#0E7EA0] font-[playfull] lg:text-[4vw] text-[10vw] font-semibold text-center mb-12">
           Therapy That Works for You
         </h2>
 
