@@ -292,6 +292,13 @@ const diseases = [
     image: "/diseases-banner/specificanxieties.webp",
     link: "/diseases/specificanxieties",
   },
+  {
+    name: "Suicidality",
+    description:
+      "Suicidality is a mental health condition that affects the way a person thinks, feels, and behaves.",
+    image: "/diseases-banner/suicidality.webp",
+    link: "/diseases/suicidality",
+  },
 ];
 
 
