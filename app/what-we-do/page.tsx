@@ -11,7 +11,7 @@ const WhatWeDo = () => {
         <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] translate-y-[5vw] ">
           ABOUT
         </h1>
-        <p className="text-[1.5vw] max-w-4xl mx-auto px-4 text-white relative z-10">
+        <p className="text-[1.5vw] max-w-4xl mx-auto px-4 text-white relative z-10 mt-14">
           Founder, Psychiatrist, Cognitive Wellness Strategist | Manokalp
         </p>
         <Image
