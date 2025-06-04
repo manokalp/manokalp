@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import playfair from "../../../fonts/playfair.module.css";
 
-const RelationshipsAndEmotionalWellness = () => {
+const AdultPsychological = () => {
   const [activeTab, setActiveTab] = useState<SymptomCategory>("emotional");
 
   const causes = [
@@ -112,7 +112,7 @@ const RelationshipsAndEmotionalWellness = () => {
       {/* Hero Desktop  */}
       <div className="w-full hidden lg:block text-center ">
         <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] translate-y-[3vw]">
-        Relationships and Emotional Wellbeing
+        Adult Psychological Problems
         </h1>
             <Image
               src="/diseases-banner/relationshipsnemotional.webp"
@@ -135,7 +135,7 @@ const RelationshipsAndEmotionalWellness = () => {
           className="w-full z-0"
         />
         <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] mt-[-10vw] mb-10">
-        Relationships and Emotional Wellbeing
+        Adult Psychological Problems
         </h1>
       </div>
 
@@ -315,4 +315,4 @@ const RelationshipsAndEmotionalWellness = () => {
   );
 };
 
-export default RelationshipsAndEmotionalWellness;
+export default AdultPsychological;

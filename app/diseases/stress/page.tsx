@@ -144,7 +144,7 @@ const Stress = () => {
         </div>
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Stress is the body's natural response to pressure from life events or challenges, triggering a cascade of hormonal and physiological reactions designed for short-term adaptation, but which can become harmful when chronically activated.
+          Stress is the body&apos;s natural response to pressure from life events or challenges, triggering a cascade of hormonal and physiological reactions designed for short-term adaptation, but which can become harmful when chronically activated.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
           While moderate, temporary stress can motivate performance and resilience, chronic stress is associated with serious health consequences including cardiovascular disease, immune dysfunction, mental health disorders, and reduced quality of life.

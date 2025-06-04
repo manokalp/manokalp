@@ -148,7 +148,7 @@ const Suicidality = () => {
           Suicidality encompasses a spectrum of thoughts and behaviors ranging from fleeting thoughts about death to detailed planning and suicide attempts. It represents intense psychological distress that has reached a critical point where death seems like the only escape from unbearable pain.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Suicide claims nearly 800,000 lives globally each year, with many more attempting suicide. It's a complex public health issue influenced by multiple biological, psychological, social, and environmental factors, and is often associated with mental health conditions, though not exclusively.
+          Suicide claims nearly 800,000 lives globally each year, with many more attempting suicide. It&apos;s a complex public health issue influenced by multiple biological, psychological, social, and environmental factors, and is often associated with mental health conditions, though not exclusively.
           </p>
         </div>
 
@@ -170,7 +170,7 @@ const Suicidality = () => {
           Causes of Suicidality
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-        Suicidality emerges from complex interactions between biological vulnerabilities, psychological states, and environmental pressures that overwhelm a person's coping resources and sense of hope.
+        Suicidality emerges from complex interactions between biological vulnerabilities, psychological states, and environmental pressures that overwhelm a person&apos;s coping resources and sense of hope.
         </p>
 
         {/* Causes Grid */}

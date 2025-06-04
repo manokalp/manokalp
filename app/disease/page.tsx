@@ -306,6 +306,13 @@ const diseases = [
     image: "/diseases-banner/relationshipsnemotional.webp",
     link: "/diseases/relationshipsnemotional",
   },
+  {
+    name: "Adult Psychological Problems",
+    description:
+      "Adult psychological problems are a mental health condition that affects the way a person thinks, feels, and behaves.",
+    image: "/diseases-banner/adultpsychological.webp",
+    link: "/diseases/adultpsychological",
+  },
 ];
 
 
