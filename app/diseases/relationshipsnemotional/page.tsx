@@ -71,7 +71,7 @@ const RelationshipsAndEmotionalWellness = () => {
         "Couples therapy to improve communication and resolve relationship issues",
         "Attachment-focused therapies to heal insecure attachment patterns"
       ],
-      image: "https://images.unsplash.com/photo-1573497491765-55d99a154b19?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3",
+      image: "/diseases-banner/relationshipsnemotional.webp",
     },
     {
       title: "Skill Development",
@@ -114,8 +114,8 @@ const RelationshipsAndEmotionalWellness = () => {
         <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] translate-y-[3vw]">
         Relationships and Emotional Wellbeing
         </h1>
-        <Image
-          src="https://images.unsplash.com/photo-1516575334481-f85287c2c82d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3"
+            <Image
+              src="/diseases-banner/relationshipsnemotional.webp"
           alt="emotional relationship challenges hero image"
           objectFit="cover"
           width={1200}
@@ -127,7 +127,7 @@ const RelationshipsAndEmotionalWellness = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="https://images.unsplash.com/photo-1516575334481-f85287c2c82d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3"
+          src="/diseases-banner/relationshipsnemotional.webp"
           alt="emotional relationship challenges hero image"
           objectFit="cover"
           width={1200}
