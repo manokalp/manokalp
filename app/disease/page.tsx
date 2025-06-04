@@ -250,6 +250,13 @@ const diseases = [
     image: "/hallucinogens.webp",
     link: "/hallucinogens",
   },
+  {
+    name: "Nicotine (Cigarette Smoking)",
+    description:
+      "Nicotine is a central nervous system stimulant that affects mood, behavior, and physical health.",
+    image: "/nicotine-cigarette.webp",
+    link: "/nicotine-cigarette",
+  },
 
 ];
 
