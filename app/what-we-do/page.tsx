@@ -11,7 +11,7 @@ const WhatWeDo = () => {
         <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] translate-y-[5vw] ">
           ABOUT
         </h1>
-        <p className="text-[1.5vw]  max-w-4xl mx-auto px-4 ">
+        <p className="text-[1.5vw] max-w-4xl mx-auto px-4 text-white relative z-10">
           Founder, Psychiatrist, Cognitive Wellness Strategist | Manokalp
         </p>
         <Image
@@ -20,7 +20,7 @@ const WhatWeDo = () => {
           objectFit="cover"
           width={1200}
           height={100}
-          className="w-full  lg:mt-[-16vw] mt-[-25vw] z-0"
+          className="w-full lg:mt-[-16vw] mt-[-25vw] z-0"
         />
       </div>
       {/* Hero Mobile  */}
