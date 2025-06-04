@@ -236,6 +236,13 @@ const diseases = [
     image: "/cocaine.webp",
     link: "/cocaine",
   },
+  {
+    name: "Coffee",
+    description:
+      "Coffee is a central nervous system stimulant that affects mood, behavior, and physical health.",
+    image: "/coffee.webp",
+    link: "/coffee",
+  },
 ];
 
 const DiseasesPage = () => {
