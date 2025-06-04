@@ -147,7 +147,7 @@ const NonSubstanceAddiction = () => {
           Non-substance or behavioral addictions involve compulsive engagement in rewarding non-drug behaviors like gambling, gaming, internet use, shopping, or sex that activate similar brain reward pathways as substances, despite causing significant life disruption.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Though often minimized as "habits" or "vices," behavioral addictions can produce genuine psychological dependence, withdrawal symptoms, tolerance, and severe consequences across relationships, finances, employment, and mental health requiring professional intervention.
+          Though often minimized as &quot;habits&quot; or &quot;vices,&quot; behavioral addictions can produce genuine psychological dependence, withdrawal symptoms, tolerance, and severe consequences across relationships, finances, employment, and mental health requiring professional intervention.
           </p>
         </div>
 
