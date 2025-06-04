@@ -80,7 +80,7 @@ const Sleep = () => {
           What Are Sleep Disorders?
         </h1>
         <Image
-          src="/sleep.webp"
+          src="/diseases-banner/sleep.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}
@@ -92,7 +92,7 @@ const Sleep = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/sleep.webp"
+          src="/diseases-banner/sleep.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}

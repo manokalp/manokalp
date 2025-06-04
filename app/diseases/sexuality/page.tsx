@@ -79,7 +79,7 @@ const Sexuality = () => {
           What Is Sexuality and Its Associated Challenges?
         </h1>
         <Image
-          src="/sexuality.webp"
+          src="/diseases-banner/sexuality.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}
@@ -91,7 +91,7 @@ const Sexuality = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/sexuality.webp"
+          src="/diseases-banner/sexuality.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}

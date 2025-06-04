@@ -87,7 +87,7 @@ const Impulsivity = () => {
           What Are Impulsivity and Aggression?
         </h1>
         <Image
-          src="/ChronicPain.webp"
+          src="/diseases-banner/impulsivity.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}
@@ -99,7 +99,7 @@ const Impulsivity = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/ChronicPain.webp"
+          src="/diseases-banner/impulsivity.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}

@@ -114,7 +114,7 @@ const NicotineCigarette = () => {
         Nicotine & Cigarette Smoking
         </h1>
         <Image
-          src="/nicotine-cigarette.webp"
+          src="/diseases-banner/nicotine-cigarette.webp"
           alt="cigarette smoking hero image"
           objectFit="cover"
           width={1200}
@@ -126,7 +126,7 @@ const NicotineCigarette = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/nicotine-cigarette.webp"
+          src="/diseases-banner/nicotine-cigarette.webp"
           alt="cigarette smoking hero image"
           objectFit="cover"
           width={1200}

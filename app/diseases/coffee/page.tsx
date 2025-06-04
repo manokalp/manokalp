@@ -112,7 +112,7 @@ const Coffee = () => {
         Coffee and Caffeine Dependence
         </h1>
         <Image
-          src="/coffee.webp"
+          src="/diseases-banner/coffee.webp"
           alt="coffee use hero image"
           objectFit="cover"
           width={1200}
@@ -124,7 +124,7 @@ const Coffee = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/coffee.webp"
+          src="/diseases-banner/coffee.webp"
           alt="coffee use hero image"
           objectFit="cover"
           width={1200}

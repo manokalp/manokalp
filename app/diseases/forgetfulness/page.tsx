@@ -64,12 +64,12 @@ const Forgetfulness = () => {
       {/* ASPD Hero Desktop  */}
       <div className="w-full hidden lg:block text-center ">
         <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] translate-y-[3vw]">What Are Forgetfulness and Dementia?</h1>
-        <Image src="/forgetfulness.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full  lg:mt-[-16vw] mt-[-25vw]  z-0" />
+        <Image src="/diseases-banner/forgetfulness.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full  lg:mt-[-16vw] mt-[-25vw]  z-0" />
       </div>
 
       {/* ASPD Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
-        <Image src="/forgetfulness.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full  z-0" />
+        <Image src="/forg etfulness.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full  z-0" />
         <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] mt-[-10vw] mb-10">What Are Forgetfulness and Dementia?</h1>
       </div>
 

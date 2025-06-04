@@ -112,7 +112,7 @@ const Cannabis = () => {
         Cannabis and Cannabinoids Use
         </h1>
         <Image
-          src="/cannabis.webp"
+          src="/diseases-banner/cannabis.webp"
           alt="cannabis use hero image"
           objectFit="cover"
           width={1200}
@@ -124,7 +124,7 @@ const Cannabis = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/cannabis.webp"
+          src="/diseases-banner/cannabis.webp"
           alt="cannabis use hero image"
           objectFit="cover"
           width={1200}

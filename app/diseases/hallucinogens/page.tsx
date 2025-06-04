@@ -113,7 +113,7 @@ const Hallucinogens = () => {
         Hallucinogens and LSD
         </h1>
         <Image
-          src="/hallucinogens.webp"
+          src="/diseases-banner/hallucinogens.webp"
           alt="coffee use hero image"
           objectFit="cover"
           width={1200}
@@ -125,7 +125,7 @@ const Hallucinogens = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/hallucinogens.webp"
+          src="/diseases-banner/hallucinogens.webp"
           alt="coffee use hero image"
           objectFit="cover"
           width={1200}

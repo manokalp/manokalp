@@ -125,7 +125,7 @@ const Personality = () => {
           What Are Personality Disorders?
         </h1>
         <Image
-          src="/personality.webp"
+          src="/diseases-banner/personality.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}
@@ -137,7 +137,7 @@ const Personality = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/personality.webp"
+          src="/diseases-banner/personality.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}

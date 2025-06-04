@@ -13,13 +13,13 @@ const Aggression = () => {
             {/* ASPD Hero Desktop  */}
             <div className="w-full hidden lg:block text-center ">
                 <h2 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] translate-y-[3vw]">Addiction</h2>
-                <Image src="/aggression.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full  lg:mt-[-16vw] mt-[-25vw]  z-0" />
+                <Image src="/diseases-banner/aggression.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full  lg:mt-[-16vw] mt-[-25vw]  z-0" />
             </div>
 
             {/* ASPD Hero Mobile  */}
             <div className="w-full lg:hidden block text-center ">
 
-                <Image src="/aggression.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full     z-0" />
+                <Image src="/diseases-banner/aggression.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full     z-0" />
                 <h2 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] mt-[-10vw] mb-10">Addiction</h2>
             </div>
 

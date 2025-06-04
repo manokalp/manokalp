@@ -57,14 +57,14 @@ const ASPD = () => {
 
             <div className="w-full hidden lg:block text-center ">
                 <h2 className="lg:text-[5vw] text-[6vw] text-[#0E7EA0] font-semibold relative z-10 font-[playfull]">Antisocial Personality Disorder<br /> (ASPD)</h2>
-                <Image src="/asdp.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full  lg:mt-[-16vw] mt-[-25vw]  z-0" />
+                <Image src="/diseases-banner/asdp.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full  lg:mt-[-16vw] mt-[-25vw]  z-0" />
             </div>
 
             {/* ASPD Hero Mobile  */}
 
             <div className="w-full lg:hidden block text-center ">
 
-                <Image src="/asdp.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full    z-0" />
+                <Image src="/diseases-banner/asdp.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full    z-0" />
                 <h2 className="lg:text-[5vw] text-[6vw] text-[#0E7EA0] font-semibold relative z-10 mt-[-20vw] mb-10 font-[playfull]">Antisocial Personality Disorder<br /> (ASPD)</h2>
             </div>
 

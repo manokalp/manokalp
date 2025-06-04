@@ -122,7 +122,7 @@ const StressinChildren = () => {
           What Is Childhood Stress?
         </h1>
         <Image
-          src="/childstress.webp"
+          src="/diseases-banner/childstress.webp"
           alt="childhood stress hero image"
           objectFit="cover"
           width={1200}
@@ -134,7 +134,7 @@ const StressinChildren = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/childstress.webp"
+          src="/diseases-banner/childstress.webp"
           alt="childhood stress hero image"
           objectFit="cover"
           width={1200}

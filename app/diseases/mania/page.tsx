@@ -121,7 +121,7 @@ const Mania = () => {
           What Are Mania and Bipolar Disorder?
         </h1>
         <Image
-          src="/mania.webp"
+          src="/diseases-banner/mania.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}
@@ -133,7 +133,7 @@ const Mania = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/mania.webp"
+          src="/diseases-banner/mania.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}

@@ -113,7 +113,7 @@ const Unhappiness = () => {
         Depressive Disorders?
         </h1>
         <Image
-          src="/unhappyness.webp"
+          src="/diseases-banner/unhappyness.webp"
           alt="childhood stress hero image"
           objectFit="cover"
           width={1200}
@@ -125,7 +125,7 @@ const Unhappiness = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/unhappyness.webp"
+          src="/diseases-banner/unhappyness.webp"
           alt="childhood stress hero image"
           objectFit="cover"
           width={1200}

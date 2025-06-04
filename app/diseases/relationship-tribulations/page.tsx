@@ -156,7 +156,7 @@ const RelationshipTribulations = () => {
           What Are Relationship Tribulations?
         </h1>
         <Image
-          src="/diseases/relationship/b.webp"
+          src="/diseases-banner/relationship-tribulations.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}
@@ -168,7 +168,7 @@ const RelationshipTribulations = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/diseases/relationship/b.webp"
+          src="/diseases-banner/relationship-tribulations.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}

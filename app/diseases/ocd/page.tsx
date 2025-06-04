@@ -119,7 +119,7 @@ const OCD = () => {
            What Is Obsessive-Compulsive Disorder (OCD)?
         </h1>
         <Image
-          src="/ocd.webp"
+          src="/diseases-banner/ocd.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}
@@ -131,7 +131,7 @@ const OCD = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/ocd.webp"
+          src="/diseases-banner/ocd.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}

@@ -112,7 +112,7 @@ const Alcohol = () => {
         Alcohol Addiction and Dependence
         </h1>
         <Image
-          src="/alcohol.webp"
+          src="/diseases-banner/alcohol.webp"
           alt="alcohol addiction hero image"
           objectFit="cover"
           width={1200}
@@ -124,7 +124,7 @@ const Alcohol = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/alcohol.webp"
+          src="/diseases-banner/alcohol.webp"
           alt="alcohol addiction hero image"
           objectFit="cover"
           width={1200}

@@ -278,6 +278,13 @@ const diseases = [
     image: "/diseases-banner/opioids.webp",
     link: "/diseases/opioids",
   },
+  {
+    name: "Social Fear",
+    description:
+      "Social fear is a mental health condition that affects the way a person thinks, feels, and behaves.",
+    image: "/diseases-banner/socialfear.webp",
+    link: "/diseases/socialfear",
+  },
 ];
 
 

@@ -118,7 +118,7 @@ const StressinChildren = () => {
            What Is Schizophrenia?
         </h1>
         <Image
-          src="/schizophrenia.webp"
+          src="/diseases-banner/schizophrenia.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}
@@ -130,7 +130,7 @@ const StressinChildren = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/schizophrenia.webp"
+          src="/diseases-banner/schizophrenia.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}

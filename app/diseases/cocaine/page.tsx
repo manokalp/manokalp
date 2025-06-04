@@ -112,7 +112,7 @@ const Cocaine = () => {
         Cocaine Use and Dependence
         </h1>
         <Image
-          src="/cocaine.webp"
+          src="/diseases-banner/cocaine.webp"
           alt="cocaine use hero image"
           objectFit="cover"
           width={1200}
@@ -124,7 +124,7 @@ const Cocaine = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/cocaine.webp"
+          src="/diseases-banner/cocaine.webp"
           alt="cocaine use hero image"
           objectFit="cover"
           width={1200}

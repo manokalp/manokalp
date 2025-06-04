@@ -114,7 +114,7 @@ const NonSubstanceAddiction = () => {
         Non-Substance Addictions
         </h1>
         <Image
-          src="/non-substance.webp"
+          src="/diseases-banner/non-substance.webp"
           alt="behavioral addiction hero image"
           objectFit="cover"
           width={1200}
@@ -126,7 +126,7 @@ const NonSubstanceAddiction = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/non-substance.webp"
+          src="/diseases-banner/non-substance.webp"
           alt="behavioral addiction hero image"
           objectFit="cover"
           width={1200}

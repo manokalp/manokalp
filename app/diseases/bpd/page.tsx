@@ -58,7 +58,7 @@ const BPD = () => {
             <div className="w-full hidden lg:block text-center ">
                 <h2 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] ">Borderline Personality Disorder<br />
                     (BPD)</h2>
-                <Image src="/bpd.jpg" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full  lg:mt-[-16vw] mt-[-25vw]  z-0" />
+                <Image src="/diseases-banner/bpd.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full  lg:mt-[-16vw] mt-[-25vw]  z-0" />
             </div>
 
             {/* ASPD Hero Mobile  */}
@@ -68,7 +68,7 @@ const BPD = () => {
                
                 <h2 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull]">Borderline Personality Disorder<br />
                     (BPD)</h2>
-                    <Image src="/bpd.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full   mt-[-20vw]  z-0" />
+                    <Image src="/diseases-banner/bpd.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full   mt-[-20vw]  z-0" />
             </div>
 
 
