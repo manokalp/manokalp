@@ -264,6 +264,13 @@ const diseases = [
     image: "/nicotine-tobacco.webp",
     link: "/diseases/nicotine-tobacco",
   },
+  {
+    name: "Non-Substance Addictions",
+    description:
+      "Non-substance addictions are a group of mental health conditions that affect the way a person thinks, feels, and behaves.",
+    image: "/non-substance.webp",
+    link: "/diseases/non-substance",
+  },
 ];
 
 
