@@ -9,269 +9,270 @@ const diseases = [
     name: "Addiction",
     description:
       "A complex disorder characterized by compulsive substance use or behavior despite adverse consequences.",
-    image: "/addiction.webp",
+    image: "/diseases-banner/addiction.webp",
     link: "/diseases/addiction",
   },
   {
     name: "Aggression",
     description:
       "A behavioral pattern marked by hostile or violent behavior towards others.",
-    image: "/aggression.webp",
+    image: "/diseases-banner/aggression.webp",
     link: "/diseases/aggression",
   },
   {
     name: "Anxiety",
     description:
       "A mental health condition characterized by excessive worry and fear about everyday situations.",
-    image: "/anxiety.webp",
+    image: "/diseases-banner/anxiety.webp",
     link: "/diseases/anxiety",
   },
   {
     name: "Antisocial Personality Disorder",
     description:
       "A mental condition where a person consistently shows no regard for right and wrong.",
-    image: "/asdp.webp",
+    image: "/diseases-banner/asdp.webp",
     link: "/diseases/aspd",
   },
   {
     name: "Autism",
     description:
       "A developmental disorder affecting communication and behavior.",
-    image: "/autistic.webp",
+    image: "/diseases-banner/autistic.webp",
     link: "/diseases/autistic",
   },
   {
     name: "Borderline Personality Disorder",
     description:
       "A mental health disorder that impacts how you think and feel about yourself and others.",
-    image: "/bpd.webp",
+    image: "/diseases-banner/bpd.webp",
     link: "/diseases/bpd",
   },
   {
     name: "Relationship Issues",
     description:
       "Challenges and difficulties that arise within interpersonal relationships.",
-    image: "/relationship.webp",
+    image: "/diseases-banner/relationship.webp",
     link: "/diseases/relationship",
   },
   {
     name: "Lifestyle Diseases",
     description:
       "Health conditions that arise from the way people live their daily lives.",
-    image: "/lifestyle.webp",
+    image: "/diseases-banner/lifestyle.webp",
     link: "/diseases/lifestyle",
   },
   {
     name: "Mood Disorders",
     description:
       "Conditions that affect a person's emotional state over extended periods.",
-    image: "/mood.webp",
+    image: "/diseases-banner/mood.webp",
     link: "/diseases/mood",
   },
   {
     name: "Sexual Dysfunction",
     description:
       "Physical or psychological problems that prevent satisfaction in sexual activity.",
-    image: "/dysfunction.webp",
+    image: "/diseases-banner/dysfunction.webp",
     link: "/diseases/dysfunction",
   },
   {
     name: "Homosexuality",
     description:
       "Understanding and support for individuals with same-sex attraction.",
-    image: "/homosexuality.webp",
+    image: "/diseases-banner/homosexuality.webp",
     link: "/diseases/homosexuality",
   },
   {
     name: "Breakup Recovery",
     description:
       "Guidance and support for healing after the end of a relationship.",
-    image: "/breakup.webp",
+    image: "/diseases-banner/breakup.webp",
     link: "/diseases/breakup",
   },
   {
     name: "Childhood ADHD",
     description:
       "Understand the signs of ADHD in children and explore strategies to support focus, behavior, and emotional development.",
-    image: "/childhoodadhd.webp",
+    image: "/diseases-banner/childhoodadhd.webp",
     link: "/diseases/Childhood-dhd",
   },
   {
     name: "Childhood Anxiety",
     description:
       "Learn how to identify and manage anxiety in children with compassionate tools that nurture emotional well-being and resilience.",
-    image: "/childhoodanxiety.webp",
+    image: "/diseases-banner/childhoodanxiety.webp",
     link: "/diseases/childhood-anxiety",
   },
   {
     name: "Childhood Depression",
     description:
       "Discover how to recognize childhood depression early and provide the emotional support for healing and hope.",
-    image: "/childhooddepression.webp",
+    image: "/diseases-banner/childhooddepression.webp",
     link: "/diseases/childhood-depression",
   },
   {
     name: "Temper Tantrums",
     description:
       "Learn about temper tantrums, a common symptom of depression, and how to recognize and manage them effectively.",
-    image: "/temper.webp",
+    image: "/diseases-banner/temper.webp",
     link: "/diseases/temper",
   },
   {
     name: "Adjustment-Related Problems",
     description:
       "Discover the challenges individuals face when adjusting to major life changes.",
-    image: "/adjustment_related.webp",
+    image: "/diseases-banner/adjustment_related.webp",
     link: "/diseases/adjustment-related",
   },
   {
     name: "Anorexia and Other Eating Disorders",
     description:
       "Explore the emotional, physical, and psychological struggles behind eating disorders.",
-    image: "/anorexia.webp",
+    image: "/diseases-banner/anorexia.webp",
     link: "/diseases/anorexia",
   },
   {
     name: "Chronic Pain",
     description:
       "Understand the ongoing battle with chronic pain, its impact on daily life, and strategies for managing symptoms and maintaining hope.",
-    image: "/ChronicPain.webp",
+    image: "/diseases-banner/ChronicPain.webp",
     link: "/diseases/chronic-pain",
   },
   {
     name: "Forgetfulness",
     description:
       "Understand the ongoing battle with Forgetfulness, its impact on daily life, and strategies for managing symptoms and maintaining hope.",
-    image: "/forgetfulness.webp",
+    image: "/diseases-banner/forgetfulness.webp",
     link: "/diseases/forgetfulness",
   },
   {
     name: "Impulsivity",
     description:
       "Impulsivity and aggression are disruptive behavioral traits that can impair judgment, relationships, and daily functioning.",
-    image: "/impulsivity.webp",
+    image: "/diseases-banner/impulsivity.webp",
     link: "/diseases/impulsivity",
   },
   {
     name: "Sleep Disorders",
     description:
       "Sleep disorders affect your ability to get restful sleep and can lead to fatigue, mood swings, impaired focus, and long-term health issues.",
-    image: "/sleep.webp",
+    image: "/diseases-banner/sleep.webp",
     link: "/diseases/sleep",
   },
   {
     name: "Sexuality",
     description:
       "Sexuality is a core aspect of human identity, encompassing feelings, behaviors, orientation, and intimacy.",
-    image: "/sexuality.webp",
+    image: "/diseases-banner/sexuality.webp",
     link: "/diseases/sexuality",
   },
   {
     name: "Mania",
     description:
       "Sexuality is a core aspect of human identity, encompassing feelings, behaviors, orientation, and intimacy.",
-    image: "/mania.webp",
+    image: "/diseases-banner/mania.webp",
     link: "/diseases/mania",
   },
   {
     name: "Obsessive-Compulsive Disorder",
     description:
       "A mental health condition characterized by persistent intrusive thoughts (obsessions) and repetitive behaviors (compulsions) aimed at reducing distress.",
-    image: "/ocd.webp",
+    image: "/diseases-banner/ocd.webp",
     link: "/diseases/ocd",
   },
   {
     name: "Personality Disorders?",
     description:
       "Personality disorders are a group of mental health conditions that affect the way a person thinks, feels, and behaves.",
-    image: "/personality.webp",
+    image: "/diseases-banner/personality.webp",
     link: "/diseases/personality",
   },
   {
     name: "Relationship Tribulations",
     description:
       "Relationship tribulations are challenges and difficulties that arise within interpersonal relationships.",
-    image: "/diseases/relationship/b.webp",
+    image: "/diseases-banner/relationship/b.webp",
     link: "/diseases/relationship-tribulations",
   },
   {
     name: "Schizophrenia",
     description:
       "Schizophrenia is a chronic psychiatric disorder that affects how individuals think, perceive, and interact with the world. It often includes episodes of psychosis, marked by hallucinations, delusions, and disorganized thinking.",
-    image: "/schizophrenia.webp",
+    image: "/diseases-banner/schizophrenia.webp",
     link: "/diseases/schizophrenia",
   },
   {
     name: "Stress in Children",
     description:
       "Stress in children is a growing concern that affects emotional, cognitive, and social development. It occurs when children feel overwhelmed by demands or situations they cannot fully understand or control.",
-    image: "/childstress.webp",
+    image: "/diseases-banner/childstress.webp",
     link: "/diseases/childstress",
   },
   {
     name: "Unhappiness and Depressive Disorders",
     description:
       "Unhappiness and depressive disorders are mental health conditions that affect mood, behavior, and physical health.",
-    image: "/unhappyness.webp",
+    image: "/diseases-banner/unhappyness.webp",
     link: "/diseases/unhappiness",
   },
   {
     name: "Alcohol",
     description:
       "Alcohol is a central nervous system depressant that affects mood, behavior, and physical health.",
-    image: "/alcohol.webp",
+    image: "/diseases-banner/alcohol.webp",
     link: "/diseases/alcohol",
   },
   {
     name: "Cannabis",
     description:
       "Cannabis is a plant species that contains psychoactive compounds.",
-    image: "/cannabis.webp",
+    image: "/diseases-banner/cannabis.webp",
     link: "/diseases/cannabis",
   },
   {
     name: "Cocaine",
     description:
       "Cocaine is a central nervous system stimulant that affects mood, behavior, and physical health.",
-    image: "/cocaine.webp",
+    image: "/diseases-banner/cocaine.webp",
     link: "/diseases/cocaine",
   },
   {
     name: "Coffee",
     description:
       "Coffee is a central nervous system stimulant that affects mood, behavior, and physical health.",
-    image: "/coffee.webp",
+    image: "/diseases-banner/coffee.webp",
     link: "/diseases/coffee",
   },
   {
     name: "Hallucinogens",
     description:
       "Hallucinogens are a group of substances that alter perception, mood, and cognitive processes by disrupting communication between brain chemical systems.",
-    image: "/hallucinogens.webp",
+    image: "/diseases-banner/hallucinogens.webp",
     link: "/diseases/hallucinogens",
   },
   {
     name: "Nicotine (Cigarette Smoking)",
     description:
       "Nicotine is a central nervous system stimulant that affects mood, behavior, and physical health.",
-    image: "/nicotine-cigarette.webp",
+    image: "/diseases-banner/nicotine-cigarette.webp",
     link: "/diseases/nicotine-cigarette",
   },
   {
     name: "Nicotine (Tobacco Chewing)",
     description:
       "Nicotine is a central nervous system stimulant that affects mood, behavior, and physical health.",
-    image: "/nicotine-tobacco.webp",
+    image: "/diseases-banner/nicotine-tobacco.webp",
     link: "/diseases/nicotine-tobacco",
   },
   {
     name: "Non-Substance Addictions",
     description:
       "Non-substance addictions are a group of mental health conditions that affect the way a person thinks, feels, and behaves.",
-    image: "/non-substance.webp",
+    image: "/diseases-banner/non-substance.webp",
     link: "/diseases/non-substance",
   },
 ];
+
 
 
 const DiseasesPage = () => {
