@@ -299,6 +299,13 @@ const diseases = [
     image: "/diseases-banner/suicidality.webp",
     link: "/diseases/suicidality",
   },
+  {
+    name: "Relationships and Emotional Wellness",
+    description:
+      "Relationships and emotional wellness are a mental health condition that affects the way a person thinks, feels, and behaves.",
+    image: "/diseases-banner/relationshipsnemotional.webp",
+    link: "/diseases/relationshipsnemotional",
+  },
 ];
 
 
