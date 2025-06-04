@@ -271,6 +271,13 @@ const diseases = [
     image: "/diseases-banner/non-substance.webp",
     link: "/diseases/non-substance",
   },
+  {
+    name: "Opioids and Brown Sugar",
+    description:
+      "Opioids and brown sugar are a group of mental health conditions that affect the way a person thinks, feels, and behaves.",
+    image: "/diseases-banner/opioids.webp",
+    link: "/diseases/opioids",
+  },
 ];
 
 
