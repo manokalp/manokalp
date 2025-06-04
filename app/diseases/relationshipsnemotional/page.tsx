@@ -71,7 +71,7 @@ const RelationshipsAndEmotionalWellness = () => {
         "Couples therapy to improve communication and resolve relationship issues",
         "Attachment-focused therapies to heal insecure attachment patterns"
       ],
-      image: "/diseases-banner/relationshipsnemotional.webp",
+      image: "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       title: "Skill Development",
@@ -89,7 +89,7 @@ const RelationshipsAndEmotionalWellness = () => {
         "Building social support networks beyond romantic relationships",
         "Engagement in activities that foster self-worth independent of relationship status"
       ],
-      image: "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3",
+      image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       title: "Educational Resources",
@@ -98,7 +98,7 @@ const RelationshipsAndEmotionalWellness = () => {
         "Books and resources on attachment theory and healthy relationships",
         "Online communities and support groups for relationship challenges"
       ],
-      image: "https://images.unsplash.com/photo-1576402187878-974f70c890a5?q=80&w=2033&auto=format&fit=crop&ixlib=rb-4.0.3",
+      image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     }
   ];
   
