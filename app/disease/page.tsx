@@ -243,6 +243,14 @@ const diseases = [
     image: "/coffee.webp",
     link: "/coffee",
   },
+  {
+    name: "Hallucinogens",
+    description:
+      "Hallucinogens are a group of substances that alter perception, mood, and cognitive processes by disrupting communication between brain chemical systems. ",
+    image: "/hallucinogens.webp",
+    link: "/hallucinogens",
+  },
+
 ];
 
 const DiseasesPage = () => {
