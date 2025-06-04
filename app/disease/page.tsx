@@ -285,6 +285,13 @@ const diseases = [
     image: "/diseases-banner/socialfear.webp",
     link: "/diseases/socialfear",
   },
+  {
+    name: "Specific Anxieties",
+    description:
+      "Specific anxieties are a mental health condition that affects the way a person thinks, feels, and behaves.",
+    image: "/diseases-banner/specificanxieties.webp",
+    link: "/diseases/specificanxieties",
+  },
 ];
 
 
