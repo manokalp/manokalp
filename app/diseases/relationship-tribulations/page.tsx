@@ -152,11 +152,11 @@ const RelationshipTribulations = () => {
     <main className="w-full h-full flex justify-center flex-col  bg-white ">
       {/* Hero Desktop  */}
       <div className="w-full hidden lg:block text-center ">
-        <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] translate-y-[3vw]">
+        <h1 className="lg:text-[5vw] text-[6vw] text-black font-semibold relative z-10 font-[playfull] translate-y-[3vw]">
           What Are Relationship Tribulations?
         </h1>
         <Image
-          src="/diseases-banner/relationship-tribulations.webp"
+          src="/diseases-banner/relationship.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}
@@ -168,14 +168,14 @@ const RelationshipTribulations = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/diseases-banner/relationship-tribulations.webp"
+          src="/diseases-banner/relationship.webp"
           alt="hero image"
           objectFit="cover"
           width={1200}
           height={100}
           className="w-full     z-0"
         />
-        <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] mt-[-10vw] mb-10">
+        <h1 className="lg:text-[5vw] text-[6vw] text-black font-semibold relative z-10 font-[playfull] mt-[-10vw] mb-10">
           What Are Relationship Tribulations?
         </h1>
       </div>

@@ -89,13 +89,13 @@ const ChronicPain = () => {
       {/* Hero Desktop  */}
       <div className="w-full hidden lg:block text-center ">
         <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] translate-y-[3vw]">Chronic Pain-Related</h1>
-        <Image src="/diseases-banner/chronic-pain.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full  lg:mt-[-16vw] mt-[-25vw]  z-0" />
+        <Image src="/diseases-banner/ChronicPain.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full  lg:mt-[-16vw] mt-[-25vw]  z-0" />
       </div>
 
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
 
-        <Image src="/diseases-banner/chronic-pain.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full     z-0" />
+        <Image src="/diseases-banner/ChronicPain.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full     z-0" />
         <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] mt-[-10vw] mb-10">Chronic Pain-Related</h1>
       </div>
 
