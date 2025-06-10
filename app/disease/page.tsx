@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import playfair from "../../fonts/playfair.module.css";
 
-const diseases = [
+const unsortedDiseases = [
   {
     name: "Addiction",
     description:
@@ -313,9 +313,13 @@ const diseases = [
     image: "/diseases-banner/adultpsychological.webp",
     link: "/diseases/adultpsychological",
   },
+  
 ];
 
-
+// Sort diseases alphabetically by name
+const diseases = [...unsortedDiseases].sort((a, b) => 
+  a.name.localeCompare(b.name)
+);
 
 const DiseasesPage = () => {
   const [searchTerm, setSearchTerm] = useState("");
