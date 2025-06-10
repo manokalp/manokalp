@@ -255,7 +255,7 @@ const WhatWeDo = () => {
           </h2>
           
           <p className="text-center text-gray-800 lg:text-[1.8vw] text-[4vw] mb-12">
-            I'm also a:
+            I&apos;m also a:
           </p>
           
           <div className="grid grid-cols-4 max-w-4xl mx-auto mb-16">
@@ -294,7 +294,7 @@ const WhatWeDo = () => {
           
           <div className="lg:w-1/2 text-gray-800">
             <p className="lg:text-[1.3vw] text-[3.5vw]">
-              If you're ready to understand yourself better, heal deeply, and create the life you know you're capable of—I'd be honored to walk with you.
+              If you&apos;re ready to understand yourself better, heal deeply, and create the life you know you&apos;re capable of—I&apos;d be honored to walk with you.
             </p>
           </div>
         </div>
