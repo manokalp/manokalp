@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+// import { useState } from "react";
 
 const WhatWeDo = () => {
   return (
@@ -48,7 +48,7 @@ const WhatWeDo = () => {
         <div className="flex flex-col justify-center items-center lg:mb-20 mb-10"></div>
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Hi, I'm Dr.SanKalp, Manokalp—a psychiatrist, cognitive-behavioral
+            Hi, I&apos;m Dr.SanKalp, Manokalp—a psychiatrist, cognitive-behavioral
             therapist, and passionate advocate of mindful mental wellness.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
@@ -229,8 +229,8 @@ const WhatWeDo = () => {
               Manokalp was founded with a commitment to providing therapy that
               addresses the whole person – recognizing that mental health is
               inseparable from our physical wellbeing, relationships, work life,
-              and sense of purpose. The name "Manokalp" combines "mano" (mind)
-              with "sankalp" (resolution), reflecting my belief in the mind's
+              and sense of purpose. The name &quot;Manokalp&quot; combines &quot;mano&quot; (mind)
+              with &quot;sankalp&quot; (resolution), reflecting my belief in the mind&apos;s
               capacity for positive change when given the right support and
               tools.
             </p>
@@ -288,7 +288,7 @@ const WhatWeDo = () => {
         <div className="max-w-5xl mx-auto flex flex-col lg:flex-row gap-12 items-start mb-16">
           <div className="lg:w-1/2 text-gray-800">
             <p className="lg:text-[1.3vw] text-[3.5vw]">
-              Therapy isn't one-size-fits-all. Whether you're looking for individual sessions, online consultations, or guided wellness modules—we'll build a path that fits your lifestyle and personality.
+              Therapy isn&apos;t one-size-fits-all. Whether you&apos;re looking for individual sessions, online consultations, or guided wellness modules—we&apos;ll build a path that fits your lifestyle and personality.
             </p>
           </div>
           
@@ -304,7 +304,7 @@ const WhatWeDo = () => {
             href="/contact"
             className="inline-block px-10 py-4 bg-black text-white text-center rounded-full hover:bg-gray-800 transition-colors lg:text-[1.2vw] text-[3vw] font-medium"
           >
-            Let's reconnect you with you
+            Let&apos;s reconnect you with you
           </Link>
         </div>
       </section>
