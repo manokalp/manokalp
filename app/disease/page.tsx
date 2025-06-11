@@ -313,6 +313,13 @@ const unsortedDiseases = [
     image: "/diseases-banner/adultpsychological.webp",
     link: "/diseases/adultpsychological",
   },
+  {
+    name: "Pregnancy",
+    description:
+      "Pregnancy is a mental health condition that affects the way a person thinks, feels, and behaves.",
+    image: "/diseases-banner/pregnancy.webp",
+    link: "/diseases/pregnancy",
+  },
   
 ];
 

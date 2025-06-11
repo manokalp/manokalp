@@ -51,12 +51,10 @@ const Navbar = () => {
             {/* Desktop navigation */}
    
             <div className="hidden md:flex items-center space-x-6 ">
-                <Link href="/what-we-do" className="text-gray-700 hover:text-teal-600 font-medium">What We Do</Link>
-                <Link href="/psychiatrists" className="text-gray-700 hover:text-teal-600 font-medium">Our Psychiatrists</Link>
-                <Link href="/pricing" className="text-gray-700 hover:text-teal-600 font-medium">Pricing Plan</Link>
-                <Link href="/disease" className="text-gray-700 hover:text-teal-600 font-medium">Disease</Link>
-                <Link href="/faq" className="text-gray-700 hover:text-teal-600 font-medium">FAQ</Link>
-                <div className="relative group">
+                <Link href="/what-we-do" className="text-gray-700 hover:text-[#0E7EA1] font-medium">What We Do</Link>
+                <Link href="/disease" className="text-gray-700 hover:text-[#0E7EA1] font-medium">Disease</Link>
+                <Link href="/contact" className="block py-2 text-gray-700 hover:text-[#0E7EA1]">Contact</Link>
+                {/* <div className="relative group">
                     <button className="text-gray-700 hover:text-teal-600 font-medium flex items-center">
                         Pages
                         <svg
@@ -70,11 +68,9 @@ const Navbar = () => {
                         </svg>
                     </button>
                     <div className="absolute left-0 mt-[-2] w-48 bg-white rounded-md shadow-lg py-1 z-10 hidden group-hover:block">
-                        <Link href="/about" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">About Us</Link>
-                        <Link href="/contact" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Contact</Link>
-                        <Link href="/blog" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Blog</Link>
+
                     </div>
-                </div>
+                </div> */}
             </div>
       
 
@@ -82,10 +78,7 @@ const Navbar = () => {
             {isMenuOpen && (
                 <div className="absolute top-16 left-0 right-0 bg-white shadow-md py-2 px-4 md:hidden z-20">
                     <Link href="/what-we-do" className="block py-2 text-gray-700 hover:text-teal-600 font-medium">What We Do</Link>
-                    <Link href="/psychiatrists" className="block py-2 text-gray-700 hover:text-teal-600 font-medium">Our Psychiatrists</Link>
-                    <Link href="/pricing" className="block py-2 text-gray-700 hover:text-teal-600 font-medium">Pricing Plan</Link>
-                    <Link href="/faq" className="block py-2 text-gray-700 hover:text-teal-600 font-medium">FAQ</Link>
-                    <div className="py-2">
+                    {/* <div className="py-2">
                         <button
                             className="flex items-center text-gray-700 hover:text-teal-600 font-medium w-full text-left"
                             onClick={() => document.getElementById('mobilePages')?.classList.toggle('hidden')}
@@ -102,11 +95,10 @@ const Navbar = () => {
                             </svg>
                         </button>
                         <div id="mobilePages" className="hidden pl-4 mt-1">
-                            <Link href="/about" className="block py-2 text-gray-700 hover:text-teal-600">About Us</Link>
-                            <Link href="/contact" className="block py-2 text-gray-700 hover:text-teal-600">Contact</Link>
-                            <Link href="/blog" className="block py-2 text-gray-700 hover:text-teal-600">Blog</Link>
+
+
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             )}
             </div>

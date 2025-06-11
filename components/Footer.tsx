@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const Footer = () => {
     return (
-        <footer className="bg-transparent z-20 relative">
+        <footer className="bg-white z-20 relative">
             {/* Newsletter */}
             <div className="bg-[#0E7EA0] text-white py-40 rounded-t-full z-20 ">
                 <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
