@@ -76,7 +76,7 @@ export default function ContactPage() {
         toast.error(errorMsg);
         setErrorMessage(errorMsg);
       }
-    } catch (error) {
+    } catch (_error) {
       const errorMsg = "Connection issue detected. Please check your internet connection and try again.";
       toast.error(errorMsg);
       setErrorMessage(errorMsg);
@@ -103,7 +103,7 @@ export default function ContactPage() {
               <div>
                 <h3 className={`text-2xl font-bold mb-6 ${playfair.className}`}>Get In Touch</h3>
                 <p className="mb-8">
-                  We're here to help with any questions about mental health services, appointments, or support resources.
+                  We&apos;re here to help with any questions about mental health services, appointments, or support resources.
                 </p>
                 
                 <div className="space-y-6">
