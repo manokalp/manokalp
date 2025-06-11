@@ -191,7 +191,7 @@ const unsortedDiseases = [
     name: "Relationship Tribulations",
     description:
       "Relationship tribulations are challenges and difficulties that arise within interpersonal relationships.",
-    image: "/diseases-banner/relationship.webp",
+    image: "/diseases-banner/relationship-tribulations.webp",
     link: "/diseases/relationship-tribulations",
   },
   {
