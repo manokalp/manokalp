@@ -76,7 +76,7 @@ export default function ContactPage() {
         toast.error(errorMsg);
         setErrorMessage(errorMsg);
       }
-    } catch (_error) {
+    } catch {
       const errorMsg = "Connection issue detected. Please check your internet connection and try again.";
       toast.error(errorMsg);
       setErrorMessage(errorMsg);
