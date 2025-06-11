@@ -320,6 +320,13 @@ const unsortedDiseases = [
     image: "/diseases-banner/pregnancy.webp",
     link: "/diseases/pregnancy",
   },
+  {
+    name: "Inhalants and Solvents",
+    description:
+      "Inhalants and solvents are substances that are inhaled or absorbed through the skin to produce a quick high.",
+    image: "/diseases-banner/inhalants.webp",
+    link: "/diseases/inhalantsnsolvents",
+  },
   
 ];
 

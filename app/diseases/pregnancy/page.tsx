@@ -288,14 +288,16 @@ const Pregnancy = () => {
             </ul>
           </div>
           
-          {/* Right side: image */}
-          <div className="md:w-1/2">
-            <div className="rounded-lg overflow-hidden relative h-80 w-full">
+          {/* Right side: image - Fixed for mobile */}
+          <div className="w-full md:w-1/2 mt-8 md:mt-0">
+            <div className="rounded-lg overflow-hidden w-full h-64 md:h-80">
               <Image 
                 src={disorderImages[activeTab]}
                 alt={`${activeTab} disorders`}
-                fill
-                className="object-cover"
+                width={500}
+                height={400}
+                className="object-cover w-full h-full"
+                priority
               />
             </div>
           </div>
