@@ -140,7 +140,7 @@ const PassiveAggression = () => {
       </div>
 
       {/* Introduction Section */}
-      <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-20 py-20 text-center lg:mt-[-60vw] mt-[-0vw]">
+      <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-20 px-10 lg:py-20 py-20 text-center lg:mt-[-60vw] mt-[-0vw]">
        
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
@@ -151,12 +151,7 @@ const PassiveAggression = () => {
           </p>
         </div>
 
-        <Link
-          href="/"
-          className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw]"
-        >
-          Know More
-        </Link>
+
       </section>
 
       {/* Causes Section */}

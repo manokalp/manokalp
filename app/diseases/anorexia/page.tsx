@@ -97,7 +97,7 @@ const Anorexia = () => {
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Rooted in a combination of biological, psychological, and environmental factors, these conditions are becoming increasingly common in an image-conscious society. Early recognition and a multidisciplinary treatment approach are essential for recovery.</p>
                 </div>
 
-                <Link href="/" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">Know More</Link>
+         
             </section>
 
             {/* Section */}

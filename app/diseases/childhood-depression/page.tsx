@@ -63,7 +63,7 @@ const ChildhoodDepression = () => {
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">making it crucial for caregivers, parents, and educators to recognize the signs early. If not treated, depression in children can cause long-term mental illnesses, impacting the development of a child and overall health. Knowledge about its causes, symptoms, and remedies is important in ensuring recovery and overcoming of children.</p>
                 </div>
 
-                <Link href="/" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">Know More</Link>
+         
             </section>
 
             {/* Section */}

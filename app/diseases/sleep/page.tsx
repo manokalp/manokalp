@@ -121,12 +121,7 @@ const Sleep = () => {
           </p>
         </div>
 
-        <Link
-          href="/"
-          className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] "
-        >
-          Know More
-        </Link>
+        
       </section>
       {/* Color Section */}
       <section className="bg-white w-full h-full lg:px-20 px-10 lg:py-20 py-10 text-center">

@@ -98,7 +98,7 @@ const BreakUp = () => {
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Either friendly or painful, breakups have intense psychological impacts at times similar to mourning a loss. Knowing the reasons, signs, and remedies of a breakup can assist people in dealing with the experience and moving on in a healthier manner.</p>
                 </div>
 
-                <Link href="/" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">Know More</Link>
+         
             </section>
 
             {/* Causes  */}

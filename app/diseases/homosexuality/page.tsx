@@ -32,7 +32,7 @@ const Homosexuality = () => {
                     <p className="lg:text-[1.2vw] text-[3.5vw] font-medium text-left">Homosexuality is viewed by many experts as a natural variant of human sexuality. It is often misunderstood as a deviation in psychosexual development, arising from a combination of genetic and psychosocial factors, none of which are within an individual’s control. Research has confirmed that there are structural differences in the brains of individuals who identify as lesbian, gay, or bisexual, as well as variations in neurotransmitters. Despite this, people in homosexual relationships deserve the same rights and respect as individuals with other medical conditions or life experiences, like those living with cancer or diabetes.</p>
                 </div>
 
-                <Link href="/" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">Know More</Link>
+         
             </section>
 
             {/* Why Is Communication So Important? */}

@@ -160,12 +160,7 @@ const OCD = () => {
           </p>
         </div>
 
-        <Link
-          href="/"
-          className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] "
-        >
-          Know More
-        </Link>
+        
       </section>
 
       {/* Color Section */}

@@ -37,7 +37,7 @@ const Relationship = () => {
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">The success of communication relies not only on sending the message but also on its proper interpretation by the recipient. In intimate relationships, communication is crucial because it operates within a framework of trust and vulnerability. Partners rely on each other for emotional support and often share their deepest fears, desires, and dreams. Making communication an essential element for connection.</p>
                 </div>
 
-                <Link href="/" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">Know More</Link>
+         
             </section>
 
             {/* Why Is Communication So Important? */}

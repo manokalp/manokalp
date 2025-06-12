@@ -108,7 +108,7 @@ const ChronicPain = () => {
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Common diagnoses include fibromyalgia, chronic back pain, arthritis, and neuropathic pain. These disorders often require a holistic treatment approach, targeting both physical symptoms and psychological distress for long-term relief and improved quality of life.</p>
         </div>
 
-        <Link href="/" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">Know More</Link>
+ 
       </section>
 
       {/* Color Section */}

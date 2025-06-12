@@ -84,7 +84,7 @@ const ASPD = () => {
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">ASPD is one of the DSM-5 Cluster B personality disorders, such as borderline, histrionic, and narcissistic personality disorders. ASPD is among the most challenging mental health conditions to treat because individuals with the disorder lack awareness of what they are doing and are not typically motivated to see the doctor or receive treatment.</p>
                 </div>
 
-                <Link href="/" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">Know More</Link>
+         
             </section>
 
             {/* Causes and Risks */}

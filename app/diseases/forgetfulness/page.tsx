@@ -82,7 +82,7 @@ const Forgetfulness = () => {
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">significantly interferes with independent living. Common forms include Alzheimer’s disease, vascular dementia, and Lewy body dementia. Though incurable, early diagnosis and personalized care can help manage symptoms and improve quality of life.</p>
         </div>
 
-        <Link href="/" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">Know More</Link>
+ 
       </section>
 
       {/* Colored Section */}

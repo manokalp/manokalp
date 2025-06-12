@@ -34,7 +34,7 @@ const Anxiety = () => {
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">While experiencing occasional anxiety is normal, excessive or chronic anxiety can develop into an anxiety disorder, significantly impacting a person&apos;s mental, emotional, and physical health. Understanding the causes, symptoms, and solutions for anxiety spectrum disorders is essential in managing and alleviating their effects.</p>
                 </div>
 
-                <Link href="/" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">Know More</Link>
+         
             </section>
 
             {/* Section */}

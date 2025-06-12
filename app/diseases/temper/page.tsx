@@ -115,7 +115,7 @@ const ChildhoodDepression = () => {
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">These outbursts may result from unmet needs, frustration, or ineffectiveness in expressing feelings. It is important to know the causes, symptoms, and remedies of temper tantrums to deal with them and promote better emotional reactions.</p>
                 </div>
 
-                <Link href="/" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">Know More</Link>
+         
             </section>
 
             {/* Section */}

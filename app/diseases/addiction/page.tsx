@@ -34,7 +34,7 @@ const Addiction = () => {
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">It is not a matter of lack of willpower but a chronic illness that impacts brain function and behavior. Knowledge of the causes, symptoms, and solutions of addiction is vital in ensuring that people understand the issue and get successful treatment.</p>
                 </div>
 
-                <Link href="/" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">Know More</Link>
+         
             </section>
 
             {/* Section */}

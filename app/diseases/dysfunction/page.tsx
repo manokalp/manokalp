@@ -39,7 +39,7 @@ const Dysfunction = () => {
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Historically, sexuality has been associated with socio-cultural psychological meanings. For men, it may be linked to power and dominance, while women may associate it with their attractiveness and desirability. The inability to perform well in bed can lead to negative emotions like guilt, sadness, low self-regard, frustration, anxiety, and depression. Since sensual satisfaction is a shared experience, any dysfunction experienced by one partner can strain the relationship and emotional connection.</p>
                 </div>
 
-                <Link href="/" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">Know More</Link>
+         
             </section>
 
             {/* Section 2 para  */}

@@ -84,7 +84,7 @@ const BPD = () => {
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">BPD is a Cluster B personality disorder in the Diagnostic and Statistical Manual of Mental Disorders (DSM-5), in addition to antisocial, histrionic, and narcissistic personality disorders. Despite its challenges, BPD has seen dramatic treatment advances over the past few decades, from largely being considered untreatable to now having a variety of successful evidence-based treatments.</p>
                 </div>
 
-                <Link href="/" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">Know More</Link>
+         
             </section>
 
             {/* Causes and Risks */}

@@ -136,12 +136,12 @@ const HPD = () => {
             </div>
 
             {/* Introduction Section */}
-            <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-40 py-20 text-center lg:mt-[-50vw] mt-[-0vw]">
+            <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-20 py-20 text-center lg:mt-[-50vw] mt-[-0vw]">
                 <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Histrionic Personality Disorder (HPD) is a Cluster B personality disorder characterized by excessive emotionality and attention-seeking behavior. It affects about 1-3% of the general population and is more often diagnosed in women. Individuals with HPD often exhibit dramatic, flirtatious, or exaggerated behaviors, use physical appearance to attract attention, and interpret relationships as closer than they actually are. These traits can cause significant difficulties in personal and professional life.</p>
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">A pattern that may be influenced by biological, psychological, and environmental factors. Individuals with HPD often exhibit dramatic, flirtatious, or exaggerated behaviors, use physical appearance to attract attention, and interpret relationships as closer than they actually are. These traits can cause significant difficulties in personal and professional life.</p>
                 </div>
-                <Link href="/" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw]">Know More</Link>
+               
             </section>
 
             {/* Causes and Risk Factors */}

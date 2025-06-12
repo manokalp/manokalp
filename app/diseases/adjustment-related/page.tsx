@@ -81,7 +81,7 @@ const AdjustmentRelated = () => {
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">When the resulting distress is excessive or prolonged, it may be diagnosed as Adjustment Disorder under DSM-5 guidelines. This condition can impair personal, social, or occupational life unless timely intervention is provided.</p>
                 </div>
 
-                <Link href="/" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">Know More</Link>
+         
             </section>
 
             {/* Section */}
