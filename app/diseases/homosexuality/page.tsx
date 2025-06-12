@@ -53,7 +53,7 @@ const Homosexuality = () => {
             </section>
 
             <section className="bg-white w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
-                <h2 className={`text-[#0E7EA0] lg:text-[4vw] text-[8vw] ${playfair.className} mb-8`}>How Do You Find a Compatible Partner?</h2>
+                <h2 className={`text-[#0E7EA0] font-bold lg:text-[4vw] text-[8vw] ${playfair.className} mb-8`}>How Do You Find a Compatible Partner?</h2>
                 <div className="flex flex-col lg:flex-row justify-between gap-8 text-left">
                     <div className="lg:w-1/2">
                         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium">Homosexuality is not a new phenomenon or a problem, but a stable trait that has existed throughout human history. Archaeological evidence shows that same-sex attraction existed in prehistoric societies. However, despite its historical presence, the issue has been deeply controversial in fields like medicine, law, and social policy. Up until 1973, homosexuality was classified as a psychiatric disorder in the Diagnostic and Statistical Manual of Mental Disorders (DSM), and it remained categorized as such in the International Classification of Diseases (ICD) until 1991.</p>
@@ -83,7 +83,7 @@ const Homosexuality = () => {
                     </div>
 
                     {/* Card 2 */}
-                    <div className="bg-[#FFD700] rounded-3xl  text-black text-center">
+                    <div className="bg-[#0E7EA0] rounded-3xl  text-white text-center">
                         <Image src="/quick_links/1.webp" alt="person meditating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Hypervigilance</h3>
@@ -93,7 +93,7 @@ const Homosexuality = () => {
 
                     {/* Card 3 */}
                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <Image src="/diseases/childhooddepressionv2/3.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Stigmatization</h3>
                             <p className="text-sm">The internalization of societal stigma may lead to feelings of inadequacy, self-doubt, and alienation.</p>
@@ -102,7 +102,7 @@ const Homosexuality = () => {
 
                     {/* Card 4 */}
                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <Image src="https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Homophobia</h3>
                             <p className="text-sm">Internalized homophobia occurs when individuals adopt the prejudiced views of society, believing their sexual orientation is something to hide or be ashamed of.</p>

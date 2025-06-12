@@ -60,57 +60,81 @@ const Dysfunction = () => {
             </section>
 
 
-            {/*  Links  */}
-            <section className="bg-white w-full h-full lg:px-20 px-10 lg:py-20 py-10 text-center">
-                <h2 className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold mb-10 ${playfair.className}`}>Types of Sexual Dysfunction</h2>
-                <div className="grid lg:grid-cols-5 grid-cols-1 gap-2">
-                    {/* Card 1 */}
-                    <div className="bg-[#0E7EA0] rounded-3xl  text-white text-center">
+{/* Types of Sexual Dysfunction */}
+<section className="bg-white w-full h-full lg:px-20 px-10 lg:py-20 py-10 text-center">
+  <h2 className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold mb-10 ${playfair.className}`}>
+    Types of Sexual Dysfunction
+  </h2>
+  <div className="grid lg:grid-cols-5 grid-cols-1 gap-4">
 
-                        <Image src="/quick_links/2.webp" alt="stressed person" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
-                        <div className="p-6">
-                            <h3 className="text-lg font-bold mb-4">Low Libido</h3>
-                            <p className="text-sm">A reduction or absence of sexual desire, which may manifest as a lack of initiation or avoiding sexual encounters. This can result in feelings of disconnection and frustration between partners.</p>
-                        </div>
-                    </div>
+    {/* Card 1: Low Libido */}
+    <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+      <img src="https://images.pexels.com/photos/3810792/pexels-photo-3810792.jpeg"
+           alt="couple showing low intimacy"
+           className="w-full h-48 object-cover rounded-2xl mb-6" />
+      <div className="p-6">
+        <h3 className="text-lg font-bold mb-4">Low Libido</h3>
+        <p className="text-sm">
+          A reduction or absence of sexual desire… can result in feelings of disconnection and frustration between partners.
+        </p>
+      </div>
+    </div>
 
-                    {/* Card 2 */}
-                    <div className="bg-[#FFD700] rounded-3xl  text-black text-center">
-                        <Image src="/quick_links/1.webp" alt="person meditating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
-                        <div className="p-6">
-                            <h3 className="text-lg font-bold mb-4">Erectile Dysfunction (ED)</h3>
-                            <p className="text-sm">The inability to achieve or maintain a satisfactory erection. Although ED can have physical causes, it is often psychological in nature and linked to anxiety or stress. Untreated ED can lead to a decrease in self-confidence and self-worth.</p>
-                        </div>
-                    </div>
+    {/* Card 2: Erectile Dysfunction (ED) */}
+    <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+      <img src="https://images.pexels.com/photos/3889790/pexels-photo-3889790.jpeg"
+           alt="man looking concerned"
+           className="w-full h-48 object-cover rounded-2xl mb-6" />
+      <div className="p-6">
+        <h3 className="text-lg font-bold mb-4">Erectile Dysfunction (ED)</h3>
+        <p className="text-sm">
+          The inability to achieve or maintain a satisfactory erection… often psychological in nature.
+        </p>
+      </div>
+    </div>
 
-                    {/* Card 3 */}
-                    <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
-                        <div className="p-6">
-                            <h3 className="text-lg font-bold mb-4">Premature Ejaculation</h3>
-                            <p className="text-sm">Ejaculation occurring before or shortly after penetration, typically within one minute. This is often linked to nerve dysfunction or heightened psychological sensitivity. Treatment often involves couples therapy and techniques to increase control during sexual activity.</p>
-                        </div>
-                    </div>
+    {/* Card 3: Premature Ejaculation */}
+    <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+      <img src="https://images.pexels.com/photos/4041336/pexels-photo-4041336.jpeg"
+           alt="togetherness but stress"
+           className="w-full h-48 object-cover rounded-2xl mb-6" />
+      <div className="p-6">
+        <h3 className="text-lg font-bold mb-4">Premature Ejaculation</h3>
+        <p className="text-sm">
+          Ejaculation occurring before or shortly after penetration… treatment often involves couples therapy.
+        </p>
+      </div>
+    </div>
 
-                    {/* Card 4 */}
-                    <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
-                        <div className="p-6">
-                            <h3 className="text-lg font-bold mb-4">Dyspareunia</h3>
-                            <p className="text-sm">Painful intercourse, most commonly reported by women, often caused by factors like vaginal dryness or low libido. It may also be linked to other conditions such as vaginismus, and a gynecological examination is necessary for diagnosis and treatment.</p>
-                        </div>
-                    </div>
+    {/* Card 4: Dyspareunia */}
+    <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+      <img src="https://images.pexels.com/photos/3764002/pexels-photo-3764002.jpeg"
+           alt="woman looking uncomfortable"
+           className="w-full h-48 object-cover rounded-2xl mb-6" />
+      <div className="p-6">
+        <h3 className="text-lg font-bold mb-4">Dyspareunia</h3>
+        <p className="text-sm">
+          Painful intercourse… often caused by vaginal dryness or medical conditions requiring evaluation.
+        </p>
+      </div>
+    </div>
 
-                    {/* Card 5 */}
-                    <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
-                        <div className="p-6">
-                            <h3 className="text-lg font-bold mb-4">Anorgasmia</h3>
-                            <p className="text-sm">The inability to experience orgasm despite adequate stimulation. This can occur either with specific partners or in all sexual situations. Dual sex therapy can help address this by enhancing sexual pleasure and improving orgasmic experiences.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+    {/* Card 5: Anorgasmia */}
+    <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+      <img src="https://images.pexels.com/photos/6753175/pexels-photo-6753175.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+           alt="woman showing thoughtful response"
+           className="w-full h-48 object-cover rounded-2xl mb-6" />
+      <div className="p-6">
+        <h3 className="text-lg font-bold mb-4">Anorgasmia</h3>
+        <p className="text-sm">
+          Inability to experience orgasm despite adequate stimulation… dual sex therapy can help.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
 
             {/* Section 2 para  */}
@@ -138,7 +162,7 @@ const Dysfunction = () => {
                         Unhappy couples often struggle with the cause-and-effect relationship between their dissatisfaction and their communication patterns. Some couples may find themselves in negative communication cycles because of underlying relationship stress, while others may struggle to communicate effectively because of pre-existing issues. Being proactive in managing communication styles, balancing vulnerability and trust, and working together to resolve issues will help keep relationships strong and conflict resolution easier.
 
                     </p>
-                    <div className="lg:w-[140vw] w-[80vw] h-[45vh] bg-[#0E7EA0]" />
+                    <Image src="https://images.pexels.com/photos/6753175/pexels-photo-6753175.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="couple showing low intimacy" width={400} height={300} className="w-full h-full object-cover rounded-xl" />
                 </div>
             </section>
 

@@ -13,20 +13,20 @@ const Relationship = () => {
 
     return (
         <main className="w-full h-full flex justify-center flex-col  bg-white ">
-            {/* ASPD Hero Desktop  */}
+            {/* Hero Desktop  */}
             <div className="w-full hidden lg:block text-center ">
                 <h2 className="lg:text-[5vw] text-[6vw] text-black font-semibold relative z-10 font-[playfull] ">Relationship <br />Communication</h2>
                 <Image src="/diseases-banner/relationship.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full  lg:mt-[-16vw] mt-[-25vw]  z-0" />
             </div>
 
-            {/* ASPD Hero Mobile  */}
+            {/* Hero Mobile  */}
             <div className="w-full lg:hidden block text-center ">
                 
                 <Image src="/diseases-banner/relationship.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full     z-0" />
                 <h2 className="lg:text-[5vw] text-[6vw] text-black font-semibold relative z-10 font-[playfull] mt-[-10vw] mb-10">Relationship <br />Communication</h2>
             </div>
 
-            {/* The Harsh Truth Section  */}
+            {/* Introduction Section  */}
             <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-40 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
                 <div className="flex flex-col justify-center items-center lg:mb-20 mb-10">
                     <h2 className="lg:text-[4.0vw] text-[8.5vw] font-bold font-[playfull]"></h2>
@@ -34,11 +34,10 @@ const Relationship = () => {
                 </div>
                 <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
 
-                    <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Relationship communication refers to the process of conveying thoughts, feelings, needs, and desires between partners in a romantic relationship. It&apos;s more than just sharing information—it&apos;s about conveying the unique goals and intentions that each partner has in a specific moment, with the aim of deepening understanding and collaboration. This communication can be verbal, through words and sounds, or non-verbal, through gestures, looks, or actions. </p>
+                    <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Relationship communication refers to the process of conveying thoughts, feelings, needs, and desires between partners in a romantic relationship. It&apos;s more than just sharing information—it&apos;s about deepening understanding and fostering closeness. Healthy communication is characterized by clear, open, and honest expression, and active listening. It forms the foundation of a strong relationship by helping build trust and emotional intimacy.</p>
 
 
-                    <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">The success of communication relies not only on sending the message but also on its proper interpretation by the recipient.
-                        In intimate relationships, communication is crucial because it operates within a framework of trust and vulnerability. Partners rely on each other for emotional support and often share their deepest fears, desires, and dreams. If trust is strong enough, they can express their vulnerabilities without fear of judgment or misuse, making communication an essential element for connection.</p>
+                    <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">The success of communication relies not only on sending the message but also on its proper interpretation by the recipient. In intimate relationships, communication is crucial because it operates within a framework of trust and vulnerability. Partners rely on each other for emotional support and often share their deepest fears, desires, and dreams. Making communication an essential element for connection.</p>
                 </div>
 
                 <Link href="/" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">Know More</Link>
@@ -47,7 +46,7 @@ const Relationship = () => {
             {/* Why Is Communication So Important? */}
             <section className="bg-white w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
                 <h2 className={`text-[#0E7EA0] lg:text-[4vw] text-[8vw] ${playfair.className} mb-8`}>Why Is Communication So Important?</h2>
-                <p className="text-black lg:text-[1.5vw] text-[3.5vw] mb-10">Breakups occur due to many reasons, from external pressures to very personal differences between the partners. Some of the most prevalent reasons are:</p>
+                <p className="text-black lg:text-[1.5vw] text-[3.5vw] mb-10">Communication serves as the bridge between two partners. Some of the most important reasons are:</p>
 
                 <div className="flex flex-col lg:flex-row justify-between gap-8 text-left">
                     <div className="lg:w-1/2">
@@ -60,11 +59,56 @@ const Relationship = () => {
             </section>
 
 
-            {/*  Section Similar 1*/}
+            {/* How Do Couples Communicate? */}
+            <section className="bg-white w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
+                <h2 className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}>How Do Couples Communicate?</h2>
+                <p className="text-black lg:text-[1.5vw] text-[3.5vw] mb-10">Communication patterns vary from couple to couple, but typically involve both verbal and non-verbal elements. Healthy communication means:</p>
+                <div className="grid lg:grid-cols-4 grid-cols-1 gap-6 mb-10">
+                    {/* Communication Card 1 */}
+                    <div className="bg-[#0E7EA0] rounded-xl text-white text-center">
+                        <Image src="https://images.pexels.com/photos/5699823/pexels-photo-5699823.jpeg" alt="Active listening" width={300} height={200} className="w-full h-48 object-cover rounded-t-xl" />
+                        <div className="p-4">
+                            <h3 className="text-lg font-bold mb-2">Active Listening</h3>
+                            <p className="text-sm">Paying full attention to your partner, acknowledging their feelings, and responding thoughtfully.</p>
+                        </div>
+                    </div>
+
+                    {/* Communication Card 2 */}
+                    <div className="bg-[#0E7EA0] rounded-xl text-white text-center">
+                        <Image src="https://images.pexels.com/photos/6753175/pexels-photo-6753175.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Expressing needs" width={300} height={200} className="w-full h-48 object-cover rounded-t-xl" />
+                        <div className="p-4">
+                            <h3 className="text-lg font-bold mb-2">Expressing Needs</h3>
+                            <p className="text-sm">Clearly articulating what you want and need from your partner in a respectful way.</p>
+                        </div>
+                    </div>
+
+                    {/* Communication Card 3 */}
+                    <div className="bg-[#0E7EA0] rounded-xl text-white text-center">
+                        <Image src="https://images.pexels.com/photos/4098224/pexels-photo-4098224.jpeg" alt="Non-verbal cues" width={300} height={200} className="w-full h-48 object-cover rounded-t-xl" />
+                        <div className="p-4">
+                            <h3 className="text-lg font-bold mb-2">Non-verbal Cues</h3>
+                            <p className="text-sm">Understanding body language, facial expressions, and tone which often convey more than words.</p>
+                        </div>
+                    </div>
+
+                    {/* Communication Card 4 */}
+                    <div className="bg-[#0E7EA0] rounded-xl text-white text-center">
+                        <Image src="https://images.pexels.com/photos/4559516/pexels-photo-4559516.jpeg" alt="Conflict resolution" width={300} height={200} className="w-full h-48 object-cover rounded-t-xl" />
+                        <div className="p-4">
+                            <h3 className="text-lg font-bold mb-2">Conflict Resolution</h3>
+                            <p className="text-sm">Addressing disagreements constructively rather than avoiding them or escalating into arguments.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* What Communication Helps Resolve Conflict? */}
             <section className="bg-white w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
                 <h2 className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}>What Communication Helps Resolve Conflict?</h2>
                 <div className="flex flex-col lg:flex-row justify-between items-center gap-10">
-                    <div className="lg:w-[80vw] w-[80vw] h-[45vh] bg-[#0E7EA0]" />
+                    <div className="lg:w-[80vw] w-[80vw] h-[45vh] overflow-hidden rounded-xl">
+                        <Image src="https://images.pexels.com/photos/4144100/pexels-photo-4144100.jpeg" alt="Couple resolving conflict" width={800} height={500} className="w-full h-full object-cover" />
+                    </div>
                     <p className="text-black text-left lg:text-[1.25vw] text-[3vw]">Effective communication helps couples address the core
                         issues in a relationship. Direct collaboration is particularly
                         effective because it encourages both partners to discuss the
@@ -79,27 +123,24 @@ const Relationship = () => {
                         collaboration may mitigate the emotional fallout but may not fully
                         address the problem at hand.
                     </p>
-
                 </div>
-
             </section>
 
-            {/*  Section Similar 2*/}
+            {/* How Can Couples Communicate Effectively? */}
             <section className="bg-white w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
                 <h2 className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}>How Can Couples Communicate Effectively?</h2>
                 <div className="flex flex-col lg:flex-row justify-between items-center gap-20">
-
-                    <p className="text-black text-left lg:text-[1.15vw] text-[3vw]">Effective communication helps couples address the core
-                        Effective communication involves both speaking and listening with empathy. Couples should express their feelings honestly while also being considerate of how their words will be received. Active listening—focusing fully on the other partner, validating their feelings, and responding thoughtfully—is key. Miscommunication often stems from partners being unclear about what they want or need, which makes it crucial to engage in honest and open dialogue.
+                    <p className="text-black text-left lg:text-[1.15vw] text-[3vw]">Effective communication involves both speaking and listening with empathy. Couples should express their feelings honestly while also being considerate of how their words will be received. Active listening—focusing fully on the other partner, validating their feelings, and responding thoughtfully—is key. Miscommunication often stems from partners being unclear about what they want or need, which makes it crucial to engage in honest and open dialogue.
                         <br /> <br />
                         Unhappy couples often struggle with the cause-and-effect relationship between their dissatisfaction and their communication patterns. Some couples may find themselves in negative communication cycles because of underlying relationship stress, while others may struggle to communicate effectively because of pre-existing issues. Being proactive in managing communication styles, balancing vulnerability and trust, and working together to resolve issues will help keep relationships strong and conflict resolution easier.
-
                     </p>
-                    <div className="lg:w-[140vw] w-[80vw] h-[45vh] bg-[#0E7EA0]" />
+                    <div className="lg:w-[140vw] w-[80vw] h-[45vh] overflow-hidden rounded-xl">
+                        <Image src="https://images.pexels.com/photos/5699456/pexels-photo-5699456.jpeg" alt="Couple communicating effectively" width={1000} height={500} className="w-full h-full object-cover" />
+                    </div>
                 </div>
             </section>
 
-            {/*  Dr. Shefali's Communication Building Process */}
+            {/* Communication Building Process by Dr. Shefali */}
             <section className="bg-white w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
                 <h2 className={`text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold ${playfair.className} mb-8`}>Communication Building Process by Dr. Shefali</h2>
                 <p className="text-black lg:text-[1.25vw] text-[3.5vw] mb-10">To improve communication, couples can engage in therapy that focuses on teaching and reinforcing positive communication strategies. Dr. Shefali Batra, a psychiatrist and psychotherapist, outlines various techniques, including:</p>
@@ -181,15 +222,9 @@ const Relationship = () => {
                 <p className="text-black lg:text-[1.5vw] text-[3.5vw] lg:mt-52 mt-10">Couples can also record and analyze their communication interactions to identify faulty styles and reinforce productive behaviors. Over time, this can lead to more mature and effective communication, which strengthens the relationship and enhances emotional connection.</p>
             </section>
 
-            {/* Footer Section */}
-            {/* Prognosis and Future Outlook Section*/}
-            <section className="bg-[#FFD266] w-full h-full lg:px-40 px-10 lg:pt-20 lg:pb-[50vw] pt-20 pb-50 mb-[-60vw] text-center z-0 ">
-                <h2 className={`text-[#0E7EA0] lg:text-[3.5vw] text-[8vw] font-bold ${playfair.className} mb-10`}>Conclusion</h2>
-                <div className="flex flex-col lg:flex-row justify-between items-center text-left text-black gap-20 mb-50">
-                    <p>Communication is the foundation that supports a healthy, thriving relationship. It’s not just about conveying information but about fostering understanding, trust, and emotional intimacy. By learning to communicate effectively.</p>
-                    <p> couples can navigate conflict with respect and cooperation, which ultimately strengthens their bond. With the right communication skills, couples can create a positive, supportive dynamic that nurtures their relationship through both good times and challenges.</p>
-                </div>
-            </section>
+
+
+
         </main>
     )
 }
