@@ -23,10 +23,7 @@ const Homosexuality = () => {
 
             {/* The Harsh Truth Section  */}
             <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-40 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
-                <div className="flex flex-col justify-center items-center lg:mb-20 mb-10">
-                    <h2 className="lg:text-[4.0vw] text-[8.5vw] font-bold font-[playfull]"></h2>
-
-                </div>
+ 
                 <div className="flex flex-col lg:flex-row justify-center lg:gap-30 gap-10 items-center text-center mb-20">
 
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Homosexuality refers to the sexual, romantic, and emotional attraction one person may feel towards someone of the same sex. Research shows that approximately 2 to 11% of the population experiences same-sex attraction. Today, individuals identifying with such orientations are often considered part of the LGB (Lesbian, Gay, Bisexual) community. Despite progress in public policies regarding same-sex relationships in many countries, societal acceptance and understanding of homosexuality still face significant challenges. Hostility, discrimination, and prejudice continue to subject homosexual individuals to stress and stigma.</p>

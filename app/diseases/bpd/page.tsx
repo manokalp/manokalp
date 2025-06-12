@@ -75,10 +75,7 @@ const BPD = () => {
 
             {/* The Harsh Truth Section  */}
             <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-40 py-20 text-center lg:mt-[-20vw] mt-[-60vw]">
-                <div className="flex flex-col justify-center items-center lg:mb-20 mb-10">
-                    <h2 className="lg:text-[4.0vw] text-[8.5vw] font-bold font-[playfull]"></h2>
-
-                </div>
+ 
                 <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
 
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Borderline Personality Disorder (BPD) is a complicated mental illness typified by chronic patterns of emotional instability, compromised self-image, impulsivity, and maladaptive interpersonal relationships. Occurring in about 1.6-5.9% of the general population, BPD often starts in the teenage years or early adulthood and may significantly interfere with every sphere of a person&apos;s life. BPD is among the most stigmatized psychiatric illnesses, and patients will probably be misconstrued not only by healthcare professionals but by the general community as well.</p>

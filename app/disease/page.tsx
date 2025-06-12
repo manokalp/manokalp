@@ -334,6 +334,13 @@ const unsortedDiseases = [
     image: "https://images.pexels.com/photos/8108217/pexels-photo-8108217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     link: "/diseases/hpd",
   },
+  {
+    name: "Passive Aggression",
+    description:
+      "Passive aggression is a pattern of behavior that involves indirect, subtle, or covert ways of expressing anger or hostility.",
+    image: "https://images.pexels.com/photos/7516447/pexels-photo-7516447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    link: "/diseases/passive",
+  }
 
   
 ];

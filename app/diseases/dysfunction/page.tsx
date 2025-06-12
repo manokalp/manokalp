@@ -30,10 +30,7 @@ const Dysfunction = () => {
 
             {/* The Harsh Truth Section  */}
             <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-40 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
-                <div className="flex flex-col justify-center items-center lg:mb-20 mb-10">
-                    <h2 className="lg:text-[4.0vw] text-[8.5vw] font-bold font-[playfull]"></h2>
-
-                </div>
+ 
                 <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
 
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Sexual dysfunction refers to difficulties in initiating, performing, or enjoying sexual intercourse. Despite being a common issue, discussions around sexual dysfunction remain taboo in many cultures. Sexuality is a fundamental human need, and yet, emotional cravings, inhibitions, and preferences are often neglected or avoided in conversations. This lack of open communication, whether among couples or professionals, can worsen the situation and impair intimacy, leading to dissatisfaction in relationships. Sexual dissatisfaction often contributes to relationship issues, including breakups, as it affects both mood and self-esteem. </p>

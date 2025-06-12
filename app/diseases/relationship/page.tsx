@@ -28,10 +28,7 @@ const Relationship = () => {
 
             {/* Introduction Section  */}
             <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-40 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
-                <div className="flex flex-col justify-center items-center lg:mb-20 mb-10">
-                    <h2 className="lg:text-[4.0vw] text-[8.5vw] font-bold font-[playfull]"></h2>
-
-                </div>
+ 
                 <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
 
                     <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Relationship communication refers to the process of conveying thoughts, feelings, needs, and desires between partners in a romantic relationship. It&apos;s more than just sharing information—it&apos;s about deepening understanding and fostering closeness. Healthy communication is characterized by clear, open, and honest expression, and active listening. It forms the foundation of a strong relationship by helping build trust and emotional intimacy.</p>
