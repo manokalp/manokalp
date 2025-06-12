@@ -43,6 +43,8 @@ const carouselData = [
 const ASPD = () => {
 
     const [currentIndex, setCurrentIndex] = useState(0);
+    const [activeTab, setActiveTab] = useState("interpersonal");
+    const [activeTreatmentTab, setActiveTreatmentTab] = useState("psychotherapy");
 
     const handleNext = () => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % carouselData.length);
@@ -96,30 +98,33 @@ const ASPD = () => {
             </section>
 
             {/* Carousel  */}
-            <div className="relative w-full lg:h-[110vh] h-[100vh] overflow-hidden ">
+            <div className="relative w-full lg:h-[110vh] h-[100vh] overflow-hidden bg-white">
                 {carouselData.map((slide, index) => (
                     <div
                         key={index}
-                        className={`absolute w-full h-full  transition-opacity duration-500 ${index === currentIndex ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}
+                        className={`absolute w-full h-full transition-opacity duration-500 ${index === currentIndex ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}
                         style={{ backgroundImage: `url(${slide.background})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
                     >
-                        <div className="w-full h-full bg-black bg-opacity-60 flex flex-col justify-center items-center px-10 py-10">
-                            <h2 className="text-[8vw] md:text-[4vw] text-white font-semibold mb-12 font-[playfair] text-center">{slide.title}</h2>
-                            <div className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
+                        <div className="w-full h-full bg-WHITE bg-opacity-60 flex flex-col justify-center items-center px-4 lg:px-10 py-6 lg:py-10">
+                            <h2 className="text-[7vw] md:text-[4vw] text-black font-semibold mb-6 lg:mb-12 font-[playfair] text-center">{slide.title}</h2>
+                            <div className="flex flex-col md:flex-row justify-center space-y-6 md:space-y-0 md:space-x-4 w-full">
                                 {slide.items.map((item, i) => (
-                                    <div key={i} className={`p-6 w-[80vw] md:w-[16vw] h-[10vh] md:h-[60vh] flex items-center justify-center text-center font-medium rounded-xl ${i % 2 === 0 ? 'bg-[#0E7EA0] text-white' : 'bg-yellow-400 text-black'} shadow-lg`}>
-                                        {item}
+                                    <div 
+                                        key={i} 
+                                        className={`p-4 lg:p-6 w-[90vw] mx-auto md:w-[16vw] min-h-[15vh] md:h-[60vh] flex items-center justify-center text-center font-medium rounded-xl ${i % 2 === 0 ? 'bg-[#0E7EA0] text-white' : 'bg-yellow-400 text-black'} shadow-lg`}
+                                    >
+                                        <p className="text-[3.8vw] md:text-[1vw]">{item}</p>
                                     </div>
                                 ))}
                             </div>
                         </div>
                     </div>
                 ))}
-                <button onClick={handlePrev} className="absolute left-4 md:left-8 lg:top-1/2 top-[10%] transform -translate-y-1/2 text-white bg-black bg-opacity-50 p-4 rounded-full cursor-pointer">
-                    <FaArrowLeft size={30} />
+                <button onClick={handlePrev} className="absolute left-4 md:left-8 lg:top-1/2 top-[5%] transform -translate-y-1/2 text-white bg-black bg-opacity-50 p-3 lg:p-4 rounded-full cursor-pointer z-10">
+                    <FaArrowLeft size={20} className="lg:w-6 lg:h-6 w-4 h-4" />
                 </button>
-                <button onClick={handleNext} className="absolute right-4 md:right-8 lg:top-1/2 top-[10%] transform -translate-y-1/2 text-white bg-black bg-opacity-50 p-4 rounded-full cursor-pointer">
-                    <FaArrowRight size={30} />
+                <button onClick={handleNext} className="absolute right-4 md:right-8 lg:top-1/2 top-[5%] transform -translate-y-1/2 text-white bg-black bg-opacity-50 p-3 lg:p-4 rounded-full cursor-pointer z-10">
+                    <FaArrowRight size={20} className="lg:w-6 lg:h-6 w-4 h-4" />
                 </button>
             </div>
 
@@ -147,7 +152,7 @@ const ASPD = () => {
 
                     {/* Card 3 */}
                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <Image src="https://images.pexels.com/photos/5699454/pexels-photo-5699454.jpeg" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-xl font-bold mb-4">The prevalence of antisocial behavior during episodes of schizophrenia or bipolar disorder</h3>
                         </div>
@@ -160,59 +165,277 @@ const ASPD = () => {
                 <h2 className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}>Individuals with ASPD typically manifest with
                     a number of these behavioral tendencies:</h2>
 
+                {/* Tab Buttons */}
                 <div className="flex flex-col lg:flex-row justify-between gap-4 text-black mb-16">
-                    <p>Interpersonal Dysfunction</p>
-                    <p>Behavioral Issues</p>
-                    <p>Emotional Characteristics</p>
-                    <p>Cognitive Patterns</p>
+                    <button 
+                        onClick={() => setActiveTab("interpersonal")} 
+                        className={`px-4 py-2 rounded-lg transition-colors ${activeTab === "interpersonal" ? "bg-[#0E7EA0] text-white" : "bg-gray-100"}`}
+                    >
+                        Interpersonal Dysfunction
+                    </button>
+                    <button 
+                        onClick={() => setActiveTab("behavioral")} 
+                        className={`px-4 py-2 rounded-lg transition-colors ${activeTab === "behavioral" ? "bg-[#0E7EA0] text-white" : "bg-gray-100"}`}
+                    >
+                        Behavioral Issues
+                    </button>
+                    <button 
+                        onClick={() => setActiveTab("emotional")} 
+                        className={`px-4 py-2 rounded-lg transition-colors ${activeTab === "emotional" ? "bg-[#0E7EA0] text-white" : "bg-gray-100"}`}
+                    >
+                        Emotional Characteristics
+                    </button>
+                    <button 
+                        onClick={() => setActiveTab("cognitive")} 
+                        className={`px-4 py-2 rounded-lg transition-colors ${activeTab === "cognitive" ? "bg-[#0E7EA0] text-white" : "bg-gray-100"}`}
+                    >
+                        Cognitive Patterns
+                    </button>
                 </div>
 
-                <div className="flex flex-col lg:flex-row justify-between items-center">
-                    <div className="  ">
-                        <ul className="text-left text-black">
-                            <li className="mb-8 border-b-[2px]">Empathy deficiency and callousness towards feelings of others</li>
-                            <li className="mb-8 border-b-[2px]">Exploitation and manipulation for self-interest</li>
-                            <li className="mb-8 border-b-[2px]">Superficial charm and deceitfulness</li>
-                            <li className="mb-8 border-b-[2px]">Lack of establishing long-term, meaningful relationships</li>
-                        </ul>
-                    </div>
-                    <div className="lg:w-[20vw] w-[80vw] h-[40vh] bg-[#0E7EA0]" />
-                </div>
+                {/* Tab Content */}
+                <div className="flex flex-col lg:flex-row justify-between items-start">
+                    {/* Interpersonal Dysfunction Tab */}
+                    {activeTab === "interpersonal" && (
+                        <div className="flex flex-col lg:flex-row justify-between items-center w-full">
+                            <div className="lg:w-1/2">
+                                <ul className="text-left text-black">
+                                    <li className="mb-8 border-b-[2px]">Empathy deficiency and callousness towards feelings of others</li>
+                                    <li className="mb-8 border-b-[2px]">Exploitation and manipulation for self-interest</li>
+                                    <li className="mb-8 border-b-[2px]">Superficial charm and deceitfulness</li>
+                                    <li className="mb-8 border-b-[2px]">Lack of establishing long-term, meaningful relationships</li>
+                                    <li className="mb-8 border-b-[2px]">Inability to maintain consistent work behavior</li>
+                                    <li className="mb-8 border-b-[2px]">Disregard for social norms and boundaries</li>
+                                </ul>
+                            </div>
+                            <div className="lg:w-[40%] w-[80vw] h-[40vh] lg:mt-0 mt-8">
+                                <Image 
+                                    src="https://images.pexels.com/photos/5699425/pexels-photo-5699425.jpeg" 
+                                    alt="Interpersonal dysfunction" 
+                                    width={500} 
+                                    height={300}
+                                    className="w-full h-full object-cover rounded-xl"
+                                />
+                            </div>
+                        </div>
+                    )}
 
+                    {/* Behavioral Issues Tab */}
+                    {activeTab === "behavioral" && (
+                        <div className="flex flex-col lg:flex-row justify-between items-center w-full">
+                            <div className="lg:w-1/2">
+                                <ul className="text-left text-black">
+                                    <li className="mb-8 border-b-[2px]">Repeated criminal behavior or legal problems</li>
+                                    <li className="mb-8 border-b-[2px]">Impulsivity and failure to plan ahead</li>
+                                    <li className="mb-8 border-b-[2px]">Aggressiveness and irritability leading to physical fights</li>
+                                    <li className="mb-8 border-b-[2px]">Reckless disregard for safety of self or others</li>
+                                    <li className="mb-8 border-b-[2px]">Consistent irresponsibility in financial obligations</li>
+                                    <li className="mb-8 border-b-[2px]">Pattern of substance abuse and risky behaviors</li>
+                                </ul>
+                            </div>
+                            <div className="lg:w-[40%] w-[80vw] h-[40vh] lg:mt-0 mt-8">
+                                <Image 
+                                    src="https://images.pexels.com/photos/6975523/pexels-photo-6975523.jpeg" 
+                                    alt="Behavioral issues" 
+                                    width={500} 
+                                    height={300}
+                                    className="w-full h-full object-cover rounded-xl"
+                                />
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Emotional Characteristics Tab */}
+                    {activeTab === "emotional" && (
+                        <div className="flex flex-col lg:flex-row justify-between items-center w-full">
+                            <div className="lg:w-1/2">
+                                <ul className="text-left text-black">
+                                    <li className="mb-8 border-b-[2px]">Lack of remorse or guilt for harmful actions</li>
+                                    <li className="mb-8 border-b-[2px]">Emotional shallowness or limited range of emotions</li>
+                                    <li className="mb-8 border-b-[2px]">Callous attitudes toward other&apos;s suffering</li>
+                                    <li className="mb-8 border-b-[2px]">Heightened feelings of grandiosity and self-importance</li>
+                                    <li className="mb-8 border-b-[2px]">Low frustration tolerance and frequent anger</li>
+                                    <li className="mb-8 border-b-[2px]">Inability to experience genuine emotional intimacy</li>
+                                </ul>
+                            </div>
+                            <div className="lg:w-[40%] w-[80vw] h-[40vh] lg:mt-0 mt-8">
+                                <Image 
+                                    src="https://images.pexels.com/photos/1058478/pexels-photo-1058478.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                                    alt="Emotional characteristics" 
+                                    width={500} 
+                                    height={300}
+                                    className="w-full h-full object-cover rounded-xl"
+                                />
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Cognitive Patterns Tab */}
+                    {activeTab === "cognitive" && (
+                        <div className="flex flex-col lg:flex-row justify-between items-center w-full">
+                            <div className="lg:w-1/2">
+                                <ul className="text-left text-black">
+                                    <li className="mb-8 border-b-[2px]">Externalizing blame for own failures or mistakes</li>
+                                    <li className="mb-8 border-b-[2px]">Distorted moral reasoning and rationalization of harmful conduct</li>
+                                    <li className="mb-8 border-b-[2px]">Failure to learn from negative experiences</li>
+                                    <li className="mb-8 border-b-[2px]">Chronic lying and manipulative thinking</li>
+                                    <li className="mb-8 border-b-[2px]">Inability to consider long-term consequences</li>
+                                    <li className="mb-8 border-b-[2px]">Minimization of personal responsibility</li>
+                                </ul>
+                            </div>
+                            <div className="lg:w-[40%] w-[80vw] h-[40vh] lg:mt-0 mt-8">
+                                <Image 
+                                    src="https://images.pexels.com/photos/3760529/pexels-photo-3760529.jpeg" 
+                                    alt="Cognitive patterns" 
+                                    width={500} 
+                                    height={300}
+                                    className="w-full h-full object-cover rounded-xl"
+                                />
+                            </div>
+                        </div>
+                    )}
+                </div>
             </section>
 
             {/* Treatment Plans and Interventions Section */}
             <section className="bg-white w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
                 <h2 className={`text-[#0E7EA0] font-bold lg:text-[3.5vw] text-[7vw] ${playfair.className} `}>Treatment Plans and Interventions</h2>
                 <p className="text-black lg:text-[1.5vw] text-[3vw]  mb-12">ASPD offers formidable treatment issues, but several methods have had some success:</p>
+                
+                {/* Tab Buttons */}
                 <div className="flex flex-col lg:flex-row justify-between gap-4 text-black mb-16">
-                    <p>Psychotherapeutic Interventions</p>
-                    <p>Pharmacological Approaches</p>
-                    <p> Integrated Programs</p>
-                    <p>Early Intervention</p>
+                    <button 
+                        onClick={() => setActiveTreatmentTab("psychotherapy")} 
+                        className={`px-4 py-2 rounded-lg transition-colors ${activeTreatmentTab === "psychotherapy" ? "bg-[#0E7EA0] text-white" : "bg-gray-100"}`}
+                    >
+                        Psychotherapeutic Interventions
+                    </button>
+                    <button 
+                        onClick={() => setActiveTreatmentTab("pharmacological")} 
+                        className={`px-4 py-2 rounded-lg transition-colors ${activeTreatmentTab === "pharmacological" ? "bg-[#0E7EA0] text-white" : "bg-gray-100"}`}
+                    >
+                        Pharmacological Approaches
+                    </button>
+                    <button 
+                        onClick={() => setActiveTreatmentTab("integrated")} 
+                        className={`px-4 py-2 rounded-lg transition-colors ${activeTreatmentTab === "integrated" ? "bg-[#0E7EA0] text-white" : "bg-gray-100"}`}
+                    >
+                        Integrated Programs
+                    </button>
+                    <button 
+                        onClick={() => setActiveTreatmentTab("early")} 
+                        className={`px-4 py-2 rounded-lg transition-colors ${activeTreatmentTab === "early" ? "bg-[#0E7EA0] text-white" : "bg-gray-100"}`}
+                    >
+                        Early Intervention
+                    </button>
                 </div>
 
-                <div className="flex flex-col lg:flex-row justify-between gap-10 items-center">
-                    <div className="lg:w-[20vw] w-[80vw] h-[40vh] bg-[#0E7EA0]" />
-                    <div className="  ">
-                        <ul className="text-left text-black">
-                            <li className="mb-8 border-b-[2px]">Cognitive Behavioral Therapy (CBT) to identify and alter antisocial
-                                patterns of thinking and learn prosocial skills</li>
-                            <li className="mb-8 border-b-[2px]">Dialectical Behavior Therapy for emotional dysregulation and
-                                impulsivity</li>
-                            <li className="mb-8 border-b-[2px]">Mentalization-Based Treatment to develop the capacity to
-                                understand one&apos;s own and others&apos; mental states</li>
-                            <li className="mb-8 border-b-[2px]">Contingency management interventions that reinforce good
-                                behaviors</li>
-                        </ul>
-                    </div>
+                {/* Tab Content */}
+                <div className="flex flex-col lg:flex-row justify-between items-start">
+                    {/* Psychotherapeutic Interventions Tab */}
+                    {activeTreatmentTab === "psychotherapy" && (
+                        <div className="flex flex-col lg:flex-row justify-between items-center w-full">
+                            <div className="lg:w-[40%] w-[80vw] h-[40vh] lg:mb-0 mb-8">
+                                <Image 
+                                    src="https://images.pexels.com/photos/7176026/pexels-photo-7176026.jpeg" 
+                                    alt="Psychotherapeutic interventions" 
+                                    width={500} 
+                                    height={300}
+                                    className="w-full h-full object-cover rounded-xl"
+                                />
+                            </div>
+                            <div className="lg:w-1/2">
+                                <ul className="text-left text-black">
+                                    <li className="mb-8 border-b-[2px]">Cognitive Behavioral Therapy (CBT) to identify and alter antisocial
+                                        patterns of thinking and learn prosocial skills</li>
+                                    <li className="mb-8 border-b-[2px]">Dialectical Behavior Therapy for emotional dysregulation and
+                                        impulsivity</li>
+                                    <li className="mb-8 border-b-[2px]">Mentalization-Based Treatment to develop the capacity to
+                                        understand one&apos;s own and others&apos; mental states</li>
+                                    <li className="mb-8 border-b-[2px]">Contingency management interventions that reinforce good
+                                        behaviors</li>
+                                    <li className="mb-8 border-b-[2px]">Schema-focused therapy targeting core maladaptive beliefs</li>
+                                </ul>
+                            </div>
+                        </div>
+                    )}
 
+                    {/* Pharmacological Approaches Tab */}
+                    {activeTreatmentTab === "pharmacological" && (
+                        <div className="flex flex-col lg:flex-row justify-between items-center w-full">
+                            <div className="lg:w-[40%] w-[80vw] h-[40vh] lg:mb-0 mb-8">
+                                <Image 
+                                    src="https://images.pexels.com/photos/3873169/pexels-photo-3873169.jpeg" 
+                                    alt="Pharmacological approaches" 
+                                    width={500} 
+                                    height={300}
+                                    className="w-full h-full object-cover rounded-xl"
+                                />
+                            </div>
+                            <div className="lg:w-1/2">
+                                <ul className="text-left text-black">
+                                    <li className="mb-8 border-b-[2px]">Mood stabilizers to reduce impulsive aggression and mood swings</li>
+                                    <li className="mb-8 border-b-[2px]">Antipsychotics for treatment of psychotic symptoms or severe aggression</li>
+                                    <li className="mb-8 border-b-[2px]">Selective Serotonin Reuptake Inhibitors (SSRIs) to manage impulsivity and emotional dysregulation</li>
+                                    <li className="mb-8 border-b-[2px]">Medications for co-occurring substance use disorders</li>
+                                    <li className="mb-8 border-b-[2px]">Note: No medications specifically approved for ASPD; treatment targets specific symptoms</li>
+                                </ul>
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Integrated Programs Tab */}
+                    {activeTreatmentTab === "integrated" && (
+                        <div className="flex flex-col lg:flex-row justify-between items-center w-full">
+                            <div className="lg:w-[40%] w-[80vw] h-[40vh] lg:mb-0 mb-8">
+                                <Image 
+                                    src="https://images.pexels.com/photos/3823488/pexels-photo-3823488.jpeg" 
+                                    alt="Integrated programs" 
+                                    width={500} 
+                                    height={300}
+                                    className="w-full h-full object-cover rounded-xl"
+                                />
+                            </div>
+                            <div className="lg:w-1/2">
+                                <ul className="text-left text-black">
+                                    <li className="mb-8 border-b-[2px]">Therapeutic communities that provide structure and prosocial modeling</li>
+                                    <li className="mb-8 border-b-[2px]">Multisystemic therapy addressing multiple risk domains</li>
+                                    <li className="mb-8 border-b-[2px]">Criminal justice-based interventions with rehabilitation focus</li>
+                                    <li className="mb-8 border-b-[2px]">Dual diagnosis programs addressing both ASPD and substance use</li>
+                                    <li className="mb-8 border-b-[2px]">Vocational training and job placement services</li>
+                                </ul>
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Early Intervention Tab */}
+                    {activeTreatmentTab === "early" && (
+                        <div className="flex flex-col lg:flex-row justify-between items-center w-full">
+                            <div className="lg:w-[40%] w-[80vw] h-[40vh] lg:mb-0 mb-8">
+                                <Image 
+                                    src="https://images.pexels.com/photos/8452057/pexels-photo-8452057.jpeg" 
+                                    alt="Early intervention" 
+                                    width={500} 
+                                    height={300}
+                                    className="w-full h-full object-cover rounded-xl"
+                                />
+                            </div>
+                            <div className="lg:w-1/2">
+                                <ul className="text-left text-black">
+                                    <li className="mb-8 border-b-[2px]">Parent training programs to improve child management skills</li>
+                                    <li className="mb-8 border-b-[2px]">Early intervention for conduct disorder in childhood</li>
+                                    <li className="mb-8 border-b-[2px]">School-based programs promoting social skills and empathy</li>
+                                    <li className="mb-8 border-b-[2px]">Family therapy addressing dysfunctional family patterns</li>
+                                    <li className="mb-8 border-b-[2px]">Prevention programs targeting high-risk youth and families</li>
+                                </ul>
+                            </div>
+                        </div>
+                    )}
                 </div>
-
             </section>
 
             {/* Prognosis and Future Outlook Section*/}
-            <section className="bg-[#FFD266] w-full h-full lg:px-40 px-10 lg:pt-20 lg:pb-[50vw] pt-20 pb-50 mb-[-60vw] text-center z-0 ">
+            <section className="bg-[#FFD266] w-full h-full lg:px-40 px-10 lg:pt-20 lg:pb-[55vw] pt-20 pb-50 mb-[-60vw] text-center z-0 ">
                 <h2 className={`text-[#0E7EA0] lg:text-[3.5vw] text-[8vw] font-bold ${playfair.className} mb-10`}>Prognosis and Future Outlook</h2>
                 <div className="flex flex-col lg:flex-row justify-between items-center text-left text-black gap-20 mb-40">
                     <p>The progression of ASPD is quite variable between individuals: Others have a slow decrease in antisocial behavior with advancing age, more specifically after 40 years (&quot;burnout&quot; phenomenon) Others have chronic patterns of antisocial behavior that persist across life Positive outcomes are associated with secure employment, good social support, and no use of drugs Early intervention, particularly childhood conduct disorder intervention, has the power to alter development Social and Clinical Challenges ASPD presents serious challenges to the treatment community and society: Individuals with ASPD rarely seek out treatment voluntarily Adherence to treatment is usually deleterious The stigmata related to diagnosis may impact modes of treatment </p>

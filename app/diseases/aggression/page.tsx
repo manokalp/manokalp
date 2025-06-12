@@ -337,7 +337,7 @@ const Aggression = () => {
                     Feeling shame or guilt after angry outbursts
                   </li>
                   <li className="mb-8 border-b-[2px]">
-                    Viewing oneself as "out of control" or "dangerous"
+                    Viewing oneself as &quot;out of control&quot; or &quot;dangerous&quot;
                   </li>
                   <li className="mb-8 border-b-[2px]">
                     Low self-esteem related to inability to control emotions

@@ -43,6 +43,7 @@ const carouselData = [
 const BPD = () => {
 
     const [currentIndex, setCurrentIndex] = useState(0);
+    const [activeTab, setActiveTab] = useState("emotional");
 
     const handleNext = () => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % carouselData.length);
@@ -104,8 +105,8 @@ const BPD = () => {
                         className={`absolute w-full h-full  transition-opacity duration-500 ${index === currentIndex ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}
                         style={{ backgroundImage: `url(${slide.background})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
                     >
-                        <div className="w-full h-full bg-black bg-opacity-60 flex flex-col justify-center items-center px-10 py-10">
-                            <h2 className="text-[8vw] md:text-[4vw] text-white font-semibold mb-12 font-[playfair] text-center">{slide.title}</h2>
+                        <div className="w-full h-full bg-white bg-opacity-60 flex flex-col justify-center items-center px-10 py-10">
+                            <h2 className="text-[8vw] md:text-[4vw] text-black font-semibold mb-12 font-[playfair] text-center">{slide.title}</h2>
                             <div className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
                                 {slide.items.map((item, i) => (
                                     <div key={i} className={`p-6 w-[80vw] md:w-[16vw] h-[10vh] md:h-[60vh] flex items-center justify-center text-center font-medium rounded-xl ${i % 2 === 0 ? 'bg-[#0E7EA0] text-white' : 'bg-yellow-400 text-black'} shadow-lg`}>
@@ -133,25 +134,137 @@ const BPD = () => {
                     in interpersonal relationships, self-image, and affects with extreme impulsivity,
                     beginning by early adulthood and occurring across a variety of situations.
                     Five or more of the following are present:</p>
+                
+                {/* Tab Buttons */}
                 <div className="flex flex-col lg:flex-row justify-between gap-4 text-black mb-16">
-                    <p>Emotional Dysregulation</p>
-                    <p>Disturbed Self-Image</p>
-                    <p>Interpersonal Dysfunction</p>
-                    <p>Behavioral Dysregulation</p>
+                    <button 
+                        onClick={() => setActiveTab("emotional")} 
+                        className={`px-4 py-2 rounded-lg transition-colors ${activeTab === "emotional" ? "bg-[#0E7EA0] text-white" : "bg-gray-100"}`}
+                    >
+                        Emotional Dysregulation
+                    </button>
+                    <button 
+                        onClick={() => setActiveTab("self-image")} 
+                        className={`px-4 py-2 rounded-lg transition-colors ${activeTab === "self-image" ? "bg-[#0E7EA0] text-white" : "bg-gray-100"}`}
+                    >
+                        Disturbed Self-Image
+                    </button>
+                    <button 
+                        onClick={() => setActiveTab("interpersonal")} 
+                        className={`px-4 py-2 rounded-lg transition-colors ${activeTab === "interpersonal" ? "bg-[#0E7EA0] text-white" : "bg-gray-100"}`}
+                    >
+                        Interpersonal Dysfunction
+                    </button>
+                    <button 
+                        onClick={() => setActiveTab("behavioral")} 
+                        className={`px-4 py-2 rounded-lg transition-colors ${activeTab === "behavioral" ? "bg-[#0E7EA0] text-white" : "bg-gray-100"}`}
+                    >
+                        Behavioral Dysregulation
+                    </button>
                 </div>
 
-                <div className="flex flex-col lg:flex-row justify-between items-center">
-                    <div className="  ">
-                        <ul className="text-left text-black">
-                            <li className="mb-8 border-b-[2px]">Serious emotional reactions and mood swings</li>
-                            <li className="mb-8 border-b-[2px]">Enduring conditions of hollowness</li>
-                            <li className="mb-8 border-b-[2px]">Inappropriate, intense anger or difficulty controlling anger</li>
-                            <li className="mb-8 border-b-[2px]">Affective instability due to extreme reactivity of mood</li>
-                        </ul>
-                    </div>
-                    <div className="lg:w-[20vw] w-[80vw] h-[40vh] bg-[#0E7EA0]" />
-                </div>
+                {/* Tab Content */}
+                <div className="flex flex-col lg:flex-row justify-between items-start">
+                    {/* Emotional Dysregulation Tab */}
+                    {activeTab === "emotional" && (
+                        <div className="flex flex-col lg:flex-row justify-between items-center w-full">
+                            <div className="lg:w-1/2">
+                                <ul className="text-left text-black">
+                                    <li className="mb-8 border-b-[2px]">Serious emotional reactions and mood swings</li>
+                                    <li className="mb-8 border-b-[2px]">Enduring conditions of hollowness</li>
+                                    <li className="mb-8 border-b-[2px]">Inappropriate, intense anger or difficulty controlling anger</li>
+                                    <li className="mb-8 border-b-[2px]">Affective instability due to extreme reactivity of mood</li>
+                                    <li className="mb-8 border-b-[2px]">Chronic feelings of emptiness or emotional numbness</li>
+                                    <li className="mb-8 border-b-[2px]">Overwhelming emotions that seem impossible to manage</li>
+                                </ul>
+                            </div>
+                            <div className="lg:w-[40%] w-[80vw] h-[40vh] lg:mt-0 mt-8">
+                                <Image 
+                                    src="https://images.pexels.com/photos/3047316/pexels-photo-3047316.jpeg" 
+                                    alt="Person experiencing emotional dysregulation" 
+                                    width={500} 
+                                    height={300}
+                                    className="w-full h-full object-cover rounded-xl"
+                                />
+                            </div>
+                        </div>
+                    )}
 
+                    {/* Disturbed Self-Image Tab */}
+                    {activeTab === "self-image" && (
+                        <div className="flex flex-col lg:flex-row justify-between items-center w-full">
+                            <div className="lg:w-1/2">
+                                <ul className="text-left text-black">
+                                    <li className="mb-8 border-b-[2px]">Markedly unstable self-image or sense of self</li>
+                                    <li className="mb-8 border-b-[2px]">Identity disturbance and confusion about self-worth</li>
+                                    <li className="mb-8 border-b-[2px]">Shifting goals, values, and career plans</li>
+                                    <li className="mb-8 border-b-[2px]">Feeling like you don&apos;t know who you are</li>
+                                    <li className="mb-8 border-b-[2px]">Severe self-criticism and feelings of worthlessness</li>
+                                    <li className="mb-8 border-b-[2px]">Dissociative symptoms under stress</li>
+                                </ul>
+                            </div>
+                            <div className="lg:w-[40%] w-[80vw] h-[40vh] lg:mt-0 mt-8">
+                                <Image 
+                                    src="https://images.pexels.com/photos/6337335/pexels-photo-6337335.jpeg" 
+                                    alt="Person with disturbed self-image" 
+                                    width={500} 
+                                    height={300}
+                                    className="w-full h-full object-cover rounded-xl"
+                                />
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Interpersonal Dysfunction Tab */}
+                    {activeTab === "interpersonal" && (
+                        <div className="flex flex-col lg:flex-row justify-between items-center w-full">
+                            <div className="lg:w-1/2">
+                                <ul className="text-left text-black">
+                                    <li className="mb-8 border-b-[2px]">Frantic efforts to avoid real or imagined abandonment</li>
+                                    <li className="mb-8 border-b-[2px]">Pattern of unstable and intense relationships</li>
+                                    <li className="mb-8 border-b-[2px]">Alternating between idealization and devaluation of others</li>
+                                    <li className="mb-8 border-b-[2px]">Difficulty trusting others</li>
+                                    <li className="mb-8 border-b-[2px]">Intense fear of rejection or criticism</li>
+                                    <li className="mb-8 border-b-[2px]">Feeling misunderstood, neglected, or mistreated</li>
+                                </ul>
+                            </div>
+                            <div className="lg:w-[40%] w-[80vw] h-[40vh] lg:mt-0 mt-8">
+                                <Image 
+                                    src="https://images.pexels.com/photos/7580971/pexels-photo-7580971.jpeg" 
+                                    alt="People experiencing relationship difficulties" 
+                                    width={500} 
+                                    height={300}
+                                    className="w-full h-full object-cover rounded-xl"
+                                />
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Behavioral Dysregulation Tab */}
+                    {activeTab === "behavioral" && (
+                        <div className="flex flex-col lg:flex-row justify-between items-center w-full">
+                            <div className="lg:w-1/2">
+                                <ul className="text-left text-black">
+                                    <li className="mb-8 border-b-[2px]">Impulsive behaviors in at least two potentially self-damaging areas</li>
+                                    <li className="mb-8 border-b-[2px]">Recurrent suicidal behavior, gestures, threats, or self-mutilating behavior</li>
+                                    <li className="mb-8 border-b-[2px]">Substance abuse, reckless driving, or binge eating</li>
+                                    <li className="mb-8 border-b-[2px]">Difficulty controlling impulses</li>
+                                    <li className="mb-8 border-b-[2px]">Engaging in risky or dangerous activities</li>
+                                    <li className="mb-8 border-b-[2px]">Self-sabotaging behaviors when things are going well</li>
+                                </ul>
+                            </div>
+                            <div className="lg:w-[40%] w-[80vw] h-[40vh] lg:mt-0 mt-8">
+                                <Image 
+                                    src="https://images.pexels.com/photos/5699447/pexels-photo-5699447.jpeg" 
+                                    alt="Person showing signs of behavioral dysregulation" 
+                                    width={500} 
+                                    height={300}
+                                    className="w-full h-full object-cover rounded-xl"
+                                />
+                            </div>
+                        </div>
+                    )}
+                </div>
             </section>
 
             {/*  Links  */}
@@ -163,7 +276,7 @@ const BPD = () => {
                     {/* Card 1 */}
                     <div className="bg-[#0E7EA0] rounded-3xl  text-white text-center">
 
-                        <Image src="/quick_links/2.webp" alt="stressed person" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <Image src="https://images.pexels.com/photos/6147369/pexels-photo-6147369.jpeg" alt="Therapist conducting DBT session" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Dialectical Behavior Therapy (DBT):                             </h3>
                             <p className="text-sm">Specifically designed for BPD by Marsha Linehan, DBT integrates acceptance and change techniques to improve emotional control, interpersonal skills, tolerance of distress, and mindfulness</p>
@@ -172,7 +285,7 @@ const BPD = () => {
 
                     {/* Card 2 */}
                     <div className="bg-[#FFD700] rounded-3xl  text-black text-center">
-                        <Image src="/quick_links/1.webp" alt="person meditating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <Image src="https://images.pexels.com/photos/5699439/pexels-photo-5699439.jpeg" alt="Mentalization therapy session" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Mentalization-Based Treatment (MBT): </h3>
                             <p className="text-sm">Seeks to improve the ability to understand the mental states in oneself and in others</p>
@@ -181,7 +294,7 @@ const BPD = () => {
 
                     {/* Card 3 */}
                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <Image src="https://images.pexels.com/photos/7176319/pexels-photo-7176319.jpeg" alt="Schema therapy session" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Schema-Focused Therapy:</h3>
                             <p className="text-sm">Aims at early maladaptive schemas and coping style</p>
@@ -190,7 +303,7 @@ const BPD = () => {
 
                     {/* Card 4 */}
                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <Image src="https://images.pexels.com/photos/4101143/pexels-photo-4101143.jpeg" alt="Transference-focused therapy session" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Transference-Focused Psychotherapy (TFP):</h3>
                             <p className="text-sm">Psychodynamic treatment emphasizing the therapeutic relationship to treat interpersonal issues</p>
@@ -199,7 +312,7 @@ const BPD = () => {
 
                     {/* Card 5 */}
                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <Image src="https://images.pexels.com/photos/7176305/pexels-photo-7176305.jpeg" alt="Psychiatric management session" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Good Psychiatric Management (GPM): </h3>
                             <p className="text-sm">Multimodal treatment involving psychoeducation, case management, and supportive psychotherapy</p>
@@ -213,16 +326,18 @@ const BPD = () => {
                 <h2 className={`text-[#0E7EA0] font-bold lg:text-[3.5vw] text-[7vw] ${playfair.className} `}>Pharmacological Approaches</h2>
                 <p className="text-black lg:text-[1.5vw] text-[3vw]  mb-12">There are no FDA-approved medications for BPD
                     Targeted symptom management may involve:</p>
-                {/* <div className="flex flex-col lg:flex-row justify-between gap-4 text-black mb-16">
-                    <p>Psychotherapeutic Interventions</p>
-                    <p>Pharmacological Approaches</p>
-                    <p> Integrated Programs</p>
-                    <p>Early Intervention</p>
-                </div> */}
 
                 <div className="flex flex-col lg:flex-row justify-between gap-2 items-center">
-                    <div className="lg:w-[20vw] w-[80vw] h-[40vh] bg-[#0E7EA0]" />
-                    <div className="  ">
+                    <div className="lg:w-[40%] w-[80vw] h-[40vh]">
+                        <Image 
+                            src="https://images.pexels.com/photos/4058218/pexels-photo-4058218.jpeg" 
+                            alt="Medication for BPD symptom management" 
+                            width={500} 
+                            height={300}
+                            className="w-full h-full object-cover rounded-xl"
+                        />
+                    </div>
+                    <div className="lg:w-1/2">
                         <ul className="text-left text-black">
                             <li className="mb-8 border-b-[2px]">Mood stabilizers for emotional lability</li>
                             <li className="mb-8 border-b-[2px]">Atypical antipsychotics for cognitive-perceptual symptoms
@@ -233,9 +348,7 @@ const BPD = () => {
                                 an adjunct to psychotherapy</li>
                         </ul>
                     </div>
-
                 </div>
-
             </section>
 
 
@@ -244,15 +357,9 @@ const BPD = () => {
                 <h2 className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}>Holistic Care</h2>
                 <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">There are no FDA-approved medications for BPD
                     Targeted symptom management may involve:</p>
-                {/* <div className="flex flex-col lg:flex-row justify-between gap-4 text-black mb-16">
-                    <p>Emotional Dysregulation</p>
-                    <p>Disturbed Self-Image</p>
-                    <p>Interpersonal Dysfunction</p>
-                    <p>Behavioral Dysregulation</p>
-                </div> */}
 
                 <div className="flex flex-col lg:flex-row justify-between items-center">
-                    <div className="  ">
+                    <div className="lg:w-1/2">
                         <ul className="text-left text-black">
                             <li className="mb-8 border-b-[2px]">Structured treatment plans with one-on-one and group therapy</li>
                             <li className="mb-8 border-b-[2px]">Crisis intervention planning and safety measures</li>
@@ -263,9 +370,16 @@ const BPD = () => {
                                 and distress tolerance</li>
                         </ul>
                     </div>
-                    <div className="lg:w-[20vw] w-[80vw] h-[40vh] bg-[#0E7EA0]" />
+                    <div className="lg:w-[40%] w-[80vw] h-[40vh]">
+                        <Image 
+                            src="https://images.pexels.com/photos/3184419/pexels-photo-3184419.jpeg" 
+                            alt="Holistic care approach for BPD" 
+                            width={500} 
+                            height={300}
+                            className="w-full h-full object-cover rounded-xl"
+                        />
+                    </div>
                 </div>
-
             </section>
 
             {/*  Section*/}
