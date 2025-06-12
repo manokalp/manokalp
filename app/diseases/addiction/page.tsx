@@ -117,7 +117,7 @@ const Addiction = () => {
                     {/* Card 1 */}
                     <div className="bg-[#0E7EA0] rounded-3xl  text-white text-center">
 
-                        <Image src="/quick_links/2.webp" alt="stressed person" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <Image src="https://images.pexels.com/photos/3771129/pexels-photo-3771129.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="person struggling with loss of control" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Loss of Control</h3>
                             <p className="text-sm">Being unable to stop or cut down despite trying to do so.</p>
@@ -126,7 +126,7 @@ const Addiction = () => {
 
                     {/* Card 2 */}
                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <Image src="https://images.pexels.com/photos/6551415/pexels-photo-6551415.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="person experiencing cravings" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Cravings and Obsession</h3>
                             <p className="text-sm">Repeatedly thinking about the addictive activity or substance and having overwhelming urges to use it.</p>
@@ -135,7 +135,7 @@ const Addiction = () => {
 
                     {/* Card 3 */}
                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <Image src="https://images.pexels.com/photos/7793247/pexels-photo-7793247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="neglected work responsibilities" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Neglecting Responsibilities</h3>
                             <p className="text-sm">Forgetting work, school, or family responsibilities because of addiction.</p>
@@ -144,7 +144,7 @@ const Addiction = () => {
 
                     {/* Card 4 */}
                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <Image src="https://images.pexels.com/photos/7047011/pexels-photo-7047011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="tolerance and dependence concept" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Tolerance and Dependence</h3>
                             <p className="text-sm">Requiring increasingly more of the substance or the behavior to produce the same effect.</p>
@@ -153,7 +153,7 @@ const Addiction = () => {
 
                     {/* Card 5 */}
                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <Image src="https://images.pexels.com/photos/6753175/pexels-photo-6753175.jpeg?auto=compress&cs=tinysrgb&w=800" alt="person experiencing withdrawal" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Withdrawal Symptoms</h3>
                             <p className="text-sm">Suffering physical and emotional pain when abstaining from the substance or behavior (e.g., anxiety, irritability, nausea, sweating).</p>
@@ -162,7 +162,7 @@ const Addiction = () => {
 
                     {/* Card 6 */}
                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <Image src="https://images.pexels.com/photos/6382634/pexels-photo-6382634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="negative consequences of addiction" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Continuing Despite Negative Consequences</h3>
                             <p className="text-sm">Continuing the addictive behavior in spite of money, social, health, or legal issues.</p>
@@ -171,7 +171,7 @@ const Addiction = () => {
 
                     {/* Card 7 */}
                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <Image src="https://images.pexels.com/photos/8088488/pexels-photo-8088488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="person experiencing social isolation" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Social Isolation</h3>
                             <p className="text-sm">Retreating from family and friends in order to conceal addiction or out of shame and guilt.</p>
@@ -180,16 +180,16 @@ const Addiction = () => {
 
                     {/* Card 8 */}
                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <Image src="https://images.pexels.com/photos/382177/pexels-photo-382177.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="risky behavior related to addiction" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Indulgence in Risky Behaviors</h3>
-                            <p className="text-sm"> Getting into hazardous behavior, such as operating under the influence of substances or indulging in unsafe habits, due to addiction.</p>
+                            <p className="text-sm"> Getting into hazardous behavior, such as operating under the influence of substances or indulging in unsafe habits, due to addiction.</p>
                         </div>
                     </div>
 
                     {/* Card 9 */}
                     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-                        <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
+                        <Image src="https://images.pexels.com/photos/5723274/pexels-photo-5723274.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="person in denial about addiction" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Denial and Rationalization</h3>
                             <p className="text-sm">Deflecting by excuses about addictive conduct or ignoring its effect.</p>
@@ -201,7 +201,7 @@ const Addiction = () => {
 
             {/* Section 2 para  */}
             <section className="bg-white w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center pb-2">
-                <h2 className={`text-[#0E7EA0] lg:text-[4vw] text-[8vw] ${playfair.className} mb-8`}>Solutions for Addiction</h2>
+                <h2 className={`text-[#0E7EA0] font-bold lg:text-[5vw] text-[8vw] ${playfair.className} mb-8`}>Solutions for Addiction</h2>
                 <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">Addiction can be overcome with a combination of medical, psychological,
                     and social support. Some of the effective solutions are:</p>
                 <div className="flex flex-col lg:flex-row justify-between gap-8 text-left">
@@ -273,7 +273,7 @@ const Addiction = () => {
             {/* Footer Section */}
             {/* Prognosis and Future Outlook Section*/}
             <section className="bg-[#FFD266] w-full h-full lg:px-40 px-10 lg:pt-20 lg:pb-[50vw] pt-20 pb-50 mb-[-60vw] text-center z-0 ">
-                <h2 className={`text-[#0E7EA0] lg:text-[3.5vw] text-[8vw] font-bold ${playfair.className} mb-10`}>Conclusion</h2>
+                <h2 className={`text-[#0E7EA0] lg:text-[5vw] text-[8vw] font-bold ${playfair.className} mb-10`}>Conclusion</h2>
                 <div className="flex flex-col lg:flex-row justify-between items-center text-left text-black gap-20 mb-50">
                     <p>Addiction is a serious and intricate problem that impacts people on various levels—bodily, emotionally, and socially. Nevertheless, it is a surmountable challenge. Knowing the causes, being aware of the symptoms,</p>
                     <p> and finding the right solutions can free people from the grip of addiction. With the right treatment, encouragement, and self-will, one can overcome it, and with that, there will be a healthier and richer life ahead.</p>
