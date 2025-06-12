@@ -26,7 +26,7 @@ const Hero = () => {
                             stressor you can control today.”</p>
                     </div>
                 </div>
-                <Link href="/" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">Get A Quick Fix</Link>
+                <Link href="/contact" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">Get A Quick Fix</Link>
             </section>
 
             {/* Foundation Principles */}
@@ -54,7 +54,7 @@ const Hero = () => {
                         </div>
                     </div>
                 </main>
-                <Link href="/about" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">About Us</Link>
+                <Link href="/what-we-dos" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">About Us</Link>
             </section>
 
             {/* Quick Fix Links  */}
