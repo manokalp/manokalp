@@ -2,18 +2,38 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
+
+    // Add scroll event listener to detect when the page is scrolled
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 10) {
+                setScrolled(true);
+            } else {
+                setScrolled(false);
+            }
+        };
+
+        // Add event listener
+        window.addEventListener('scroll', handleScroll);
+        
+        // Clean up
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
 
     return (
-        <nav className="bg-white shadow-sm relative">
-            <div className='max-w-7xl mx-auto flex items-center justify-between px-4 py-3 md:px-6 lg:px-8 '>
+        <nav className={`bg-white shadow-sm fixed top-0 left-0 right-0 w-full z-50 transition-all duration-300 ${scrolled ? 'shadow-md py-2' : 'py-3'}`}>
+            <div className='max-w-7xl mx-auto flex items-center justify-between px-4 md:px-6 lg:px-8'>
             <div className="flex items-center">
                 <Link href="/">
                     <Image
@@ -78,6 +98,8 @@ const Navbar = () => {
             {isMenuOpen && (
                 <div className="absolute top-16 left-0 right-0 bg-white shadow-md py-2 px-4 md:hidden z-20">
                     <Link href="/what-we-do" className="block py-2 text-gray-700 hover:text-teal-600 font-medium">What We Do</Link>
+                    <Link href="/disease" className="block py-2 text-gray-700 hover:text-teal-600 font-medium">Disease</Link>
+                    <Link href="/contact" className="block py-2 text-gray-700 hover:text-teal-600 font-medium">Contact</Link>
                     {/* <div className="py-2">
                         <button
                             className="flex items-center text-gray-700 hover:text-teal-600 font-medium w-full text-left"

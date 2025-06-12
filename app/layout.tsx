@@ -24,7 +24,9 @@ export default function RootLayout({
       <body className={`${inter.className} bg-[#f1f1f1]`}>
         <Preloader />
         <Navbar />
-        {children}
+        <main className="pt-[70px]">
+          {children}
+        </main>
         <Footer />
         <Toaster position="top-center" />
       </body>
