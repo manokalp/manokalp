@@ -54,7 +54,7 @@ const Hero = () => {
                         </div>
                     </div>
                 </main>
-                <Link href="/what-we-dos" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">About Us</Link>
+                <Link href="/what-we-do" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">About Us</Link>
             </section>
 
             {/* Quick Fix Links  */}
@@ -66,7 +66,7 @@ const Hero = () => {
                         <Image src="/quick_links/2.webp" alt="stressed person" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                         <h3 className="text-xl font-bold mb-4">Overwhelmed with work stress?</h3>
-                        <Link href="/stress-management" className="inline-block px-8 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition-colors">Struggle</Link>
+                        {/* <Link href="/stress-management" className="inline-block px-8 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition-colors">Struggle</Link> */}
                         </div>
                     </div>
 
@@ -75,7 +75,7 @@ const Hero = () => {
                         <Image src="/quick_links/1.webp" alt="person meditating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                         <h3 className="text-xl font-bold mb-4">Try our 3-minute desk meditation exercise.</h3>
-                        <Link href="/meditation" className="inline-block px-8 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition-colors">Play Video</Link>
+                        {/* <Link href="/meditation" className="inline-block px-8 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition-colors">Play Video</Link> */}
                         </div>
                     </div>
 
@@ -84,7 +84,7 @@ const Hero = () => {
                         <Image src="/quick_links/2.webp" alt="people communicating" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                         <h3 className="text-xl font-bold mb-4">Download our free guide to better communication.</h3>
-                        <Link href="/communication-guide" className="inline-block px-8 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition-colors">Download</Link>
+                        {/* <Link href="/communication-guide" className="inline-block px-8 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition-colors">Download</Link> */}
                         </div>
                     </div>
                 </div>
