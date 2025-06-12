@@ -115,7 +115,7 @@ const AdultPsychological = () => {
         Adult Psychological Problems
         </h1>
             <Image
-              src="/diseases-banner/relationshipsnemotional.webp"
+              src="/diseases-banner/ relationshipsn-emotional.webp"
           alt="emotional relationship challenges hero image"
           objectFit="cover"
           width={1200}
@@ -127,7 +127,7 @@ const AdultPsychological = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/diseases-banner/relationshipsnemotional.webp"
+          src="/diseases-banner/relationshipsn-emotional.webp"
           alt="emotional relationship challenges hero image"
           objectFit="cover"
           width={1200}
