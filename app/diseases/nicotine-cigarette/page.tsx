@@ -140,8 +140,7 @@ const NicotineCigarette = () => {
 
       {/* The Harsh Truth Section  */}
       <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-20 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
-        <div className="flex flex-col justify-center items-center lg:mb-20 mb-10">
-        </div>
+       
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
           Nicotine is a highly addictive substance found in tobacco products that rapidly reaches the brain when inhaled, creating a temporary sense of pleasure and stimulation while simultaneously establishing powerful physical and psychological dependence.

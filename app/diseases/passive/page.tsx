@@ -141,11 +141,10 @@ const PassiveAggression = () => {
 
       {/* Introduction Section */}
       <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-20 py-20 text-center lg:mt-[-60vw] mt-[-0vw]">
-        <div className="flex flex-col justify-center items-center lg:mb-20 mb-10">
-        </div>
+       
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Passive aggression is a pattern of indirectly expressing negative feelings instead of openly addressing them. It's a form of emotional dishonesty where a person appears to comply or act appropriately on the surface, while actually harboring resentment and engaging in subtle, indirect acts of resistance or hostility.
+            Passive aggression is a pattern of indirectly expressing negative feelings instead of openly addressing them. It&apos;s a form of emotional dishonesty where a person appears to comply or act appropriately on the surface, while actually harboring resentment and engaging in subtle, indirect acts of resistance or hostility.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
             This behavior often stems from an inability to express anger in a healthy way and can manifest as procrastination, sulking, backhanded compliments, silent treatment, or deliberate inefficiency. While everyone may occasionally engage in passive-aggressive behavior, persistent patterns can damage relationships and indicate deeper psychological issues.
@@ -272,7 +271,7 @@ const PassiveAggression = () => {
               Passive-aggressive behavior can significantly damage relationships in several ways:
             </p>
             <ul className="list-disc pl-5 text-black lg:text-[1.25vw] text-[3.5vw]">
-              <li className="mb-4">Erodes trust when actions don't match words</li>
+              <li className="mb-4">Erodes trust when actions don&apos;t match words</li>
               <li className="mb-4">Creates confusion and anxiety in recipients</li>
               <li className="mb-4">Prevents genuine conflict resolution</li>
               <li className="mb-4">Leads to communication breakdown</li>
@@ -361,7 +360,7 @@ const PassiveAggression = () => {
                 <strong>Develop assertiveness skills:</strong> Learn to express needs and boundaries clearly without aggression or withdrawal.
               </li>
               <li className="mb-4">
-                <strong>Seek feedback:</strong> Ask trusted friends or family members to point out when you're being passive-aggressive.
+                <strong>Seek feedback:</strong> Ask trusted friends or family members to point out when you&apos;re being passive-aggressive.
               </li>
               <li className="mb-4">
                 <strong>Practice direct communication:</strong> Start with small, low-risk situations to build confidence in expressing yourself honestly.
@@ -387,9 +386,9 @@ const PassiveAggression = () => {
             <ul className="text-left text-black lg:text-[1.25vw] text-[3.5vw] list-disc pl-5">
               <li className="mb-4">Passive-aggressive patterns are significantly affecting your relationships</li>
               <li className="mb-4">You consistently struggle to express anger or negative emotions directly</li>
-              <li className="mb-4">Self-help strategies haven't been effective</li>
+              <li className="mb-4">Self-help strategies haven&apos;t been effective</li>
               <li className="mb-4">You notice these patterns causing problems in multiple areas of life</li>
-              <li className="mb-4">You're experiencing related issues like anxiety or depression</li>
+              <li className="mb-4">You&apos;re experiencing related issues like anxiety or depression</li>
             </ul>
             <p className="text-black lg:text-[1.25vw] text-[3.5vw] mt-6">
               Mental health professionals can provide personalized strategies and support for developing healthier communication patterns.
