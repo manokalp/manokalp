@@ -303,7 +303,7 @@ const unsortedDiseases = [
     name: "Relationships and Emotional Wellness",
     description:
       "Relationships and emotional wellness are a mental health condition that affects the way a person thinks, feels, and behaves.",
-    image: "/diseases-banner/relationshipsn-emotional.webp",
+    image: "/diseases-banner/ relationshipsn-emotional.webp",
     link: "/diseases/relationshipsnemotional",
   },
   {
@@ -327,6 +327,14 @@ const unsortedDiseases = [
     image: "/diseases-banner/inhalants.webp",
     link: "/diseases/inhalantsnsolvents",
   },
+  {
+    name: "Histrionic Personality Disorder (HPD)",
+    description:
+      "Histrionic personality disorder is a mental health condition that affects the way a person thinks, feels, and behaves.",
+    image: "https://images.pexels.com/photos/8108217/pexels-photo-8108217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    link: "/diseases/hpd",
+  },
+
   
 ];
 
