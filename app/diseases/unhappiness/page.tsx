@@ -140,11 +140,7 @@ const Unhappiness = () => {
 
       {/* The Harsh Truth Section  */}
       <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-20 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
-        <div className="flex flex-col justify-center items-center lg:mb-20 mb-10">
-          <h2 className="lg:text-[4.0vw] text-[8.5vw] font-bold font-[playfull]">
-            
-          </h2>
-        </div>
+        
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
           Addiction, also known as substance use disorder, is a chronic medical condition marked by compulsive substance use despite harmful consequences. It affects brain chemistry, behavior, physical health, and emotional well-being.

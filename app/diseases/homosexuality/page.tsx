@@ -22,14 +22,14 @@ const Homosexuality = () => {
             </div>
 
             {/* The Harsh Truth Section  */}
-            <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-40 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
+            <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-30 px-10 lg:py-20 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
  
                 <div className="flex flex-col lg:flex-row justify-center lg:gap-30 gap-10 items-center text-center mb-20">
 
-                    <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Homosexuality refers to the sexual, romantic, and emotional attraction one person may feel towards someone of the same sex. Research shows that approximately 2 to 11% of the population experiences same-sex attraction. Today, individuals identifying with such orientations are often considered part of the LGB (Lesbian, Gay, Bisexual) community. Despite progress in public policies regarding same-sex relationships in many countries, societal acceptance and understanding of homosexuality still face significant challenges. Hostility, discrimination, and prejudice continue to subject homosexual individuals to stress and stigma.</p>
+                    <p className="lg:text-[1.2vw] text-[3.5vw] font-medium text-left">Homosexuality refers to the sexual, romantic, and emotional attraction one person may feel towards someone of the same sex. Research shows that approximately 2 to 11% of the population experiences same-sex attraction. Today, individuals identifying with such orientations are often considered part of the LGB (Lesbian, Gay, Bisexual) community. Despite progress in public policies regarding same-sex relationships in many countries, societal acceptance and understanding of homosexuality still face significant challenges. Hostility, discrimination, and prejudice continue to subject homosexual individuals to stress and stigma.</p>
 
 
-                    <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Homosexuality is viewed by many experts as a natural variant of human sexuality. It is often misunderstood as a deviation in psychosexual development, arising from a combination of genetic and psychosocial factors, none of which are within an individual’s control. Research has confirmed that there are structural differences in the brains of individuals who identify as lesbian, gay, or bisexual, as well as variations in neurotransmitters. Despite this, people in homosexual relationships deserve the same rights and respect as individuals with other medical conditions or life experiences, like those living with cancer or diabetes.</p>
+                    <p className="lg:text-[1.2vw] text-[3.5vw] font-medium text-left">Homosexuality is viewed by many experts as a natural variant of human sexuality. It is often misunderstood as a deviation in psychosexual development, arising from a combination of genetic and psychosocial factors, none of which are within an individual’s control. Research has confirmed that there are structural differences in the brains of individuals who identify as lesbian, gay, or bisexual, as well as variations in neurotransmitters. Despite this, people in homosexual relationships deserve the same rights and respect as individuals with other medical conditions or life experiences, like those living with cancer or diabetes.</p>
                 </div>
 
                 <Link href="/" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">Know More</Link>
