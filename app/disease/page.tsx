@@ -303,7 +303,7 @@ const unsortedDiseases = [
     name: "Relationships and Emotional Wellness",
     description:
       "Relationships and emotional wellness are a mental health condition that affects the way a person thinks, feels, and behaves.",
-    image: "/diseases-banner/relationshipsnemotional.webp",
+    image: "/diseases-banner/relationshipsnemotional1.webp",
     link: "/diseases/relationshipsnemotional",
   },
   {
