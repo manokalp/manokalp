@@ -93,6 +93,12 @@ const Impulsivity = () => {
           width={1200}
           height={100}
           className="w-full  lg:mt-[-16vw] mt-[-25vw]  z-0"
+          priority
+          onLoad={() => {
+            if (typeof window !== "undefined") {
+              window.dispatchEvent(new Event("heroImageLoaded"));
+            }
+          }}
         />
       </div>
 
@@ -105,6 +111,12 @@ const Impulsivity = () => {
           width={1200}
           height={100}
           className="w-full     z-0"
+          priority
+          onLoad={() => {
+            if (typeof window !== "undefined") {
+              window.dispatchEvent(new Event("heroImageLoaded"));
+            }
+          }}
         />
         <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] mt-[-10vw] mb-10">
           What Are Impulsivity and Aggression?
@@ -113,7 +125,6 @@ const Impulsivity = () => {
 
       {/* The Harsh Truth Section  */}
       <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-20 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
-        
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
             Impulsivity and aggression are disruptive behavioral traits that can
@@ -128,8 +139,6 @@ const Impulsivity = () => {
             improve self-regulation and social integration.
           </p>
         </div>
-
-        
       </section>
 
       {/* Color Section */}
@@ -257,7 +266,9 @@ const Impulsivity = () => {
                 className="w-full h-48 object-cover rounded-2xl mb-6"
               />
               <div className="p-6">
-                <h3 className="text-lg font-bold mb-4 text-[#FFD066]">{solution.title}</h3>
+                <h3 className="text-lg font-bold mb-4 text-[#FFD066]">
+                  {solution.title}
+                </h3>
                 <p className="text-sm">{solution.description}</p>
               </div>
             </div>

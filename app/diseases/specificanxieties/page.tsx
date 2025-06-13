@@ -119,6 +119,12 @@ const SpecificAnxieties = () => {
           width={1200}
           height={100}
           className="w-full  lg:mt-[-16vw] mt-[-25vw] z-0"
+          priority
+          onLoad={() => {
+            if (typeof window !== "undefined") {
+              window.dispatchEvent(new Event("heroImageLoaded"));
+            }
+          }}
         />
       </div>
 
@@ -131,6 +137,12 @@ const SpecificAnxieties = () => {
           width={1200}
           height={100}
           className="w-full z-0"
+          priority
+          onLoad={() => {
+            if (typeof window !== "undefined") {
+              window.dispatchEvent(new Event("heroImageLoaded"));
+            }
+          }}
         />
         <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] mt-[-10vw] mb-10">
         What Are Specific Anxieties and Phobias?

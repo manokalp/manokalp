@@ -8,25 +8,97 @@ const Preloader = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        // Function to handle when the page is fully loaded
-        const handlePageLoad = () => {
-            // Keep the preloader visible for 1 second after page load
-            setTimeout(() => {
-                setLoading(false);
-            }, 1000);
+        let timeoutId: NodeJS.Timeout;
+        let images: (HTMLImageElement | HTMLPictureElement)[] = [];
+        let loadedCount = 0;
+        let totalCount = 0;
+        let done = false;
+        let heroLoaded = false;
+        let allImagesLoaded = false;
+
+        // Helper to finish loading
+        const finishLoading = () => {
+            if (!done) {
+                done = true;
+                setTimeout(() => setLoading(false), 500); // Small delay for smoothness
+            }
         };
 
-        // Check if document is already loaded
+        // Function to check all images
+        const checkImages = () => {
+            images = Array.from(document.querySelectorAll('img, picture'));
+            totalCount = images.length;
+            if (totalCount === 0) {
+                allImagesLoaded = true;
+                if (heroLoaded) finishLoading();
+                return;
+            }
+            loadedCount = 0;
+            images.forEach((img) => {
+                // For <img>
+                if (img instanceof HTMLImageElement) {
+                    if (img.complete && img.naturalHeight !== 0) {
+                        loadedCount++;
+                    } else {
+                        img.addEventListener('load', handleImgLoad, { once: true });
+                        img.addEventListener('error', handleImgLoad, { once: true });
+                    }
+                } else {
+                    // For <picture>, check all contained <img>
+                    const innerImgs = img.querySelectorAll('img');
+                    innerImgs.forEach((innerImg) => {
+                        if (innerImg.complete && innerImg.naturalHeight !== 0) {
+                            loadedCount++;
+                        } else {
+                            innerImg.addEventListener('load', handleImgLoad, { once: true });
+                            innerImg.addEventListener('error', handleImgLoad, { once: true });
+                        }
+                    });
+                }
+            });
+            if (loadedCount >= totalCount) {
+                allImagesLoaded = true;
+                if (heroLoaded) finishLoading();
+            }
+        };
+
+        // Handler for image load/error
+        const handleImgLoad = () => {
+            loadedCount++;
+            if (loadedCount >= totalCount) {
+                allImagesLoaded = true;
+                if (heroLoaded) finishLoading();
+            }
+        };
+
+        // Handler for hero image loaded
+        const handleHeroLoaded = () => {
+            heroLoaded = true;
+            if (allImagesLoaded) finishLoading();
+        };
+
+        // On window load, check images
+        const handlePageLoad = () => {
+            setTimeout(checkImages, 100); // Wait a bit for Next.js to render images
+        };
+
         if (document.readyState === 'complete') {
             handlePageLoad();
         } else {
-            // Add event listener for when the page loads
             window.addEventListener('load', handlePageLoad);
         }
 
-        // Cleanup function
+        // Listen for hero image loaded event
+        window.addEventListener('heroImageLoaded', handleHeroLoaded);
+
+        // Fallback: hide preloader after 10 seconds
+        timeoutId = setTimeout(finishLoading, 10000);
+
+        // Cleanup
         return () => {
             window.removeEventListener('load', handlePageLoad);
+            window.removeEventListener('heroImageLoaded', handleHeroLoaded);
+            clearTimeout(timeoutId);
         };
     }, []);
 
@@ -41,7 +113,7 @@ const Preloader = () => {
                     loop
                     autoplay
                 />
-            </div>y
+            </div>
             <Image src="/logo.webp" alt="Preloader" width={600} height={100} />
         </div>
     );

@@ -6,7 +6,7 @@ const Hero = () => {
     return (
         <main className="w-full h-full flex justify-center flex-col  bg-[#F1F1F1] ">
             {/* Hero Image  */}
-            <Image src="/hero.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="lg:w-[100vw] mt-10" />
+            <Image src="/hero.webp" alt="hero image" objectFit="cover" width={1200} height={100}  priority className="lg:w-[100vw] mt-10" />
 
             {/* The Harsh Truth Section  */}
             <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-40 py-20 text-center lg:mt-[-2vw] mt-[-10vw]">

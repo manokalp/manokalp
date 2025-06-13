@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-// import Link from "next/link"; 
+// import Link from "next/link";
 import { useState } from "react";
 import playfair from "../../../fonts/playfair.module.css";
 
@@ -10,7 +10,8 @@ const NonSubstanceAddiction = () => {
   const causes = [
     {
       name: "Neurobiological Factors",
-      description: "Behavioral addictions trigger the brain's reward system by releasing dopamine during engaging activities, creating neural pathway changes similar to substance addictions despite the absence of chemical intake.",
+      description:
+        "Behavioral addictions trigger the brain's reward system by releasing dopamine during engaging activities, creating neural pathway changes similar to substance addictions despite the absence of chemical intake.",
       image: "/genetic-factors.webp",
       link: "/genetic-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
@@ -40,26 +41,26 @@ const NonSubstanceAddiction = () => {
     emotional: [
       "Restlessness, irritability, and anxiety when unable to engage in the addictive behavior",
       "Mood fluctuations tied to engagement in or abstinence from the behavior",
-      "Relief of negative emotions only when participating in the addictive activity"
+      "Relief of negative emotions only when participating in the addictive activity",
     ],
     cognitive: [
       "Persistent thoughts and preoccupation with the addictive behavior",
       "Minimizing or denying the negative consequences despite awareness",
       "Distorted thinking patterns that justify continued engagement",
-      "Difficulty concentrating on other life aspects"
+      "Difficulty concentrating on other life aspects",
     ],
     physical: [
       "Sleep disturbances related to excessive engagement in the behavior",
       "Neglect of physical health and hygiene in favor of the addiction",
       "Physical symptoms during withdrawal (headaches, sweating, tremors)",
-      "Repetitive stress injuries from prolonged activity (gaming, gambling, internet use)"
+      "Repetitive stress injuries from prolonged activity (gaming, gambling, internet use)",
     ],
     behavioral: [
       "Increasing time spent on the activity to achieve satisfaction",
       "Failed attempts to cut back or control the behavior",
       "Neglect of responsibilities, relationships, and previously enjoyed activities",
-      "Continued engagement despite serious negative life consequences"
-    ]
+      "Continued engagement despite serious negative life consequences",
+    ],
   };
 
   const solutionsData = [
@@ -68,41 +69,42 @@ const NonSubstanceAddiction = () => {
       points: [
         "Cognitive-behavioral therapy to address underlying thought patterns",
         "Motivational interviewing to enhance readiness for change",
-        "Family therapy to address interpersonal dynamics contributing to addiction"
+        "Family therapy to address interpersonal dynamics contributing to addiction",
       ],
-      image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image:
+        "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       title: "Lifestyle Restructuring",
       points: [
         "Development of healthy alternative activities and interests",
         "Implementation of structured daily routines that limit addictive behaviors",
-        "Mindfulness and stress management techniques to cope with triggers"
+        "Mindfulness and stress management techniques to cope with triggers",
       ],
-      image: "https://images.unsplash.com/photo-1493836512294-502baa1986e2?q=80&w=2690&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image:
+        "https://images.unsplash.com/photo-1493836512294-502baa1986e2?q=80&w=2690&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       title: "Support Networks",
       points: [
         "Specialized support groups for specific behavioral addictions",
         "Peer recovery coaching from individuals with lived experience",
-        "Community engagement programs that foster connection and purpose"
+        "Community engagement programs that foster connection and purpose",
       ],
-      image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image:
+        "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       title: "Technology-Based Solutions",
       points: [
         "Digital wellness tools and apps that monitor and limit problematic usage",
         "Online intervention programs specifically designed for behavioral addictions",
-        "Environmental modifications like blocking software or self-exclusion programs"
+        "Environmental modifications like blocking software or self-exclusion programs",
       ],
-      image: "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    }
+      image:
+        "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
   ];
-  
-
-  
 
   type SymptomCategory = keyof typeof symptoms;
 
@@ -111,7 +113,7 @@ const NonSubstanceAddiction = () => {
       {/* Hero Desktop  */}
       <div className="w-full hidden lg:block text-center ">
         <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] translate-y-[3vw]">
-        Non-Substance Addictions
+          Non-Substance Addictions
         </h1>
         <Image
           src="/diseases-banner/non-substance.webp"
@@ -120,6 +122,12 @@ const NonSubstanceAddiction = () => {
           width={1200}
           height={100}
           className="w-full  lg:mt-[-16vw] mt-[-25vw] z-0"
+          priority
+          onLoad={() => {
+            if (typeof window !== "undefined") {
+              window.dispatchEvent(new Event("heroImageLoaded"));
+            }
+          }}
         />
       </div>
 
@@ -132,25 +140,35 @@ const NonSubstanceAddiction = () => {
           width={1200}
           height={100}
           className="w-full z-0"
+          priority
+          onLoad={() => {
+            if (typeof window !== "undefined") {
+              window.dispatchEvent(new Event("heroImageLoaded"));
+            }
+          }}
         />
         <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] mt-[-10vw] mb-10">
-        Non-Substance Addictions
+          Non-Substance Addictions
         </h1>
       </div>
 
       {/* The Harsh Truth Section  */}
       <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-20 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
-       
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Non-substance or behavioral addictions involve compulsive engagement in rewarding non-drug behaviors like gambling, gaming, internet use, shopping, or sex that activate similar brain reward pathways as substances, despite causing significant life disruption.
+            Non-substance or behavioral addictions involve compulsive engagement
+            in rewarding non-drug behaviors like gambling, gaming, internet use,
+            shopping, or sex that activate similar brain reward pathways as
+            substances, despite causing significant life disruption.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Though often minimized as &quot;habits&quot; or &quot;vices,&quot; behavioral addictions can produce genuine psychological dependence, withdrawal symptoms, tolerance, and severe consequences across relationships, finances, employment, and mental health requiring professional intervention.
+            Though often minimized as &quot;habits&quot; or &quot;vices,&quot;
+            behavioral addictions can produce genuine psychological dependence,
+            withdrawal symptoms, tolerance, and severe consequences across
+            relationships, finances, employment, and mental health requiring
+            professional intervention.
           </p>
         </div>
-
-        
       </section>
 
       {/* Color Section */}
@@ -163,7 +181,9 @@ const NonSubstanceAddiction = () => {
           Causes of Behavioral Addictions
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-        Behavioral addictions develop through complex interactions between biological vulnerabilities, psychological factors, and environmental influences that establish and reinforce compulsive patterns.
+          Behavioral addictions develop through complex interactions between
+          biological vulnerabilities, psychological factors, and environmental
+          influences that establish and reinforce compulsive patterns.
         </p>
 
         {/* Causes Grid */}
@@ -202,7 +222,9 @@ const NonSubstanceAddiction = () => {
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Behavioral addictions manifest through distinct patterns affecting emotional well-being, thought processes, physical health, and daily functioning.
+          Behavioral addictions manifest through distinct patterns affecting
+          emotional well-being, thought processes, physical health, and daily
+          functioning.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -261,7 +283,10 @@ const NonSubstanceAddiction = () => {
         </h2>
 
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-        Effective recovery from behavioral addictions requires targeted interventions that address underlying psychological needs, modify behavior patterns, and develop healthy alternatives to addictive activities.
+          Effective recovery from behavioral addictions requires targeted
+          interventions that address underlying psychological needs, modify
+          behavior patterns, and develop healthy alternatives to addictive
+          activities.
         </p>
 
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">
@@ -284,7 +309,9 @@ const NonSubstanceAddiction = () => {
                 <ul className="text-left text-sm list-none">
                   {solution.points.map((point, i) => (
                     <li key={i} className="mb-3 flex items-start">
-                      <span className="text-[#FFD066] mr-2 text-base">&#10148;</span>
+                      <span className="text-[#FFD066] mr-2 text-base">
+                        &#10148;
+                      </span>
                       <span>{point}</span>
                     </li>
                   ))}

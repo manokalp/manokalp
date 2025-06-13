@@ -1,11 +1,11 @@
-"use client"
-import Image from "next/image"
+"use client";
+import Image from "next/image";
 // import Link from "next/link"
-import { useState } from 'react';
-import playfair from "../../../fonts/playfair.module.css"
+import { useState } from "react";
+import playfair from "../../../fonts/playfair.module.css";
 
 const ChronicPain = () => {
-  const [activeTab, setActiveTab] = useState<SymptomCategory>('emotional');
+  const [activeTab, setActiveTab] = useState<SymptomCategory>("emotional");
 
   const causes = [
     {
@@ -30,55 +30,55 @@ const ChronicPain = () => {
 
   const symptoms = {
     emotional: [
-      'Low mood, frustration, or irritability',
-      'Heightened anxiety about the pain',
-      'Emotional exhaustion or withdrawal',
-      'Loss of interest in pleasurable activities',
+      "Low mood, frustration, or irritability",
+      "Heightened anxiety about the pain",
+      "Emotional exhaustion or withdrawal",
+      "Loss of interest in pleasurable activities",
     ],
     behavioral: [
-      'Avoidance of physical or social activities',
-      'Inconsistent movement or posture habits',
-      'Reliance on medications or passive coping',
-      'Decreased participation in daily routines',
+      "Avoidance of physical or social activities",
+      "Inconsistent movement or posture habits",
+      "Reliance on medications or passive coping",
+      "Decreased participation in daily routines",
     ],
     physical: [
-      'Persistent pain in muscles, joints, or nerves',
-      'Muscle weakness or stiffness',
-      'Sleep disturbances or chronic fatigue',
-      'Sensitivity to touch, pressure, or temperature',
+      "Persistent pain in muscles, joints, or nerves",
+      "Muscle weakness or stiffness",
+      "Sleep disturbances or chronic fatigue",
+      "Sensitivity to touch, pressure, or temperature",
     ],
     cognitive: [
-      'Difficulty concentrating or staying alert',
-      'Negative thoughts about pain or prognosis',
-      '“Brain fog” and memory lapses',
-      'Feeling overwhelmed by minor tasks',
+      "Difficulty concentrating or staying alert",
+      "Negative thoughts about pain or prognosis",
+      "“Brain fog” and memory lapses",
+      "Feeling overwhelmed by minor tasks",
     ],
   };
 
   const solutionsData = [
     {
-      title: 'Pharmacological Treatments',
+      title: "Pharmacological Treatments",
       description:
-        'Non-opioid analgesics, antidepressants, anticonvulsants, or muscle relaxants are used to reduce pain, improve sleep, and regulate nerve signals in chronic conditions.',
-      image: '/diseases/chronic-painv2/1.webp',
+        "Non-opioid analgesics, antidepressants, anticonvulsants, or muscle relaxants are used to reduce pain, improve sleep, and regulate nerve signals in chronic conditions.",
+      image: "/diseases/chronic-painv2/1.webp",
     },
     {
-      title: 'Psychotherapeutic Interventions',
+      title: "Psychotherapeutic Interventions",
       description:
-        'CBT, ACT, MBSR, and biofeedback help individuals reframe pain-related thoughts, manage emotional distress, and develop resilience to persistent discomfort.',
-      image: '/diseases/chronic-painv2/2.webp',
+        "CBT, ACT, MBSR, and biofeedback help individuals reframe pain-related thoughts, manage emotional distress, and develop resilience to persistent discomfort.",
+      image: "/diseases/chronic-painv2/2.webp",
     },
     {
-      title: 'Lifestyle and Alternative Therapies',
+      title: "Lifestyle and Alternative Therapies",
       description:
-        'Physiotherapy, acupuncture, spinal adjustments, anti-inflammatory diets, and mind-body practices like yoga or tai chi improve strength, reduce pain, and restore mobility.',
-      image: '/diseases/chronic-painv2/3.webp',
+        "Physiotherapy, acupuncture, spinal adjustments, anti-inflammatory diets, and mind-body practices like yoga or tai chi improve strength, reduce pain, and restore mobility.",
+      image: "/diseases/chronic-painv2/3.webp",
     },
     {
-      title: 'Complementary Interventions',
+      title: "Complementary Interventions",
       description:
-        'Multidisciplinary pain programs, peer support, home-based routines, and regular follow-ups help maintain functional gains and reduce psychological burden over time.',
-      image: '/diseases/chronic-painv2/4.webp',
+        "Multidisciplinary pain programs, peer support, home-based routines, and regular follow-ups help maintain functional gains and reduce psychological burden over time.",
+      image: "/diseases/chronic-painv2/4.webp",
     },
   ];
 
@@ -88,37 +88,75 @@ const ChronicPain = () => {
     <main className="w-full h-full flex justify-center flex-col  bg-white ">
       {/* Hero Desktop  */}
       <div className="w-full hidden lg:block text-center ">
-        <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] translate-y-[3vw]">Chronic Pain-Related</h1>
-        <Image src="/diseases-banner/ChronicPain.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full  lg:mt-[-16vw] mt-[-25vw]  z-0" />
+        <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] translate-y-[3vw]">
+          Chronic Pain-Related
+        </h1>
+        <Image
+          src="/diseases-banner/ChronicPain.webp"
+          alt="hero image"
+          objectFit="cover"
+          width={1200}
+          height={100}
+          className="w-full  lg:mt-[-16vw] mt-[-25vw]  z-0"
+          priority
+          onLoad={() => {
+            if (typeof window !== "undefined") {
+              window.dispatchEvent(new Event("heroImageLoaded"));
+            }
+          }}
+        />
       </div>
 
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
-
-        <Image src="/diseases-banner/ChronicPain.webp" alt="hero image" objectFit="cover" width={1200} height={100} className="w-full     z-0" />
-        <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] mt-[-10vw] mb-10">Chronic Pain-Related</h1>
+        <Image
+          src="/diseases-banner/ChronicPain.webp"
+          alt="hero image"
+          objectFit="cover"
+          width={1200}
+          height={100}
+          className="w-full     z-0"
+          priority
+          onLoad={() => {
+            if (typeof window !== "undefined") {
+              window.dispatchEvent(new Event("heroImageLoaded"));
+            }
+          }}
+        />
+        <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] mt-[-10vw] mb-10">
+          Chronic Pain-Related
+        </h1>
       </div>
 
       {/* The Harsh Truth Section  */}
       <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-20 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
-     
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
-
-          <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Chronic pain-related disorders refer to conditions where pain lasts for more than three months, continuing beyond normal healing time. This persistent pain can interfere with movement, sleep, work, and emotional health.</p>
-          <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">Common diagnoses include fibromyalgia, chronic back pain, arthritis, and neuropathic pain. These disorders often require a holistic treatment approach, targeting both physical symptoms and psychological distress for long-term relief and improved quality of life.</p>
+          <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
+            Chronic pain-related disorders refer to conditions where pain lasts
+            for more than three months, continuing beyond normal healing time.
+            This persistent pain can interfere with movement, sleep, work, and
+            emotional health.
+          </p>
+          <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
+            Common diagnoses include fibromyalgia, chronic back pain, arthritis,
+            and neuropathic pain. These disorders often require a holistic
+            treatment approach, targeting both physical symptoms and
+            psychological distress for long-term relief and improved quality of
+            life.
+          </p>
         </div>
-
- 
       </section>
 
       {/* Color Section */}
       <section className="bg-white w-full h-full lg:px-20 px-10 lg:py-20 py-10 text-center">
         {/* Title */}
         <h2 className="text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold mb-8">
-          Causes of Eating Disorders
+          Causes of Chronic Pain Related Disorders
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-          Eating disorders can be influenced by a mix of biological, psychological, and environmental factors. Some of the key contributors include:
+          Chronic pain-related disorders can be influenced by a mix of biological,
+          psychological, and environmental factors. Some of the key contributors
+          include:
         </p>
 
         {/* Causes Grid */}
@@ -130,13 +168,17 @@ const ChronicPain = () => {
                 <div
                   className={`absolute inset-0 ${cause.bgColor} w-full lg:h-[50vh] rounded-xl p-6 ${cause.textColor} flex flex-col items-center justify-center [backface-visibility:hidden]`}
                 >
-                  <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">{cause.name}</h3>
+                  <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">
+                    {cause.name}
+                  </h3>
                 </div>
                 {/* Back Side */}
                 <div
                   className={`absolute inset-0 ${cause.bgColor} w-full lg:h-[50vh] rounded-xl p-6 ${cause.textColor} flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]`}
                 >
-                  <p className="lg:text-[1vw] text-[3vw] text-center">{cause.description}</p>
+                  <p className="lg:text-[1vw] text-[3vw] text-center">
+                    {cause.description}
+                  </p>
                 </div>
               </div>
             </div>
@@ -153,7 +195,8 @@ const ChronicPain = () => {
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          These disorders affect both body and mind, producing long-lasting physical discomfort and psychosocial strain.
+          These disorders affect both body and mind, producing long-lasting
+          physical discomfort and psychosocial strain.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-between gap-4 text-black mb-16">
@@ -161,10 +204,11 @@ const ChronicPain = () => {
             <button
               key={tab}
               onClick={() => setActiveTab(tab as SymptomCategory)}
-              className={`px-4 py-2 rounded-lg transition-all ${activeTab === tab
-                  ? 'bg-[#0E7EA0] text-white'
-                  : 'hover:bg-gray-100'
-                }`}
+              className={`px-4 py-2 rounded-lg transition-all ${
+                activeTab === tab
+                  ? "bg-[#0E7EA0] text-white"
+                  : "hover:bg-gray-100"
+              }`}
             >
               {tab.charAt(0).toUpperCase() + tab.slice(1)} Symptoms
             </button>
@@ -184,14 +228,15 @@ const ChronicPain = () => {
 
           <div className="lg:w-1/2 h-[50vh] relative overflow-hidden rounded-xl">
             <Image
-              src={`/diseases/chronic-pain/${activeTab === 'emotional'
-                ? '1'
-                : activeTab === 'behavioral'
-                  ? '2'
-                  : activeTab === 'physical'
-                    ? '3'
-                    : '4'
-                }.webp`}
+              src={`/diseases/chronic-pain/${
+                activeTab === "emotional"
+                  ? "1"
+                  : activeTab === "behavioral"
+                  ? "2"
+                  : activeTab === "physical"
+                  ? "3"
+                  : "4"
+              }.webp`}
               alt={`${activeTab} symptoms illustration`}
               layout="fill"
               objectFit="contain"
@@ -203,32 +248,38 @@ const ChronicPain = () => {
 
       {/* Cards Section */}
       <section className="bg-white w-full h-full lg:px-20 px-10 lg:py-30 py-10 text-center">
-      <h2 className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold ${playfair.className}`}>
-        Solutions for Managing Chronic Pain Related Disorders
-      </h2>
+        <h2
+          className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold ${playfair.className}`}
+        >
+          Solutions for Managing Chronic Pain Related Disorders
+        </h2>
 
-      <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-        Effective care blends medication, psychological therapy, physical rehabilitation, and lifestyle changes tailored to individual needs.
-      </p>
+        <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
+          Effective care blends medication, psychological therapy, physical
+          rehabilitation, and lifestyle changes tailored to individual needs.
+        </p>
 
-      <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">
-        {solutionsData.map((solution, index) => (
-          <div key={index} className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-            <Image
-              src={solution.image}
-              alt={solution.title}
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover rounded-2xl mb-6"
-            />
-            <div className="p-6">
-              <h3 className="text-lg font-bold mb-4">{solution.title}</h3>
-              <p className="text-sm">{solution.description}</p>
+        <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">
+          {solutionsData.map((solution, index) => (
+            <div
+              key={index}
+              className="bg-[#0E7EA0] rounded-3xl text-white text-center"
+            >
+              <Image
+                src={solution.image}
+                alt={solution.title}
+                width={300}
+                height={200}
+                className="w-full h-48 object-cover rounded-2xl mb-6"
+              />
+              <div className="p-6">
+                <h3 className="text-lg font-bold mb-4">{solution.title}</h3>
+                <p className="text-sm">{solution.description}</p>
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
-    </section>
+          ))}
+        </div>
+      </section>
 
       {/* Footer Section */}
       {/* Prognosis and Future Outlook Section*/}
@@ -240,7 +291,7 @@ const ChronicPain = () => {
                 </div> */}
       </section>
     </main>
-  )
-}
+  );
+};
 
-export default ChronicPain
+export default ChronicPain;

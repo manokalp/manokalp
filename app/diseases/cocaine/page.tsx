@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-// import Link from "next/link"; 
+// import Link from "next/link";
 import { useState } from "react";
 import playfair from "../../../fonts/playfair.module.css";
 
@@ -10,7 +10,8 @@ const Cocaine = () => {
   const causes = [
     {
       name: "Neurobiological Factors",
-      description:"Cocaine directly affects the brain's reward system by blocking dopamine reuptake, creating intense pleasure and establishing powerful neurochemical pathways for addiction.",
+      description:
+        "Cocaine directly affects the brain's reward system by blocking dopamine reuptake, creating intense pleasure and establishing powerful neurochemical pathways for addiction.",
       image: "/genetic-factors.webp", // Replace with your actual image path
       link: "/genetic-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
@@ -40,24 +41,24 @@ const Cocaine = () => {
     emotional: [
       "Euphoria followed by emotional crashes and depression",
       "Increased irritability, restlessness, and anxiety",
-      "Paranoia and potential cocaine-induced psychosis"
+      "Paranoia and potential cocaine-induced psychosis",
     ],
     cognitive: [
       "Racing thoughts and difficulty focusing",
       "Impaired decision-making and risk assessment",
-      "Intense cravings that interfere with daily functioning"
+      "Intense cravings that interfere with daily functioning",
     ],
     physical: [
       "Increased heart rate, blood pressure, and body temperature",
       "Constricted blood vessels and dilated pupils",
-      "Nasal damage, respiratory issues, and potential cardiovascular complications"
+      "Nasal damage, respiratory issues, and potential cardiovascular complications",
     ],
     behavioral: [
       "Increasing cocaine doses and frequency to achieve desired effects",
       "Financial problems due to the high cost of maintaining cocaine use",
       "Social isolation and relationship deterioration",
-      "Neglecting responsibilities and previously enjoyed activities"
-    ]
+      "Neglecting responsibilities and previously enjoyed activities",
+    ],
   };
 
   const solutionsData = [
@@ -66,41 +67,42 @@ const Cocaine = () => {
       points: [
         "Supervised detoxification to manage withdrawal symptoms safely",
         "Assessment and treatment of cocaine-related health complications",
-        "Medication approaches to reduce cravings and manage co-occurring conditions"
+        "Medication approaches to reduce cravings and manage co-occurring conditions",
       ],
-      image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image:
+        "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       title: "Psychotherapeutic Interventions",
       points: [
         "Cognitive Behavioral Therapy (CBT) to identify triggers and develop coping skills",
         "Contingency Management providing incentives for cocaine abstinence",
-        "Community Reinforcement Approach to build a lifestyle supportive of recovery"
+        "Community Reinforcement Approach to build a lifestyle supportive of recovery",
       ],
-      image: "https://images.unsplash.com/photo-1493836512294-502baa1986e2?q=80&w=2690&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image:
+        "https://images.unsplash.com/photo-1493836512294-502baa1986e2?q=80&w=2690&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       title: "Behavioral and Lifestyle Strategies",
       points: [
         "Narcotics Anonymous or Cocaine Anonymous 12-step programs",
         "Structured aftercare programs with regular check-ins",
-        "Peer recovery coaches with personal cocaine recovery experience"
+        "Peer recovery coaches with personal cocaine recovery experience",
       ],
-      image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image:
+        "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       title: "Complementary Interventions",
       points: [
         "Inpatient treatment programs for severe cocaine dependence",
         "Dual diagnosis treatment for co-occurring mental health conditions",
-        "Long-term relapse prevention planning and life skills development"
+        "Long-term relapse prevention planning and life skills development",
       ],
-      image: "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    }
+      image:
+        "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
   ];
-  
-
-  
 
   type SymptomCategory = keyof typeof symptoms;
 
@@ -109,7 +111,7 @@ const Cocaine = () => {
       {/* Hero Desktop  */}
       <div className="w-full hidden lg:block text-center ">
         <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] translate-y-[3vw]">
-        Cocaine Use and Dependence
+          Cocaine Use and Dependence
         </h1>
         <Image
           src="/diseases-banner/cocaine.webp"
@@ -118,6 +120,12 @@ const Cocaine = () => {
           width={1200}
           height={100}
           className="w-full  lg:mt-[-16vw] mt-[-25vw]  z-0"
+          priority
+          onLoad={() => {
+            if (typeof window !== "undefined") {
+              window.dispatchEvent(new Event("heroImageLoaded"));
+            }
+          }}
         />
       </div>
 
@@ -130,25 +138,34 @@ const Cocaine = () => {
           width={1200}
           height={100}
           className="w-full     z-0"
+          priority
+          onLoad={() => {
+            if (typeof window !== "undefined") {
+              window.dispatchEvent(new Event("heroImageLoaded"));
+            }
+          }}
         />
         <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] mt-[-10vw] mb-10">
-        Cocaine Use and Dependence
+          Cocaine Use and Dependence
         </h1>
       </div>
 
       {/* The Harsh Truth Section  */}
       <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-20 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
-       
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Cocaine is a powerful central nervous system stimulant derived from coca leaves. It creates intense but short-lived euphoria by flooding the brain with dopamine, making it highly addictive even after limited exposure.
+            Cocaine is a powerful central nervous system stimulant derived from
+            coca leaves. It creates intense but short-lived euphoria by flooding
+            the brain with dopamine, making it highly addictive even after
+            limited exposure.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          While initial use may feel pleasurable, continued cocaine use can lead to dependence, serious health complications, and profound psychological and social consequences that affect every aspect of a person&apos;s life.
+            While initial use may feel pleasurable, continued cocaine use can
+            lead to dependence, serious health complications, and profound
+            psychological and social consequences that affect every aspect of a
+            person&apos;s life.
           </p>
         </div>
-
-        
       </section>
 
       {/* Color Section */}
@@ -161,7 +178,9 @@ const Cocaine = () => {
           Causes of Cocaine Dependence
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-        Multiple factors influence the development of cocaine dependence, including neurobiological mechanisms, psychological vulnerabilities, and environmental contexts.
+          Multiple factors influence the development of cocaine dependence,
+          including neurobiological mechanisms, psychological vulnerabilities,
+          and environmental contexts.
         </p>
 
         {/* Causes Grid */}
@@ -200,7 +219,8 @@ const Cocaine = () => {
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Cocaine affects users through various symptom categories that may indicate recreational use, problematic use, or dependence.
+          Cocaine affects users through various symptom categories that may
+          indicate recreational use, problematic use, or dependence.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -259,7 +279,9 @@ const Cocaine = () => {
         </h2>
 
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-        Effective treatment for cocaine dependence involves a comprehensive approach combining medical interventions, psychological therapies, and support systems.
+          Effective treatment for cocaine dependence involves a comprehensive
+          approach combining medical interventions, psychological therapies, and
+          support systems.
         </p>
 
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">
@@ -282,7 +304,9 @@ const Cocaine = () => {
                 <ul className="text-left text-sm list-none">
                   {solution.points.map((point, i) => (
                     <li key={i} className="mb-3 flex items-start">
-                      <span className="text-[#FFD066] mr-2 text-base">&#10148;</span>
+                      <span className="text-[#FFD066] mr-2 text-base">
+                        &#10148;
+                      </span>
                       <span>{point}</span>
                     </li>
                   ))}
