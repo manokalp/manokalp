@@ -8,14 +8,6 @@ const Preloader = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        let timeoutId: NodeJS.Timeout;
-        let images: (HTMLImageElement | HTMLPictureElement)[] = [];
-        let loadedCount = 0;
-        let totalCount = 0;
-        let done = false;
-        let heroLoaded = false;
-        let allImagesLoaded = false;
-
         // Helper to finish loading
         const finishLoading = () => {
             if (!done) {
@@ -23,6 +15,15 @@ const Preloader = () => {
                 setTimeout(() => setLoading(false), 500); // Small delay for smoothness
             }
         };
+
+        let images: (HTMLImageElement | HTMLPictureElement)[] = [];
+        let loadedCount = 0;
+        let totalCount = 0;
+        let done = false;
+        let heroLoaded = false;
+        let allImagesLoaded = false;
+
+        const timeoutId = setTimeout(finishLoading, 10000);
 
         // Function to check all images
         const checkImages = () => {
@@ -90,9 +91,6 @@ const Preloader = () => {
 
         // Listen for hero image loaded event
         window.addEventListener('heroImageLoaded', handleHeroLoaded);
-
-        // Fallback: hide preloader after 10 seconds
-        timeoutId = setTimeout(finishLoading, 10000);
 
         // Cleanup
         return () => {
