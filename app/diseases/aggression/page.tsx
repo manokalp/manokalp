@@ -231,7 +231,7 @@ const Aggression = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}
         >
-          Solutions for Aggression
+          Symptoms of Aggression
         </h2>
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
           Anger and aggression can be managed with a combination of

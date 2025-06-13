@@ -156,8 +156,7 @@ const SpecificAnxieties = () => {
       <section className="bg-white w-full h-full lg:px-20 px-10 lg:py-20 py-10 text-center">
         {/* Title */}
         <h2
-          className="text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold mb-8"
-          style={{ fontFamily: "Playfair" }}
+          className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >
           Causes of Specific Phobias
         </h2>
@@ -193,7 +192,7 @@ const SpecificAnxieties = () => {
       </section>
 
       {/* Tab Section */}
-      <section className="bg-white w-full h-full lg:px-60 px-10 lg:py-20 py-10 text-center">
+      shogun<section className="bg-white w-full h-full lg:px-40 px-10 lg:pt-35 py-10 text-center">
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >

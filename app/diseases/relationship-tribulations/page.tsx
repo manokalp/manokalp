@@ -245,7 +245,7 @@ const RelationshipTribulations = () => {
       </section>
 
       {/* Tab Section */}
-      <section className="bg-white w-full h-full lg:px-60 px-10 lg:py-20 py-10 text-center">
+      <section className="bg-white w-full h-full lg:px-40 px-10 lg:pt-35 py-10 text-center">
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >
@@ -363,7 +363,7 @@ const RelationshipTribulations = () => {
       </section>
 
       {/* Cards-2 Section */}
-      <section className="bg-white w-full h-full lg:px-6 px-10 lg:pb-20 py-10 text-center">
+      <section className="bg-white w-full h-full lg:px-6 px-10 lg:pb-40 py-10 text-center">
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold ${playfair.className}`}
         >

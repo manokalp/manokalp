@@ -112,7 +112,7 @@ const AdultPsychological = () => {
       {/* Hero Desktop  */}
       <div className="w-full hidden lg:block text-center ">
         <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] translate-y-[3vw]">
-        Adult Psychological Problems
+        Relationship and Emotional Challenges
         </h1>
             <Image
               src="/diseases-banner/ relationshipsn-emotional.webp"
@@ -135,7 +135,7 @@ const AdultPsychological = () => {
           className="w-full z-0"
         />
         <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] mt-[-10vw] mb-10">
-        Adult Psychological Problems
+        Relationship and Emotional Challenges
         </h1>
       </div>
 
@@ -195,7 +195,7 @@ const AdultPsychological = () => {
       </section>
 
       {/* Tab Section */}
-      <section className="bg-white w-full h-full lg:px-60 px-10 lg:py-20 py-10 text-center">
+      <section className="bg-white w-full h-full lg:px-40 px-10 lg:pt-35 py-10 text-center">
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >

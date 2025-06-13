@@ -299,7 +299,7 @@ const BPD = () => {
                     </div>
 
                     {/* Card 4 */}
-                    <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+                    <div className="bg-[#FFD700] rounded-3xl text-black text-center">
                         <Image src="https://images.pexels.com/photos/4101143/pexels-photo-4101143.jpeg" alt="Transference-focused therapy session" width={300} height={200} className="w-full h-48 object-cover rounded-2xl mb-6" />
                         <div className="p-6">
                             <h3 className="text-lg font-bold mb-4">Transference-Focused Psychotherapy (TFP):</h3>

@@ -133,11 +133,14 @@ const ChildhoodDepression = () => {
                         </div>
                     </div>
                 </div>
+                
 
                 <div className="grid lg:grid-cols-5 grid-cols-1 gap-4 mb-40 mt-20">
                     {/* Technique Card 6 */}
                     <div className="[perspective:1000px] cursor-pointer">
-                        <div className="relative w-full aspect-square transition-all duration-500 [t    ransform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
+                        
+
+                        <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
                             <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [backface-visibility:hidden]">
                                 <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">Low Self-Esteem and Negative Self-Image</h3>
                             </div>

@@ -222,7 +222,7 @@ const Pregnancy = () => {
       </section>
 
       {/* Replace Tab Section */}
-      <section className="bg-white text-black w-full h-full lg:px-20 px-10 lg:py-20 py-10">
+      <section className="bg-white text-black w-full h-full lg:px-20 px-10 lg:pt-35 py-10">
         {/* Title */}
         <div className="text-center max-w-4xl mx-auto">
           <h2
@@ -283,13 +283,13 @@ const Pregnancy = () => {
           
           {/* Right side: image - Fixed for mobile */}
           <div className="w-full md:w-1/2 mt-8 md:mt-0">
-            <div className="rounded-lg overflow-hidden w-full h-64 md:h-80">
+            <div className="rounded-lg overflow-hidden w-full h-64 md:h-120">
               <Image 
                 src={disorderImages[activeTab]}
                 alt={`${activeTab} disorders`}
                 width={500}
                 height={400}
-                className="object-cover w-full h-full"
+                className="object-contain w-full h-full"
                 priority
               />
             </div>

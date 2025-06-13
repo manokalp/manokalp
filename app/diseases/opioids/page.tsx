@@ -194,7 +194,7 @@ const OpioidsAddiction = () => {
       </section>
 
       {/* Tab Section */}
-      <section className="bg-white w-full h-full lg:px-60 px-10 lg:py-20 py-10 text-center">
+      <section className="bg-white w-full h-full lg:px-40 px-10 lg:pt-35 py-10 text-center">
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >

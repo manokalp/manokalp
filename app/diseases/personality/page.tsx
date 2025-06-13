@@ -213,11 +213,11 @@ const Personality = () => {
       </section>
 
       {/* Tab Section */}
-      <section className="bg-white w-full h-full lg:px-60 px-10 lg:py-20 py-10 text-center">
+      <section className="bg-white w-full h-full lg:px-40 px-10 lg:pt-35 py-10 text-center">
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >
-          Symptoms of Mania and Bipolar Disorder
+          Symptoms of Personality Disorders
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
