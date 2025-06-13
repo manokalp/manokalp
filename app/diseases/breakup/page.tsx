@@ -28,7 +28,7 @@ const tips = [
   {
     title: "Cut Off Unnecessary Contact",
     description:
-      "Staying in touch with an ex, especially in the early stages, can make moving on harder. It’s best to set clear boundaries to avoid confusion and prolonging emotional pain.",
+      "Staying in touch with an ex, especially in the early stages, can make moving on harder. It's best to set clear boundaries to avoid confusion and prolonging emotional pain.",
   },
   {
     title: "Self-Understanding and Personal Improvement",
@@ -147,7 +147,7 @@ const BreakUp = () => {
       {/* Causes  */}
       <section className="bg-white text-center  w-full h-full lg:px-20 px-4 py-20">
         <h2
-          className={`text-[#0E7EA0] lg:text-[5vw] text-[10vw] ${playfair.className}`}
+          className={`text-[#0E7EA0] font-semibold lg:text-[5vw] text-[10vw] ${playfair.className}`}
         >
           Reasons for a Breakup
         </h2>
@@ -170,7 +170,7 @@ const BreakUp = () => {
               backgroundPosition: "center",
             }}
           >
-            <div className="w-full h-full bg-black bg-opacity-60 flex flex-col justify-center items-center px-10 py-2">
+            <div className="w-full h-full bg-white bg-opacity-60 flex flex-col justify-center items-center px-10 py-2">
               {/* <h2 className="text-[8vw] md:text-[4vw] text-white font-semibold mb-12 font-[playfair] text-center">{slide.title}</h2> */}
               <div className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-2">
                 {slide.items.map((item, i) => (
@@ -197,178 +197,146 @@ const BreakUp = () => {
                 </button> */}
       </div>
 
-      {/* Quick Fix Links  */}
-      <section className="bg-white w-full h-full lg:px-20 px-10 lg:py-20 py-10 text-center">
-        <h2
-          className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] ${playfair.className} mb-8`}
-        >
-          Symptoms of a Breakup
-        </h2>
-        <p className="text-black lg:text-[1.5vw] text-[3vw] mb-12">
-          A breakup is not just a change in one&apos;s relationship status but
-          also influences emotional, psychological, and even physical health.
-          Some of the symptoms are:
-        </p>
-        <div className="grid lg:grid-cols-4 grid-cols-1 gap-4">
-          {/* Card 1 */}
-          <div className="bg-[#0E7EA0] rounded-3xl  text-white text-center">
-            <Image
-              src="/quick_links/2.webp"
-              alt="stressed person"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover rounded-2xl mb-6"
-            />
-            <div className="p-6">
-              <h3 className="text-lg font-bold mb-4">Emotional Distress </h3>
-              <p className="text-sm">
-                Sadness, loneliness, anger, and confusion are typical during the
-                aftermath of a breakup. The emotional conflict feels
-                overwhelming in the initial days.
-              </p>
-            </div>
-          </div>
-
-          {/* Card 2 */}
-          <div className="bg-[#FFD700] rounded-3xl  text-black text-center">
-            <Image
-              src="/quick_links/1.webp"
-              alt="person meditating"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover rounded-2xl mb-6"
-            />
-            <div className="p-6">
-              <h3 className="text-lg font-bold mb-4">
-                Overthinking and Regret{" "}
-              </h3>
-              <p className="text-sm">
-                Everyone keeps thinking of the past things and what more could
-                have been done. The process of blaming oneself and the
-                occurrence of remorseful thoughts render moving on increasingly
-                difficult.
-              </p>
-            </div>
-          </div>
-
-          {/* Card 3 */}
-          <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-            <Image
-              src="/quick_links/2.webp"
-              alt="people communicating"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover rounded-2xl mb-6"
-            />
-            <div className="p-6">
-              <h3 className="text-lg font-bold mb-4">
-                Loss of Interest in Everyday Activities
-              </h3>
-              <p className="text-sm">
-                Social interaction, work, and even hobbies can all become
-                irrelevant at once. People tend to lose the will to do things
-                that were previously interesting.
-              </p>
-            </div>
-          </div>
-
-          {/* Card 4 */}
-          <div className="bg-[#FFD700] rounded-3xl  text-black text-center">
-            <Image
-              src="/quick_links/1.webp"
-              alt="person meditating"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover rounded-2xl mb-6"
-            />
-            <div className="p-6">
-              <h3 className="text-lg font-bold mb-4">Anxiety and Depression</h3>
-              <p className="text-sm">
-                 In some instances, a breakup can create anxiety or trigger
-                depression, particularly if the relationship was very
-                significant.
-              </p>
-            </div>
-          </div>
-
-          {/* Card 5 */}
-          <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-            <Image
-              src="/quick_links/2.webp"
-              alt="people communicating"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover rounded-2xl mb-6"
-            />
-            <div className="p-6">
-              <h3 className="text-lg font-bold mb-4">Physical Symptoms </h3>
-              <p className="text-sm">
-                Some people lose weight, gain weight, have trouble sleeping, are
-                tired, and even get headaches from emotional pain.
-              </p>
-            </div>
-          </div>
-          {/* Card 6 */}
-          <div className="bg-[#FFD700] rounded-3xl  text-black text-center">
-            <Image
-              src="/quick_links/1.webp"
-              alt="person meditating"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover rounded-2xl mb-6"
-            />
-            <div className="p-6">
-              <h3 className="text-lg font-bold mb-4">Attachment Withdrawal </h3>
-              <p className="text-sm">
-                If the relationship was passionate, the brain might respond in
-                the same way as withdrawal from a dependency. This is why people
-                sometimes feel the need to reach out to their ex, even when they
-                know it might not be a good choice.
-              </p>
-            </div>
-          </div>
-
-          {/* Card 7 */}
-          <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-            <Image
-              src="/quick_links/2.webp"
-              alt="people communicating"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover rounded-2xl mb-6"
-            />
-            <div className="p-6">
-              <h3 className="text-lg font-bold mb-4">Anger and Resentment </h3>
-              <p className="text-sm">
-                Others end up in bitterness, which creates resentment against
-                the former partner. This may take the form of stalking on social
-                media, complaining to friends, or even revenge.
-              </p>
-            </div>
-          </div>
-
-          {/* Card 8 */}
-          <div className="bg-[#FFD700] rounded-3xl  text-black text-center">
-            <Image
-              src="/quick_links/1.webp"
-              alt="person meditating"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover rounded-2xl mb-6"
-            />
-            <div className="p-6">
-              <h3 className="text-lg font-bold mb-4">
-                Fear of Future Relationships{" "}
-              </h3>
-              <p className="text-sm">
-                A hurtful breakup can make one afraid of entering into another
-                relationship, creating emotional barriers and reluctance to
-                trust others again.
-              </p>
-            </div>
+      {/* Symptom Cards Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-full px-4 lg:px-20 my-16">
+        {/* Card 1 */}
+        <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+          <img
+            src="https://images.pexels.com/photos/2285463/pexels-photo-2285463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Emotional Woman During Divorce"
+            className="w-full h-48 object-cover rounded-2xl mb-6"
+          />
+          <div className="p-6">
+            <h3 className="text-lg font-bold mb-4">Emotional Distress</h3>
+            <p className="text-sm">
+              Sadness, loneliness, anger, and confusion are typical during the
+              aftermath of a breakup. The emotional conflict feels overwhelming in the initial days.
+            </p>
           </div>
         </div>
-      </section>
+
+        {/* Card 2 */}
+        <div className="bg-[#FFD700] rounded-3xl text-black text-center">
+          <img
+            src="https://images.pexels.com/photos/4101133/pexels-photo-4101133.jpeg"
+            alt="Sad Woman Reflecting"
+            className="w-full h-48 object-cover rounded-2xl mb-6"
+          />
+          <div className="p-6">
+            <h3 className="text-lg font-bold mb-4">Overthinking and Regret</h3>
+            <p className="text-sm">
+              Everyone keeps thinking of the past things and what more could
+              have been done. The process of blaming oneself and the
+              occurrence of remorseful thoughts render moving on increasingly
+              difficult.
+            </p>
+          </div>
+        </div>
+
+        {/* Card 3 */}
+        <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+          <img
+            src="https://images.pexels.com/photos/6606078/pexels-photo-6606078.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Woman Sitting Alone"
+            className="w-full h-48 object-cover rounded-2xl mb-6"
+          />
+          <div className="p-6">
+            <h3 className="text-lg font-bold mb-4">
+              Loss of Interest in Everyday Activities
+            </h3>
+            <p className="text-sm">
+              Social interaction, work, and even hobbies can all become
+              irrelevant at once. People tend to lose the will to do things
+              that were previously interesting.
+            </p>
+          </div>
+        </div>
+
+        {/* Card 4 */}
+        <div className="bg-[#FFD700] rounded-3xl text-black text-center">
+          <img
+            src="https://images.pexels.com/photos/3132388/pexels-photo-3132388.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Depressed Woman in Studio"
+            className="w-full h-48 object-cover rounded-2xl mb-6"
+          />
+          <div className="p-6">
+            <h3 className="text-lg font-bold mb-4">Anxiety and Depression</h3>
+            <p className="text-sm">
+              In some instances, a breakup can create anxiety or trigger
+              depression, particularly if the relationship was very significant.
+            </p>
+          </div>
+        </div>
+
+        {/* Card 5 */}
+        <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+          <img
+            src="https://images.pexels.com/photos/6148954/pexels-photo-6148954.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Woman Holding Her Head"
+            className="w-full h-48 object-cover rounded-2xl mb-6"
+          />
+          <div className="p-6">
+            <h3 className="text-lg font-bold mb-4">Physical Symptoms</h3>
+            <p className="text-sm">
+              Some people lose weight, gain weight, have trouble sleeping, are
+              tired, and even get headaches from emotional pain.
+            </p>
+          </div>
+        </div>
+
+        {/* Card 6 */}
+        <div className="bg-[#FFD700] rounded-3xl text-black text-center">
+          <img
+            src="https://images.pexels.com/photos/4098368/pexels-photo-4098368.jpeg"
+            alt="Woman Looking at Phone"
+            className="w-full h-48 object-cover rounded-2xl mb-6"
+          />
+          <div className="p-6">
+            <h3 className="text-lg font-bold mb-4">Attachment Withdrawal</h3>
+            <p className="text-sm">
+              If the relationship was passionate, the brain might respond in
+              the same way as withdrawal from a dependency. This is why people
+              sometimes feel the need to reach out to their ex, even when they
+              know it might not be a good choice.
+            </p>
+          </div>
+        </div>
+
+        {/* Card 7 */}
+        <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
+          <img
+            src="https://images.pexels.com/photos/5700180/pexels-photo-5700180.jpeg"
+            alt="Angry Woman"
+            className="w-full h-48 object-cover rounded-2xl mb-6"
+          />
+          <div className="p-6">
+            <h3 className="text-lg font-bold mb-4">Anger and Resentment</h3>
+            <p className="text-sm">
+              Others end up in bitterness, which creates resentment against
+              the former partner. This may take the form of stalking on social
+              media, complaining to friends, or even revenge.
+            </p>
+          </div>
+        </div>
+
+        {/* Card 8 */}
+        <div className="bg-[#FFD700] rounded-3xl text-black text-center">
+          <img
+            src="https://images.pexels.com/photos/32507563/pexels-photo-32507563/free-photo-of-elegant-wedding-vows-with-exchanging-of-rings.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Woman Looking Out the Window"
+            className="w-full h-48 object-cover rounded-2xl mb-6"
+          />
+          <div className="p-6">
+            <h3 className="text-lg font-bold mb-4">
+              Fear of Future Relationships
+            </h3>
+            <p className="text-sm">
+              A hurtful breakup can make one afraid of entering into another
+              relationship, creating emotional barriers and reluctance to trust others again.
+            </p>
+          </div>
+        </div>
+      </div>
 
       {/* Solutions for Coping with Breakup */}
       <section className="py-12 px-12">
