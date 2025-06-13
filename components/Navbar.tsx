@@ -32,7 +32,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className={`bg-white shadow-sm fixed top-0 left-0 right-0 w-full z-50 transition-all duration-300 ${scrolled ? 'shadow-md py-2' : 'py-3'}`}>
+        <nav className={`bg-white shadow-sm fixed top-0 left-0 right-0 w-full h-18 z-50 transition-all duration-300 ${scrolled ? 'shadow-md py-2' : 'py-3'}`}>
             <div className='max-w-7xl mx-auto flex items-center justify-between px-4 md:px-6 lg:px-8'>
             <div className="flex items-center">
                 <Link href="/">
