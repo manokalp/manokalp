@@ -52,10 +52,10 @@ const Navbar = () => {
           <Image
             src="/logo.webp"
             alt="Manokalp Logo"
-            width={140}
+            width={240}
             height={48}
             priority
-            className="cursor-pointer max-w-[140px] h-auto"
+            className="cursor-pointer max-w-[240px] h-auto"
           />
         </Link>
         {/* Search icon: always visible in top row, before hamburger */}
