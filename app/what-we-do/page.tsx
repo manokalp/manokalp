@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import CarouselGallery from "@/components/CarouselGallery";
 // import { useState } from "react";
 
 const WhatWeDo = () => {
@@ -8,19 +9,17 @@ const WhatWeDo = () => {
     <main className="w-full h-full flex justify-center flex-col bg-[#F1F1F1]">
       {/* Hero Section */}
       <div className="w-full hidden lg:block text-center ">
-        <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] translate-y-[5vw] ">
+        <h1 className="lg:text-[10vw] text-[10vw] text-white font-semibold relative z-10 font-[playfull] translate-y-[5vw] ">
           ABOUT
         </h1>
-        <p className="text-[1.5vw] max-w-4xl mx-auto px-4 text-white relative z-10 mt-14">
-          Founder, Psychiatrist, Cognitive Wellness Strategist | Manokalp
-        </p>
+
         <Image
           src="/about-us/about.webp"
           alt="suicidality hero image"
           objectFit="cover"
           width={1200}
           height={100}
-          className="w-full lg:mt-[-16vw] mt-[-25vw] z-0"
+          className="w-full lg:mt-[-16vw] z-0"
           priority
           onLoad={() => {
             if (typeof window !== "undefined") {
@@ -37,7 +36,7 @@ const WhatWeDo = () => {
           objectFit="cover"
           width={1200}
           height={100}
-          className="w-full z-0"
+          className="w-full z-0 "
           priority
           onLoad={() => {
             if (typeof window !== "undefined") {
@@ -45,34 +44,33 @@ const WhatWeDo = () => {
             }
           }}
         />
-        <h1 className="lg:text-[5vw] text-[10vw] text-white font-semibold relative z-10 font-[playfull] mt-[-50vw] mb-10">
+        <h1 className="lg:text-[5vw] text-[14vw] text-white font-semibold relative z-10 font-[playfull] mt-[-50vw] mb-10">
           About
         </h1>
-        <p className="lg:text-[1.5vw] text-[3vw] text-white max-w-4xl mx-auto px-4 mb-10">
-          Founder, Psychiatrist, Cognitive Wellness Strategist | Manokalp
-        </p>
+        
       </div>
 
       {/* Circular Info Section */}
 
       {/* My Approach Section */}
-      <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-20 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
-        <div className="flex flex-col justify-center items-center lg:mb-20 mb-10"></div>
-        <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
-          <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Hi, I&apos;m Dr.SanKalp, Manokalp—a psychiatrist, cognitive-behavioral
-            therapist, and passionate advocate of mindful mental wellness.
+      <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-6 lg:py-20 pt-4 pb-30 mt-[-10vw] flex flex-col lg:flex-row items-center justify-between gap-10 mb-20">
+        <div className="lg:w-1/2 w-full flex justify-center items-center">
+          <Image
+            src="/about-us/about.webp"
+            alt="Dr. SanKalp, Manokalp"
+            width={400}
+            height={400}
+            className="rounded-2xl w-full mt-[30vw] max-w-[400px] object-cover shadow-lg"
+          />
+        </div>
+        <div className="lg:w-1/2 w-full flex flex-col justify-center text-white lg:gap-8 gap-4">
+          <p className="text-base lg:text-2xl font-medium">
+            Hi, I'm Dr.SanKalp, Manokalp - a psychiatrist, cognitive-behavioral therapist, and passionate advocate of mindful mental wellness.
           </p>
-          <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            I founded Manokalp with a singular mission: to make emotional
-            wellness more accessible, modern, and meaningful. At a time when
-            therapy often feels clinical or distant, I wanted to create a space
-            where people feel seen, heard, and empowered to rewire their
-            thoughts and emotions with practical, science-backed tools.
+          <p className="text-base lg:text-2xl font-medium">
+            I founded Manokalp with a singular mission: to make emotional wellness more accessible, modern, and meaningful. At a time when therapy often feels clinical or distant, I wanted to create a space where people feel seen, heard, and empowered to rewire their thoughts and emotions with practical, science-backed tools.
           </p>
         </div>
-
-        
       </section>
 
       {/* Expertise Section */}
@@ -284,6 +282,10 @@ const WhatWeDo = () => {
             I continue to collaborate on research and wellness models that combine psychiatry with mindfulness, helping individuals become stronger, not just symptom-free.
           </p>
         </div>
+      </section>
+      
+      <section className="w-full px-6 py-16 ">
+        <CarouselGallery />
       </section>
       
       {/* Therapy That Works Section - Updated */}
