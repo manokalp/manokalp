@@ -14,7 +14,7 @@ const WhatWeDo = () => {
         </h1>
 
         <Image
-          src="/about-us/about.webp"
+          src="/about-us/about-us.webp"
           alt="suicidality hero image"
           objectFit="cover"
           width={1200}
@@ -31,7 +31,7 @@ const WhatWeDo = () => {
       {/* Hero Mobile  */}
       <div className="w-full lg:hidden block text-center ">
         <Image
-          src="/about-us/about.webp"
+          src="/about-us/about-us.webp"
           alt="suicidality hero image"
           objectFit="cover"
           width={1200}
@@ -58,14 +58,14 @@ const WhatWeDo = () => {
           <Image
             src="/about-us/about.webp"
             alt="Dr. SanKalp, Manokalp"
-            width={400}
+            width={1200}
             height={400}
-            className="rounded-2xl w-full mt-[30vw] max-w-[400px] object-cover shadow-lg"
+            className="rounded-2xl w-full h-[500px]  max-w-[400px] object-cover shadow-lg"
           />
         </div>
         <div className="lg:w-1/2 w-full flex flex-col justify-center text-white lg:gap-8 gap-4">
           <p className="text-base lg:text-2xl font-medium">
-            Hi, I'm Dr.SanKalp, Manokalp - a psychiatrist, cognitive-behavioral therapist, and passionate advocate of mindful mental wellness.
+            Hi, I&apos;m Dr.SanKalp, Manokalp - a psychiatrist, cognitive-behavioral therapist, and passionate advocate of mindful mental wellness.
           </p>
           <p className="text-base lg:text-2xl font-medium">
             I founded Manokalp with a singular mission: to make emotional wellness more accessible, modern, and meaningful. At a time when therapy often feels clinical or distant, I wanted to create a space where people feel seen, heard, and empowered to rewire their thoughts and emotions with practical, science-backed tools.

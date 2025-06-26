@@ -5,23 +5,17 @@ import useEmblaCarousel from 'embla-carousel-react';
 import Image from 'next/image';
 
 const images = [
-  {
-    src: '/gallery/image1.jpg',
-    alt: 'Gallery Image 1',
-  },
-  {
-    src: '/gallery/image2.jpg',
-    alt: 'Gallery Image 2',
-  },
-  {
-    src: '/gallery/image3.jpg',
-    alt: 'Gallery Image 3',
-  },
-  {
-    src: '/gallery/image4.jpg',
-    alt: 'Gallery Image 4',
-  },
+  { src: '/imggallery/1.webp', alt: 'Gallery Image 1' },
+  { src: '/imggallery/2.webp', alt: 'Gallery Image 2' },
+  { src: '/imggallery/3.webp', alt: 'Gallery Image 3' },
+  { src: '/imggallery/4.webp', alt: 'Gallery Image 4' },
+  { src: '/imggallery/5.webp', alt: 'Gallery Image 5' },
+  // { src: '/imggallery/6.webp', alt: 'Gallery Image 6' },
+  { src: '/imggallery/7.webp', alt: 'Gallery Image 7' },
+  { src: '/imggallery/8.webp', alt: 'Gallery Image 8' },
+  // { src: '/imggallery/9.webp', alt: 'Gallery Image 9' },
 ];
+
 
 const AUTOPLAY_INTERVAL = 3000; // 3 seconds
 

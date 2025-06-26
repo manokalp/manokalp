@@ -24,7 +24,7 @@ const Footer = () => {
                 <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
                     <div className="flex flex-col  justify-between items-center gap-8">
                         {/* Logo and Contact Info */}
-                        <div className="flex flex-col items-center gap-6 max-w-sm">
+                        <div className="flex flex-col items-center gap-6 max-w-xl">
                             <Link href="/">
                                 <Image
                                     src="/logo.webp"
@@ -35,8 +35,8 @@ const Footer = () => {
                                     className="mb-4"
                                 />
                             </Link>
-                            <p className="text-black">1234 N Spring St, Los Angeles, CA 90012</p>
-                            <p className="text-black">mail@example.com</p>
+                            <p className="text-black">1⁠  ⁠A-28/19, A Block, DLF Phase 1, Gurugram, HR 122002</p>
+                            <p className="text-black">manokalpclinic@gmail.com</p>
                         </div>
 
                         {/* Social Links */}
