@@ -113,23 +113,23 @@ export default function ContactPage() {
           >
             Book Now
           </h1>
-          <p className="text-black lg:text-[1.25vw] text-[3.5vw] max-w-3xl mx-auto mb-8">
+          <p className="text-black lg:text-[1.25vw] text-[4vw] max-w-3xl mx-auto mb-4 md:mb-8">
             Please fill in the form below and our team will contact you as soon
             as possible to confirm your session.
           </p>
         </div>
 
-        <div className="max-w-[1400px] mx-auto bg-white rounded-lg shadow-lg p-8">
+        <div className="max-w-[1400px] mx-auto bg-white rounded-lg shadow-lg p-4 md:p-8">
           <div className="flex lg:flex-row flex-col-reverse gap-10">
             <div className="lg:col-span-5 lg:w-1/2">
-              <div className="bg-[#0E7EA0] text-white p-8 rounded-lg h-full flex flex-col justify-between">
+              <div className="bg-[#0E7EA0] text-white p-4 md:p-8 rounded-lg h-full flex flex-col justify-between">
                 <div>
                   <h3
-                    className={`text-2xl font-bold mb-6 ${playfair.className}`}
+                    className={`text-xl md:text-2xl font-bold mb-4 md:mb-6 ${playfair.className}`}
                   >
                     Get In Touch
                   </h3>
-                  <p className="mb-8">
+                  <p className="mb-4 md:mb-8 text-sm md:text-base">
                     We&apos;re here to help with any questions about mental
                     health services, appointments, or support resources.
                   </p>
@@ -139,46 +139,46 @@ export default function ContactPage() {
                       <div className="mr-4 text-[#FFD700]">
                         <FaMapMarkerAlt className="h-6 w-6" />
                       </div>
-                      <div>
-                        <h4 className="font-semibold text-[#FFD700] mb-3">
+                      <div className="w-full">
+                        <h4 className="font-semibold text-[#FFD700] mb-2 md:mb-3 text-base md:text-lg">
                           Our Locations
                         </h4>
 
                         <div className="mb-4">
-                          <div className="font-semibold mb-1 flex items-center">
-                            <FaMapMarkerAlt className="mr-2" /> Dr. Sankalp
-                            Jain, M.D.
+                          <div className="font-semibold mb-1 flex items-start">
+                            <FaMapMarkerAlt className="mr-2 mt-1 flex-shrink-0" /> 
+                            <span>Dr. Sankalp Jain, M.D.</span>
                           </div>
                           <p className="ml-6 mb-2">
                             Associate Consultant Institute of Psychiatry &
                             Behavioural Sciences, Sir Gangaram Hospital, New
                             Delhi-60
                           </p>
-                          <div className="ml-6 flex items-center">
-                            <FaPhoneAlt className="mr-2 text-[#FFD700] text-sm" />
+                          <div className="ml-6 flex items-start">
+                            <FaPhoneAlt className="mr-2 text-[#FFD700] text-sm mt-1 flex-shrink-0" />
                             <span>+91 75999 75000</span>
                           </div>
                         </div>
 
                         <div className="mb-4">
-                          <div className="font-semibold mb-1 flex items-center">
-                            <IoLocationSharp className="mr-2" /> Sir Ganga Ram
-                            Hospital OPD
+                          <div className="font-semibold mb-1 flex items-start">
+                            <IoLocationSharp className="mr-2 mt-1 flex-shrink-0" /> 
+                            <span>Sir Ganga Ram Hospital OPD</span>
                           </div>
-                          <div className="ml-6 mb-1 flex items-center">
-                            <FaCalendarAlt className="mr-2 text-[#FFD700] text-sm" />
+                          <div className="ml-6 mb-1 flex items-start">
+                            <FaCalendarAlt className="mr-2 text-[#FFD700] text-sm mt-1 flex-shrink-0" />
                             <span>Mon, Wed, Fri: 6-8 PM (Room No.F36)</span>
                           </div>
-                          <div className="ml-6 mb-1 flex items-center">
-                            <FaCalendarAlt className="mr-2 text-[#FFD700] text-sm" />
+                          <div className="ml-6 mb-1 flex items-start">
+                            <FaCalendarAlt className="mr-2 text-[#FFD700] text-sm mt-1 flex-shrink-0" />
                             <span>Tue, Thu, Sat: 8-10 AM (Room No.F55)</span>
                           </div>
-                          <div className="ml-6 mb-1 flex items-center">
-                            <FaPhoneAlt className="mr-2 text-[#FFD700] text-sm" />
+                          <div className="ml-6 mb-1 flex items-start">
+                            <FaPhoneAlt className="mr-2 text-[#FFD700] text-sm mt-1 flex-shrink-0" />
                             <span>011-35125600 / 42254000</span>
                           </div>
-                          <div className="ml-6 mb-1 flex items-center">
-                            <FaLink className="mr-2 text-[#FFD700] text-sm" />
+                          <div className="ml-6 mb-1 flex items-start">
+                            <FaLink className="mr-2 text-[#FFD700] text-sm mt-1 flex-shrink-0" />
                             <a
                               href="https://tinyurl.com/DrSankalpJain"
                               target="_blank"
@@ -202,24 +202,24 @@ export default function ContactPage() {
                         </div>
 
                         <div className="mb-4">
-                          <div className="font-semibold mb-1 flex items-center">
-                            <IoLocationSharp className="mr-2" /> Personal
-                            Clinic: New Delhi
+                          <div className="font-semibold mb-1 flex items-start">
+                            <IoLocationSharp className="mr-2 mt-1 flex-shrink-0" /> 
+                            <span>Personal Clinic: New Delhi</span>
                           </div>
                           <p className="ml-6 mb-1">
                             Sparsh/Manokalp Clinic, 22 Khan Market, Middle Lane,
                             New Delhi
                           </p>
-                          <div className="ml-6 mb-1 flex items-center">
-                            <FaClock className="mr-2 text-[#FFD700] text-sm" />
+                          <div className="ml-6 mb-1 flex items-start">
+                            <FaClock className="mr-2 text-[#FFD700] text-sm mt-1 flex-shrink-0" />
                             <span>2-6 PM (By Appointment only)</span>
                           </div>
-                          <div className="ml-6 mb-1 flex items-center">
-                            <FaPhoneAlt className="mr-2 text-[#FFD700] text-sm" />
+                          <div className="ml-6 mb-1 flex items-start">
+                            <FaPhoneAlt className="mr-2 text-[#FFD700] text-sm mt-1 flex-shrink-0" />
                             <span>Ms. Neha: +91 98710 57657</span>
                           </div>
-                          <div className="ml-6 mb-1 flex items-center">
-                            <FaWhatsapp className="mr-2 text-[#FFD700] text-sm" />
+                          <div className="ml-6 mb-1 flex items-start">
+                            <FaWhatsapp className="mr-2 text-[#FFD700] text-sm mt-1 flex-shrink-0" />
                             <span>+91 75999 75000</span>
                           </div>
                           {/* <div className="ml-6 mb-1 flex items-center">
@@ -236,19 +236,19 @@ export default function ContactPage() {
                         </div>
 
                         <div className="mb-2">
-                          <div className="font-semibold mb-1 flex items-center">
-                            <IoLocationSharp className="mr-2" /> Personal
-                            Clinic: Gurgaon
+                          <div className="font-semibold mb-1 flex items-start">
+                            <IoLocationSharp className="mr-2 mt-1 flex-shrink-0" /> 
+                            <span>Personal Clinic: Gurgaon</span>
                           </div>
                           <p className="ml-6 mb-1">
                             A-28/19, A Block, DLF Phase 1, Gurugram, HR 122002
                           </p>
-                          <div className="ml-6 mb-1 flex items-center">
-                            <FaClock className="mr-2 text-[#FFD700] text-sm" />
+                          <div className="ml-6 mb-1 flex items-start">
+                            <FaClock className="mr-2 text-[#FFD700] text-sm mt-1 flex-shrink-0" />
                             <span>By Appointment only</span>
                           </div>
-                          <div className="ml-6 mb-1 flex items-center">
-                            <FaPhoneAlt className="mr-2 text-[#FFD700] text-sm" />
+                          <div className="ml-6 mb-1 flex items-start">
+                            <FaPhoneAlt className="mr-2 text-[#FFD700] text-sm mt-1 flex-shrink-0" />
                             <span>+91 93114 34425</span>
                           </div>
                           {/* <div className="ml-6 mb-1 flex items-center">
@@ -271,7 +271,7 @@ export default function ContactPage() {
             </div>
 
             <div className="lg:w-1/2 lg:col-span-5 flex items-center justify-center">
-              <form onSubmit={handleSubmit} className="space-y-6 text-black">
+              <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6 text-black w-full">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label
@@ -355,8 +355,8 @@ export default function ContactPage() {
                   <p className="block text-sm font-medium text-gray-700 mb-3">
                     Preferred Mode of Session
                   </p>
-                  <div className="flex items-center space-x-6">
-                    <div className="flex items-center">
+                  <div className="flex flex-wrap items-center gap-4">
+                    <div className="flex items-center mr-2">
                       <input
                         type="checkbox"
                         id="inPerson"
