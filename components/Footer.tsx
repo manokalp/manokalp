@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { FaMapMarkerAlt, FaPhoneAlt, FaWhatsapp, FaEnvelope, FaCreditCard, FaCalendarAlt, FaClock, FaLink, FaHospital, FaUserMd, FaLinkedin } from "react-icons/fa"
+import { FaPhoneAlt, FaWhatsapp, FaEnvelope, FaCreditCard, FaCalendarAlt, FaClock, FaLink, FaHospital, FaUserMd, FaLinkedin } from "react-icons/fa"
 
 const Footer = () => {
     return (
