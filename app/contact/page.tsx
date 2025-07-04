@@ -120,8 +120,8 @@ export default function ContactPage() {
         </div>
 
         <div className="max-w-[1400px] mx-auto bg-white rounded-lg shadow-lg p-8">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
-            <div className="lg:col-span-5">
+          <div className="flex lg:flex-row flex-col-reverse gap-10">
+            <div className="lg:col-span-5 lg:w-1/2">
               <div className="bg-[#0E7EA0] text-white p-8 rounded-lg h-full flex flex-col justify-between">
                 <div>
                   <h3
@@ -270,7 +270,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <div className="lg:col-span-7 flex items-center justify-center">
+            <div className="lg:w-1/2 lg:col-span-5 flex items-center justify-center">
               <form onSubmit={handleSubmit} className="space-y-6 text-black">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
@@ -474,11 +474,11 @@ export default function ContactPage() {
                       "Book Now"
                     )}
                   </button>
-                  <p className="text-xs text-gray-500 mt-2 text-center">
+                  <p className="text-xs mt-10 text-gray-500 mt-2 text-center">
                     Our care coordinator will respond shortly.
                   </p>
                 </div>
-                <div className="flex  justify-between items-center mt-10">
+                {/* <div className="flex  justify-between items-center mt-10 lg:flex-row flex-col">
                   <div className="flex items-start">
                     <div className="mr-4 text-[#0F7EA0]">
                       <MdEmail className="h-6 w-6" />
@@ -510,7 +510,7 @@ export default function ContactPage() {
                       <p>+91 75999 75000</p>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 {/* <div className="mt-10">
                   <h4 className="font-semibold mb-3 text-[#0F7EA0]">
                     Follow Us
