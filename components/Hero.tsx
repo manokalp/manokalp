@@ -16,12 +16,12 @@ const Hero = () => {
                 </div>
                 <div className="flex flex-col flex-row justify-center lg:gap-40 gap-10 items-center text-center mb-20">
                     <div className=" ">
-                        <h4 className="lg:text-[2.5vw] text-[5.5vw] font-bold">Felling Overwhelmed</h4>
+                        <h4 className="lg:text-[2.5vw] text-[5.5vw] font-bold">Feeling Overwhelmed</h4>
                         <p className="lg:text-[1.55vw] text-[3.5vw] font-medium ">Start by identifying just one
                             stressor you can control today.”</p>
                     </div>
                     <div className=" ">
-                        <h4 className="lg:text-[2.5vw] text-[5.5vw] font-bold">Felling Overwhelmed</h4>
+                        <h4 className="lg:text-[2.5vw] text-[5.5vw] font-bold">Feeling Overwhelmed</h4>
                         <p className="lg:text-[1.55vw] text-[3.5vw] font-medium ">Start by identifying just one
                             stressor you can control today.”</p>
                     </div>

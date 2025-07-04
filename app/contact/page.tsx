@@ -3,6 +3,9 @@
 import { useState, ChangeEvent, FormEvent } from "react";
 import playfair from "../../fonts/playfair.module.css";
 import { toast } from "react-hot-toast";
+import { FaMapMarkerAlt, FaPhoneAlt, FaCalendarAlt, FaClock, FaWhatsapp, FaLink } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { IoLocationSharp } from "react-icons/io5";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -102,7 +105,8 @@ export default function ContactPage() {
             Book Now
           </h1>
           <p className="text-black lg:text-[1.25vw] text-[3.5vw] max-w-3xl mx-auto mb-8">
-            Please fill in the form below and our team will contact you as soon as possible to confirm your session.
+            Please fill in the form below and our team will contact you as soon
+            as possible to confirm your session.
           </p>
         </div>
 
@@ -124,51 +128,97 @@ export default function ContactPage() {
                   <div className="space-y-6">
                     <div className="flex items-start">
                       <div className="mr-4 text-[#FFD700]">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="h-6 w-6"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                          />
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                          />
-                        </svg>
+                        <FaMapMarkerAlt className="h-6 w-6" />
                       </div>
                       <div>
-                        <h4 className="font-semibold text-[#FFD700]">
-                          Our Address
+                        <h4 className="font-semibold text-[#FFD700] mb-3">
+                          Our Locations
                         </h4>
-                        <p>1234 N Spring St, Los Angeles, CA 90012</p>
+                        
+                        <div className="mb-4">
+                          <div className="font-semibold mb-1 flex items-center">
+                            <FaMapMarkerAlt className="mr-2" /> Dr. Sankalp Jain, M.D.
+                          </div>
+                          <p className="ml-6 mb-2">Associate Consultant Institute of Psychiatry & Behavioural Sciences, Sir Gangaram Hospital, New Delhi-60</p>
+                          <div className="ml-6 flex items-center">
+                            <FaPhoneAlt className="mr-2 text-[#FFD700] text-sm" /> 
+                            <span>+91 75999 75000</span>
+                          </div>
+                        </div>
+                        
+                        <div className="mb-4">
+                          <div className="font-semibold mb-1 flex items-center">
+                            <IoLocationSharp className="mr-2" /> Sir Ganga Ram Hospital OPD
+                          </div>
+                          <div className="ml-6 mb-1 flex items-center">
+                            <FaCalendarAlt className="mr-2 text-[#FFD700] text-sm" /> 
+                            <span>Mon, Wed, Fri: 6-8 PM (Room No.F36)</span>
+                          </div>
+                          <div className="ml-6 mb-1 flex items-center">
+                            <FaCalendarAlt className="mr-2 text-[#FFD700] text-sm" /> 
+                            <span>Tue, Thu, Sat: 8-10 AM (Room No.F55)</span>
+                          </div>
+                          <div className="ml-6 mb-1 flex items-center">
+                            <FaPhoneAlt className="mr-2 text-[#FFD700] text-sm" /> 
+                            <span>011-35125600 / 42254000</span>
+                          </div>
+                          <div className="ml-6 mb-1 flex items-center">
+                            <FaLink className="mr-2 text-[#FFD700] text-sm" /> 
+                            <a href="https://tinyurl.com/DrSankalpJain" target="_blank" rel="noopener noreferrer" className="hover:underline">Book Appointment</a>
+                          </div>
+                          <div className="ml-6 mb-1 flex items-center">
+                            <FaMapMarkerAlt className="mr-2 text-[#FFD700] text-sm" /> 
+                            <a href="https://maps.app.goo.gl/hrR4N5ff2wtBZcyTA" target="_blank" rel="noopener noreferrer" className="hover:underline">View Location</a>
+                          </div>
+                        </div>
+                        
+                        <div className="mb-4">
+                          <div className="font-semibold mb-1 flex items-center">
+                            <IoLocationSharp className="mr-2" /> Personal Clinic: New Delhi
+                          </div>
+                          <p className="ml-6 mb-1">Sparsh/Manokalp Clinic, 22 Khan Market, Middle Lane, New Delhi</p>
+                          <div className="ml-6 mb-1 flex items-center">
+                            <FaClock className="mr-2 text-[#FFD700] text-sm" /> 
+                            <span>2-6 PM (By Appointment only)</span>
+                          </div>
+                          <div className="ml-6 mb-1 flex items-center">
+                            <FaPhoneAlt className="mr-2 text-[#FFD700] text-sm" /> 
+                            <span>Ms. Neha: +91 98710 57657</span>
+                          </div>
+                          <div className="ml-6 mb-1 flex items-center">
+                            <FaWhatsapp className="mr-2 text-[#FFD700] text-sm" /> 
+                            <span>+91 75999 75000</span>
+                          </div>
+                          <div className="ml-6 mb-1 flex items-center">
+                            <FaMapMarkerAlt className="mr-2 text-[#FFD700] text-sm" /> 
+                            <a href="https://maps.app.goo.gl/yDyeJk1Nm7TUS2zH6" target="_blank" rel="noopener noreferrer" className="hover:underline">View Location</a>
+                          </div>
+                        </div>
+                        
+                        <div className="mb-2">
+                          <div className="font-semibold mb-1 flex items-center">
+                            <IoLocationSharp className="mr-2" /> Personal Clinic: Gurgaon
+                          </div>
+                          <p className="ml-6 mb-1">A-28/19, A Block, DLF Phase 1, Gurugram, HR 122002</p>
+                          <div className="ml-6 mb-1 flex items-center">
+                            <FaClock className="mr-2 text-[#FFD700] text-sm" /> 
+                            <span>By Appointment only</span>
+                          </div>
+                          <div className="ml-6 mb-1 flex items-center">
+                            <FaPhoneAlt className="mr-2 text-[#FFD700] text-sm" /> 
+                            <span>+91 93114 34425</span>
+                          </div>
+                          <div className="ml-6 mb-1 flex items-center">
+                            <FaMapMarkerAlt className="mr-2 text-[#FFD700] text-sm" /> 
+                            <a href="https://maps.app.goo.gl/gULixSXK8pFEcLQU8" target="_blank" rel="noopener noreferrer" className="hover:underline">View Location</a>
+                          </div>
+                        </div>
                       </div>
                     </div>
 
                     <div className="flex items-start">
                       <div className="mr-4 text-[#FFD700]">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="h-6 w-6"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                          />
-                        </svg>
+                        <MdEmail className="h-6 w-6" />
                       </div>
                       <div>
                         <h4 className="font-semibold text-[#FFD700]">
@@ -219,7 +269,7 @@ export default function ContactPage() {
                         <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
                       </svg>
                     </a>
-                    <a href="#" className="text-white hover:text-[#FFD700]">
+                    <a href="https://www.instagram.com/manokalp/?igsh=NmJmbWo4eWFzM3ly" className="text-white hover:text-[#FFD700]">
                       <svg
                         className="w-6 h-6"
                         fill="currentColor"
