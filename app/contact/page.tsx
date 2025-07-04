@@ -437,7 +437,7 @@ export default function ContactPage() {
                       <p className="text-sm font-medium">{errorMessage}</p>
                       <p className="text-xs mt-1">
                         If issues persist, please email us directly at
-                        support@manokalp.com
+                        Sankalp.jain@sgrh.com
                       </p>
                     </div>
                   )}
@@ -485,7 +485,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-[#0F7EA0]">Email Us</h4>
-                      <p>support@manokalp.com</p>
+                      <p>Sankalp.jain@sgrh.com</p>
                     </div>
                   </div>
                   <div className="flex items-start">
@@ -507,7 +507,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-[#0F7EA0]">Call Us</h4>
-                      <p>+1 (555) 123-4567</p>
+                      <p>+91 75999 75000</p>
                     </div>
                   </div>
                 </div>
