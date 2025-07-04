@@ -10,11 +10,11 @@ import {
   FaClock,
   FaWhatsapp,
   FaLink,
-  FaLinkedin,
+  // FaLinkedin,
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { IoLocationSharp } from "react-icons/io5";
-import Link from "next/link";
+// import Link from "next/link";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({

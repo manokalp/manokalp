@@ -63,9 +63,9 @@ const Footer = () => {
                                     </div>
                                     <div className="flex items-center gap-2 mt-2">
                                         <FaCreditCard className="text-[#0E7EA0] text-sm" />
-                                        <a href="Lifecoach@kotak" className="text-black hover:text-[#0E7EA0] transition-colors">
+                                        <p  className="text-black  transition-colors">
                                             Lifecoach@kotak (Payment)
-                                        </a>
+                                        </p>
                                     </div>
                                 </div>
                                 
