@@ -19,7 +19,7 @@ const HPD = () => {
     {
       name: "Genetic and Neurobiological Factors",
       description:
-        "Genetic predisposition plays a role in the development of HPD, with some research suggesting heightened sensitivity in brain regions associated with emotion processing.",
+        "Limited neurobiological research suggests potential abnormalities in limbic system functioning and prefrontal cortex regulation, though HPD-specific studies are sparse compared to other personality disorders.",
       bgColor: "bg-[#0E7EA0]", // Blue background
       textColor: "text-white",
     },
@@ -146,7 +146,7 @@ const HPD = () => {
     <main className="w-full h-full flex justify-center flex-col bg-white">
       {/* Hero Desktop */}
       <div className="w-full hidden lg:block text-center">
-        <h2 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] ">
+        <h2 className="lg:text-[5vw] text-[6vw] text-white mt-[5vw] font-semibold relative z-10 font-[playfull] ">
           Histrionic Personality Disorder (HPD)
         </h2>
         <Image
@@ -192,8 +192,7 @@ const HPD = () => {
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
             Histrionic Personality Disorder (HPD) is a Cluster B personality
             disorder characterized by excessive emotionality and
-            attention-seeking behavior. It affects about 1-3% of the general
-            population and is more often diagnosed in women. Individuals with
+            attention-seeking behavior. Prevalence estimates range from 0.8-1.8% in the general population. While historically diagnosed more frequently in women (2:1 ratio), current research suggests this may reflect diagnostic bias rather than true prevalence differences. Individuals with
             HPD often exhibit dramatic, flirtatious, or exaggerated behaviors,
             use physical appearance to attract attention, and interpret
             relationships as closer than they actually are. These traits can
@@ -250,13 +249,33 @@ const HPD = () => {
         </div>
       </section>
 
-      {/* Symptoms and Diagnostic Criteria */}
+      {/* DSM-5 Diagnostic Criteria */}
       <section className="bg-white w-full h-full lg:px-30 px-10 lg:pt-30 py-10 text-center">
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}
         >
-          Symptoms and Diagnostic Criteria
+          DSM-5 Diagnostic Criteria
         </h2>
+        <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
+          DSM-5 requires 5 or more of these 8 specific criteria:
+        </p>
+        <div className="bg-gray-50 p-6 rounded-xl mb-10 text-left max-w-4xl mx-auto">
+          <ul className="text-black space-y-3">
+            <li>• Uncomfortable when not center of attention</li>
+            <li>• Inappropriately sexually seductive or provocative behavior</li>
+            <li>• Rapidly shifting and shallow emotional expression</li>
+            <li>• Uses physical appearance to draw attention</li>
+            <li>• Impressionistic speech lacking detail</li>
+            <li>• Self-dramatization and theatrical behavior</li>
+            <li>• Suggestible, easily influenced by others</li>
+            <li>• Considers relationships more intimate than they are</li>
+          </ul>
+        </div>
+
+        {/* Symptoms and Behavioral Patterns */}
+        <h3 className="text-[#0E7EA0] lg:text-[2.5vw] text-[5vw] font-bold mb-8">
+          Symptoms and Behavioral Patterns
+        </h3>
 
         {/* Tab Buttons */}
         <div className="flex flex-col lg:flex-row justify-between gap-4 text-black mb-16">
@@ -442,6 +461,161 @@ const HPD = () => {
               self-expression and reduce the need for dramatic attention-seeking
               behaviors.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Differential Diagnosis */}
+      <section className="bg-gray-100 w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
+        <h2
+          className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}
+        >
+          Differential Diagnosis
+        </h2>
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 text-left">
+          <div className="bg-white p-6 rounded-xl shadow-lg">
+            <h3 className="text-xl font-bold mb-4 text-[#0E7EA0]">Personality Disorders</h3>
+            <ul className="text-black space-y-3">
+              <li>• <strong>Borderline PD:</strong> HPD lacks identity disturbance, self-harm, and abandonment fears</li>
+              <li>• <strong>Narcissistic PD:</strong> HPD seeks attention through emotionality, not grandiosity</li>
+              <li>• <strong>Dependent PD:</strong> HPD attention-seeking is for admiration, not caretaking</li>
+            </ul>
+          </div>
+          <div className="bg-white p-6 rounded-xl shadow-lg">
+            <h3 className="text-xl font-bold mb-4 text-[#0E7EA0]">Other Conditions</h3>
+            <ul className="text-black space-y-3">
+              <li>• <strong>Bipolar Disorder:</strong> Rule out manic/hypomanic episodes</li>
+              <li>• <strong>Somatic Symptom Disorders:</strong> Focus on physical vs. emotional attention-seeking</li>
+              <li>• <strong>Cultural considerations:</strong> Distinguish from culturally sanctioned emotional expressiveness</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Common Comorbidities */}
+      <section className="bg-white w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
+        <h2
+          className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}
+        >
+          Common Comorbidities
+        </h2>
+        <div className="grid lg:grid-cols-3 grid-cols-1 gap-8">
+          <div className="bg-[#0E7EA0] rounded-xl text-white p-6">
+            <h3 className="text-lg font-bold mb-4 text-[#FFD066]">Mood & Anxiety</h3>
+            <ul className="text-sm space-y-2">
+              <li>• Major depressive disorder (40-50%)</li>
+              <li>• Anxiety disorders (30-40%)</li>
+            </ul>
+          </div>
+          <div className="bg-[#FFD700] rounded-xl text-black p-6">
+            <h3 className="text-lg font-bold mb-4">Substance & Personality</h3>
+            <ul className="text-sm space-y-2">
+              <li>• Substance use disorders (20-30%)</li>
+              <li>• Other Cluster B personality disorders (high overlap)</li>
+            </ul>
+          </div>
+          <div className="bg-[#0E7EA0] rounded-xl text-white p-6">
+            <h3 className="text-lg font-bold mb-4 text-[#FFD066]">Other Conditions</h3>
+            <ul className="text-sm space-y-2">
+              <li>• Somatic symptom disorders</li>
+              <li>• Eating disorders (particularly in women)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Risk Assessment */}
+      <section className="bg-gray-100 w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
+        <h2
+          className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}
+        >
+          Risk Assessment
+        </h2>
+        <div className="bg-white p-8 rounded-xl shadow-lg text-left max-w-4xl mx-auto">
+          <ul className="text-black space-y-4">
+            <li>• Lower suicide risk compared to other Cluster B disorders</li>
+            <li>• Risk of impulsive behaviors when attention-seeking</li>
+            <li>• Potential for risky sexual behaviors</li>
+            <li>• Vulnerability to exploitation due to suggestibility</li>
+            <li>• Financial impulsivity related to appearance maintenance</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* Therapeutic Relationship Management */}
+      <section className="bg-white w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
+        <h2
+          className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}
+        >
+          Therapeutic Relationship Management
+        </h2>
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 text-left">
+          <div className="bg-gray-50 p-6 rounded-xl">
+            <h3 className="text-xl font-bold mb-4 text-[#0E7EA0]">Boundary Management</h3>
+            <ul className="text-black space-y-3">
+              <li>• Maintain consistent, professional boundaries</li>
+              <li>• Avoid reinforcing attention-seeking within therapy</li>
+            </ul>
+          </div>
+          <div className="bg-gray-50 p-6 rounded-xl">
+            <h3 className="text-xl font-bold mb-4 text-[#0E7EA0]">Therapeutic Approach</h3>
+            <ul className="text-black space-y-3">
+              <li>• Address tendency to idealize or dramatize therapeutic relationship</li>
+              <li>• Balance validation with reality testing</li>
+              <li>• Manage countertransference reactions to dramatic presentations</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Prognosis and Long-term Outcomes */}
+      <section className="bg-gray-100 w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
+        <h2
+          className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}
+        >
+          Prognosis and Long-term Outcomes
+        </h2>
+        <div className="flex flex-col lg:flex-row gap-8 text-left">
+          <div className="lg:w-1/2 bg-white p-6 rounded-xl shadow-lg">
+            <h3 className="text-xl font-bold mb-4 text-[#0E7EA0]">Positive Factors</h3>
+            <ul className="text-black space-y-3">
+              <li>• Generally better prognosis than other Cluster B disorders</li>
+              <li>• Symptoms may moderate with age and life experience</li>
+              <li>• Positive predictors: stable relationships, consistent employment, therapy engagement</li>
+            </ul>
+          </div>
+          <div className="lg:w-1/2 bg-white p-6 rounded-xl shadow-lg">
+            <h3 className="text-xl font-bold mb-4 text-[#0E7EA0]">Challenges & Recovery</h3>
+            <ul className="text-black space-y-3">
+              <li>• Challenges: comorbid conditions, limited insight, external validation dependency</li>
+              <li>• Recovery focuses on developing authentic self-worth and deeper relationships</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Prevention and Early Intervention */}
+      <section className="bg-white w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
+        <h2
+          className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}
+        >
+          Prevention and Early Intervention
+        </h2>
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 text-left">
+          <div className="bg-gray-50 p-6 rounded-xl">
+            <h3 className="text-xl font-bold mb-4 text-[#0E7EA0]">Early Identification</h3>
+            <ul className="text-black space-y-3">
+              <li>• Identify at-risk youth with excessive attention-seeking</li>
+              <li>• Parent education about balanced attention and validation</li>
+              <li>• School-based programs promoting authentic self-expression</li>
+            </ul>
+          </div>
+          <div className="bg-gray-50 p-6 rounded-xl">
+            <h3 className="text-xl font-bold mb-4 text-[#0E7EA0]">Intervention Strategies</h3>
+            <ul className="text-black space-y-3">
+              <li>• Early therapy for attachment difficulties</li>
+              <li>• Media literacy regarding appearance and validation</li>
+            </ul>
           </div>
         </div>
       </section>

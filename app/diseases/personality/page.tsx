@@ -121,7 +121,7 @@ const Personality = () => {
     <main className="w-full h-full flex justify-center flex-col  bg-white ">
       {/* Hero Desktop  */}
       <div className="w-full hidden lg:block text-center ">
-        <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] translate-y-[3vw]">
+        <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] translate-y-[10vw]">
           What Are Personality Disorders?
         </h1>
         <Image

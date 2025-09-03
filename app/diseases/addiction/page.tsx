@@ -56,17 +56,16 @@ const Addiction = () => {
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
             Addiction is a multifaceted disorder that affects millions of
             individuals across the globe. It is defined by compulsive use of a
-            substance or behavior in the face of adverse effects. Addiction
-            exists in a variety of forms, ranging from substance abuse (e.g.,
-            drugs and alcohol) to behavioral addictions (e.g., gambling, social
+            substance or behavior despite adverse consequences. Addiction
+            exists in various forms, ranging from substance use disorders (such as
+            drugs and alcohol) to behavioral addictions (such as gambling, social
             media, or gaming).
           </p>
 
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            It is not a matter of lack of willpower but a chronic illness that
-            impacts brain function and behavior. Knowledge of the causes,
-            symptoms, and solutions of addiction is vital in ensuring that
-            people understand the issue and get successful treatment.
+            It is not a matter of lack of willpower but a chronic medical condition that
+            impacts brain function and behavior. Understanding the causes,
+            symptoms, and treatment options for addiction is vital for individuals seeking recovery and their families.
           </p>
         </div>
       </section>
@@ -94,9 +93,7 @@ const Addiction = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                   Research indicates that genetic makeup plays an important
-                  part in addiction. People who have a history of addiction in
-                  their families are likely to develop such issues.
+                   Research indicates that genetic factors play a significant role in addiction vulnerability. Individuals with a family history of addiction are at higher risk of developing substance use disorders.
                 </p>
               </div>
             </div>
@@ -114,10 +111,7 @@ const Addiction = () => {
                 <p className="lg:text-[1vw] text-[3vw]">
                   Addictive drugs and activities activate the reward system of
                   the brain by releasing dopamine, a pleasure-related
-                  neurotransmitter. Gradually, repeated use leads to a change in
-                  brain chemistry such that it is hard to experience pleasure
-                  without using the addictive drug or engaging in the addictive
-                  activity.
+                  neurotransmitter. Over time, repeated use alters brain chemistry, making it increasingly difficult to experience pleasure without the addictive substance or behavior.
                 </p>
               </div>
             </div>
@@ -128,13 +122,13 @@ const Addiction = () => {
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#0E7EA0]  w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [backface-visibility:hidden]">
                 <h3 className="lg:text-[1.25vw] text-[4vw] font-bold">
-                  Environmental Causes
+                  Environmental Factors
                 </h3>
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Substance exposure at an early age, peer pressure, stress, and
-                  trauma can cause addiction. Individuals who are exposed to
+                  Early substance exposure, peer pressure, chronic stress, and
+                  trauma can contribute to addiction development. Individuals who are exposed to
                   addiction while growing up at home or to high-stress
                   environments are at higher risk.
                 </p>

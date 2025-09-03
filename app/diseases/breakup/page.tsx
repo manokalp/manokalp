@@ -18,12 +18,12 @@ const tips = [
   {
     title: "Allow Yourself to Grieve",
     description:
-      "It is normal to feel sad and to mourn the loss of the relationship. Suppressing emotions can lead to long-term emotional issues. Give yourself time to process the breakup.",
+      "It is normal to feel sad and to mourn the loss of the relationship. Suppressing emotions can lead to long-term emotional issues. Allow yourself time and space to emotionally process the breakup without pressure to 'bounce back' quickly.",
   },
   {
     title: "Don't Leap into Rebound Relationships",
     description:
-      "It is unhealthy to immediately plunge into another relationship after a break-up. There is a need to heal before looking for another romantic relationship.",
+      "It is unhealthy to immediately plunge into another relationship after a break-up. Healing emotionally is essential before opening yourself up to new romantic connections.",
   },
   {
     title: "Cut Off Unnecessary Contact",
@@ -43,12 +43,12 @@ const tips = [
   {
     title: "Take Professional Assistance if Needed",
     description:
-      "When sadness or anxiety becomes intolerable, a talk with a therapist might prove helpful. Professional advice can guide through emotions and give tips on coping.",
+      "When sadness or anxiety becomes intolerable, a talk with a therapist might prove helpful. Therapists can offer valuable tools for emotional regulation and guide you through the healing journey.",
   },
   {
     title: "Keep Yourself Busy and Preoccupied",
     description:
-      "Being busy at work, hobby, or social activity can discourage excessive brooding and keep the mind preoccupied.",
+      "Staying engaged with work, hobbies, or social activities can redirect your focus and reduce overthinking.",
   },
   {
     title: "Remain Positive About the Future",
@@ -81,8 +81,9 @@ const BreakUp = () => {
     <main className="w-full h-full flex justify-center flex-col  bg-white ">
       {/* Hero Desktop  */}
 
+
       <div className="w-full hidden lg:block text-center ">
-        <h2 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull]">
+        <h2 className="lg:text-[5vw] text-[6vw] mt-[7vw] text-white font-semibold relative z-10 font-[playfull]">
           Breakup
         </h2>
         <Image
@@ -122,22 +123,20 @@ const BreakUp = () => {
           Breakup
         </h2>
       </div>
+            <div className="max-w-8xl mx-auto">
 
       {/* The Section  */}
       <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-40 py-20 text-center lg:mt-[-20vw] mt-[-4vw]">
         <div className="flex flex-col lg:flex-row justify-center lg:gap-40 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
             Breakups rank among the most emotionally demanding things an
-            individual might experience. Breakups mark the end of a love
-            relationship, and it comes with the sting of loss, grief, and
-            bewilderment. Although love, trust, and common ground form the
+            individual might experience. Breakups signify the end of a romantic bond, often bringing a wave of grief, confusion, and emotional pain. Although love, trust, and common ground form the
             foundations of relationships, some factors are likely to disband
             them.
           </p>
 
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Either friendly or painful, breakups have intense psychological
-            impacts at times similar to mourning a loss. Knowing the reasons,
+            Whether amicable or painful, breakups can mirror the emotional intensity of grieving a significant loss. Knowing the reasons,
             signs, and remedies of a breakup can assist people in dealing with
             the experience and moving on in a healthier manner.
           </p>
@@ -225,8 +224,7 @@ const BreakUp = () => {
           <div className="p-6">
             <h3 className="text-lg font-bold mb-4">Overthinking and Regret</h3>
             <p className="text-sm">
-              Everyone keeps thinking of the past things and what more could
-              have been done. The process of blaming oneself and the
+              Many people dwell on past moments, replaying what went wrong or what they could have done differently. The process of blaming oneself and the
               occurrence of remorseful thoughts render moving on increasingly
               difficult.
             </p>
@@ -246,8 +244,7 @@ const BreakUp = () => {
             </h3>
             <p className="text-sm">
               Social interaction, work, and even hobbies can all become
-              irrelevant at once. People tend to lose the will to do things
-              that were previously interesting.
+              irrelevant at once. Activities that once brought joy may suddenly feel meaningless or exhausting.
             </p>
           </div>
         </div>
@@ -295,9 +292,7 @@ const BreakUp = () => {
             <h3 className="text-lg font-bold mb-4">Attachment Withdrawal</h3>
             <p className="text-sm">
               If the relationship was passionate, the brain might respond in
-              the same way as withdrawal from a dependency. This is why people
-              sometimes feel the need to reach out to their ex, even when they
-              know it might not be a good choice.
+              the same way as withdrawal from a dependency. This can trigger intense urges to reconnect with an ex—even when doing so may hinder healing.
             </p>
           </div>
         </div>
@@ -339,7 +334,7 @@ const BreakUp = () => {
       </div>
 
       {/* Solutions for Coping with Breakup */}
-      <section className="py-12 px-12">
+      <section className="py-12 px-12 ">
         <h2 className="lg:text-[4vw] text-[6vw] font-[playfair] text-[#0E7EA0] font-bold text-center mb-6">
           Solutions For Coping With A Breakup
         </h2>
@@ -376,12 +371,11 @@ const BreakUp = () => {
             for people.{" "}
           </p>
           <p>
-            Though the hurt will seem unbearable in the beginning, time, care,
-            and help can ease one&apos;s way into a better, more satisfying
-            future. Every ending paves the way for a new beginning.{" "}
+            Though the pain may feel overwhelming at first, with time, self-care, and support, recovery becomes not only possible—but empowering. Every ending paves the way for a new beginning.{" "}
           </p>
         </div>
       </section>
+      </div>
     </main>
   );
 };

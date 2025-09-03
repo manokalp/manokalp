@@ -54,27 +54,19 @@ const Homosexuality = () => {
           <p className="lg:text-[1.2vw] text-[3.5vw] font-medium text-left">
             Homosexuality refers to the sexual, romantic, and emotional
             attraction one person may feel towards someone of the same sex.
-            Research shows that approximately 2 to 11% of the population
-            experiences same-sex attraction. Today, individuals identifying with
-            such orientations are often considered part of the LGB (Lesbian,
-            Gay, Bisexual) community. Despite progress in public policies
-            regarding same-sex relationships in many countries, societal
-            acceptance and understanding of homosexuality still face significant
-            challenges. Hostility, discrimination, and prejudice continue to
+            Studies estimate that around 2% to 11% of the population
+            experiences same-sex attraction. Individuals with these orientations are commonly recognized as part of the LGB (Lesbian,
+            Gay, Bisexual) community. Although many countries have made policy advances on same-sex relationships, societal acceptance and understanding of homosexuality remain limited. Hostility, discrimination, and prejudice continue to
             subject homosexual individuals to stress and stigma.
           </p>
 
           <p className="lg:text-[1.2vw] text-[3.5vw] font-medium text-left">
-            Homosexuality is viewed by many experts as a natural variant of
-            human sexuality. It is often misunderstood as a deviation in
-            psychosexual development, arising from a combination of genetic and
-            psychosocial factors, none of which are within an individual’s
-            control. Research has confirmed that there are structural
-            differences in the brains of individuals who identify as lesbian,
-            gay, or bisexual, as well as variations in neurotransmitters.
-            Despite this, people in homosexual relationships deserve the same
-            rights and respect as individuals with other medical conditions or
-            life experiences, like those living with cancer or diabetes.
+            Many experts regard homosexuality as a natural variation of
+            human sexuality. It is sometimes mistakenly seen as a psychosexual deviation, though it results from genetic and
+            psychosocial factors beyond an individual&apos;s control. Research indicates structural brain differences and neurotransmitter variations in individuals who identify as lesbian,
+            gay, or bisexual.
+            Regardless, people in homosexual relationships deserve equal
+            rights and respect, similar to those with medical conditions such as cancer or diabetes.
           </p>
         </div>
       </section>
@@ -90,26 +82,22 @@ const Homosexuality = () => {
         <div className="flex flex-col lg:flex-row justify-between gap-8 text-left">
           <div className="lg:w-1/2">
             <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium">
-              Homosexuality is not abnormal. Normalcy has two definitions: one
-              is statistical, referring to what is most common within a
-              population, and the other is based on societal acceptance.
-              Statistically, homosexuality might be considered less common (a
-              minority), but being an outlier in society does not equate to
-              being a disorder, sin, or crime. For example, geniuses with
+              Homosexuality is entirely normal. Normalcy can be defined statistically—as what&apos;s common in a population—and socially—as what is accepted by society.
+              Though less common statistically, homosexuality&apos;s minority status doesn&apos;t make it a disorder, sin, or crime. For example, geniuses with
               extraordinarily high IQs are also statistical outliers but are not
               marginalized in the same way.
             </p>
           </div>
           <div className="lg:w-1/2">
             <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium">
-              Sexual activity traditionally serves two main purposes:
-              reproduction (ensuring the continuation of the species) and
-              pleasure (strengthening bonds between partners). Homosexual
-              relationships may not lead to reproduction, but many heterosexual
-              couples choose not to have children, and many homosexual couples
-              adopt. Therefore, homosexuality is neither immoral nor illegal and
-              should not be viewed as a deviation. It is a personal choice and a
-              natural aspect of human diversity.
+              Sexual activity traditionally fulfills two roles:
+               reproduction (species continuation) and
+               pleasure (bonding between partners). Though
+               homosexual relationships don&apos;t result in biological children, many heterosexual
+               couples also forgo parenting, and many homosexual couples
+               choose adoption. Consequently, homosexuality is neither immoral nor illegal and
+              should not be viewed as a deviation. It is a
+              natural facet of human diversity, not merely a personal choice.
             </p>
           </div>
         </div>
@@ -124,24 +112,21 @@ const Homosexuality = () => {
         <div className="flex flex-col lg:flex-row justify-between gap-8 text-left">
           <div className="lg:w-1/2">
             <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium">
-              Homosexuality is not a new phenomenon or a problem, but a stable
-              trait that has existed throughout human history. Archaeological
-              evidence shows that same-sex attraction existed in prehistoric
-              societies. However, despite its historical presence, the issue has
+              Homosexuality is neither new nor problematic, but a consistent aspect of human history. Archaeological
+              findings confirm same-sex attraction existed in prehistoric
+              cultures. However, despite its historical presence, the issue has
               been deeply controversial in fields like medicine, law, and social
-              policy. Up until 1973, homosexuality was classified as a
-              psychiatric disorder in the Diagnostic and Statistical Manual of
-              Mental Disorders (DSM), and it remained categorized as such in the
-              International Classification of Diseases (ICD) until 1991.
+              policy. Homosexuality was classified as a
+              psychiatric disorder in the DSM until 1973 and remained in the ICD until 1991.
             </p>
           </div>
           <div className="lg:w-1/2">
             <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium">
               Although progress has been made in decriminalizing same-sex
               relationships, stigma and discrimination persist in many parts of
-              the world. LGB individuals still face considerable discrimination,
-              including verbal and physical violence, social rejection, and
-              legal penalties in some countries. The ongoing criminalization and
+              the world. LGB individuals continue to face discrimination,
+              including verbal and physical abuse, social exclusion, and
+              legal penalties in various countries. The ongoing criminalization and
               marginalization of sexual and gender minorities contribute to
               their societal challenges.
             </p>
@@ -157,8 +142,7 @@ const Homosexuality = () => {
           Why Do LGB Individuals Face Minority Stress?
         </h2>
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Minority stress refers to the stress experienced by individuals who
-          belong to stigmatized or marginalized groups, including the LGB
+          Minority stress describes the unique pressures faced by stigmatized groups like the LGB
           community. Social stressors, such as discrimination, rejection, and
           lack of acceptance, can create feelings of alienation and lead to
           negative physical, emotional, and mental health outcomes.
@@ -199,9 +183,8 @@ const Homosexuality = () => {
             <div className="p-6">
               <h3 className="text-lg font-bold mb-4">Hypervigilance</h3>
               <p className="text-sm">
-                Because of the constant fear of rejection or harm, many LGB
-                individuals remain in a heightened state of awareness and
-                anxiety, leading to long-term stress.
+                Fear of rejection or harm causes many LGB
+                individuals to stay alert and anxious, resulting in chronic stress.
               </p>
             </div>
           </div>
@@ -236,9 +219,7 @@ const Homosexuality = () => {
             <div className="p-6">
               <h3 className="text-lg font-bold mb-4">Homophobia</h3>
               <p className="text-sm">
-                Internalized homophobia occurs when individuals adopt the
-                prejudiced views of society, believing their sexual orientation
-                is something to hide or be ashamed of.
+                Internalized homophobia arises when individuals absorb societal prejudices, feeling shame about their orientation.
               </p>
             </div>
           </div>
@@ -255,28 +236,24 @@ const Homosexuality = () => {
         </h2>
         <div className="flex flex-col lg:flex-row justify-between items-center text-left text-black gap-20 mb-50">
           <p>
-            MindFrames adopts a compassionate, empowering approach to helping
-            individuals navigate issues related to their sexual orientation. The
+            MindFrames uses a compassionate, empowering approach to support
+            individuals navigating sexual orientation challenges. The
             focus is on building self-compassion and self-reliance, which
             facilitates a healthier process of coming out and managing
             homophobia. By strengthening resilience, individuals are empowered
-            to stand up for their rights and pursue authentic lives. Therapeutic
-            approaches such as Cognitive Behavioral Therapy (CBT), Rational
-            Emotive Behavior Therapy (REBT), Acceptance and Commitment Therapy
-            (ACT), and Emotion-Focused Therapy (EFT) are used to enhance
+            to stand up for their rights and pursue authentic lives. Therapies
+            like CBT, REBT, ACT, and EFT help enhance
             self-acceptance and empowerment. These techniques help individuals
             address internalized stigma, build confidence, and live a fulfilling
             life in alignment with their values.
           </p>
           <p>
-            Additionally, mindfulness training is offered to help individuals
-            cultivate psychological flexibility, manage stress, and increase
+            Mindfulness training further aids in building
+            psychological flexibility, stress management, and
             emotional resilience. These therapeutic tools support individuals in
             embracing their authentic selves, feeling more in control of their
             choices, and living happier lives. In summary, homosexuality is a
-            natural and normal variation of human sexuality, and the challenges
-            faced by LGB individuals are largely due to societal rejection,
-            stigma, and discrimination. With the right support and therapeutic
+            natural variation of human sexuality, and challenges for LGB individuals largely arise from societal stigma and discrimination. With the right support and therapeutic
             tools, LGB individuals can navigate these challenges, build
             resilience, and live fulfilling, authentic lives.{" "}
           </p>

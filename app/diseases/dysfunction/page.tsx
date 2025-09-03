@@ -60,25 +60,25 @@ const Dysfunction = () => {
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
             Sexual dysfunction refers to difficulties in initiating, performing,
             or enjoying sexual intercourse. Despite being a common issue,
-            discussions around sexual dysfunction remain taboo in many cultures.
-            Sexuality is a fundamental human need, and yet, emotional cravings,
+            conversations about sexual dysfunction remain taboo in many cultures.
+            Sexuality is a fundamental human need; yet emotional cravings,
             inhibitions, and preferences are often neglected or avoided in
-            conversations. This lack of open communication, whether among
-            couples or professionals, can worsen the situation and impair
-            intimacy, leading to dissatisfaction in relationships. Sexual
-            dissatisfaction often contributes to relationship issues, including
-            breakups, as it affects both mood and self-esteem.{" "}
+            discussion. This lack of open communication—whether between
+            partners or with professionals—can worsen problems, impair
+            intimacy, and lead to dissatisfaction in relationships. Sexual
+            dissatisfaction frequently contributes to relationship issues, including
+            breakups, as it affects mood and self-esteem.{" "}
           </p>
 
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Historically, sexuality has been associated with socio-cultural
-            psychological meanings. For men, it may be linked to power and
-            dominance, while women may associate it with their attractiveness
-            and desirability. The inability to perform well in bed can lead to
-            negative emotions like guilt, sadness, low self-regard, frustration,
-            anxiety, and depression. Since sensual satisfaction is a shared
-            experience, any dysfunction experienced by one partner can strain
-            the relationship and emotional connection.
+            Historically, sexuality has carried socio-cultural
+            and psychological meanings. For men, it may be linked to power and
+            dominance, while women may associate it with attractiveness
+            and desirability. Failure to perform well sexually can lead to
+            negative emotions such as guilt, sadness, low self-esteem, frustration,
+            anxiety, and depression. Because sensual satisfaction is a shared
+            experience, dysfunction experienced by one partner can strain
+            the emotional connection and overall relationship.
           </p>
         </div>
       </section>
@@ -94,21 +94,21 @@ const Dysfunction = () => {
         <div className="flex flex-col lg:flex-row justify-between gap-8 text-left">
           <div className="lg:w-1/2">
             <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium">
-              Yes, sexual dysfunction is relatively common. It can result from
-              various factors, including restrictive upbringings, sexual
-              misinformation, poor communication, past traumatic experiences, or
-              insecurity about one&apos;s psychosexual role. These factors can
-              lead both men and women to become unsure about how to approach
-              sex, sometimes causing them to withdraw altogether.
+              Yes, sexual dysfunction is relatively common. It can arise from
+              various causes, including restrictive upbringing, sexual
+              misinformation, poor communication, past trauma, or
+              insecurity about one&apos;s psychosexual role. These factors
+              may cause both men and women to feel uncertain about sexual engagement,
+              sometimes leading to withdrawal.
             </p>
           </div>
           <div className="lg:w-1/2">
             <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium">
-              While diminished sexual desire is more commonly reported among
-              women, both men and women experience dysfunctions such as erectile
+              While diminished sexual desire is more frequently reported among
+              women, both men and women can experience dysfunctions such as erectile
               dysfunction (ED), premature ejaculation, delayed ejaculation,
-              vaginismus, and anorgasmia. Some conditions, like DHAT syndrome (a
-              culturally specific condition found in northern India), involve
+              vaginismus, and anorgasmia. Certain conditions, like DHAT syndrome—a
+              culturally specific condition in northern India—reflect
               misperceptions about potency and can contribute to anxiety and
               depression.
             </p>
@@ -134,8 +134,7 @@ const Dysfunction = () => {
             <div className="p-6">
               <h3 className="text-lg font-bold mb-4">Low Libido</h3>
               <p className="text-sm">
-                A reduction or absence of sexual desire… can result in feelings
-                of disconnection and frustration between partners.
+                A reduction or absence of sexual desire, manifesting as lack of initiation or avoidance of sexual encounters, causing disconnection and frustration between partners.
               </p>
             </div>
           </div>
@@ -152,8 +151,7 @@ const Dysfunction = () => {
                 Erectile Dysfunction (ED)
               </h3>
               <p className="text-sm">
-                The inability to achieve or maintain a satisfactory erection…
-                often psychological in nature.
+                The inability to achieve or maintain a satisfactory erection. Although it can have physical causes, ED is often psychological, linked to anxiety or stress. Untreated ED may reduce self-confidence and self-worth.
               </p>
             </div>
           </div>
@@ -168,8 +166,7 @@ const Dysfunction = () => {
             <div className="p-6">
               <h3 className="text-lg font-bold mb-4">Premature Ejaculation</h3>
               <p className="text-sm">
-                Ejaculation occurring before or shortly after penetration…
-                treatment often involves couples therapy.
+                Ejaculation occurring before or shortly after penetration, usually within one minute. It is often associated with nerve dysfunction or heightened psychological sensitivity. Treatment commonly involves couples therapy and techniques to increase control during sex.
               </p>
             </div>
           </div>
@@ -182,10 +179,9 @@ const Dysfunction = () => {
               className="w-full h-48 object-cover rounded-2xl mb-6"
             />
             <div className="p-6">
-              <h3 className="text-lg font-bold mb-4">Dyspareunia</h3>
+              <h3 className="text-lg font-bold mb-4">Vaginismus</h3>
               <p className="text-sm">
-                Painful intercourse… often caused by vaginal dryness or medical
-                conditions requiring evaluation.
+                Involuntary tightening of vaginal muscles, making penetration painful or impossible. Often related to past trauma or negative emotions like fear or guilt.
               </p>
             </div>
           </div>
@@ -200,8 +196,7 @@ const Dysfunction = () => {
             <div className="p-6">
               <h3 className="text-lg font-bold mb-4">Anorgasmia</h3>
               <p className="text-sm">
-                Inability to experience orgasm despite adequate stimulation…
-                dual sex therapy can help.
+                The inability to reach orgasm despite adequate stimulation, which can be situational or general. Dual sex therapy helps enhance pleasure and improve orgasmic response.
               </p>
             </div>
           </div>
@@ -220,24 +215,23 @@ const Dysfunction = () => {
           <div className="lg:w-1/2">
             <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium">
               Sexual function is a complex bio-psycho-social process involving
-              the neurological, vascular, and endocrine systems. In addition to
-              biological factors, psychological issues like past sexual
-              experiences, emotional connectedness, mood disorders, and
-              relationship conflicts play a significant role in sexual desire
-              and performance. Cultural, religious, and societal beliefs can
-              also influence sexual behavior, creating expectations and
-              pressures that can contribute to dysfunction.
+              neurological, vascular, and endocrine systems. Beyond
+              biological factors, psychological issues—such as past
+              experiences, emotional connection, mood disorders, and
+              relationship conflicts—significantly impact sexual desire
+              and performance. Cultural, religious, and societal beliefs
+              also influence sexual behavior, creating pressures and
+              expectations that may contribute to dysfunction.
             </p>
           </div>
           <div className="lg:w-1/2">
             <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium">
               Relationship dynamics, including communication, emotional
-              connection, and mutual understanding between partners, are
-              critical in shaping sexual satisfaction. When any aspect of these
-              dynamics falters, it can lead to sexual performance problems. The
-              complexity of human sexuality means that sexual dysfunction cannot
-              be reduced to simple mechanical issues, making it a sensitive and
-              nuanced matter to address.
+              connection, and mutual understanding, are
+              critical for sexual satisfaction. Any disruption in these
+              areas can lead to sexual problems. Given the
+              complexity of human sexuality, sexual dysfunction is rarely
+              a purely mechanical issue and is a sensitive subject to address.
             </p>
           </div>
         </div>
@@ -288,12 +282,7 @@ const Dysfunction = () => {
           How Is Sexual Dysfunction Treated?
         </h2>
         <p className="text-black lg:text-[1.25vw] text-[3.5vw] mb-10">
-          Effective treatment for sexual dysfunction often requires
-          collaboration between partners. Sexual difficulties are rarely caused
-          by one partner alone butare typically a shared experience that affects
-          both individuals. Open communication and compatibility are essential
-          for improving sexual satisfaction. Treatment approaches often involve
-          therapy that addresses both individual and relationship dynamics.
+          Treatment often requires collaboration between partners since sexual difficulties typically affect both individuals. Open communication and compatibility are essential for improving sexual satisfaction. Common therapeutic approaches include:
         </p>
 
         <div className="grid lg:grid-cols-5 grid-cols-1 gap-4 mb-60">
@@ -302,15 +291,13 @@ const Dysfunction = () => {
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [backface-visibility:hidden]">
                 <h3 className="lg:text-[1.25vw] text-[4vw] font-bold">
-                  ListeninMasters and Johnson’s Sex Therapyg SkillS
+                  Masters and Johnson&apos;s Sex Therapy
                 </h3>
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  This model emphasizes self-awareness, problem identification,
-                  communication, and planning. It is designed to help couples
-                  address emotional or psychological barriers to sexual
-                  satisfaction.
+                  Emphasizes self-awareness, problem identification,
+                  communication, and planning to overcome emotional or psychological barriers.
                 </p>
               </div>
             </div>
@@ -326,9 +313,7 @@ const Dysfunction = () => {
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Focuses on addressing problems related to desire, arousal, and
-                  orgasm. Desire issues, which are often deeper seated, may
-                  require a focus on emotional and psychological factors.
+                  Focuses on desire, arousal, and orgasm issues, especially addressing deeper emotional and psychological factors underlying desire problems.
                 </p>
               </div>
             </div>
@@ -344,10 +329,7 @@ const Dysfunction = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  This stepwise approach involves providing permission (P),
-                  offering limited information (LI), giving specific suggestions
-                  (SS), and utilizing intensive therapy (IT) based on the
-                  severity of the dysfunction.
+                  A stepwise method offering Permission (P), Limited Information (LI), Specific Suggestions (SS), and Intensive Therapy (IT) depending on dysfunction severity.
                 </p>
               </div>
             </div>
@@ -363,9 +345,7 @@ const Dysfunction = () => {
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  This approach addresses stress, fear, and avoidance and helps
-                  desensitize both partners to make sexual encounters more
-                  enjoyable and less threatening.
+                  Targets stress, fear, and avoidance, helping desensitize partners to make sexual experiences more enjoyable and less threatening.
                 </p>
               </div>
             </div>
@@ -382,9 +362,7 @@ const Dysfunction = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  These therapies focus on identifying and correcting irrational
-                  beliefs and expectations that hinder sexual performance,
-                  improving sexual interactions and outcomes.
+                  Work on identifying and correcting irrational beliefs and expectations that impede sexual performance and satisfaction.
                 </p>
               </div>
             </div>

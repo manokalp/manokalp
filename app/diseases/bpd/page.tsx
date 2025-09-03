@@ -21,7 +21,7 @@ const carouselData = [
     items: [
       "Estimates of heritability indicate that 40-60% of the risk for BPD is accounted for by genetic factors",
       "Neuroimaging investigations find structural and functional damage to brain areas involved in emotion regulation, impulse control, and social cognition",
-      "Dysregulation of the limbic system, here the amygdala and hippocampus, is responsible for emotional instability",
+      "Neuroimaging shows hyperactivity in the amygdala (emotional processing), reduced prefrontal cortex activity (executive control), and altered connectivity between emotion regulation networks. Hippocampal volume reductions are associated with trauma history",
       "Neurotransmitter system abnormalities, specifically serotonin, dopamine, and the stress-response system",
     ],
     background: "/background2.png",
@@ -57,7 +57,7 @@ const BPD = () => {
       {/* ASPD Hero Desktop  */}
 
       <div className="w-full hidden lg:block text-center ">
-        <h2 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] ">
+        <h2 className="lg:text-[5vw] text-[6vw] text-white mt-[5vw] font-semibold relative z-10 font-[playfull] ">
           Borderline Personality Disorder
           <br />
           (BPD)
@@ -103,14 +103,13 @@ const BPD = () => {
       </div>
 
       {/* The Harsh Truth Section  */}
-      <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-40 py-20 text-center lg:mt-[-20vw] mt-[-60vw]">
+      <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-40 py-20 text-center mt-[-60vw]">
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
             Borderline Personality Disorder (BPD) is a complicated mental
             illness typified by chronic patterns of emotional instability,
             compromised self-image, impulsivity, and maladaptive interpersonal
-            relationships. Occurring in about 1.6-5.9% of the general
-            population, BPD often starts in the teenage years or early adulthood
+            relationships. Occurring in approximately 0.7-2.7% of the general population, with lifetime prevalence around 1.4%. Prevalence is higher in clinical settings (10-20%). BPD often starts in the teenage years or early adulthood
             and may significantly interfere with every sphere of a person&apos;s
             life. BPD is among the most stigmatized psychiatric illnesses, and
             patients will probably be misconstrued not only by healthcare
@@ -200,12 +199,21 @@ const BPD = () => {
           Clinical Symptoms and Diagnosis Criteria
         </h2>
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          DSM-5 defines that BPD diagnosis is characterized by a chronic pattern
-          of instability in interpersonal relationships, self-image, and affects
-          with extreme impulsivity, beginning by early adulthood and occurring
-          across a variety of situations. Five or more of the following are
-          present:
+          DSM-5 requires 5 or more of these 9 specific criteria:
         </p>
+        <div className="bg-gray-50 p-6 rounded-xl mb-10 text-left">
+          <ul className="text-black space-y-3">
+            <li>• Frantic efforts to avoid abandonment</li>
+            <li>• Unstable interpersonal relationships alternating between idealization and devaluation</li>
+            <li>• Identity disturbance with unstable self-image</li>
+            <li>• Impulsivity in ≥2 potentially damaging areas</li>
+            <li>• Recurrent suicidal behavior, gestures, or self-mutilation</li>
+            <li>• Affective instability due to mood reactivity</li>
+            <li>• Chronic feelings of emptiness</li>
+            <li>• Inappropriate intense anger or difficulty controlling anger</li>
+            <li>• Transient stress-related paranoid ideation or dissociative symptoms</li>
+          </ul>
+        </div>
 
         {/* Tab Buttons */}
         <div className="flex flex-col lg:flex-row justify-between gap-4 text-black mb-16">
@@ -522,6 +530,157 @@ const BPD = () => {
         </div>
       </section>
 
+      {/* Suicide Risk Assessment Section */}
+      <section className="bg-gray-100 w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
+        <h2
+          className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}
+        >
+          Suicide Risk Assessment
+        </h2>
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 text-left">
+          <div className="bg-white p-6 rounded-xl shadow-lg">
+            <h3 className="text-xl font-bold mb-4 text-[#0E7EA0]">Critical Statistics</h3>
+            <ul className="text-black space-y-3">
+              <li>• 8-10% completed suicide rate (among highest of mental disorders)</li>
+              <li>• 60-70% attempt suicide at least once</li>
+              <li>• Self-harm behaviors in 50-80% of individuals</li>
+            </ul>
+          </div>
+          <div className="bg-white p-6 rounded-xl shadow-lg">
+            <h3 className="text-xl font-bold mb-4 text-[#0E7EA0]">Assessment Requirements</h3>
+            <ul className="text-black space-y-3">
+              <li>• Requires ongoing risk assessment and safety planning</li>
+              <li>• Regular monitoring of suicidal ideation</li>
+              <li>• Crisis intervention protocols must be in place</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Common Comorbidities Section */}
+      <section className="bg-white w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
+        <h2
+          className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}
+        >
+          Common Comorbidities
+        </h2>
+        <div className="grid lg:grid-cols-3 grid-cols-1 gap-8">
+          <div className="bg-[#0E7EA0] rounded-xl text-white p-6">
+            <h3 className="text-lg font-bold mb-4 text-[#FFD066]">Mood Disorders</h3>
+            <ul className="text-sm space-y-2">
+              <li>• Major depressive disorder (75-80%)</li>
+              <li>• Anxiety disorders (90%)</li>
+            </ul>
+          </div>
+          <div className="bg-[#FFD700] rounded-xl text-black p-6">
+            <h3 className="text-lg font-bold mb-4">Trauma & Substance</h3>
+            <ul className="text-sm space-y-2">
+              <li>• PTSD (30-60%)</li>
+              <li>• Substance use disorders (50-70%)</li>
+            </ul>
+          </div>
+          <div className="bg-[#0E7EA0] rounded-xl text-white p-6">
+            <h3 className="text-lg font-bold mb-4 text-[#FFD066]">Other Conditions</h3>
+            <ul className="text-sm space-y-2">
+              <li>• Eating disorders (25-30%)</li>
+              <li>• Other personality disorders (85%)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Differential Diagnosis Section */}
+      <section className="bg-gray-100 w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
+        <h2
+          className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}
+        >
+          Differential Diagnosis
+        </h2>
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 text-left">
+          <div className="bg-white p-6 rounded-xl shadow-lg">
+            <h3 className="text-xl font-bold mb-4 text-[#0E7EA0]">Key Distinctions</h3>
+            <ul className="text-black space-y-3">
+              <li>• Distinguish from bipolar disorder (mood episodes vs. chronic instability)</li>
+              <li>• Rule out personality changes due to medical conditions</li>
+            </ul>
+          </div>
+          <div className="bg-white p-6 rounded-xl shadow-lg">
+            <h3 className="text-xl font-bold mb-4 text-[#0E7EA0]">Additional Considerations</h3>
+            <ul className="text-black space-y-3">
+              <li>• Consider complex PTSD vs. BPD</li>
+              <li>• Differentiate from other Cluster B disorders</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Family and Support System Section */}
+      <section className="bg-white w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
+        <h2
+          className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}
+        >
+          Family and Support System Interventions
+        </h2>
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
+          <div className="bg-gray-50 p-6 rounded-xl">
+            <h3 className="text-xl font-bold mb-4 text-[#0E7EA0]">Family Education</h3>
+            <ul className="text-black space-y-3 text-left">
+              <li>• Family psychoeducation about BPD symptoms and triggers</li>
+              <li>• Boundary setting and communication skills training</li>
+            </ul>
+          </div>
+          <div className="bg-gray-50 p-6 rounded-xl">
+            <h3 className="text-xl font-bold mb-4 text-[#0E7EA0]">Support Resources</h3>
+            <ul className="text-black space-y-3 text-left">
+              <li>• Support groups for families (e.g., Family Connections)</li>
+              <li>• Managing caregiver burden and secondary trauma</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Developmental Considerations Section */}
+      <section className="bg-gray-100 w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
+        <h2
+          className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}
+        >
+          Developmental Factors
+        </h2>
+        <div className="bg-white p-8 rounded-xl shadow-lg text-left max-w-4xl mx-auto">
+          <ul className="text-black space-y-4">
+            <li>• Symptoms typically emerge in adolescence but diagnosis generally not made until 18+</li>
+            <li>• Differentiate from normal adolescent identity development</li>
+            <li>• Early intervention programs for at-risk youth</li>
+            <li>• Consideration of developmental trauma and attachment disruption</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* Crisis Management Section */}
+      <section className="bg-white w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
+        <h2
+          className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}
+        >
+          Crisis Management
+        </h2>
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 text-left">
+          <div className="bg-gray-50 p-6 rounded-xl">
+            <h3 className="text-xl font-bold mb-4 text-[#0E7EA0]">Safety Planning</h3>
+            <ul className="text-black space-y-3">
+              <li>• Safety planning with identified triggers and coping strategies</li>
+              <li>• 24/7 crisis resources and emergency contacts</li>
+            </ul>
+          </div>
+          <div className="bg-gray-50 p-6 rounded-xl">
+            <h3 className="text-xl font-bold mb-4 text-[#0E7EA0]">Crisis Protocols</h3>
+            <ul className="text-black space-y-3">
+              <li>• Protocols for managing self-harm and suicidal ideation</li>
+              <li>• Hospitalization criteria and alternatives (intensive outpatient, partial hospitalization)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
       {/*  Section */}
       <section className="bg-white w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
         <h2
@@ -530,8 +689,7 @@ const BPD = () => {
           Pharmacological Approaches
         </h2>
         <p className="text-black lg:text-[1.5vw] text-[3vw]  mb-12">
-          There are no FDA-approved medications for BPD Targeted symptom
-          management may involve:
+          Pharmacological Considerations: No FDA-approved medications specifically for BPD. Symptom-targeted approaches only:
         </p>
 
         <div className="flex flex-col lg:flex-row justify-between gap-2 items-center">
@@ -547,19 +705,16 @@ const BPD = () => {
           <div className="lg:w-1/2">
             <ul className="text-left text-black">
               <li className="mb-8 border-b-[2px]">
-                Mood stabilizers for emotional lability
+                Mood stabilizers (lamotrigine, valproate) for emotional dysregulation
               </li>
               <li className="mb-8 border-b-[2px]">
-                Atypical antipsychotics for cognitive-perceptual symptoms and
-                impulsivity
+                Low-dose atypical antipsychotics for cognitive-perceptual symptoms
               </li>
               <li className="mb-8 border-b-[2px]">
-                Selective serotonin reuptake inhibitors (SSRIs) for comorbid
-                depression and anxiety
+                SSRIs for comorbid depression/anxiety
               </li>
               <li className="mb-8 border-b-[2px]">
-                Medication, in general, should be time-limited and used as an
-                adjunct to psychotherapy
+                Medication should complement, not replace, psychotherapy
               </li>
             </ul>
           </div>
@@ -625,11 +780,7 @@ const BPD = () => {
         </p>
         <div className="flex flex-col lg:flex-row justify-between items-center text-left text-black gap-20 mb-50">
           <p>
-            Longitudinal research shows marked improvement over time in most
-            people About 50% of the patients are symptom-free in remission after
-            2-5 years of therapy 85% achieve remission in 10 years with only 12%
-            having a relapse Functional recovery (social and occupational
-            functioning) may follow symptomatic improvement Positive outcome
+            Longitudinal studies show 85% achieve symptomatic remission within 10 years, but functional recovery (work, relationships) occurs more gradually. Relapse rates vary significantly based on continued treatment engagement. Functional recovery (social and occupational functioning) may follow symptomatic improvement Positive outcome
             predictors are treatment entry, absence of comorbid disease, and
             strong social support system Most recover enough to no longer
             qualify for a diagnosis of BPD Social and Clinical Issues Despite

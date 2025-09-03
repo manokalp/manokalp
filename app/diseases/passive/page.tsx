@@ -14,7 +14,7 @@ const PassiveAggression = () => {
   const causes = [
     {
       name: "Psychological Factors",
-      description: "Difficulty expressing anger directly, fear of confrontation, low self-esteem, and underlying feelings of powerlessness often contribute to passive-aggressive behavior patterns.",
+      description: "People with low self-esteem may struggle with direct communication due to fears about the validity of their needs or concerns about potential rejection.",
       image: "/psychological-factors.webp",
       bgColor: "bg-[#0E7EA0]", // Blue background
       textColor: "text-white",
@@ -22,7 +22,7 @@ const PassiveAggression = () => {
     {
       name: "Environmental Influences",
       description:
-        "Growing up in environments where direct expression of anger was punished or where passive-aggressive behavior was modeled by caregivers or authority figures.",
+        "Children from families where emotional expression was discouraged or punished may learn that indirect communication feels safer than direct expression of needs or concerns.",
       image: "/environmental-factors.webp",
       bgColor: "bg-[#FFD700]", // Yellow background
       textColor: "text-black",
@@ -72,9 +72,9 @@ const PassiveAggression = () => {
     {
       title: "Cognitive Behavioral Therapy",
       points: [
-        "Identifying passive-aggressive thought patterns",
-        "Learning to recognize and express anger appropriately",
-        "Developing assertive communication skills"
+        "Evidence-based therapeutic approaches such as CBT can help individuals identify thought patterns contributing to passive-aggressive behavior",
+        "Developing more effective communication strategies",
+        "Learning to recognize and express emotions appropriately"
       ],
       image: "https://images.pexels.com/photos/7176319/pexels-photo-7176319.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     },
@@ -111,8 +111,8 @@ const PassiveAggression = () => {
     <main className="w-full h-full flex justify-center flex-col bg-white">
       {/* Hero Desktop */}
       <div className="w-full hidden lg:block text-center">
-        <h1 className="lg:text-[5vw] text-[6vw] text-white font-semibold relative z-10 font-[playfull] translate-y-[3vw]">
-          Passive Aggression
+        <h1 className="lg:text-[5vw] text-[6vw] text-white mt-[5vw] font-semibold relative z-10 font-[playfull] translate-y-[3vw]">
+          Understanding Passive-Aggressive Behavior Patterns
         </h1>
         <Image
           src="https://images.pexels.com/photos/7516447/pexels-photo-7516447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -146,20 +146,20 @@ const PassiveAggression = () => {
             }
           }}
         />
-        <h1 className="lg:text-[5vw] text-[6vw] text-black font-semibold relative z-10 font-[playfull] mt-[-10vw] mb-10">
-          Passive Aggression
+        <h1 className="lg:text-[5vw] text-[6vw]  text-black font-semibold relative z-10 font-[playfull] mt-[-10vw] mb-10">
+          Understanding Passive-Aggressive Behavior Patterns
         </h1>
       </div>
 
       {/* Introduction Section */}
       <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-20 px-10 lg:py-20 py-20 text-center lg:mt-[-60vw] mt-[-0vw]">
        
-        <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
+        <div className="flex flex-col lg:flex-row justify-center p-10 lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Passive aggression is a pattern of indirectly expressing negative feelings instead of openly addressing them. It&apos;s a form of emotional dishonesty where a person appears to comply or act appropriately on the surface, while actually harboring resentment and engaging in subtle, indirect acts of resistance or hostility.
+            Passive-aggressive behavior is a communication pattern characterized by indirect expression of negative feelings, resistance to demands, and avoidance of direct confrontation, often stemming from underlying emotional or psychological factors. Note: PAPD is not a current DSM-5 diagnosis but represents a behavioral pattern that may be addressed clinically.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            This behavior often stems from an inability to express anger in a healthy way and can manifest as procrastination, sulking, backhanded compliments, silent treatment, or deliberate inefficiency. While everyone may occasionally engage in passive-aggressive behavior, persistent patterns can damage relationships and indicate deeper psychological issues.
+            Passive-aggressive behavior typically develops as a learned coping strategy in response to various psychological, developmental, and environmental factors. While occasional passive-aggressive responses are normal human behavior, persistent patterns can significantly impact relationships and may indicate underlying emotional difficulties that could benefit from professional support.
           </p>
         </div>
 
@@ -214,7 +214,7 @@ const PassiveAggression = () => {
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Passive aggression manifests in various ways that can be categorized into different types of expressions:
+          Passive aggression manifests in various ways that can be categorized into different types of expressions. These behavioral patterns exist on a spectrum and may indicate the need for professional support when they significantly interfere with daily functioning, relationships, or personal well-being:
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -412,8 +412,18 @@ const PassiveAggression = () => {
           </div>
         </div>
       </section>
+
+      {/* Professional Disclaimer */}
+      <section className="bg-gray-100 w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
+        <div className="bg-white p-8 rounded-xl shadow-lg max-w-4xl mx-auto">
+          <h3 className="text-xl font-bold mb-4 text-[#0E7EA0]">Important Disclaimer</h3>
+          <p className="text-black lg:text-[1.25vw] text-[3.5vw] text-left">
+            This information is provided for educational purposes only and should not be used for self-diagnosis. If you recognize persistent patterns that interfere with your relationships or well-being, please consult with a qualified mental health professional for proper assessment and treatment.
+          </p>
+        </div>
+      </section>
     </main>
   );
 };
 
-export default PassiveAggression; 
+export default PassiveAggression;

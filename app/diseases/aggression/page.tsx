@@ -57,18 +57,17 @@ const Aggression = () => {
        
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Anger and aggression are normal human feelings that can occur due to
-            frustration, threats, or injustice. Anger per se is not a bad thing,
-            but excessive or uncontrollable anger has the potential to result in
-            damaging behaviors and poor relationships.
+            Anger and aggression are normal human emotions that can arise from
+            frustration, perceived threats, or experiences of injustice. Anger itself is not inherently negative,
+            but excessive or uncontrolled anger can lead to
+            destructive behaviors and damaged relationships.
           </p>
 
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Aggression, a more external form of anger, may lead to physical
-            violence, verbal aggression, or emotional injury. Knowing the
-            reasons, symptoms, and possible solutions for anger management is
-            important to sustain emotional stability and healthy interactions
-            with others.
+            Aggression, which is the outward expression of anger, may result in physical
+            violence, verbal attacks, or emotional harm. Understanding the
+            causes, symptoms, and effective management strategies for anger is
+            crucial for maintaining emotional well-being and healthy relationships.
           </p>
         </div>
 
@@ -83,8 +82,8 @@ const Aggression = () => {
           Causes of Aggression
         </h2>
         <p className="text-black lg:text-[1.25vw] text-[3.5vw] mb-10">
-          Anger and aggression may be caused by a host of factors from within
-          and from outside. Some of the most popular causes are:
+          Anger and aggression can stem from various internal
+          and external factors. Some of the most common causes include:
         </p>
 
         <div className="grid lg:grid-cols-4 grid-cols-1 gap-8">
@@ -98,9 +97,8 @@ const Aggression = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full h-full rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  When people encounter challenges in the realization of
-                  objectives or are overwhelmed by responsibilities, anger can
-                  be a spontaneous reaction. Chronic stress can make an
+                  When individuals face obstacles in achieving their goals or feel overwhelmed by responsibilities, anger can
+                  be an immediate response. Chronic stress can make an
                   individual more irritable and aggressive.
                 </p>
               </div>
@@ -118,10 +116,10 @@ const Aggression = () => {
               <div className="absolute inset-0 bg-[#FFD700] w-full h-full rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
                   {" "}
-                  Some medical illnesses, including hormonal imbalance,
-                  neurological illness, or mental illness such as depression and
-                  anxiety, can be a factor for heightened irritability and
-                  violence.
+                  Certain medical conditions, including hormonal imbalances,
+                  neurological disorders, or mental health conditions such as depression and
+                  anxiety, can contribute to increased irritability and
+                  aggression.
                 </p>
               </div>
             </div>
@@ -137,9 +135,9 @@ const Aggression = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full h-full rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Individuals usually have expectations from circumstances,
-                  relationships, or themselves. When expectations are not
-                  fulfilled, it may create anger and resentment.
+                  People typically have expectations about situations,
+                  relationships, or their own performance. When these expectations are not
+                  met, it can trigger anger and resentment.
                 </p>
               </div>
             </div>
@@ -155,8 +153,7 @@ const Aggression = () => {
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full h-full rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Some people are raised in a setting where aggression is a
-                  normal reaction to disputes. If they have experienced or seen
+                  Some individuals grow up in environments where aggression is modeled as a typical response to conflict. If they have experienced or seen
                   aggressive behavior, they can learn it as a means of coping
                   with their own feelings.
                 </p>
@@ -174,8 +171,8 @@ const Aggression = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full h-full rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  People who are not able to control their emotions might have
-                  trouble managing anger in a proper manner, and this can result
+                  Individuals who struggle with emotional regulation may have
+                  difficulty managing anger appropriately, and this can result
                   in impulsive anger or aggressive behavior.
                 </p>
               </div>
@@ -192,9 +189,9 @@ const Aggression = () => {
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full h-full rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Drinking and drug abuse decrease inhibitions and impair
-                  judgment, which causes individuals to become more prone to act
-                  violently or lose their temper.
+                  Alcohol and substance abuse lower inhibitions and impair
+                  judgment, making individuals more likely to act
+                  aggressively or lose control of their temper.
                 </p>
               </div>
             </div>
