@@ -6,6 +6,23 @@ import Image from 'next/image';
 
 // Disease data with correct links and organization
 export const diseaseData = {
+  // Temporarily limited to requested pages; other categories commented out for future restore.
+  "Personality": [
+    { name: "ASPD", link: "/diseases/aspd" },
+    { name: "Borderline Personality Disorder", link: "/diseases/bpd" },
+    { name: "Histrionic Personality Disorder", link: "/diseases/hpd" },
+    // { name: "Narcissistic Personality Disorder", link: "/diseases/narcissistic" }, // Page not present currently
+    { name: "Passive Aggressive Personality", link: "/diseases/passive" },
+  ],
+  "Relationships": [
+    { name: "Breakups", link: "/diseases/breakup" },
+    // { name: "Communication Styles", link: "/diseases/communication" }, // Page not present currently
+    { name: "Couples Compatibility", link: "/diseases/couples" },
+    { name: "Homosexuality (LGB)", link: "/diseases/homosexuality" },
+    { name: "Sexual Dysfunction", link: "/diseases/dysfunction" },
+  ],
+  /*
+  // Original categories retained for future re-enable:
   "Adulthood Problems": [
     { name: "Adjustment-Related Problems", link: "/diseases/adjustment-related" },
     { name: "Adult Psychological Problems", link: "/diseases/adultpsychological" },
@@ -62,6 +79,7 @@ export const diseaseData = {
     { name: "Non-Substance Addictions", link: "/diseases/non-substance" },
     { name: "Opioids and Brown Sugar", link: "/diseases/opioids" }
   ]
+  */
 };
 
 interface CategoryMenuProps {
@@ -175,4 +193,4 @@ export default function DiseaseMenus() {
       ))}
     </div>
   );
-} 
+}
