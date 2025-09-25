@@ -14,16 +14,15 @@ const Hero = () => {
                     <h2 className="lg:text-[4.0vw] text-[8.5vw] font-bold">“The Harsh Truth About Mental Health”</h2>
                     <p className="lg:text-[2.5vw] text-[4.5vw]">“Ignoring your mental health is costing you more than you think.”</p>
                 </div>
-                <div className="flex flex-col flex-row justify-center lg:gap-40 gap-10 items-center text-center mb-20">
-                    <div className=" ">
+                <div className="flex flex-col lg:flex-row justify-center lg:gap-40 gap-10 items-center text-center mb-20">
+                    <div className=" lg:w-1/2 w-full">
                         <h4 className="lg:text-[2.5vw] text-[5.5vw] font-bold">Feeling Overwhelmed</h4>
                         <p className="lg:text-[1.55vw] text-[3.5vw] font-medium ">Start by identifying just one
                             stressor you can control today.”</p>
                     </div>
-                    <div className=" ">
-                        <h4 className="lg:text-[2.5vw] text-[5.5vw] font-bold">Feeling Overwhelmed</h4>
-                        <p className="lg:text-[1.55vw] text-[3.5vw] font-medium ">Start by identifying just one
-                            stressor you can control today.”</p>
+                    <div className="lg:w-1/2 w-full">
+                        <h4 className="lg:text-[2.5vw] text-[5.5vw] font-bold">Feeling Stressed</h4>
+                        <p className="lg:text-[1.55vw] text-[3.5vw] font-medium ">Take five minutes today to step away from what overwhelms you and focus on one small, manageable task.</p>
                     </div>
                 </div>
                 <Link href="/contact" className="lg:px-30 px-16 py-6 bg-black rounded-full lg:text-[2vw] text-[4.5vw] ">Get A Quick Fix</Link>
