@@ -149,6 +149,75 @@ const WhatWeDo = () => {
         </div>
       </section>
 
+      {/* Who I Work With Section */}
+      <section className="w-full px-6 py-16 bg-[#F1F1F1]">
+        <h2 className="text-[#0E7EA0] font-[playfull] lg:text-[4vw] text-[10vw] font-semibold text-center mb-12">
+          Who I Work With
+        </h2>
+
+        <div className="max-w-5xl mx-auto grid lg:grid-cols-3 gap-8">
+          {/* Adults */}
+          <div className="bg-white rounded-lg p-8 shadow-md">
+            <div className="flex items-center gap-4 mb-4 flex-col">
+              <div className="w-20 h-20 bg-[#0E7EA0] rounded-full flex items-center justify-center text-white font-bold text-xl">
+                ✓
+              </div>
+              <h3 className="text-[#0E7EA0] font-semibold lg:text-[1.2vw] text-[4vw]">
+                Adults facing anxiety, depression, relationship issues, burnout or trauma
+              </h3>
+            </div>
+          </div>
+
+          {/* Couples */}
+          <div className="bg-white rounded-lg p-8 shadow-md">
+            <div className="flex items-center gap-4 mb-4 flex-col">
+              <div className="w-20 h-20 bg-[#0E7EA0] rounded-full flex items-center justify-center text-white font-bold text-xl">
+                ✓
+              </div>
+              <h3 className="text-[#0E7EA0] font-semibold lg:text-[1.2vw] text-[4vw]">
+                Couples needing emotional reconnection and conflict resolution
+              </h3>
+            </div>
+          </div>
+
+          {/* Parents */}
+          <div className="bg-white rounded-lg p-8 shadow-md">
+            <div className="flex items-center gap-4 mb-4 flex-col">
+              <div className="w-20 h-20 bg-[#0E7EA0] rounded-full flex items-center justify-center text-white font-bold text-xl">
+                ✓
+              </div>
+              <h3 className="text-[#0E7EA0] font-semibold lg:text-[1.2vw] text-[4vw]">
+                Parents seeking guidance in emotionally conscious parenting
+              </h3>
+            </div>
+          </div>
+
+          {/* Students */}
+          <div className="bg-white rounded-lg p-8 shadow-md">
+            <div className="flex items-center gap-4 mb-4 flex-col">
+              <div className="w-20 h-20 bg-[#0E7EA0] rounded-full flex items-center justify-center text-white font-bold text-xl">
+                ✓
+              </div>
+              <h3 className="text-[#0E7EA0] font-semibold lg:text-[1.2vw] text-[4vw]">
+                Students struggling with identity, performance pressure, or mental overwhelm
+              </h3>
+            </div>
+          </div>
+
+          {/* Corporate Teams */}
+          <div className="bg-white rounded-lg p-8 shadow-md">
+            <div className="flex items-center gap-4 mb-4 flex-col">
+              <div className="w-20 h-20 bg-[#0E7EA0] rounded-full flex items-center justify-center text-white font-bold text-xl">
+                ✓
+              </div>
+              <h3 className="text-[#0E7EA0] font-semibold lg:text-[1.2vw] text-[4vw]">
+                Corporate teams in need of mindfulness, stress management, and emotional intelligence training
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* My Philosophy Section */}
       <section className="w-full px-6 py-16 bg-white">
         <h2 className="text-[#0E7EA0] font-[playfull] lg:text-[4vw] text-[10vw] font-semibold text-center">
