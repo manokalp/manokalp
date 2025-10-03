@@ -5,30 +5,30 @@ import { useState } from "react";
 import playfair from "../../../fonts/playfair.module.css";
 
 const NicotineTobacco = () => {
-  const [activeTab, setActiveTab] = useState<SymptomCategory>("emotional");
+  const [activeTab, setActiveTab] = useState<SymptomCategory>("behavioral");
 
   const causes = [
     {
-      name: "Neurobiological Factors",
-      description: "Nicotine in chewing tobacco is absorbed through the mucous membranes, triggering dopamine release and creating powerful dependency through neurological adaptations similar to other tobacco products but with potentially higher nicotine exposure.",
+      name: "Cultural and Social Factors",
+      description: "Deep-rooted cultural practices, especially in rural regions. Peer influence and social acceptance, particularly among adolescents. Easy availability and low cost of tobacco products.",
       image: "/genetic-factors.webp",
       link: "/genetic-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
       textColor: "text-white",
     },
     {
-      name: "Psychological Vulnerabilities",
+      name: "Psychological and Emotional Factors",
       description:
-        "Cultural associations, oral fixation needs, and stress-relief expectations contribute to tobacco chewing habits, with many users developing psychological dependence on the rhythmic action and sensations.",
+        "Use as a coping mechanism for stress or boredom. Perceived safety compared to smoking. Habitual association with meals, socializing, or breaks.",
       image: "/psychological-factors.webp",
       link: "/psychological-factors",
       bgColor: "bg-[#FFD700]", // Yellow background
       textColor: "text-black",
     },
     {
-      name: "Environmental Influences",
+      name: "Biological Factors",
       description:
-        "Regional traditions, family patterns of use, occupational settings, and social acceptance in certain communities significantly impact tobacco chewing initiation and continued use across generations.",
+        "Rapid nicotine absorption creates a strong sense of pleasure. Regular use leads to tolerance, requiring higher doses for the same effect. Withdrawal symptoms (anxiety, irritability) reinforce continued use.",
       image: "/psychological-factors.webp",
       link: "/psychological-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
@@ -37,65 +37,63 @@ const NicotineTobacco = () => {
   ];
 
   const symptoms = {
+    behavioral: [
+      "Frequent use, even when aware of health risks",
+      "Difficulty reducing or quitting despite multiple attempts",
+      "Carrying tobacco products constantly and using them throughout the day"
+    ],
     emotional: [
-      "Irritability and mood disturbances when unable to use chewing tobacco",
-      "Anxiety and restlessness during periods of abstinence",
-      "Emotional dependence on the ritual and sensation of tobacco chewing"
+      "Irritability, anxiety, or restlessness when unable to use",
+      "Emotional reliance on tobacco for stress relief",
+      "Feelings of guilt or shame about the habit"
     ],
     cognitive: [
-      "Persistent cravings and preoccupation with obtaining tobacco",
-      "Difficulty concentrating without nicotine stimulation",
-      "Minimization or denial of health risks despite awareness",
-      "Rationalizing continued use despite negative consequences"
+      "Persistent thoughts about chewing tobacco",
+      "Difficulty concentrating without nicotine",
+      "Rationalizing the habit as harmless"
     ],
     physical: [
-      "Oral lesions, gum disease, and tooth decay at the site of placement",
-      "Cardiovascular effects including elevated heart rate and blood pressure",
-      "Digestive issues from swallowed tobacco juices",
-      "Distinctive staining of teeth and persistent bad breath"
-    ],
-    behavioral: [
-      "Habitual placement of tobacco in specific areas of the mouth",
-      "Increased tolerance requiring more frequent or prolonged use",
-      "Failed attempts to quit despite desire or intention",
-      "Hiding evidence of use or using in inappropriate settings"
+      "Persistent bad breath and stained teeth",
+      "Mouth sores, gum inflammation, or thick white patches (leukoplakia)",
+      "Jaw pain, difficulty swallowing, or voice changes"
     ]
   };
 
   const solutionsData = [
     {
-      title: "Medical Approaches",
+      title: "Medical Interventions",
       points: [
-        "Nicotine replacement therapies adapted for oral fixation (lozenges, gum)",
-        "Prescription medications to reduce cravings and withdrawal symptoms",
-        "Dental and oral health interventions to address tissue damage"
+        "Nicotine Replacement Therapy (NRT): Nicotine gum or lozenges for gradual reduction",
+        "Prescription Medications: Varenicline (Chantix) or bupropion (Zyban) to reduce cravings",
+        "Regular dental check-ups to monitor oral health"
       ],
       image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Behavioral Strategies",
+      title: "Psychotherapeutic Interventions",
       points: [
-        "Substitution techniques using non-tobacco alternatives (sunflower seeds, sugar-free gum)",
-        "Identifying and modifying triggers associated with tobacco chewing",
-        "Gradual reduction protocols with scheduled use times"
+        "Cognitive Behavioral Therapy (CBT) to identify triggers and develop coping skills",
+        "Motivational Enhancement Therapy (MET) to strengthen commitment to quitting",
+        "Supportive Counseling to rebuild self-esteem and emotional resilience"
       ],
       image: "https://images.unsplash.com/photo-1493836512294-502baa1986e2?q=80&w=2690&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Support Systems",
+      title: "Behavioral and Lifestyle Strategies",
       points: [
-        "Specialized counseling addressing the unique aspects of smokeless tobacco addiction",
-        "Peer support groups with others attempting to quit chewing tobacco",
-        "Community-based interventions in regions with high prevalence"
+        "Setting a quit date and gradually reducing use",
+        "Avoiding triggers such as social gatherings where tobacco is used",
+        "Regular physical exercise to reduce cravings and improve mood",
+        "Replacing tobacco with sugar-free gum or herbal alternatives"
       ],
       image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Health Education",
+      title: "Complementary Interventions",
       points: [
-        "Information about oral cancer risks and early detection methods",
-        "Understanding the difference between smokeless tobacco and smoking risks",
-        "Visual education about oral health consequences to increase motivation"
+        "Peer support groups for shared experiences and accountability",
+        "Family education to create a supportive environment",
+        "Digital apps for tracking progress and maintaining motivation"
       ],
       image: "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     }
@@ -155,10 +153,10 @@ const NicotineTobacco = () => {
        
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Tobacco chewing involves placing tobacco leaves, often flavored or sweetened, between the cheek and gum, allowing nicotine to absorb directly through oral tissues, delivering higher concentrations than cigarettes and creating powerful addiction patterns.
+          Nicotine dependence through tobacco chewing is a widespread and culturally ingrained practice, especially in India and other developing regions. While many view chewing tobacco as a safer alternative to smoking, it is equally addictive and poses severe health risks.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          While often perceived as safer than smoking, chewing tobacco carries significant health risks including oral, throat, and esophageal cancers, gum disease, tooth loss, and cardiovascular complications due to its concentrated nicotine content and prolonged contact with tissues.
+          Tobacco chewing is not just a habit—it is a form of nicotine dependence with significant physical, psychological, and social consequences.
           </p>
         </div>
 
@@ -172,10 +170,10 @@ const NicotineTobacco = () => {
           className="text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold mb-8"
           style={{ fontFamily: "Playfair" }}
         >
-          Causes of Tobacco Chewing Addiction
+          Causes of Tobacco Chewing Dependence
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-        Tobacco chewing addiction emerges from a complex interplay of neurological mechanisms, psychological factors, and social contexts that together establish and maintain the habit.
+        Dependence on chewing tobacco is driven by a combination of cultural, psychological, and physiological factors.
         </p>
 
         {/* Causes Grid */}
@@ -210,11 +208,11 @@ const NicotineTobacco = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >
-          Signs of Tobacco Chewing Dependence
+          Symptoms of Tobacco Chewing Dependence
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Tobacco chewing dependence manifests through distinctive patterns affecting emotional states, thought processes, physical health, and behavioral routines.
+          Tobacco chewing dependence can manifest through physical, behavioral, and emotional signs.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -247,15 +245,15 @@ const NicotineTobacco = () => {
           <div className="lg:w-1/2 h-[50vh] relative overflow-hidden rounded-xl">
             <Image
               src={`/diseases/unhappyness/${
-                activeTab === "emotional"
+                activeTab === "behavioral"
                   ? "1"
-                  : activeTab === "cognitive"
+                  : activeTab === "emotional"
                   ? "2"
-                  : activeTab === "physical"
+                  : activeTab === "cognitive"
                   ? "3"
                   : "4"
               }.webp`}
-              alt={`${activeTab} signs of tobacco chewing dependence`}
+              alt={`${activeTab} symptoms of tobacco chewing dependence`}
               layout="fill"
               objectFit="cover"
               className="transition-opacity duration-300 cursor-pointer rounded-2xl border-black border-1 object-center"
@@ -269,11 +267,11 @@ const NicotineTobacco = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold ${playfair.className}`}
         >
-          Approaches to Tobacco Chewing Cessation
+          Solutions for Managing Tobacco Chewing Dependence
         </h2>
 
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-        Effective tobacco chewing cessation requires targeted interventions addressing the unique aspects of oral tobacco use, including both the physical dependency and the habitual oral behaviors.
+        Effective treatment for tobacco chewing dependence involves a combination of medical, psychological, and lifestyle interventions.
         </p>
 
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">

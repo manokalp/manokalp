@@ -64,36 +64,37 @@ const Alcohol = () => {
     {
       title: "Medical Interventions",
       points: [
-        "Detoxification to safely manage withdrawal symptoms",
-        "Medication-Assisted Treatment (MAT) with methadone, buprenorphine, or naltrexone",
-        "Regular health monitoring to address physical complications"
+        "Medical detoxification to safely manage withdrawal symptoms",
+        "Medication-Assisted Treatment (MAT) with naltrexone, disulfiram, or acamprosate to reduce cravings",
+        "Regular health monitoring to prevent alcohol-related complications"
       ],
       image: "https://images.unsplash.com/photo-1624638746091-4b7de51514c7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWVkaWNhbCUyMEludGVydmVudGlvbnN8ZW58MHwwfDB8fHww",
     },
     {
       title: "Psychotherapeutic Interventions",
       points: [
-        "Cognitive Behavioral Therapy (CBT) to reframe negative thoughts and develop coping skills",
-        "Dialectical Behavior Therapy (DBT) for emotional regulation",
-        "Family Counseling to repair relationships and build support systems"
+        "Cognitive Behavioral Therapy (CBT) to challenge negative thinking patterns and build coping skills",
+        "Motivational Enhancement Therapy (MET) to strengthen commitment to change",
+        "Family Counseling to rebuild trust and improve communication"
       ],
       image: "https://plus.unsplash.com/premium_photo-1661277620352-d729b96c33f1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8UHN5Y2hvdGhlcmFwZXV0aWMlMjBJbnRlcnZlbnRpb25zfGVufDB8MHwwfHx8MA%3D%3D",
     },
     {
-      title: "Relapse Prevention Strategies",
+      title: "Behavioral and Lifestyle Strategies",
       points: [
-        "Identification of personal triggers and development of avoidance strategies",
-        "Mindfulness and meditation techniques to manage cravings",
-        "Regular attendance at peer support groups for accountability"
+        "Developing a structured daily routine to prevent boredom and cravings",
+        "Avoiding triggers and high-risk situations where alcohol is readily available",
+        "Engaging in regular physical activity to boost mood and energy",
+        "Building a strong support network through peer groups or recovery programs"
       ],
       image: "https://images.unsplash.com/photo-1714976694541-98e82692d0a6?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Complementary Approaches",
+      title: "Complementary Interventions",
       points: [
-        "Nutritional guidance to restore physical health and stabilize mood",
-        "Exercise programs to reduce stress and rebuild physical strength",
-        "Vocational training and life skills development for social reintegration"
+        "Mindfulness meditation, yoga, or breathing exercises for stress reduction",
+        "Nutritional support to restore physical health",
+        "Skill-building for social and vocational reintegration"
       ],
       image: "https://images.unsplash.com/photo-1649326609138-09de2b661544?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     }
@@ -148,7 +149,7 @@ const Alcohol = () => {
         </h1>
       </div>
 
-      {/* The Harsh Truth Section  */}
+      {/* Alcohol Addiction and Dependence Section  */}
       <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-20 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
         
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
@@ -172,7 +173,7 @@ const Alcohol = () => {
         >
           Causes of Alcohol Addiction
         </h2>
-        <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
+        <p className="text-black lg:text-[1.5vw] text-[3.5vw] mb-10">
         Alcohol addiction arises from a combination of genetic vulnerability, 
         psychological influences, and social environments.
         </p>
@@ -209,11 +210,11 @@ const Alcohol = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >
-          Symptoms of Alcohol Addiction
+          Symptoms of Alcohol Dependence
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Alcohol addiction manifests through emotional, cognitive, physical, and behavioral changes that impact daily functioning.
+          Alcohol addiction affects physical health, cognitive function, emotional stability, and behavior.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">

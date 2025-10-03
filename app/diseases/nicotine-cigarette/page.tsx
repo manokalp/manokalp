@@ -5,30 +5,30 @@ import { useState } from "react";
 import playfair from "../../../fonts/playfair.module.css";
 
 const NicotineCigarette = () => {
-  const [activeTab, setActiveTab] = useState<SymptomCategory>("emotional");
+  const [activeTab, setActiveTab] = useState<SymptomCategory>("behavioral");
 
   const causes = [
     {
-      name: "Neurobiological Factors",
-      description: "Nicotine activates dopamine reward pathways and alters brain chemistry, creating both physical and psychological dependence through adaptations in neural circuits that regulate pleasure and stress responses.",
+      name: "Biological Factors",
+      description: "Genetic predisposition to addiction. Rapid dopamine release in the brain's reward system, creating a strong sense of pleasure. Withdrawal symptoms such as irritability, anxiety, and restlessness encourage continued use.",
       image: "/genetic-factors.webp",
       link: "/genetic-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
       textColor: "text-white",
     },
     {
-      name: "Psychological Vulnerabilities",
+      name: "Psychological and Emotional Factors",
       description:
-        "Individuals may use cigarettes to cope with stress, anxiety, or depression, creating a learned association between smoking and emotional regulation that reinforces continued use.",
+        "Smoking as a coping mechanism for stress, anxiety, or boredom. Social cues and peer influence, especially during adolescence. Habitual associations (smoking with coffee, after meals, or during breaks).",
       image: "/psychological-factors.webp",
       link: "/psychological-factors",
       bgColor: "bg-[#FFD700]", // Yellow background
       textColor: "text-black",
     },
     {
-      name: "Environmental Influences",
+      name: "Environmental and Social Factors",
       description:
-        "Social and environmental factors such as peer pressure, marketing, accessibility, and smoking-friendly environments contribute significantly to smoking initiation and sustained addiction patterns.",
+        "Easy availability of cigarettes and other tobacco products. Cultural normalization of smoking in social settings. Family history of tobacco use, creating intergenerational habits.",
       image: "/psychological-factors.webp",
       link: "/psychological-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
@@ -37,28 +37,25 @@ const NicotineCigarette = () => {
   ];
 
   const symptoms = {
+    behavioral: [
+      "Inability to reduce or quit smoking despite multiple attempts",
+      "Smoking soon after waking up or during stressful situations",
+      "Neglecting responsibilities in favor of smoking breaks"
+    ],
     emotional: [
-      "Irritability, frustration, and anger when unable to smoke",
-      "Increased anxiety and depressive symptoms during withdrawal",
-      "Mood dysregulation and emotional reliance on cigarettes for coping"
+      "Irritability, anxiety, or restlessness when unable to smoke",
+      "Emotional reliance on nicotine for mood regulation",
+      "Feelings of guilt or shame after smoking"
     ],
     cognitive: [
-      "Persistent thoughts about smoking and cravings",
+      "Persistent thoughts about smoking or craving tobacco",
       "Difficulty concentrating without nicotine",
-      "Rationalization of continued use despite knowledge of health risks",
-      "Impaired decision-making regarding quitting attempts"
+      "Justifying or rationalizing continued smoking despite health risks"
     ],
     physical: [
-      "Withdrawal symptoms including headaches and increased appetite",
-      "Respiratory issues such as chronic cough and reduced lung function",
-      "Increased heart rate, blood pressure, and cardiovascular strain",
-      "Reduced sense of taste and smell, and premature aging of skin"
-    ],
-    behavioral: [
-      "Compulsive use and prioritizing smoking over other activities",
-      "Failed quit attempts and smoking despite health consequences",
-      "Development of smoking routines and triggers (after meals, with coffee)",
-      "Social behavior changes to accommodate smoking habits"
+      "Increased heart rate, elevated blood pressure, and dizziness",
+      "Persistent cough, sore throat, or respiratory discomfort",
+      "Withdrawal symptoms, including headaches, nausea, and fatigue when quitting"
     ]
   };
 
@@ -66,36 +63,37 @@ const NicotineCigarette = () => {
     {
       title: "Medical Interventions",
       points: [
-        "Nicotine replacement therapies (patches, gum, lozenges) to manage withdrawal",
-        "Prescription medications like varenicline or bupropion to reduce cravings",
-        "Medical monitoring and support for those with severe dependence"
+        "Nicotine Replacement Therapy (NRT): Nicotine patches, gum, lozenges, or inhalers to reduce withdrawal symptoms",
+        "Prescription Medications: Varenicline (Chantix) and bupropion (Zyban) for reducing cravings",
+        "Regular health monitoring for respiratory, cardiovascular, and oral health"
       ],
       image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Behavioral Strategies",
+      title: "Psychotherapeutic Interventions",
       points: [
-        "Cognitive-behavioral therapy to address smoking triggers and habits",
-        "Development of personalized quit plans with gradual reduction strategies",
-        "Mindfulness and stress management techniques to handle cravings"
+        "Cognitive Behavioral Therapy (CBT) to identify triggers and replace smoking habits",
+        "Motivational Interviewing (MI) to strengthen commitment to quitting",
+        "Mindfulness-Based Stress Reduction (MBSR) for managing stress without smoking"
       ],
       image: "https://images.unsplash.com/photo-1493836512294-502baa1986e2?q=80&w=2690&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Supportive Resources",
+      title: "Behavioral and Lifestyle Strategies",
       points: [
-        "Smoking cessation support groups and counseling services",
-        "Quitlines and digital apps providing motivation and tracking progress",
-        "Environmental modifications to reduce smoking cues and triggers"
+        "Setting a quit date and gradually reducing cigarette intake",
+        "Avoiding triggers, such as coffee breaks or social gatherings where smoking is common",
+        "Engaging in regular physical exercise to reduce cravings and improve mood",
+        "Drinking water and chewing gum to manage oral fixation"
       ],
       image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Lifestyle Adjustments",
+      title: "Complementary Interventions",
       points: [
-        "Regular physical activity to manage withdrawal symptoms and cravings",
-        "Dietary adjustments to minimize weight gain during cessation",
-        "Developing new routines and hobbies to replace smoking behaviors"
+        "Peer support groups for shared experiences and accountability",
+        "Family education to create a smoke-free environment",
+        "Digital apps or online platforms for quit tracking and motivation"
       ],
       image: "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     }
@@ -155,10 +153,10 @@ const NicotineCigarette = () => {
        
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Nicotine is a highly addictive substance found in tobacco products that rapidly reaches the brain when inhaled, creating a temporary sense of pleasure and stimulation while simultaneously establishing powerful physical and psychological dependence.
+          Nicotine dependence, primarily through cigarette smoking, is one of the most widespread forms of addiction globally. Despite its known health risks, nicotine use remains socially accepted in many cultures, making it one of the most difficult addictions to overcome.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Cigarette smoking is the leading preventable cause of disease and premature death worldwide, associated with serious health risks including cancer, cardiovascular disease, respiratory conditions, and numerous other health complications affecting nearly every organ system.
+          Nicotine is a powerful stimulant that rapidly affects the brain, creating a cycle of addiction that can lead to severe physical, psychological, and social consequences.
           </p>
         </div>
 
@@ -172,10 +170,10 @@ const NicotineCigarette = () => {
           className="text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold mb-8"
           style={{ fontFamily: "Playfair" }}
         >
-          Causes of Nicotine Addiction
+          Causes of Nicotine Dependence
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-        Nicotine addiction develops through a complex interplay of biological factors, psychological predispositions, and environmental influences that create and reinforce dependence patterns.
+        Nicotine dependence is driven by a combination of biological, psychological, and social factors.
         </p>
 
         {/* Causes Grid */}
@@ -214,7 +212,7 @@ const NicotineCigarette = () => {
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Nicotine dependence manifests through various symptoms affecting emotional states, cognitive function, physical health, and behavioral patterns.
+          Nicotine dependence can be identified through a range of behavioral, emotional, cognitive, and physical symptoms.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -247,15 +245,15 @@ const NicotineCigarette = () => {
           <div className="lg:w-1/2 h-[50vh] relative overflow-hidden rounded-xl">
             <Image
               src={`/diseases/unhappyness/${
-                activeTab === "emotional"
+                activeTab === "behavioral"
                   ? "1"
-                  : activeTab === "cognitive"
+                  : activeTab === "emotional"
                   ? "2"
-                  : activeTab === "physical"
+                  : activeTab === "cognitive"
                   ? "3"
                   : "4"
               }.webp`}
-              alt={`${activeTab} signs of nicotine dependence`}
+              alt={`${activeTab} symptoms of nicotine dependence`}
               layout="fill"
               objectFit="cover"
               className="transition-opacity duration-300 cursor-pointer rounded-2xl border-black border-1 object-center"
@@ -269,11 +267,11 @@ const NicotineCigarette = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold ${playfair.className}`}
         >
-          Approaches to Smoking Cessation
+          Solutions for Managing Nicotine Dependence
         </h2>
 
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-        Effective smoking cessation requires a comprehensive approach that combines medication, behavioral strategies, support systems, and lifestyle modifications tailored to individual needs.
+        Overcoming nicotine dependence requires a combination of medical, psychological, and behavioral strategies.
         </p>
 
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">

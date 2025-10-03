@@ -5,59 +5,48 @@ import { useState } from "react";
 import playfair from "../../../fonts/playfair.module.css";
 
 const Hallucinogens = () => {
-  const [activeTab, setActiveTab] = useState<SymptomCategory>("emotional");
+  const [activeTab, setActiveTab] = useState<SymptomCategory>("behavioral");
 
   const causes = [
     {
-      name: "Neurobiological Factors",
-      description: "Hallucinogens alter brain chemistry by affecting serotonin and glutamate neurotransmitter systems, creating profound changes in perception, mood, and cognition that can lead to psychological dependence.",
+      name: "Psychological and Emotional Factors",
+      description: "Curiosity and desire for altered states of consciousness. Use as a means of coping with emotional pain or trauma. Belief in spiritual awakening or self-discovery through use.",
       image: "/genetic-factors.webp",
       link: "/genetic-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
       textColor: "text-white",
     },
     {
-      name: "Psychological Vulnerabilities",
+      name: "Environmental and Social Factors",
       description:
-        "Pre-existing mental health conditions, spiritual seeking, and desire for transcendent experiences can predispose individuals to hallucinogen use and potential psychological dependence.",
+        "Peer pressure, social experimentation, or cultural acceptance. Exposure at parties, music festivals, or spiritual retreats. Influences from social media or pop culture glamorizing psychedelic use.",
       image: "/psychological-factors.webp",
       link: "/psychological-factors",
       bgColor: "bg-[#FFD700]", // Yellow background
       textColor: "text-black",
     },
-    {
-      name: "Environmental Influences",
-      description:
-        "Peer pressure, cultural contexts that normalize psychedelic use, availability within certain communities, and use in recreational settings contribute to initial and continued hallucinogen consumption.",
-      image: "/psychological-factors.webp",
-      link: "/psychological-factors",
-      bgColor: "bg-[#0E7EA0]", // Blue background
-      textColor: "text-white",
-    },
   ];
 
   const symptoms = {
+    behavioral: [
+      "Repeated use despite negative emotional or social outcomes",
+      "Seeking out new and more intense hallucinogenic experiences",
+      "Combining hallucinogens with other substances (polydrug use)"
+    ],
     emotional: [
-      "Profound mood alterations ranging from euphoria to terror",
-      "Spiritual or mystical experiences that can be emotionally overwhelming",
-      "Emotional flashbacks or persisting emotional disturbances after use"
+      "Intense emotional swings during and after use",
+      "Anxiety, paranoia, or panic during bad trips",
+      "Persistent mood changes, including depression or irritability"
     ],
     cognitive: [
-      "Altered perception of reality, including visual and auditory hallucinations",
-      "Synesthesia (mixing of sensory experiences)",
-      "Distorted sense of time and space",
-      "Difficulty distinguishing reality from hallucination during active effects"
+      "Confusion, difficulty concentrating, or memory problems",
+      "Persistent distortions in perception (hallucinogen persisting perception disorder, HPPD)",
+      "Unrealistic beliefs about the benefits of hallucinogen use"
     ],
     physical: [
-      "Dilated pupils, increased heart rate, and elevated blood pressure",
-      "Nausea, dizziness, and loss of coordination",
-      "Potential triggering of Hallucinogen Persisting Perception Disorder (HPPD)"
-    ],
-    behavioral: [
-      "Engaging in risky behaviors due to impaired judgment",
-      "Social withdrawal or changes in relationships",
-      "Continued use despite experiencing adverse psychological effects",
-      "Seeking increasingly intense or frequent hallucinogenic experiences"
+      "Dilated pupils, elevated heart rate, sweating, or chills",
+      "Nausea, dizziness, or muscle weakness (especially with high doses)",
+      "Sleep disturbances or vivid, disturbing dreams"
     ]
   };
 
@@ -65,36 +54,36 @@ const Hallucinogens = () => {
     {
       title: "Medical Interventions",
       points: [
-        "Emergency medical treatment for acute adverse reactions or 'bad trips'",
-        "Psychiatric evaluation and treatment for hallucinogen-induced disorders",
-        "Medication to manage persistent psychosis or HPPD when necessary"
+        "Symptomatic treatment for anxiety, nausea, or sleep disturbances",
+        "Medication management for co-occurring depression, anxiety, or psychosis",
+        "Regular monitoring for persistent perception changes (HPPD)"
       ],
       image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Psychological Support",
+      title: "Psychotherapeutic Interventions",
       points: [
-        "Therapy to process and integrate challenging psychedelic experiences",
-        "Cognitive-behavioral approaches for managing flashbacks or HPPD",
-        "Support for underlying mental health conditions that may be exacerbated by use"
+        "Cognitive Behavioral Therapy (CBT) to challenge distorted beliefs and manage anxiety",
+        "Dialectical Behavior Therapy (DBT) for emotional regulation and mindfulness",
+        "Insight-Oriented Therapy to explore the psychological roots of hallucinogen use"
       ],
       image: "https://images.unsplash.com/photo-1493836512294-502baa1986e2?q=80&w=2690&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Harm Reduction",
+      title: "Behavioral and Lifestyle Strategies",
       points: [
-        "Education about proper dosing, drug interactions, and safer contexts for use",
-        "Ensuring trusted companions ('trip sitters') when using hallucinogens",
-        "Creating safe physical environments to minimize accident risks"
+        "Avoiding triggers such as social environments where hallucinogens are used",
+        "Engaging in regular physical exercise to boost mood and mental clarity",
+        "Reconnecting with healthy hobbies, relationships, and support systems"
       ],
       image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Recovery Support",
+      title: "Complementary Interventions",
       points: [
-        "Substance use counseling for those seeking to stop hallucinogen use",
-        "Peer support groups specific to psychedelic experiences",
-        "Integration of spiritual or psychological insights in a healthy context"
+        "Mindfulness meditation, yoga, or guided imagery to enhance emotional balance",
+        "Peer support groups for shared experiences and coping strategies",
+        "Psychoeducation for family members to understand and support recovery"
       ],
       image: "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     }
@@ -154,10 +143,10 @@ const Hallucinogens = () => {
        
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Hallucinogens are a diverse group of substances that alter perception, mood, and cognitive processes by disrupting communication between brain chemical systems throughout the nervous system, causing significant changes in sensory experiences.
+          Hallucinogens are a class of psychoactive substances that alter perception, thoughts, and sensory experiences without any external stimuli. Unlike stimulants or depressants, hallucinogens primarily affect the brain's serotonin and dopamine pathways, leading to profound sensory distortions, emotional shifts, and altered consciousness.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          While some cultures have used hallucinogens in traditional contexts for centuries, recreational use carries significant risks including adverse psychological reactions, persisting perception disorders, and potential triggering of underlying mental health conditions.
+          While some hallucinogens have been used traditionally for spiritual or cultural rituals, recreational use poses significant risks to mental and physical health.
           </p>
         </div>
 
@@ -171,10 +160,10 @@ const Hallucinogens = () => {
           className="text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold mb-8"
           style={{ fontFamily: "Playfair" }}
         >
-          Causes of Hallucinogen Use
+          Causes of Hallucinogen Use and Dependence
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-        Multiple factors influence hallucinogen use, including neurobiological mechanisms, psychological motivations, and sociocultural environments that shape patterns of consumption.
+        Although physical dependence is rare with hallucinogens, psychological dependence can develop, especially with frequent use.
         </p>
 
         {/* Causes Grid */}
@@ -213,7 +202,7 @@ const Hallucinogens = () => {
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Hallucinogens produce profound alterations across multiple domains, causing significant changes in perception, emotion, cognition, and behavior.
+          Dependence on hallucinogens is primarily psychological, but frequent use can lead to significant cognitive and emotional changes.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -246,15 +235,15 @@ const Hallucinogens = () => {
           <div className="lg:w-1/2 h-[50vh] relative overflow-hidden rounded-xl">
             <Image
               src={`/diseases/unhappyness/${
-                activeTab === "emotional"
+                activeTab === "behavioral"
                   ? "1"
-                  : activeTab === "cognitive"
+                  : activeTab === "emotional"
                   ? "2"
-                  : activeTab === "physical"
+                  : activeTab === "cognitive"
                   ? "3"
                   : "4"
               }.webp`}
-              alt={`${activeTab} effects of hallucinogens`}
+              alt={`${activeTab} symptoms of hallucinogen dependence`}
               layout="fill"
               objectFit="cover"
               className="transition-opacity duration-300 cursor-pointer rounded-2xl border-black border-1 object-center"
@@ -272,7 +261,7 @@ const Hallucinogens = () => {
         </h2>
 
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-        Addressing hallucinogen use requires a multifaceted approach combining medical interventions, psychological support, harm reduction strategies, and appropriate recovery resources.
+        Effective management of hallucinogen-related issues involves medical support, psychological counseling, and lifestyle modification.
         </p>
 
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">

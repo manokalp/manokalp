@@ -5,58 +5,49 @@ import { useState } from "react";
 import playfair from "../../../fonts/playfair.module.css";
 
 const InhalantsAndSolvents = () => {
-  const [activeTab, setActiveTab] = useState<SymptomCategory>("emotional");
+  const [activeTab, setActiveTab] = useState<SymptomCategory>("behavioral");
 
   const causes = [
     {
-      name: "Neurobiological Factors",
-      description: "Inhalants rapidly cross the blood-brain barrier, disrupting neurotransmission and damaging brain cells. Regular use can lead to neurological damage and dependence through altered brain chemistry.",
+      name: "Psychological and Emotional Factors",
+      description: "Curiosity and experimentation, especially in adolescents. Coping with stress, boredom, or emotional pain. Seeking a quick, accessible high without legal risks.",
       image: "/genetic-factors.webp",
       link: "/genetic-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
       textColor: "text-white",
     },
     {
-      name: "Psychological Vulnerabilities",
+      name: "Environmental and Social Factors",
       description:
-        "Many users turn to inhalants as an escape mechanism from trauma, emotional distress, or untreated mental health conditions, creating a cycle of self-medication and dependence.",
+        "Easy availability of household products containing volatile chemicals. Peer pressure, especially among teenagers in unsupervised settings. Lack of awareness about the risks associated with inhalant misuse.",
       image: "/psychological-factors.webp",
       link: "/psychological-factors",
       bgColor: "bg-[#FFD700]", // Yellow background
       textColor: "text-black",
     },
-    {
-      name: "Environmental Influences",
-      description:
-        "Accessibility and low cost make inhalants particularly prevalent among vulnerable populations. Poverty, lack of supervision, and peer pressure significantly contribute to initial and continued use.",
-      image: "/psychological-factors.webp",
-      link: "/psychological-factors",
-      bgColor: "bg-[#0E7EA0]", // Blue background
-      textColor: "text-white",
-    },
   ];
 
   const symptoms = {
+    behavioral: [
+      "Repeated use despite awareness of harmful effects",
+      "Secretive behavior or hiding chemical-soaked rags or containers",
+      "Declining interest in school, work, or social activities"
+    ],
     emotional: [
-      "Mood swings and irritability when unable to use",
-      "Depression and emotional blunting with prolonged use",
-      "Anxiety and panic attacks, especially during withdrawal"
+      "Anxiety, irritability, or mood swings",
+      "Depression or emotional numbness",
+      "Aggressive behavior or increased impulsivity"
     ],
     cognitive: [
-      "Confusion and disorientation even after immediate effects wear off",
-      "Impaired judgment and problem-solving abilities",
-      "Memory problems and potential permanent cognitive decline"
+      "Difficulty concentrating or remembering information",
+      "Poor decision-making and impaired judgment",
+      "Confusion or disorientation, especially after use"
     ],
     physical: [
-      "Dizziness, loss of coordination, and slurred speech",
-      "Headaches, nausea, and vomiting",
-      "Damage to vital organs including liver, kidneys, and heart"
-    ],
-    behavioral: [
-      "Hiding use and lying about activities",
-      "Loss of interest in previously enjoyed activities",
-      "Continued use despite obvious physical and social consequences",
-      "Using in dangerous situations (like while driving)"
+      "Persistent chemical odor on breath or clothing",
+      "Red or runny nose, frequent nosebleeds",
+      "Dizziness, headache, or nausea after use",
+      "Weight loss, muscle weakness, or tremors"
     ]
   };
 
@@ -64,36 +55,36 @@ const InhalantsAndSolvents = () => {
     {
       title: "Medical Interventions",
       points: [
-        "Assessment and treatment of physical damage from inhalant use",
-        "Management of withdrawal symptoms under medical supervision",
-        "Treatment of co-occurring medical conditions resulting from inhalant abuse"
+        "Emergency care for acute inhalant poisoning or cardiac arrest",
+        "Oxygen therapy for individuals experiencing hypoxia",
+        "Regular health monitoring for respiratory, liver, and kidney damage"
       ],
       image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Lifestyle Modifications",
+      title: "Psychotherapeutic Interventions",
       points: [
-        "Structured daily routines to replace harmful inhalant-using patterns",
-        "Physical exercise and recreational activities as healthy alternatives",
-        "Environmental modifications to reduce access to inhalants"
+        "Cognitive Behavioral Therapy (CBT) to identify triggers and develop coping skills",
+        "Motivational Enhancement Therapy (MET) to strengthen commitment to recovery",
+        "Family Counseling to educate parents and improve support systems"
       ],
       image: "https://images.unsplash.com/photo-1574607383172-1421479aec9d?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Supportive Strategies",
+      title: "Behavioral and Lifestyle Strategies",
       points: [
-        "Family therapy to address enabling behaviors and improve support systems",
-        "Peer support groups specific to solvent and inhalant recovery",
-        "Educational interventions about the serious risks of inhalant use"
+        "Education about the dangers of inhalants in schools and community programs",
+        "Encouraging healthy recreational activities to replace substance use",
+        "Strengthening parental supervision and open communication"
       ],
       image: "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Professional Support",
+      title: "Complementary Interventions",
       points: [
-        "Cognitive Behavioral Therapy to address underlying triggers for use",
-        "Neuropsychological rehabilitation for cognitive deficits",
-        "Long-term case management for severe cases with neurological damage"
+        "Peer support groups for shared experiences and accountability",
+        "Relaxation techniques, including deep breathing and mindfulness, to manage stress",
+        "Psychoeducation for parents and caregivers to recognize early warning signs"
       ],
       image: "https://images.unsplash.com/photo-1566669437687-7040a6926753?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     }
@@ -153,10 +144,10 @@ const InhalantsAndSolvents = () => {
        
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Inhalants and solvents are volatile substances that produce chemical vapors that can be inhaled to induce mind-altering effects. These substances are found in many common household products, making them easily accessible, particularly to young people.
+          Inhalants are volatile substances that produce mind-altering effects when their chemical vapors are inhaled. Commonly misused among adolescents due to their easy availability and low cost, inhalants include a wide range of household, industrial, and medical products.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Despite their legal status and widespread availability, inhalants are among the most dangerous substances of abuse. A single session of prolonged inhalant use can lead to severe health consequences including sudden sniffing death syndrome, cardiac arrest, or permanent neurological damage.
+          Despite their brief high, inhalant misuse can lead to severe health consequences, including brain damage, organ failure, and sudden death.
           </p>
         </div>
 
@@ -170,14 +161,14 @@ const InhalantsAndSolvents = () => {
           className="text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold mb-8"
           style={{ fontFamily: "Playfair" }}
         >
-          Causes of Inhalants and Solvents 
+          Causes of Inhalant Use and Dependence
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-        Inhalant addiction develops through a complex interplay of biological vulnerability, psychological factors, and environmental influences that promote initial and continued use.
+        Inhalant misuse often begins due to a combination of social, psychological, and environmental factors.
         </p>
 
         {/* Causes Grid */}
-        <div className="grid lg:grid-cols-3 grid-cols-1 gap-4 max-w-5xl mx-auto">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 max-w-5xl mx-auto">
           {causes.map((cause, index) => (
             <div key={index} className="[perspective:1000px] cursor-pointer">
               <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
@@ -208,11 +199,11 @@ const InhalantsAndSolvents = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >
-          Symptoms of Inhalants and Solvents
+          Symptoms of Inhalant Dependence
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-        Inhalant abuse manifests through various physical, cognitive, emotional, and behavioral signs that can develop quickly due to the toxic nature of these substances.
+        Dependence on inhalants is primarily psychological but can lead to severe physical consequences.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -245,15 +236,15 @@ const InhalantsAndSolvents = () => {
           <div className="lg:w-1/2 h-[50vh] relative overflow-hidden rounded-xl">
             <Image
               src={`/diseases/unhappyness/${
-                activeTab === "emotional"
+                activeTab === "behavioral"
                   ? "1"
-                  : activeTab === "cognitive"
+                  : activeTab === "emotional"
                   ? "2"
-                  : activeTab === "physical"
+                  : activeTab === "cognitive"
                   ? "3"
                   : "4"
               }.webp`}
-              alt={`${activeTab} symptoms of inhalants and solvents abuse`}
+              alt={`${activeTab} symptoms of inhalant dependence`}
               fill
               style={{ objectFit: "cover" }}
             />
@@ -269,10 +260,10 @@ const InhalantsAndSolvents = () => {
             className="text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold mb-8"
             style={{ fontFamily: "Playfair" }}
           >
-            Recovery from Inhalants and Solvents Abuse
+            Solutions for Managing Inhalant Dependence
           </h2>
           <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-            Recovery from inhalant abuse requires comprehensive approaches that address both immediate physical health concerns and long-term psychological dependence.
+            Effective management of inhalant misuse involves medical supervision, psychological support, and family involvement.
           </p>
         </div>
 

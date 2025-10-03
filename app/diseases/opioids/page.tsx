@@ -5,30 +5,30 @@ import { useState } from "react";
 import playfair from "../../../fonts/playfair.module.css";
 
 const OpioidsAddiction = () => {
-  const [activeTab, setActiveTab] = useState<SymptomCategory>("emotional");
+  const [activeTab, setActiveTab] = useState<SymptomCategory>("behavioral");
 
   const causes = [
     {
-      name: "Neurobiological Factors",
-      description: "Opioids bind to specialized receptors in the brain and body, triggering powerful reward responses and reducing pain perception, which leads to neuroadaptations that create physical dependence and compulsive use patterns.",
+      name: "Biological Causes",
+      description: "Endorphin Mimicry: Opioids mimic the body's natural pain-relieving chemicals (endorphins), blocking pain signals. Dopamine Surge: They cause an intense release of dopamine, creating feelings of euphoria and relaxation. Tolerance Development: Prolonged use leads to reduced natural endorphin production, requiring higher doses for the same effect.",
       image: "/genetic-factors.webp",
       link: "/genetic-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
       textColor: "text-white",
     },
     {
-      name: "Psychological Vulnerabilities",
+      name: "Psychological Causes",
       description:
-        "Individuals with trauma history, mental health conditions, or chronic emotional distress may use opioids for self-medication, creating psychological dependence as these substances temporarily relieve psychological pain and discomfort.",
+        "Stress Management: Individuals may use opioids to cope with stress, anxiety, or emotional pain. Mental Health Disorders: Co-occurring conditions like depression or anxiety increase the risk of misuse. Social Reinforcement: Peer pressure or social acceptance can encourage initial use.",
       image: "/psychological-factors.webp",
       link: "/psychological-factors",
       bgColor: "bg-[#FFD700]", // Yellow background
       textColor: "text-black",
     },
     {
-      name: "Environmental Influences",
+      name: "Social Causes",
       description:
-        "Socioeconomic factors, availability of substances, peer influences, and exposure to high-stress environments contribute significantly to initial opioid use, continued access, and relapse risks even after treatment.",
+        "Easy Accessibility: Prescription opioids or illicit variants like brown sugar are often readily available. Cultural Acceptance: In some communities, substance use is normalized. Isolation or Trauma: Social isolation or traumatic experiences can drive individuals towards opioid use.",
       image: "/psychological-factors.webp",
       link: "/psychological-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
@@ -37,28 +37,29 @@ const OpioidsAddiction = () => {
   ];
 
   const symptoms = {
+    behavioral: [
+      "Obsessive focus on obtaining and using opioids",
+      "Neglecting responsibilities at work, school, or home",
+      "Continuing use despite knowing the harmful consequences"
+    ],
     emotional: [
-      "Intense euphoria during initial use followed by emotional numbing",
-      "Anxiety, irritability, and dysphoria during withdrawal",
-      "Emotional dependence characterized by panic at the thought of being without the substance"
+      "Anxiety, irritability, or restlessness without opioids",
+      "Emotional numbness or detachment from loved ones",
+      "Feelings of guilt, shame, or hopelessness"
     ],
     cognitive: [
-      "Impaired judgment and decision-making abilities",
-      "Obsessive thinking about obtaining and using opioids",
-      "Denial about the severity of addiction despite obvious consequences",
-      "Difficulty concentrating and memory problems"
+      "Persistent thoughts about using opioids",
+      "Justifying or rationalizing the need for opioids",
+      "Difficulty concentrating without the drug"
     ],
     physical: [
-      "Withdrawal symptoms including muscle aches, sweating, nausea, and diarrhea",
-      "Respiratory depression and potential overdose with higher doses",
-      "Constipation, pinpoint pupils, and drowsiness during active use",
-      "Tolerance development requiring increasingly larger doses for the same effect"
-    ],
-    behavioral: [
-      "Doctor shopping or seeking multiple prescriptions",
-      "Social isolation and abandonment of previously enjoyed activities",
-      "Continued use despite negative consequences to health, relationships, and finances",
-      "Engaging in illegal activities to obtain opioids (particularly with street drugs like brown sugar)"
+      "Pinpoint pupils, drowsiness, and slurred speech",
+      "Reduced respiratory rate, which can be life-threatening at high doses",
+      "Dry mouth, nausea, constipation, and itching",
+      "Muscle aches, sweating, and chills (withdrawal symptoms)",
+      "Nausea, vomiting, and diarrhea (withdrawal)",
+      "Restlessness, insomnia, and anxiety (withdrawal)",
+      "Intense cravings for opioids"
     ]
   };
 
@@ -66,36 +67,39 @@ const OpioidsAddiction = () => {
     {
       title: "Medical Interventions",
       points: [
-        "Medication-assisted treatment using methadone, buprenorphine, or naltrexone",
-        "Medically supervised detoxification to manage withdrawal symptoms safely",
-        "Treatment of co-occurring physical health complications"
+        "Medical Detoxification: Supervised withdrawal with medications like methadone or buprenorphine to reduce symptoms",
+        "Naloxone (Narcan): Emergency medication to reverse opioid overdose",
+        "Medication-Assisted Treatment (MAT): Use of methadone, buprenorphine, or naltrexone to reduce cravings and prevent relapse",
+        "Regular Health Monitoring: Routine medical check-ups to track recovery progress"
       ],
       image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Psychological Therapies",
+      title: "Psychotherapeutic Interventions",
       points: [
-        "Cognitive-behavioral therapy to address thought patterns that maintain addiction",
-        "Trauma-focused therapy for individuals with underlying trauma histories",
-        "Motivational enhancement therapy to strengthen commitment to recovery"
+        "Cognitive Behavioral Therapy (CBT): Identifies triggers and replaces addictive behaviors with healthy coping skills",
+        "Dialectical Behavior Therapy (DBT): Enhances emotional regulation, especially for individuals with trauma",
+        "Motivational Enhancement Therapy (MET): Strengthens personal commitment to recovery",
+        "Support Groups: Peer support networks like Narcotics Anonymous (NA) provide shared experiences and encouragement"
       ],
       image: "https://images.unsplash.com/photo-1493836512294-502baa1986e2?q=80&w=2690&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Support Systems",
+      title: "Behavioral and Lifestyle Strategies",
       points: [
-        "Peer support groups specific to opioid recovery (such as Narcotics Anonymous)",
-        "Family therapy to repair relationships and develop supportive environments",
-        "Community-based recovery support services and harm reduction programs"
+        "Establishing a structured daily routine to avoid relapse",
+        "Regular physical exercise to improve mood and reduce cravings",
+        "Maintaining a balanced diet for physical recovery",
+        "Developing new hobbies and interests to replace addictive behaviors"
       ],
       image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Long-term Recovery",
+      title: "Social Support and Reintegration",
       points: [
-        "Vocational rehabilitation and educational support",
-        "Ongoing relapse prevention planning and lifestyle restructuring",
-        "Addressing socioeconomic factors that contribute to continued use"
+        "Family education and involvement in the recovery process",
+        "Vocational training and skill-building to support social reintegration",
+        "Regular participation in peer support groups to maintain accountability"
       ],
       image: "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     }
@@ -155,10 +159,7 @@ const OpioidsAddiction = () => {
        
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Opioids are a class of drugs that include prescription pain relievers, synthetic opioids like fentanyl, and illegal substances like heroin and its impure form known as brown sugar, all of which produce euphoria and pain relief by binding to opioid receptors throughout the body.
-          </p>
-          <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Brown sugar, a crude and impure form of heroin common in South Asia, contains varying concentrations of heroin mixed with adulterants, making it particularly dangerous due to unpredictable potency and toxic additives that increase health risks beyond those of pure opioids.
+          Opioids are a class of powerful pain-relieving drugs derived from the opium poppy (Papaver somniferum). While they are used medically to manage severe pain, they also carry a high potential for misuse and addiction. Among the most dangerous forms of opioid abuse is "brown sugar," a crude and impure variant of heroin, often mixed with harmful additives. Opioid addiction is a life-threatening condition that requires a multi-faceted approach to treatment.
           </p>
         </div>
 
@@ -172,10 +173,10 @@ const OpioidsAddiction = () => {
           className="text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold mb-8"
           style={{ fontFamily: "Playfair" }}
         >
-          Causes of Opioid Addiction
+          Causes of Opioid Dependence
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-        Opioid addiction develops through complex interactions between biological vulnerabilities, psychological factors, and environmental influences that create powerful physical and psychological dependency.
+        Opioid dependence can develop due to a combination of biological, psychological, and social factors.
         </p>
 
         {/* Causes Grid */}
@@ -210,11 +211,11 @@ const OpioidsAddiction = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >
-          Signs of Opioid Addiction
+          Symptoms of Opioid Dependence and Withdrawal
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Opioid addiction manifests through distinct patterns affecting emotional well-being, thought processes, physical health, and behavioral changes that progressively worsen over time.
+          Opioid dependence can present through various emotional, cognitive, physical, and behavioral symptoms.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -247,15 +248,15 @@ const OpioidsAddiction = () => {
           <div className="lg:w-1/2 h-[50vh] relative overflow-hidden rounded-xl">
             <Image
               src={`/diseases/unhappyness/${
-                activeTab === "emotional"
+                activeTab === "behavioral"
                   ? "1"
-                  : activeTab === "cognitive"
+                  : activeTab === "emotional"
                   ? "2"
-                  : activeTab === "physical"
+                  : activeTab === "cognitive"
                   ? "3"
                   : "4"
               }.webp`}
-              alt={`${activeTab} signs of opioid addiction`}
+              alt={`${activeTab} symptoms of opioid dependence`}
               layout="fill"
               objectFit="cover"
               className="transition-opacity duration-300 cursor-pointer rounded-2xl border-black border-1 object-center"
@@ -269,11 +270,11 @@ const OpioidsAddiction = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold ${playfair.className}`}
         >
-          Treatment Approaches for Opioid Addiction
+          Solutions for Managing Opioid Dependence
         </h2>
 
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-        Effective treatment of opioid addiction requires a comprehensive approach combining medical interventions, psychological therapies, support systems, and long-term recovery planning.
+        Effective management of opioid dependence requires a comprehensive approach, addressing both physical and psychological aspects.
         </p>
 
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">

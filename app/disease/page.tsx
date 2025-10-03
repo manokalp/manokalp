@@ -63,16 +63,86 @@ const unsortedDiseases = [
       "https://images.pexels.com/photos/7516447/pexels-photo-7516447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     link: "/diseases/passive",
   },
+  {
+    name: "Addiction",
+    description:
+      "A complex disorder characterized by compulsive substance use or behavior despite adverse consequences.",
+    image: "/diseases-banner/addiction.webp",
+    link: "/diseases/addiction",
+  },
+  {
+    name: "Alcohol",
+    description:
+      "Alcohol is a central nervous system depressant that affects mood, behavior, and physical health.",
+    image: "/diseases-banner/alcohol.webp",
+    link: "/diseases/alcohol",
+  },
+  {
+    name: "Cannabis",
+    description:
+      "Cannabis is a plant species that contains psychoactive compounds.",
+    image: "/diseases-banner/cannabis.webp",
+    link: "/diseases/cannabis",
+  },
+  {
+    name: "Cocaine",
+    description:
+      "Cocaine is a central nervous system stimulant that affects mood, behavior, and physical health.",
+    image: "/diseases-banner/cocaine.webp",
+    link: "/diseases/cocaine",
+  },
+  {
+    name: "Coffee",
+    description:
+      "Coffee is a central nervous system stimulant that affects mood, behavior, and physical health.",
+    image: "/diseases-banner/coffee.webp",
+    link: "/diseases/coffee",
+  },
+  {
+    name: "Hallucinogens",
+    description:
+      "Hallucinogens are a group of substances that alter perception, mood, and cognitive processes by disrupting communication between brain chemical systems.",
+    image: "/diseases-banner/hallucinogens.webp",
+    link: "/diseases/hallucinogens",
+  },
+  {
+    name: "Inhalants and Solvents",
+    description:
+      "Inhalants and solvents are substances that are inhaled or absorbed through the skin to produce a quick high.",
+    image: "/diseases-banner/inhalants.webp",
+    link: "/diseases/inhalantsnsolvents",
+  },
+  {
+    name: "Nicotine (Cigarette Smoking)",
+    description:
+      "Nicotine is a central nervous system stimulant that affects mood, behavior, and physical health.",
+    image: "/diseases-banner/nicotine-cigarette.webp",
+    link: "/diseases/nicotine-cigarette",
+  },
+  {
+    name: "Nicotine (Tobacco Chewing)",
+    description:
+      "Nicotine is a central nervous system stimulant that affects mood, behavior, and physical health.",
+    image: "/diseases-banner/nicotine-tobacco.webp",
+    link: "/diseases/nicotine-tobacco",
+  },
+  {
+    name: "Non-Substance Addictions",
+    description:
+      "Non-substance addictions are a group of mental health conditions that affect the way a person thinks, feels, and behaves.",
+    image: "/diseases-banner/non-substance.webp",
+    link: "/diseases/non-substance",
+  },
+  {
+    name: "Opioids and Brown Sugar",
+    description:
+      "Opioids and brown sugar are a group of mental health conditions that affect the way a person thinks, feels, and behaves.",
+    image: "/diseases-banner/opioids.webp",
+    link: "/diseases/opioids",
+  },
   /*
    * Temporarily hidden entries (commented out for future re-enable):
    *
-   * {
-   *   name: "Addiction",
-   *   description:
-   *     "A complex disorder characterized by compulsive substance use or behavior despite adverse consequences.",
-   *   image: "/diseases-banner/addiction.webp",
-   *   link: "/diseases/addiction",
-   * },
    * {
    *   name: "Aggression",
    *   description:

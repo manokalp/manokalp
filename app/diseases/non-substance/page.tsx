@@ -5,31 +5,31 @@ import { useState } from "react";
 import playfair from "../../../fonts/playfair.module.css";
 
 const NonSubstanceAddiction = () => {
-  const [activeTab, setActiveTab] = useState<SymptomCategory>("emotional");
+  const [activeTab, setActiveTab] = useState<SymptomCategory>("behavioral");
 
   const causes = [
     {
-      name: "Neurobiological Factors",
+      name: "Psychological Causes",
       description:
-        "Behavioral addictions trigger the brain's reward system by releasing dopamine during engaging activities, creating neural pathway changes similar to substance addictions despite the absence of chemical intake.",
+        "Emotional Coping: Use of behaviors as a way to escape stress, anxiety, or boredom. Reward and Reinforcement: The behavior is reinforced by immediate pleasure or relief, encouraging repetition. Cognitive Distortions: Belief that the behavior is harmless or justified, despite evidence of harm.",
       image: "/genetic-factors.webp",
       link: "/genetic-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
       textColor: "text-white",
     },
     {
-      name: "Psychological Vulnerabilities",
+      name: "Biological Causes",
       description:
-        "Pre-existing conditions like depression, anxiety, and impulsivity increase vulnerability to behavioral addictions, as these activities provide escape, validation, or emotional regulation that becomes reinforced over time.",
+        "Dopamine Release: Engaging in the behavior triggers dopamine production in the brain's reward pathways, creating feelings of pleasure. Tolerance Development: Over time, more intense engagement is needed to achieve the same sense of satisfaction. Withdrawal Symptoms: Anxiety, irritability, restlessness, or mood swings occur when unable to engage in the behavior.",
       image: "/psychological-factors.webp",
       link: "/psychological-factors",
       bgColor: "bg-[#FFD700]", // Yellow background
       textColor: "text-black",
     },
     {
-      name: "Environmental Influences",
+      name: "Social Causes",
       description:
-        "Social reinforcement, technological accessibility, cultural normalization, and environmental stressors contribute significantly to the development and maintenance of behavioral addictions across different demographic groups.",
+        "Peer Influence: Social pressure to participate in certain activities (e.g., gaming, gambling). Cultural Norms: Acceptance of certain behaviors (e.g., social media use) as normal, even when excessive. Easy Accessibility: Immediate access to addictive activities, such as online gaming, shopping, or social media.",
       image: "/psychological-factors.webp",
       link: "/psychological-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
@@ -38,68 +38,67 @@ const NonSubstanceAddiction = () => {
   ];
 
   const symptoms = {
+    behavioral: [
+      "Inability to control or limit the behavior.",
+      "Spending excessive time on the activity, neglecting responsibilities.",
+      "Prioritizing the behavior over personal, social, or professional commitments.",
+    ],
     emotional: [
-      "Restlessness, irritability, and anxiety when unable to engage in the addictive behavior",
-      "Mood fluctuations tied to engagement in or abstinence from the behavior",
-      "Relief of negative emotions only when participating in the addictive activity",
+      "Anxiety, irritability, or agitation when unable to engage in the behavior.",
+      "Mood swings directly tied to access to the behavior.",
+      "Feelings of guilt, shame, or regret after engaging in the behavior.",
     ],
     cognitive: [
-      "Persistent thoughts and preoccupation with the addictive behavior",
-      "Minimizing or denying the negative consequences despite awareness",
-      "Distorted thinking patterns that justify continued engagement",
-      "Difficulty concentrating on other life aspects",
+      "Obsessive thoughts about the behavior, even when trying to focus on other tasks.",
+      "Rationalizing or justifying the behavior despite its negative impact.",
+      "Difficulty concentrating on daily activities without engaging in the behavior.",
     ],
     physical: [
-      "Sleep disturbances related to excessive engagement in the behavior",
-      "Neglect of physical health and hygiene in favor of the addiction",
-      "Physical symptoms during withdrawal (headaches, sweating, tremors)",
-      "Repetitive stress injuries from prolonged activity (gaming, gambling, internet use)",
-    ],
-    behavioral: [
-      "Increasing time spent on the activity to achieve satisfaction",
-      "Failed attempts to cut back or control the behavior",
-      "Neglect of responsibilities, relationships, and previously enjoyed activities",
-      "Continued engagement despite serious negative life consequences",
+      "Sleep disturbances due to late-night engagement (gaming, binge-watching).",
+      "Physical exhaustion or muscle strain from excessive exercise.",
+      "Financial strain due to compulsive spending or gambling losses.",
     ],
   };
 
   const solutionsData = [
     {
-      title: "Therapeutic Approaches",
+      title: "Psychotherapeutic Interventions",
       points: [
-        "Cognitive-behavioral therapy to address underlying thought patterns",
-        "Motivational interviewing to enhance readiness for change",
-        "Family therapy to address interpersonal dynamics contributing to addiction",
+        "Cognitive Behavioral Therapy (CBT): Identifies and modifies distorted thoughts and compulsive behaviors.",
+        "Dialectical Behavior Therapy (DBT): Enhances emotional regulation and coping skills.",
+        "Motivational Enhancement Therapy (MET): Strengthens commitment to change.",
+        "Exposure Therapy: Gradually reduces reliance on addictive behaviors through controlled exposure.",
       ],
       image:
         "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Lifestyle Restructuring",
+      title: "Medical Interventions",
       points: [
-        "Development of healthy alternative activities and interests",
-        "Implementation of structured daily routines that limit addictive behaviors",
-        "Mindfulness and stress management techniques to cope with triggers",
+        "Medication Management: Antidepressants or anti-anxiety medications for co-occurring mental health issues.",
+        "Neurofeedback Therapy: Monitors and regulates brainwave patterns associated with addiction.",
+        "Digital Detox Programs: Supervised reduction of screen time or technology use for tech-related addictions.",
       ],
       image:
         "https://images.unsplash.com/photo-1493836512294-502baa1986e2?q=80&w=2690&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Support Networks",
+      title: "Behavioral and Lifestyle Strategies",
       points: [
-        "Specialized support groups for specific behavioral addictions",
-        "Peer recovery coaching from individuals with lived experience",
-        "Community engagement programs that foster connection and purpose",
+        "Setting clear boundaries for technology use, such as screen-free hours.",
+        "Engaging in regular physical activities to reduce cravings and improve mood.",
+        "Replacing addictive behaviors with healthy alternatives (exercise, reading, hobbies).",
+        "Maintaining a journal to track triggers, cravings, and progress.",
       ],
       image:
         "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Technology-Based Solutions",
+      title: "Complementary Interventions",
       points: [
-        "Digital wellness tools and apps that monitor and limit problematic usage",
-        "Online intervention programs specifically designed for behavioral addictions",
-        "Environmental modifications like blocking software or self-exclusion programs",
+        "Peer support groups for shared experiences and mutual accountability.",
+        "Family education to create a supportive environment and recognize warning signs.",
+        "Mindfulness and stress reduction techniques (meditation, yoga, deep breathing).",
       ],
       image:
         "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -156,17 +155,7 @@ const NonSubstanceAddiction = () => {
       <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-20 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Non-substance or behavioral addictions involve compulsive engagement
-            in rewarding non-drug behaviors like gambling, gaming, internet use,
-            shopping, or sex that activate similar brain reward pathways as
-            substances, despite causing significant life disruption.
-          </p>
-          <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Though often minimized as &quot;habits&quot; or &quot;vices,&quot;
-            behavioral addictions can produce genuine psychological dependence,
-            withdrawal symptoms, tolerance, and severe consequences across
-            relationships, finances, employment, and mental health requiring
-            professional intervention.
+            Non-substance addictions, also known as behavioral addictions, involve compulsive behaviors that provide temporary pleasure or relief but lead to significant emotional, social, and psychological harm. These behaviors become addictive when they are repeated despite negative consequences, lead to a loss of control, and cause distress when restricted.
           </p>
         </div>
       </section>
@@ -181,9 +170,7 @@ const NonSubstanceAddiction = () => {
           Causes of Behavioral Addictions
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-          Behavioral addictions develop through complex interactions between
-          biological vulnerabilities, psychological factors, and environmental
-          influences that establish and reinforce compulsive patterns.
+          Behavioral addictions arise from a complex interaction of psychological, biological, and social factors.
         </p>
 
         {/* Causes Grid */}
@@ -218,13 +205,11 @@ const NonSubstanceAddiction = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >
-          Signs of Behavioral Addiction
+          Symptoms of Behavioral Addictions
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Behavioral addictions manifest through distinct patterns affecting
-          emotional well-being, thought processes, physical health, and daily
-          functioning.
+          Behavioral addictions can present a range of symptoms categorized into emotional, cognitive, physical, and behavioral types.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -257,15 +242,15 @@ const NonSubstanceAddiction = () => {
           <div className="lg:w-1/2 h-[50vh] relative overflow-hidden rounded-xl">
             <Image
               src={`/diseases/unhappyness/${
-                activeTab === "emotional"
+                activeTab === "behavioral"
                   ? "1"
-                  : activeTab === "cognitive"
+                  : activeTab === "emotional"
                   ? "2"
-                  : activeTab === "physical"
+                  : activeTab === "cognitive"
                   ? "3"
                   : "4"
               }.webp`}
-              alt={`${activeTab} signs of behavioral addiction`}
+              alt={`${activeTab} symptoms of behavioral addictions`}
               layout="fill"
               objectFit="cover"
               className="transition-opacity duration-300 cursor-pointer rounded-2xl border-black border-1 object-center"
@@ -279,14 +264,11 @@ const NonSubstanceAddiction = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold ${playfair.className}`}
         >
-          Recovery Approaches for Behavioral Addictions
+          Solutions for Managing Behavioral Addictions
         </h2>
 
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-          Effective recovery from behavioral addictions requires targeted
-          interventions that address underlying psychological needs, modify
-          behavior patterns, and develop healthy alternatives to addictive
-          activities.
+          Effective management of behavioral addictions requires a comprehensive approach, including psychological therapy, medical interventions, and lifestyle adjustments.
         </p>
 
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">

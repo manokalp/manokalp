@@ -5,30 +5,30 @@ import { useState } from "react";
 import playfair from "../../../fonts/playfair.module.css";
 
 const Coffee = () => {
-  const [activeTab, setActiveTab] = useState<SymptomCategory>("emotional");
+  const [activeTab, setActiveTab] = useState<SymptomCategory>("behavioral");
 
   const causes = [
     {
-      name: "Neurobiological Factors",
-      description: "Caffeine blocks adenosine receptors in the brain, preventing the natural feeling of tiredness and creating a dependency on its stimulating effects over time.",
+      name: "Biological Factors",
+      description: "Regular caffeine use leads to increased tolerance, requiring higher doses to achieve the same stimulating effects.",
       image: "/genetic-factors.webp",
       link: "/genetic-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
       textColor: "text-white",
     },
     {
-      name: "Psychological Vulnerabilities",
+      name: "Psychological and Emotional Factors",
       description:
-        "Many individuals use coffee to boost productivity, cope with stress, or manage mood issues, creating a psychological reliance on caffeine to function optimally.",
+        "Caffeine is often used to combat fatigue, improve mood, and enhance focus, creating a reliance for daily functioning.",
       image: "/psychological-factors.webp",
       link: "/psychological-factors",
       bgColor: "bg-[#FFD700]", // Yellow background
       textColor: "text-black",
     },
     {
-      name: "Environmental Influences",
+      name: "Environmental and Social Factors",
       description:
-        "Social coffee culture, workplace norms that normalize high caffeine consumption, and easy accessibility contribute to habitual use and potential dependence.",
+        "Social norms, workplace culture, and accessibility of caffeinated beverages promote habitual use.",
       image: "/psychological-factors.webp",
       link: "/psychological-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
@@ -37,26 +37,25 @@ const Coffee = () => {
   ];
 
   const symptoms = {
+    behavioral: [
+      "Consuming caffeine multiple times a day, even when unnecessary",
+      "Difficulty reducing or controlling caffeine intake",
+      "Using caffeine to \"feel normal\" or stay alert"
+    ],
     emotional: [
-      "Irritability and mood swings when caffeine consumption is delayed",
-      "Anxiety and nervousness with high consumption",
-      "Feelings of psychological dependence on caffeine to function normally"
+      "Irritability or restlessness when caffeine is not available",
+      "Low mood or anxiety, especially during withdrawal",
+      "Emotional reliance on caffeine for mood enhancement"
     ],
     cognitive: [
-      "Difficulty concentrating without regular caffeine intake",
-      "Mental fog and reduced alertness during withdrawal",
-      "Preoccupation with obtaining coffee/caffeine"
+      "Difficulty concentrating without caffeine",
+      "Obsessive thoughts about obtaining or consuming caffeinated drinks",
+      "Mental fog when attempting to quit"
     ],
     physical: [
-      "Headaches and fatigue when caffeine is not consumed",
-      "Sleep disturbances, insomnia, and altered sleep patterns",
-      "Digestive issues, increased heart rate, and potential cardiovascular effects"
-    ],
-    behavioral: [
-      "Regular consumption despite experiencing negative health consequences",
-      "Increasing caffeine amounts over time due to tolerance",
-      "Unsuccessful attempts to cut down on caffeine intake",
-      "Disruption to daily schedule to accommodate coffee breaks"
+      "Headaches, muscle tension, or tremors during withdrawal",
+      "Rapid heart rate or palpitations after high caffeine intake",
+      "Sleep disturbances, including insomnia or early awakenings"
     ]
   };
 
@@ -64,36 +63,36 @@ const Coffee = () => {
     {
       title: "Medical Interventions",
       points: [
-        "Slowly decreasing daily caffeine intake to minimize withdrawal symptoms",
-        "Substituting with lower-caffeine alternatives like herbal tea or decaf coffee",
-        "Tracking consumption to create awareness of intake patterns"
+        "Gradual tapering to minimize withdrawal symptoms (reducing intake by 10–25% every few days).",
+        "Symptomatic treatment for headaches or irritability during withdrawal.",
+        "Monitoring for coexisting anxiety or sleep disorders."
       ],
       image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Lifestyle Modifications",
+      title: "Psychotherapeutic Interventions",
       points: [
-        "Establishing healthy sleep hygiene to reduce reliance on caffeine",
-        "Regular physical exercise to naturally boost energy levels",
-        "Stress management techniques like meditation to reduce caffeine cravings"
+        "Cognitive Behavioral Therapy (CBT) to identify triggers for caffeine use and develop alternative coping strategies.",
+        "Mindfulness-Based Stress Reduction (MBSR) to enhance emotional regulation.",
+        "Behavioral Counseling to establish balanced sleep routines and manage stress."
       ],
       image: "https://images.unsplash.com/photo-1493836512294-502baa1986e2?q=80&w=2690&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Supportive Strategies",
+      title: "Behavioral and Lifestyle Strategies",
       points: [
-        "Hydration with water to help manage withdrawal symptoms",
-        "Nutritional approaches to stabilize energy levels naturally",
-        "Peer support from others reducing caffeine dependency"
+        "Replacing caffeinated beverages with herbal teas, decaf coffee, or water.",
+        "Setting limits on caffeine intake, such as avoiding caffeine after 3:00 p.m.",
+        "Prioritizing regular sleep patterns, physical activity, and balanced nutrition."
       ],
       image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Professional Support",
+      title: "Complementary Interventions",
       points: [
-        "Consultation with healthcare providers about caffeine's impact on specific health conditions",
-        "Behavioral therapy for addressing habitual consumption patterns",
-        "Development of personalized caffeine reduction plans"
+        "Mindfulness practices, yoga, or guided relaxation for stress management.",
+        "Hydration to reduce caffeine cravings and support detoxification.",
+        "Peer support or self-monitoring tools (apps) to track intake and progress."
       ],
       image: "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     }
@@ -153,10 +152,10 @@ const Coffee = () => {
        
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Caffeine is a widely consumed central nervous system stimulant found in coffee, tea, energy drinks, and certain foods. It produces alertness by blocking adenosine receptors, potentially leading to dependence with regular consumption.
+          Caffeine is a widely consumed stimulant found in coffee, tea, energy drinks, soft drinks, and certain medications. While moderate caffeine intake can enhance alertness and concentration, excessive use can lead to dependence, withdrawal symptoms, and disrupted sleep patterns.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          While moderate coffee consumption is generally considered safe for many adults, excessive caffeine intake can lead to dependence, sleep disturbances, and various health impacts that may affect daily functioning and wellbeing.
+          Despite being socially accepted, caffeine dependence is a common and often underestimated form of substance dependence.
           </p>
         </div>
 
@@ -173,7 +172,7 @@ const Coffee = () => {
           Causes of Caffeine Dependence
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-        Multiple factors influence the development of caffeine dependence, including neurobiological mechanisms, psychological vulnerabilities, and environmental contexts.
+        Caffeine dependence can develop due to biological sensitivity, psychological reinforcement, and habitual use.
         </p>
 
         {/* Causes Grid */}
@@ -212,7 +211,7 @@ const Coffee = () => {
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Caffeine affects users through various symptom categories that may indicate regular use, problematic use, or dependence.
+          Caffeine dependence can manifest through behavioral, cognitive, and physical symptoms.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -245,11 +244,11 @@ const Coffee = () => {
           <div className="lg:w-1/2 h-[50vh] relative overflow-hidden rounded-xl">
             <Image
               src={`/diseases/unhappyness/${
-                activeTab === "emotional"
+                activeTab === "behavioral"
                   ? "1"
-                  : activeTab === "cognitive"
+                  : activeTab === "emotional"
                   ? "2"
-                  : activeTab === "physical"
+                  : activeTab === "cognitive"
                   ? "3"
                   : "4"
               }.webp`}
@@ -271,7 +270,7 @@ const Coffee = () => {
         </h2>
 
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-        Effective management of caffeine dependence involves a comprehensive approach combining gradual reduction, lifestyle changes, and supportive strategies.
+        Effective management of caffeine dependence involves gradual reduction, behavioral strategies, and lifestyle adjustments.
         </p>
 
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">

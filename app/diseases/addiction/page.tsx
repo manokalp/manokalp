@@ -50,27 +50,20 @@ const Addiction = () => {
         </h2>
       </div>
 
-      {/* The Harsh Truth Section  */}
+      {/* Addiction: A Medical Illness Section  */}
       <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-20 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Addiction is a multifaceted disorder that affects millions of
-            individuals across the globe. It is defined by compulsive use of a
-            substance or behavior despite adverse consequences. Addiction
-            exists in various forms, ranging from substance use disorders (such as
-            drugs and alcohol) to behavioral addictions (such as gambling, social
-            media, or gaming).
+            Addiction, also known as substance use disorder, is a chronic medical condition marked by compulsive substance use despite harmful consequences. It affects brain chemistry, behavior, physical health, and emotional well-being.
           </p>
 
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            It is not a matter of lack of willpower but a chronic medical condition that
-            impacts brain function and behavior. Understanding the causes,
-            symptoms, and treatment options for addiction is vital for individuals seeking recovery and their families.
+            Addiction is not a matter of willpower—it is a complex illness requiring comprehensive intervention, including medical, psychological, and social support.
           </p>
         </div>
       </section>
 
-      {/* Section */}
+      {/* Causes Section */}
       <section className="bg-white w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
         <h2
           className={`text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold ${playfair.className} mb-8`}
@@ -78,96 +71,53 @@ const Addiction = () => {
           Causes of Addiction
         </h2>
         <p className="text-black lg:text-[1.25vw] text-[3.5vw] mb-10">
-          Addiction results from a mix of biological, psychological, and
-          environmental reasons. The following are some of the key causes:
+          Addiction arises from a combination of biological vulnerability, psychological patterns, and environmental exposure.
         </p>
 
-        <div className="grid lg:grid-cols-5 grid-cols-1 gap-4 mb-60">
-          {/* Technique Card 1 */}
-          <div className="[perspective:1000px] cursor-pointer ">
-            <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
-              <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [backface-visibility:hidden]">
-                <h3 className="lg:text-[1.25vw] text-[4vw] font-bold">
-                  Genetic Predisposition
-                </h3>
-              </div>
-              <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                <p className="lg:text-[1vw] text-[3vw]">
-                   Research indicates that genetic factors play a significant role in addiction vulnerability. Individuals with a family history of addiction are at higher risk of developing substance use disorders.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Technique Card 2 */}
-          <div className="[perspective:1000px] cursor-pointer">
-            <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
-              <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [backface-visibility:hidden]">
-                <h3 className="lg:text-[1.25vw] text-[4vw] font-bold">
-                  Brain Chemistry and Reward System
-                </h3>
-              </div>
-              <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                <p className="lg:text-[1vw] text-[3vw]">
-                  Addictive drugs and activities activate the reward system of
-                  the brain by releasing dopamine, a pleasure-related
-                  neurotransmitter. Over time, repeated use alters brain chemistry, making it increasingly difficult to experience pleasure without the addictive substance or behavior.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Technique Card 3 */}
-          <div className="[perspective:1000px] cursor-pointer">
-            <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
-              <div className="absolute inset-0 bg-[#0E7EA0]  w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [backface-visibility:hidden]">
-                <h3 className="lg:text-[1.25vw] text-[4vw] font-bold">
-                  Environmental Factors
-                </h3>
-              </div>
-              <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                <p className="lg:text-[1vw] text-[3vw]">
-                  Early substance exposure, peer pressure, chronic stress, and
-                  trauma can contribute to addiction development. Individuals who are exposed to
-                  addiction while growing up at home or to high-stress
-                  environments are at higher risk.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Technique Card 4 */}
-          <div className="[perspective:1000px] cursor-pointer">
-            <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
-              <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [backface-visibility:hidden]">
-                <h3 className="lg:text-[1.25vw] text-[4vw] font-bold">
-                  Lack of Healthy Coping Mechanisms
-                </h3>
-              </div>
-              <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                <p className="lg:text-[1vw] text-[3vw]">
-                  Some people use addictive substances or activities as a means
-                  of coping with emotional hurt, boredom, or stress, instead of
-                  learning to cope in healthy ways.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Technique Card 5 */}
+        <div className="grid lg:grid-cols-3 grid-cols-1 gap-4 mb-20">
+          {/* Biological Factors Card */}
           <div className="[perspective:1000px] cursor-pointer">
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [backface-visibility:hidden]">
                 <h3 className="lg:text-[1.25vw] text-[4vw] font-bold">
-                  Social and Cultural Influences
+                  Biological Factors
                 </h3>
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Culture and society can make addictive behavior the norm,
-                  i.e., the use of excessive amounts of alcohol, tobacco, or
-                  gambling, and it becomes easy for people to become addicted to
-                  them.
+                  Genetic predisposition, neurotransmitter imbalances, and brain changes from substance use increase addiction risk.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Psychological and Emotional Factors Card */}
+          <div className="[perspective:1000px] cursor-pointer">
+            <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
+              <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [backface-visibility:hidden]">
+                <h3 className="lg:text-[1.25vw] text-[4vw] font-bold">
+                  Psychological and Emotional Factors
+                </h3>
+              </div>
+              <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                <p className="lg:text-[1vw] text-[3vw]">
+                  Unresolved trauma, low self-esteem, chronic stress, or co-occurring mental health conditions may fuel addictive behavior.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Environmental and Social Factors Card */}
+          <div className="[perspective:1000px] cursor-pointer">
+            <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
+              <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [backface-visibility:hidden]">
+                <h3 className="lg:text-[1.25vw] text-[4vw] font-bold">
+                  Environmental and Social Factors
+                </h3>
+              </div>
+              <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                <p className="lg:text-[1vw] text-[3vw]">
+                  Peer pressure, family dysfunction, exposure to substance use, and lack of social support elevate addiction risk.
                 </p>
               </div>
             </div>
@@ -175,304 +125,127 @@ const Addiction = () => {
         </div>
       </section>
 
-      {/*  Links  */}
-      <section className="bg-white w-full h-full lg:px-20 px-10 lg:py-20 py-10 text-center">
+      {/* Symptoms Section */}
+      <section className="bg-[#F5F5F5] w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
         <h2
-          className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold  ${playfair.className}`}
+          className={`text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >
           Symptoms of Addiction
         </h2>
-        <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-          Addiction symptoms may differ based on the substance or activity, but
-          typical signs include:
+        <p className="text-black lg:text-[1.25vw] text-[3.5vw] mb-10">
+          Addiction symptoms affect emotional, behavioral, cognitive, and physical functioning.
         </p>
-        <div className="grid lg:grid-cols-3 grid-cols-1 gap-2">
-          {/* Card 1 */}
-          <div className="bg-[#0E7EA0] rounded-3xl  text-white text-center">
-            <Image
-              src="https://images.pexels.com/photos/3771129/pexels-photo-3771129.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt="person struggling with loss of control"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover rounded-2xl mb-6"
-            />
-            <div className="p-6">
-              <h3 className="text-lg font-bold mb-4">Loss of Control</h3>
-              <p className="text-sm">
-                Being unable to stop or cut down despite trying to do so.
-              </p>
-            </div>
+
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 mb-20">
+          {/* Behavioral Symptoms */}
+          <div className="bg-[#0E7EA0] rounded-xl p-6 text-white">
+            <h3 className="lg:text-[1.5vw] text-[4.5vw] font-bold mb-4">
+              Behavioral Symptoms:
+            </h3>
+            <ul className="lg:text-[1vw] text-[3vw] text-left space-y-2">
+              <li>• Compulsive substance use despite consequences</li>
+              <li>• Loss of interest in hobbies or responsibilities</li>
+              <li>• Secretive behavior around substance use</li>
+              <li>• Risk-taking or dangerous behaviors</li>
+            </ul>
           </div>
 
-          {/* Card 2 */}
-          <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-            <Image
-              src="https://images.pexels.com/photos/6551415/pexels-photo-6551415.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt="person experiencing cravings"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover rounded-2xl mb-6"
-            />
-            <div className="p-6">
-              <h3 className="text-lg font-bold mb-4">Cravings and Obsession</h3>
-              <p className="text-sm">
-                Repeatedly thinking about the addictive activity or substance
-                and having overwhelming urges to use it.
-              </p>
-            </div>
+          {/* Emotional Symptoms */}
+          <div className="bg-[#FFD700] rounded-xl p-6 text-black">
+            <h3 className="lg:text-[1.5vw] text-[4.5vw] font-bold mb-4">
+              Emotional Symptoms:
+            </h3>
+            <ul className="lg:text-[1vw] text-[3vw] text-left space-y-2">
+              <li>• Persistent guilt, shame, or self-blame</li>
+              <li>• Mood swings or irritability</li>
+              <li>• Emotional numbness or heightened anxiety</li>
+            </ul>
           </div>
 
-          {/* Card 3 */}
-          <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-            <Image
-              src="https://images.pexels.com/photos/7793247/pexels-photo-7793247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt="neglected work responsibilities"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover rounded-2xl mb-6"
-            />
-            <div className="p-6">
-              <h3 className="text-lg font-bold mb-4">
-                Neglecting Responsibilities
-              </h3>
-              <p className="text-sm">
-                Forgetting work, school, or family responsibilities because of
-                addiction.
-              </p>
-            </div>
+          {/* Cognitive Symptoms */}
+          <div className="bg-[#0E7EA0] rounded-xl p-6 text-white">
+            <h3 className="lg:text-[1.5vw] text-[4.5vw] font-bold mb-4">
+              Cognitive Symptoms:
+            </h3>
+            <ul className="lg:text-[1vw] text-[3vw] text-left space-y-2">
+              <li>• Obsessive thoughts about obtaining or using the substance</li>
+              <li>• Poor decision-making and impaired judgment</li>
+              <li>• Denial or minimization of the problem</li>
+            </ul>
           </div>
 
-          {/* Card 4 */}
-          <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-            <Image
-              src="https://images.pexels.com/photos/7047011/pexels-photo-7047011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt="tolerance and dependence concept"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover rounded-2xl mb-6"
-            />
-            <div className="p-6">
-              <h3 className="text-lg font-bold mb-4">
-                Tolerance and Dependence
-              </h3>
-              <p className="text-sm">
-                Requiring increasingly more of the substance or the behavior to
-                produce the same effect.
-              </p>
-            </div>
-          </div>
-
-          {/* Card 5 */}
-          <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-            <Image
-              src="https://images.pexels.com/photos/6753175/pexels-photo-6753175.jpeg?auto=compress&cs=tinysrgb&w=800"
-              alt="person experiencing withdrawal"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover rounded-2xl mb-6"
-            />
-            <div className="p-6">
-              <h3 className="text-lg font-bold mb-4">Withdrawal Symptoms</h3>
-              <p className="text-sm">
-                Suffering physical and emotional pain when abstaining from the
-                substance or behavior (e.g., anxiety, irritability, nausea,
-                sweating).
-              </p>
-            </div>
-          </div>
-
-          {/* Card 6 */}
-          <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-            <Image
-              src="https://images.pexels.com/photos/6382634/pexels-photo-6382634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt="negative consequences of addiction"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover rounded-2xl mb-6"
-            />
-            <div className="p-6">
-              <h3 className="text-lg font-bold mb-4">
-                Continuing Despite Negative Consequences
-              </h3>
-              <p className="text-sm">
-                Continuing the addictive behavior in spite of money, social,
-                health, or legal issues.
-              </p>
-            </div>
-          </div>
-
-          {/* Card 7 */}
-          <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-            <Image
-              src="https://images.pexels.com/photos/8088488/pexels-photo-8088488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt="person experiencing social isolation"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover rounded-2xl mb-6"
-            />
-            <div className="p-6">
-              <h3 className="text-lg font-bold mb-4">Social Isolation</h3>
-              <p className="text-sm">
-                Retreating from family and friends in order to conceal addiction
-                or out of shame and guilt.
-              </p>
-            </div>
-          </div>
-
-          {/* Card 8 */}
-          <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-            <Image
-              src="https://images.pexels.com/photos/382177/pexels-photo-382177.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt="risky behavior related to addiction"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover rounded-2xl mb-6"
-            />
-            <div className="p-6">
-              <h3 className="text-lg font-bold mb-4">
-                Indulgence in Risky Behaviors
-              </h3>
-              <p className="text-sm">
-                {" "}
-                Getting into hazardous behavior, such as operating under the
-                influence of substances or indulging in unsafe habits, due to
-                addiction.
-              </p>
-            </div>
-          </div>
-
-          {/* Card 9 */}
-          <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
-            <Image
-              src="https://images.pexels.com/photos/5723274/pexels-photo-5723274.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt="person in denial about addiction"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover rounded-2xl mb-6"
-            />
-            <div className="p-6">
-              <h3 className="text-lg font-bold mb-4">
-                Denial and Rationalization
-              </h3>
-              <p className="text-sm">
-                Deflecting by excuses about addictive conduct or ignoring its
-                effect.
-              </p>
-            </div>
+          {/* Physical Symptoms */}
+          <div className="bg-[#FFD700] rounded-xl p-6 text-black">
+            <h3 className="lg:text-[1.5vw] text-[4.5vw] font-bold mb-4">
+              Physical Symptoms:
+            </h3>
+            <ul className="lg:text-[1vw] text-[3vw] text-left space-y-2">
+              <li>• Tolerance, requiring higher doses to feel the effect</li>
+              <li>• Withdrawal symptoms when not using the substance</li>
+              <li>• Declining physical health (weight loss, fatigue, organ damage)</li>
+            </ul>
           </div>
         </div>
       </section>
 
-      {/* Section 2 para  */}
-      <section className="bg-white w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center pb-2">
+      {/* Solutions Section */}
+      <section className="bg-white w-full h-full lg:px-40 px-10 lg:py-20 py-10 text-center">
         <h2
-          className={`text-[#0E7EA0] font-bold lg:text-[5vw] text-[8vw] ${playfair.className} mb-8`}
+          className={`text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >
-          Solutions for Addiction
+          Solutions for Managing Addiction
         </h2>
-        <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-          Addiction can be overcome with a combination of medical,
-          psychological, and social support. Some of the effective solutions
-          are:
+        <p className="text-black lg:text-[1.25vw] text-[3.5vw] mb-10">
+          Effective addiction treatment involves a combination of medical care, psychological support, and lifestyle changes.
         </p>
-        <div className="flex flex-col lg:flex-row justify-between gap-8 text-left">
-          <div className="bg-white border-b-2 border-[1px] text-black p-8 flex-1">
-            <h3 className="text-xl font-bold mb-4">Recognizing the Problem</h3>
-            <p className="text-sm">
-              The initial step towards recovery is admitting the addiction and
-              the necessity for help.
-            </p>
+
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 mb-20">
+          {/* Medical Interventions */}
+          <div className="bg-[#0E7EA0] rounded-xl p-6 text-white">
+            <h3 className="lg:text-[1.5vw] text-[4.5vw] font-bold mb-4">
+              Medical Interventions:
+            </h3>
+            <ul className="lg:text-[1vw] text-[3vw] text-left space-y-2">
+              <li>• Detoxification to safely manage withdrawal symptoms</li>
+              <li>• Medication-Assisted Treatment (MAT) with methadone, buprenorphine, or naltrexone</li>
+              <li>• Regular health monitoring to address physical complications</li>
+            </ul>
           </div>
 
-          <div className="bg-white border-b-2 border-[1px] text-black p-8 flex-1">
-            <h3 className="text-xl font-bold mb-4">Professional Treatment</h3>
-            <p className="text-sm">
-              Professional treatment for addiction involves therapy, counseling,
-              rehabilitation centers, and medical treatment.
-            </p>
-          </div>
-        </div>
-
-        <div className="flex flex-col lg:flex-row justify-between gap-8 text-left mt-8">
-          <div className="bg-white border-b-2 border-[1px] text-black p-8 flex-1">
-            <h3 className="text-xl font-bold mb-4">Detoxification</h3>
-            <p className="text-sm">
-              In the case of substance addiction, detox is usually required to
-              eliminate harmful substances from the body under medical care.
-            </p>
-          </div>
-          <div className="bg-white border-b-2 border-[1px] text-black p-8 flex-1">
-            <h3 className="text-xl font-bold mb-4">Support Groups</h3>
-            <p className="text-sm">
-              Organizations such as Alcoholics Anonymous (AA) offer peer support
-              and encouragement by individuals who have knowledge of the
-              challenges of addiction.
-            </p>
-          </div>
-        </div>
-
-        <div className="flex flex-col lg:flex-row justify-between gap-8 text-left mt-8">
-          <div className="bg-white border-b-2 border-[1px] text-black p-8 flex-1">
-            <h3 className="text-xl font-bold mb-4">
-              Building Healthy Coping Mechanisms
+          {/* Psychotherapeutic Interventions */}
+          <div className="bg-[#FFD700] rounded-xl p-6 text-black">
+            <h3 className="lg:text-[1.5vw] text-[4.5vw] font-bold mb-4">
+              Psychotherapeutic Interventions:
             </h3>
-            <p className="text-sm">
-              Creating new interests, exercise, meditation, or engaging in
-              meaningful pursuits can help replace addictive activities.
-            </p>
+            <ul className="lg:text-[1vw] text-[3vw] text-left space-y-2">
+              <li>• Cognitive Behavioral Therapy (CBT) to reframe negative thoughts and develop coping skills</li>
+              <li>• Dialectical Behavior Therapy (DBT) for emotional regulation</li>
+              <li>• Family Counseling to repair relationships and build support systems</li>
+            </ul>
           </div>
 
-          <div className="bg-white border-b-2 border-[1px] text-black p-8 flex-1">
-            <h3 className="text-xl font-bold mb-4">
-              Steering Clear of Triggers
+          {/* Relapse Prevention Strategies */}
+          <div className="bg-[#0E7EA0] rounded-xl p-6 text-white">
+            <h3 className="lg:text-[1.5vw] text-[4.5vw] font-bold mb-4">
+              Relapse Prevention Strategies:
             </h3>
-            <p className="text-sm">
-              Finding out and steering clear of things, places, or individuals
-              that foster addictive tendencies can help prevent relapse.
-            </p>
-          </div>
-        </div>
-        <div className="flex flex-col lg:flex-row justify-between gap-8 text-left mt-8">
-          <div className="bg-white border-b-2 border-[1px] text-black p-8 flex-1">
-            <h3 className="text-xl font-bold mb-4">
-              Cognitive Behavioral Therapy (CBT)
-            </h3>
-            <p className="text-sm">
-              CBT assists the individual in understanding and modifying negative
-              thought processes and behaviors that enable addiction.
-            </p>
+            <ul className="lg:text-[1vw] text-[3vw] text-left space-y-2">
+              <li>• Identifying and avoiding triggers</li>
+              <li>• Developing alternative coping mechanisms</li>
+              <li>• Building a support network through peer groups or recovery programs</li>
+            </ul>
           </div>
 
-          <div className="bg-white border-b-2 border-[1px] text-black p-8 flex-1">
-            <h3 className="text-xl font-bold mb-4">
-              Medication-Assisted Treatment (MAT)
+          {/* Complementary Approaches */}
+          <div className="bg-[#FFD700] rounded-xl p-6 text-black">
+            <h3 className="lg:text-[1.5vw] text-[4.5vw] font-bold mb-4">
+              Complementary Approaches:
             </h3>
-            <p className="text-sm">
-              Certain addictions, e.g. opioid or alcohol addiction, are treated
-              using medications that lessen the cravings and withdrawal
-              symptoms.
-            </p>
-          </div>
-        </div>
-
-        <div className="flex flex-col lg:flex-row justify-between gap-8 text-left my-8">
-          <div className="bg-white border-b-2 border-[1px] text-black p-8 flex-1">
-            <h3 className="text-xl font-bold mb-4">
-              Creating a Healthy Support Network
-            </h3>
-            <p className="text-sm">
-              Being around positive family, friends, or mentors can motivate and
-              hold accountable.
-            </p>
-          </div>
-          <div className="bg-white border-b-2 border-[1px] text-black p-8 flex-1">
-            <h3 className="text-xl font-bold mb-4">
-              Creating a Healthy Support Network
-            </h3>
-            <p className="text-sm">
-              Being around positive family, friends, or mentors can motivate and
-              hold accountable.
-            </p>
+            <ul className="lg:text-[1vw] text-[3vw] text-left space-y-2">
+              <li>• Mindfulness practices, yoga, and exercise for stress reduction</li>
+              <li>• Nutrition counseling to restore physical health</li>
+              <li>• Skill-building for employment and social reintegration</li>
+            </ul>
           </div>
         </div>
       </section>

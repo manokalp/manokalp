@@ -21,6 +21,19 @@ export const diseaseData = {
     { name: "Homosexuality (LGB)", link: "/diseases/homosexuality" },
     { name: "Sexual Dysfunction", link: "/diseases/dysfunction" },
   ],
+  "Addiction: An Illness": [
+    { name: "Addiction", link: "/diseases/addiction" },
+    { name: "Alcohol", link: "/diseases/alcohol" },
+    { name: "Cannabis", link: "/diseases/cannabis" },
+    { name: "Cocaine", link: "/diseases/cocaine" },
+    { name: "Coffee", link: "/diseases/coffee" },
+    { name: "Hallucinogens", link: "/diseases/hallucinogens" },
+    { name: "Inhalants and Solvents", link: "/diseases/inhalantsnsolvents" },
+    { name: "Nicotine (Cigarette Smoking)", link: "/diseases/nicotine-cigarette" },
+    { name: "Nicotine (Tobacco Chewing)", link: "/diseases/nicotine-tobacco" },
+    { name: "Non-Substance Addictions", link: "/diseases/non-substance" },
+    { name: "Opioids and Brown Sugar", link: "/diseases/opioids" }
+  ],
   /*
   // Original categories retained for future re-enable:
   "Adulthood Problems": [
@@ -65,19 +78,6 @@ export const diseaseData = {
     { name: "Childhood Depression", link: "/diseases/childhood-depression" },
     { name: "Stress in Children", link: "/diseases/childstress" },
     { name: "Temper Tantrums", link: "/diseases/temper" }
-  ],
-  "Addiction: An Illness": [
-    { name: "Addiction", link: "/diseases/addiction" },
-    { name: "Alcohol", link: "/diseases/alcohol" },
-    { name: "Cannabis", link: "/diseases/cannabis" },
-    { name: "Cocaine", link: "/diseases/cocaine" },
-    { name: "Coffee", link: "/diseases/coffee" },
-    { name: "Hallucinogens", link: "/diseases/hallucinogens" },
-    { name: "Inhalants and Solvents", link: "/diseases/inhalantsnsolvents" },
-    { name: "Nicotine (Cigarette Smoking)", link: "/diseases/nicotine-cigarette" },
-    { name: "Nicotine (Tobacco Chewing)", link: "/diseases/nicotine-tobacco" },
-    { name: "Non-Substance Addictions", link: "/diseases/non-substance" },
-    { name: "Opioids and Brown Sugar", link: "/diseases/opioids" }
   ]
   */
 };

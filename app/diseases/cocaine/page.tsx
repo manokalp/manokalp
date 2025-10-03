@@ -5,31 +5,31 @@ import { useState } from "react";
 import playfair from "../../../fonts/playfair.module.css";
 
 const Cocaine = () => {
-  const [activeTab, setActiveTab] = useState<SymptomCategory>("emotional");
+  const [activeTab, setActiveTab] = useState<SymptomCategory>("behavioral");
 
   const causes = [
     {
-      name: "Neurobiological Factors",
+      name: "Biological Factors",
       description:
-        "Cocaine directly affects the brain's reward system by blocking dopamine reuptake, creating intense pleasure and establishing powerful neurochemical pathways for addiction.",
+        "Genetic predisposition, changes in the brain's reward system, and rapid development of tolerance increase the risk of addiction.",
       image: "/genetic-factors.webp", // Replace with your actual image path
       link: "/genetic-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
       textColor: "text-white",
     },
     {
-      name: "Psychological Vulnerabilities",
+      name: "Psychological and Emotional Factors",
       description:
-        "Pre-existing mental health conditions, trauma history, and impulsivity traits significantly increase the risk of developing cocaine dependence after initial use.",
+        "Cocaine may be used to manage stress, escape negative emotions, enhance social confidence, or boost energy, creating a dependency cycle.",
       image: "/psychological-factors.webp", // Replace with your actual image path
       link: "/psychological-factors",
       bgColor: "bg-[#FFD700]", // Yellow background
       textColor: "text-black",
     },
     {
-      name: "Environmental Influences",
+      name: "Social and Environmental Factors",
       description:
-        "Social environments with high cocaine availability, peer pressure, stressful life conditions, and normalization of stimulant use contribute to initiation and continued use.",
+        "Peer influence, easy availability, exposure to high-risk environments, or normalization of cocaine use in social circles promote initiation.",
       image: "/psychological-factors.webp", // Replace with your actual image path
       link: "/psychological-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
@@ -38,26 +38,25 @@ const Cocaine = () => {
   ];
 
   const symptoms = {
+    behavioral: [
+      "Repeated, compulsive use despite harmful consequences",
+      "Risky behaviors while under the influence (reckless driving, unsafe sex)",
+      "Neglecting responsibilities at work, school, or home",
+    ],
     emotional: [
-      "Euphoria followed by emotional crashes and depression",
-      "Increased irritability, restlessness, and anxiety",
-      "Paranoia and potential cocaine-induced psychosis",
+      "Intense euphoria followed by emotional crashes (irritability, depression)",
+      "Anxiety, paranoia, or agitation during and after use",
+      "Emotional numbness or mood swings",
     ],
     cognitive: [
-      "Racing thoughts and difficulty focusing",
-      "Impaired decision-making and risk assessment",
-      "Intense cravings that interfere with daily functioning",
+      "Obsessive thoughts about obtaining or using cocaine",
+      "Impaired judgment and decision-making",
+      "Difficulty concentrating or recalling information",
     ],
     physical: [
-      "Increased heart rate, blood pressure, and body temperature",
-      "Constricted blood vessels and dilated pupils",
-      "Nasal damage, respiratory issues, and potential cardiovascular complications",
-    ],
-    behavioral: [
-      "Increasing cocaine doses and frequency to achieve desired effects",
-      "Financial problems due to the high cost of maintaining cocaine use",
-      "Social isolation and relationship deterioration",
-      "Neglecting responsibilities and previously enjoyed activities",
+      "Rapid heart rate, elevated blood pressure, and chest pain",
+      "Frequent nosebleeds (from snorting), cough, or breathing problems (from smoking)",
+      "Weight loss, insomnia, or fatigue",
     ],
   };
 
@@ -65,9 +64,9 @@ const Cocaine = () => {
     {
       title: "Medical Interventions",
       points: [
-        "Supervised detoxification to manage withdrawal symptoms safely",
-        "Assessment and treatment of cocaine-related health complications",
-        "Medication approaches to reduce cravings and manage co-occurring conditions",
+        "Medical detoxification under supervision to manage withdrawal symptoms.",
+        "Symptomatic treatment for anxiety, depression, or sleep disturbances.",
+        "Regular health monitoring for cardiovascular and neurological damage.",
       ],
       image:
         "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -75,9 +74,10 @@ const Cocaine = () => {
     {
       title: "Psychotherapeutic Interventions",
       points: [
-        "Cognitive Behavioral Therapy (CBT) to identify triggers and develop coping skills",
-        "Contingency Management providing incentives for cocaine abstinence",
-        "Community Reinforcement Approach to build a lifestyle supportive of recovery",
+        "Cognitive Behavioral Therapy (CBT) to identify and replace harmful thought patterns.",
+        "Motivational Enhancement Therapy (MET) to strengthen commitment to recovery.",
+        "Contingency Management (CM) offering positive reinforcement for abstinence.",
+        "Family Counseling to rebuild trust and improve communication.",
       ],
       image:
         "https://images.unsplash.com/photo-1493836512294-502baa1986e2?q=80&w=2690&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -85,9 +85,10 @@ const Cocaine = () => {
     {
       title: "Behavioral and Lifestyle Strategies",
       points: [
-        "Narcotics Anonymous or Cocaine Anonymous 12-step programs",
-        "Structured aftercare programs with regular check-ins",
-        "Peer recovery coaches with personal cocaine recovery experience",
+        "Developing a structured daily routine to reduce idle time.",
+        "Avoiding triggers and high-risk environments where cocaine is available.",
+        "Engaging in regular physical exercise to reduce cravings and boost mood.",
+        "Building a strong support network through peer recovery groups.",
       ],
       image:
         "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -95,9 +96,9 @@ const Cocaine = () => {
     {
       title: "Complementary Interventions",
       points: [
-        "Inpatient treatment programs for severe cocaine dependence",
-        "Dual diagnosis treatment for co-occurring mental health conditions",
-        "Long-term relapse prevention planning and life skills development",
+        "Mindfulness meditation, yoga, or guided relaxation for stress management.",
+        "Nutritional support to restore physical health.",
+        "Sleep hygiene practices to regulate rest and recovery.",
       ],
       image:
         "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -150,20 +151,14 @@ const Cocaine = () => {
         </h1>
       </div>
 
-      {/* The Harsh Truth Section  */}
+      {/* Cocaine Use and Dependence Section  */}
       <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-20 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Cocaine is a powerful central nervous system stimulant derived from
-            coca leaves. It creates intense but short-lived euphoria by flooding
-            the brain with dopamine, making it highly addictive even after
-            limited exposure.
+            Cocaine is a potent central nervous system stimulant derived from the Erythroxylon coca plant, native to South America. Known by names such as coke, crack, snow, or blow, cocaine is widely misused for its euphoric effects but carries a high risk of addiction, severe psychological consequences, and life-threatening health complications.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            While initial use may feel pleasurable, continued cocaine use can
-            lead to dependence, serious health complications, and profound
-            psychological and social consequences that affect every aspect of a
-            person&apos;s life.
+            Despite its reputation as a party drug, even short-term use can lead to dangerous outcomes.
           </p>
         </div>
       </section>
@@ -175,12 +170,10 @@ const Cocaine = () => {
           className="text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold mb-8"
           style={{ fontFamily: "Playfair" }}
         >
-          Causes of Cocaine Dependence
+          Causes of Cocaine Use and Dependence
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-          Multiple factors influence the development of cocaine dependence,
-          including neurobiological mechanisms, psychological vulnerabilities,
-          and environmental contexts.
+          Cocaine addiction develops through a combination of biological sensitivity, psychological factors, and environmental exposure.
         </p>
 
         {/* Causes Grid */}
@@ -219,8 +212,7 @@ const Cocaine = () => {
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Cocaine affects users through various symptom categories that may
-          indicate recreational use, problematic use, or dependence.
+          Cocaine dependence presents with behavioral, emotional, cognitive, and physical symptoms.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -253,15 +245,15 @@ const Cocaine = () => {
           <div className="lg:w-1/2 h-[50vh] relative overflow-hidden rounded-xl">
             <Image
               src={`/diseases/unhappyness/${
-                activeTab === "emotional"
+                activeTab === "behavioral"
                   ? "1"
-                  : activeTab === "cognitive"
+                  : activeTab === "emotional"
                   ? "2"
-                  : activeTab === "physical"
+                  : activeTab === "cognitive"
                   ? "3"
                   : "4"
               }.webp`}
-              alt={`${activeTab} symptoms of alcohol addiction`}
+              alt={`${activeTab} symptoms of cocaine dependence`}
               layout="fill"
               objectFit="cover"
               className="transition-opacity duration-300 cursor-pointer rounded-2xl border-black border-1 object-center"
@@ -279,9 +271,7 @@ const Cocaine = () => {
         </h2>
 
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-          Effective treatment for cocaine dependence involves a comprehensive
-          approach combining medical interventions, psychological therapies, and
-          support systems.
+          Effective treatment of cocaine addiction requires a comprehensive approach that combines medical, psychological, and lifestyle support.
         </p>
 
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">

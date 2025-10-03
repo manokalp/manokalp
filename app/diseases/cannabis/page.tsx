@@ -5,30 +5,30 @@ import { useState } from "react";
 import playfair from "../../../fonts/playfair.module.css";
 
 const Cannabis = () => {
-  const [activeTab, setActiveTab] = useState<SymptomCategory>("emotional");
+  const [activeTab, setActiveTab] = useState<SymptomCategory>("behavioral");
 
   const causes = [
     {
-      name: "Genetic Predisposition",
-      description:"Genetic factors influence how individuals respond to cannabis, with certain genetic profiles increasing vulnerability to dependence and psychoactive effects.",
+      name: "Biological Factors",
+      description:"Genetic predisposition, altered endocannabinoid receptor function, and individual differences in THC sensitivity increase addiction risk.",
       image: "/genetic-factors.webp", // Replace with your actual image path
       link: "/genetic-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
       textColor: "text-white",
     },
     {
-      name: "Psychological Risk Factors",
+      name: "Psychological and Emotional Factors",
       description:
-        "Mental health conditions, trauma history, and stress vulnerability can lead individuals to use cannabis for self-medication, increasing dependency risk.",
+        "Cannabis may be used to manage stress, anxiety, depression, or insomnia, creating a cycle of dependency.",
       image: "/psychological-factors.webp", // Replace with your actual image path
       link: "/psychological-factors",
       bgColor: "bg-[#FFD700]", // Yellow background
       textColor: "text-black",
     },
     {
-      name: "Social and Environmental Context",
+      name: "Environmental and Social Factors",
       description:
-        "Early exposure, peer influence, cannabis availability, and normalization through legalization and media can substantially shape usage patterns.",
+        "Peer influence, social normalization, cultural acceptance, and easy availability contribute to initiation and continued use.",
       image: "/psychological-factors.webp", // Replace with your actual image path
       link: "/psychological-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
@@ -37,26 +37,25 @@ const Cannabis = () => {
   ];
 
   const symptoms = {
+    behavioral: [
+      "Frequent or daily use despite negative consequences",
+      "Difficulty controlling use or quitting",
+      "Prioritizing cannabis over responsibilities or hobbies"
+    ],
     emotional: [
-      "Increased anxiety, paranoia, or panic attacks with high-THC use",
-      "Mood swings and irritability, especially during withdrawal",
-      "Decreased motivation or 'amotivational syndrome'"
+      "Irritability, anxiety, or restlessness when not using",
+      "Mood swings or emotional numbness",
+      "Dependence on cannabis for relaxation or stress relief"
     ],
     cognitive: [
-      "Impaired attention, memory, and learning ability",
-      "Distorted perception of time and surroundings",
-      "Difficulty with complex thinking and problem-solving tasks"
+      "Poor concentration, impaired memory, and reduced decision-making ability",
+      "Obsessive thoughts about obtaining or using cannabis",
+      "Denial or minimization of the problem"
     ],
     physical: [
-      "Red eyes, dry mouth, and increased appetite",
-      "Impaired coordination and delayed reaction time",
-      "Respiratory issues with smoking (chronic cough, bronchitis)"
-    ],
-    behavioral: [
-      "Increasing cannabis use over time or using more than intended",
-      "Inability to cut down despite attempts to reduce consumption",
-      "Spending significant time obtaining, using, or recovering from cannabis use",
-      "Continuing use despite negative impacts on work, school, or relationships"
+      "Increased heart rate, dry mouth, and bloodshot eyes",
+      "Sleep disturbances or vivid dreams upon cessation",
+      "Reduced physical energy or motivation"
     ]
   };
 
@@ -64,36 +63,36 @@ const Cannabis = () => {
     {
       title: "Medical Interventions",
       points: [
-        "Cognitive Behavioral Therapy (CBT) to address cannabis use patterns",
-        "Motivational Enhancement Therapy to strengthen motivation for change",
-        "Treatment of co-occurring mental health conditions"
+        "Gradual tapering to minimize withdrawal symptoms",
+        "Symptomatic treatment for anxiety or sleep disturbances",
+        "Regular health monitoring for respiratory or cognitive effects"
       ],
       image: "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       title: "Psychotherapeutic Interventions",
       points: [
-        "Support groups specifically for cannabis cessation",
-        "Family therapy to improve communication and set healthy boundaries",
-        "Digital tools and mobile applications for tracking use and progress"
+        "Cognitive Behavioral Therapy (CBT) to identify and challenge cannabis-related thought patterns",
+        "Motivational Enhancement Therapy (MET) to strengthen commitment to change",
+        "Family Counseling to improve communication and support"
       ],
       image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       title: "Behavioral and Lifestyle Strategies",
       points: [
-        "Stress management techniques (mindfulness, exercise, relaxation)",
-        "Development of alternative coping strategies for triggers",
-        "Creating social connections in non-using environments"
+        "Establishing a structured daily routine to prevent idle use",
+        "Avoiding triggers and high-risk situations where cannabis is used",
+        "Engaging in physical exercise to boost mood and reduce cravings"
       ],
       image: "https://images.unsplash.com/photo-1600189528280-a793b6b931d1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QmVoYXZpb3JhbCUyMGFuZCUyMExpZmVzdHlsZSUyMFN0cmF0ZWdpZXN8ZW58MHwwfDB8fHww",
     },
     {
       title: "Complementary Interventions",
       points: [
-        "Education on lower-risk consumption methods",
-        "Guidance on CBD:THC ratios and product selection",
-        "Monitoring for adverse effects and reducing frequency of use"
+        "Mindfulness meditation, yoga, or guided relaxation to reduce stress",
+        "Nutritional support to restore physical health and energy",
+        "Peer support groups for shared learning and encouragement"
       ],
       image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?q=80&w=2799&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     }
@@ -148,15 +147,15 @@ const Cannabis = () => {
         </h1>
       </div>
 
-      {/* The Harsh Truth Section  */}
+      {/* Cannabis and Cannabinoids Use Section  */}
       <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-20 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
        
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Cannabis contains over 100 cannabinoids, with THC (causing psychoactive effects) and CBD (non-intoxicating) being the most studied. As legalization expands, understanding patterns of use and potential health impacts becomes increasingly important.
+          Cannabis refers to the plant species Cannabis sativa, indica, and ruderalis, known for containing psychoactive compounds—primarily tetrahydrocannabinol (THC) and cannabidiol (CBD). While CBD is non-intoxicating and used for therapeutic purposes, THC is responsible for the mind-altering effects of cannabis.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          While some individuals use cannabis without significant issues, others may develop problematic use patterns. Effects vary based on potency, consumption method, individual factors, and frequency of use.
+          Cannabis is one of the most widely used recreational substances globally, available in various forms and used for both medicinal and non-medical purposes.
           </p>
         </div>
 
@@ -170,10 +169,10 @@ const Cannabis = () => {
           className="text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold mb-8"
           style={{ fontFamily: "Playfair" }}
         >
-          Causes of Cannabis Use and Dependence
+          Causes of Cannabis Misuse and Dependence
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-        Multiple factors contribute to cannabis use patterns, ranging from genetic vulnerabilities to social contexts and personal characteristics.
+        Cannabis dependence can develop due to biological sensitivity, psychological coping mechanisms, and environmental exposure.
         </p>
 
         {/* Causes Grid */}
@@ -212,7 +211,7 @@ const Cannabis = () => {
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Cannabis affects users differently based on THC/CBD content, consumption method, individual biology, and usage patterns.
+          Dependence on cannabis can manifest through behavioral, cognitive, and physical changes.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -245,15 +244,15 @@ const Cannabis = () => {
           <div className="lg:w-1/2 h-[50vh] relative overflow-hidden rounded-xl">
             <Image
               src={`/diseases/unhappyness/${
-                activeTab === "emotional"
+                activeTab === "behavioral"
                   ? "1"
-                  : activeTab === "cognitive"
+                  : activeTab === "emotional"
                   ? "2"
-                  : activeTab === "physical"
+                  : activeTab === "cognitive"
                   ? "3"
                   : "4"
               }.webp`}
-              alt={`${activeTab} symptoms of alcohol addiction`}
+              alt={`${activeTab} symptoms of cannabis dependence`}
               layout="fill"
               objectFit="cover"
               className="transition-opacity duration-300 cursor-pointer rounded-2xl border-black border-1 object-center"
@@ -271,8 +270,7 @@ const Cannabis = () => {
         </h2>
 
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-        Dependence on cannabis can manifest through 
-        behavioral, cognitive, and physical changes.
+        Effective treatment of cannabis dependence combines medical care, psychological support, and behavioral strategies.
         </p>
 
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">
