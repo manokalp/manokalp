@@ -143,7 +143,7 @@ const Hallucinogens = () => {
        
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Hallucinogens are a class of psychoactive substances that alter perception, thoughts, and sensory experiences without any external stimuli. Unlike stimulants or depressants, hallucinogens primarily affect the brain's serotonin and dopamine pathways, leading to profound sensory distortions, emotional shifts, and altered consciousness.
+          Hallucinogens are a class of psychoactive substances that alter perception, thoughts, and sensory experiences without any external stimuli. Unlike stimulants or depressants, hallucinogens primarily affect the brain&apos;s serotonin and dopamine pathways, leading to profound sensory distortions, emotional shifts, and altered consciousness.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
           While some hallucinogens have been used traditionally for spiritual or cultural rituals, recreational use poses significant risks to mental and physical health.

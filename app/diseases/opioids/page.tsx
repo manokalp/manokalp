@@ -159,7 +159,7 @@ const OpioidsAddiction = () => {
        
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Opioids are a class of powerful pain-relieving drugs derived from the opium poppy (Papaver somniferum). While they are used medically to manage severe pain, they also carry a high potential for misuse and addiction. Among the most dangerous forms of opioid abuse is "brown sugar," a crude and impure variant of heroin, often mixed with harmful additives. Opioid addiction is a life-threatening condition that requires a multi-faceted approach to treatment.
+          Opioids are a class of powerful pain-relieving drugs derived from the opium poppy (Papaver somniferum). While they are used medically to manage severe pain, they also carry a high potential for misuse and addiction. Among the most dangerous forms of opioid abuse is &quot;brown sugar,&quot; a crude and impure variant of heroin, often mixed with harmful additives. Opioid addiction is a life-threatening condition that requires a multi-faceted approach to treatment.
           </p>
         </div>
 
