@@ -57,19 +57,11 @@ const Anxiety = () => {
       <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-20 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Anxiety is a common mental health condition that affects millions of
-            people worldwide. It is characterized by persistent feelings of
-            worry, fear, and unease, which can interfere with daily life and
-            overall well-being.
+            Anxiety disorders are common mental health conditions that affect millions of people worldwide. They are characterized by persistent feelings of worry, fear, and unease that significantly interfere with daily functioning and overall well-being.
           </p>
 
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            While experiencing occasional anxiety is normal, excessive or
-            chronic anxiety can develop into an anxiety disorder, significantly
-            impacting a person&apos;s mental, emotional, and physical health.
-            Understanding the causes, symptoms, and solutions for anxiety
-            spectrum disorders is essential in managing and alleviating their
-            effects.
+            While experiencing occasional anxiety is normal, excessive or chronic anxiety constitutes an anxiety disorder, significantly impacting a person&apos;s mental, emotional, and physical health. Understanding the causes, symptoms, and treatment options for anxiety disorders is essential for effective management and recovery.
           </p>
         </div>
       </section>
@@ -98,8 +90,7 @@ const Anxiety = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  A family history of anxiety or mental health disorders can
-                  increase the likelihood of developing anxiety.
+                  A family history of anxiety or mental health disorders can increase the likelihood of developing an anxiety disorder.
                 </p>
               </div>
             </div>
@@ -133,8 +124,7 @@ const Anxiety = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Experiencing traumatic events, such as abuse, accidents, or
-                  major life changes, can trigger anxiety disorders.
+                  Stress and Trauma – Experiencing traumatic events, such as abuse, accidents, or significant life changes, can trigger the onset of anxiety disorders.
                 </p>
               </div>
             </div>
@@ -150,8 +140,7 @@ const Anxiety = () => {
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Certain personality types, such as perfectionists or
-                  individuals with low self-esteem, are more prone to anxiety.
+                  Certain personality traits, such as perfectionism or low self-esteem, can increase vulnerability to anxiety disorders.
                 </p>
               </div>
             </div>
@@ -167,8 +156,7 @@ const Anxiety = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Chronic illnesses, hormonal imbalances, or neurological
-                  disorders can lead to increased anxiety levels.
+                  Chronic medical conditions, hormonal imbalances, or neurological disorders can contribute to the development of anxiety symptoms.
                 </p>
               </div>
             </div>
@@ -183,9 +171,7 @@ const Anxiety = () => {
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Drinking and drug abuse decrease inhibitions and impair
-                  judgment, which causes individuals to become more prone to act
-                  violently or lose their temper.
+                  Alcohol, illicit drugs, and stimulants such as caffeine can worsen anxiety symptoms.
                 </p>
               </div>
             </div>
@@ -201,8 +187,7 @@ const Anxiety = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  High-pressure work environments, financial instability, or
-                  strained relationships can contribute to chronic anxiety.
+                  High-stress work environments, financial difficulties, or relationship conflicts can contribute to the development of chronic anxiety.
                 </p>
               </div>
             </div>
@@ -218,8 +203,7 @@ const Anxiety = () => {
           Symptoms of Anxiety Spectrum Disorders
         </h2>
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Anxiety can manifest in different ways, affecting thoughts, emotions,
-          and physical well-being. Common symptoms include:
+          Anxiety disorders can manifest in various ways, affecting cognitive function, emotional regulation, and physical health. Common symptoms include:
         </p>
 
         {/* Tab Buttons */}
@@ -290,7 +274,7 @@ const Anxiety = () => {
                     Chest pain or discomfort
                   </li>
                   <li className="mb-8 border-b-[2px]">
-                    Sleep disturbances and insomnia
+                    Sleep disturbances or insomnia
                   </li>
                 </ul>
               </div>
@@ -358,7 +342,7 @@ const Anxiety = () => {
                     Restlessness and difficulty sitting still
                   </li>
                   <li className="mb-8 border-b-[2px]">
-                    Compulsive behaviors or rituals to reduce anxiety
+                    Repetitive behaviors or ritualistic actions
                   </li>
                   <li className="mb-8 border-b-[2px]">
                     Withdrawal from social activities
@@ -367,7 +351,7 @@ const Anxiety = () => {
                     Procrastination and difficulty making decisions
                   </li>
                   <li className="mb-8 border-b-[2px]">
-                    Seeking reassurance excessively
+                    Frequent reassurance-seeking behaviors
                   </li>
                   <li className="mb-8 border-b-[2px]">
                     Changes in appetite (increased or decreased)
@@ -436,9 +420,7 @@ const Anxiety = () => {
           Solutions for Managing Anxiety Spectrum Disorders
         </h2>
         <p className="text-black lg:text-[1.35vw] text-[3.5vw] font-medium mb-10">
-          Effectively managing anxiety involves a combination of self-care
-          strategies, therapy, and sometimes medication. Here are several
-          approaches to help alleviate anxiety:
+          Effective anxiety management typically involves a combination of therapeutic interventions, self-care strategies, and when appropriate, medication. Here are several approaches to help alleviate anxiety:
         </p>
 
         <div className="grid lg:grid-cols-4 grid-cols-1 gap-4">
@@ -456,8 +438,7 @@ const Anxiety = () => {
                 Cognitive-Behavioral Therapy (CBT)
               </h3>
               <p className="text-sm">
-                This therapy helps individuals identify and change negative
-                thought patterns that contribute to anxiety.
+                CBT helps individuals identify and modify negative thought patterns and behaviors that contribute to anxiety disorders.
               </p>
             </div>
           </div>
@@ -476,8 +457,7 @@ const Anxiety = () => {
                 Exercise and Physical Activity
               </h3>
               <p className="text-sm">
-                Engaging in regular exercise releases endorphins, which improve
-                mood and reduce stress.
+                Regular physical activity releases endorphins, natural mood elevators that help reduce stress and anxiety.
               </p>
             </div>
           </div>
@@ -516,8 +496,7 @@ const Anxiety = () => {
                 Healthy Diet and Nutrition
               </h3>
               <p className="text-sm">
-                Consuming a balanced diet with minimal caffeine and sugar intake
-                can help stabilize mood and energy levels.
+                Maintaining a balanced diet while limiting caffeine and sugar intake can help stabilize mood and energy levels.
               </p>
             </div>
           </div>
@@ -554,8 +533,7 @@ const Anxiety = () => {
             <div className="p-6">
               <h3 className="text-lg font-bold mb-4">Adequate Sleep</h3>
               <p className="text-sm">
-                Ensuring sufficient rest each night can help regulate emotions
-                and reduce anxiety levels.
+                Getting adequate sleep each night is crucial for emotional regulation and anxiety management.
               </p>
             </div>
           </div>
@@ -696,10 +674,7 @@ const Anxiety = () => {
             are crucial steps toward managing and overcoming anxiety.
           </p>
           <p>
-            Therapy, particularly Cognitive Behavioral Therapy, combined with
-            medication and support, can offer effective solutions for those
-            struggling with anxiety disorders, enabling them to lead more
-            fulfilling, peaceful lives.
+            Evidence-based treatments, particularly Cognitive Behavioral Therapy, combined with appropriate medication and social support, can provide effective relief for those with anxiety disorders, enabling them to achieve improved quality of life and emotional well-being.
           </p>
         </div>
       </section>

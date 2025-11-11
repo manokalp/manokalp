@@ -11,7 +11,7 @@ const Sexuality = () => {
     {
       name: "Biological Factors",
       description:
-        "Sexuality is deeply influenced by biological components such as hormones, brain chemistry, and physical health. Hormonal shifts, neurological conditions, and even certain medications can significantly impact sexual desire, arousal, and overall function across all genders and ages.",
+        "Hormonal imbalances, neurological disorders, vascular conditions, and side effects of medications can all impair sexual arousal, desire, and performance across genders and life stages.",
       image: "/genetic-factors.webp", // Replace with your actual image path
       link: "/genetic-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
@@ -20,7 +20,7 @@ const Sexuality = () => {
     {
       name: "Psychological and Environmental Factors",
       description:
-        "Mental well-being, life experiences, and cultural context play a major role in shaping sexuality. Factors such as past trauma, societal stigma, relationship dynamics, and emotional stress can all influence sexual expression, confidence, and fulfillment.",
+        "Chronic stress, low mood, trauma history, or cultural stigma can interfere with emotional intimacy, create fear of intimacy, and diminish sexual confidence or satisfaction.",
       image: "/psychological-factors.webp", // Replace with your actual image path
       link: "/psychological-factors",
       bgColor: "bg-[#FFD700]", // Yellow background
@@ -45,19 +45,19 @@ const Sexuality = () => {
 
   const solutionsData = [
     {
-      title: "Psychotherapeutic Interventions",
+      title: "Pharmacological Treatments",
       description:
         "Medications such as PDE5 inhibitors, hormone replacement therapies, or mood stabilizers are used to improve sexual function or manage underlying emotional conditions.",
       image: "/diseases/Sexuality/1.webp",
     },
     {
-      title: "Pharmacological Treatments",
+      title: "Psychotherapeutic Interventions",
       description:
         "CBT helps reduce anxiety and reframe sexual beliefs; sex therapy improves confidence and performance; couples counseling enhances communication and emotional connection.",
       image: "/diseases/impulsivityv2/2.webp",
     },
     {
-      title: "Lifestyle and Social Support",
+      title: "Lifestyle and Supportive Therapies",
       description:
         "Regular exercise, nutrient-rich diets, body-positive practices, and stress reduction techniques like yoga or mindfulness can improve self-esteem, hormonal balance, and sexual responsiveness.",
       image: "/diseases/impulsivityv2/3.webp",

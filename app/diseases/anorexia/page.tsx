@@ -41,7 +41,7 @@ const Anorexia = () => {
     {
       title: "Pharmacological Intervention",
       description:
-        "SSRIs address mood or anxiety symptoms; antipsychotics may help with cognitive rigidity; appetite stimulants are used when medically necessary.",
+        "Medications such as SSRIs can help manage mood and anxiety symptoms; antipsychotics may assist with rigid thinking patterns, and appetite stimulants are used when necessary.",
     },
     {
       title: "Preventive and Early Intervention Programs",
@@ -64,8 +64,8 @@ const Anorexia = () => {
       "Secretive eating or hoarding food",
     ],
     physical: [
-      "Noticeable weight loss or gain",
-      "Hormonal irregularities and menstrual issues",
+      "Noticeable and significant weight loss or gain",
+      "Hormonal irregularities, including menstrual cycle disruptions",
       "Fatigue, dizziness, or gastrointestinal discomfort",
       "Electrolyte imbalances and poor immunity",
     ],
@@ -127,18 +127,10 @@ const Anorexia = () => {
       <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-20 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Anorexia and other eating disorders are complex psychiatric
-            conditions involving disordered eating habits, intense fear of
-            weight gain, and distorted body image. These disorders—Anorexia
-            Nervosa, Bulimia Nervosa, and Binge-Eating Disorder—can severely
-            impact an individual&apos;s physical health, emotional regulation,
-            and social life.
+            Anorexia and other eating disorders are complex psychiatric and behavioral conditions characterized by disordered eating habits, an intense fear of weight gain, and a distorted body image. These disorders—Anorexia Nervosa, Bulimia Nervosa, and Binge-Eating Disorder—can severely affect an individual&apos;s physical health, emotional well-being, and social life.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Rooted in a combination of biological, psychological, and
-            environmental factors, these conditions are becoming increasingly
-            common in an image-conscious society. Early recognition and a
-            multidisciplinary treatment approach are essential for recovery.
+            Rooted in a combination of biological, psychological, and environmental factors, these conditions are increasingly common in today&apos;s appearance-focused culture. Early recognition and a multidisciplinary treatment approach are essential for effective eating disorder recovery.
           </p>
         </div>
       </section>
@@ -167,10 +159,7 @@ const Anorexia = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  A family history of eating disorders and brain chemical
-                  imbalances, such as serotonin or dopamine disruption, may
-                  increase susceptibility to abnormal eating behaviors and
-                  emotional dysregulation.
+                  A family history of eating disorders and imbalances in brain chemicals like serotonin and dopamine can increase the risk of developing abnormal eating behaviors and emotional difficulties.
                 </p>
               </div>
             </div>
@@ -186,10 +175,7 @@ const Anorexia = () => {
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Perfectionism, low self-esteem, and using food control as a
-                  coping strategy are common emotional triggers. Coexisting
-                  mental health conditions like anxiety or depression often
-                  contribute to disordered eating.
+                  Psychological factors such as perfectionism, low self-esteem, and using food control as a coping mechanism often trigger eating disorders. Additionally, coexisting mental health issues like anxiety and depression can worsen disordered eating.
                 </p>
               </div>
             </div>
@@ -205,9 +191,7 @@ const Anorexia = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Media-driven beauty standards, peer pressure, weight-related
-                  bullying, and appearance-focused family environments can
-                  distort self-image and reinforce disordered eating patterns.
+                  Environmental and social influences like media and societal beauty standards, peer pressure, weight-related bullying, and appearance-focused family dynamics can distort self-image and reinforce unhealthy eating behaviors.
                 </p>
               </div>
             </div>

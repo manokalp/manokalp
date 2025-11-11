@@ -147,6 +147,10 @@ const WhatWeDo = () => {
             </div>
           </div>
         </div>
+
+        <p className="text-base lg:text-xl font-medium text-black mb-10 max-w-6xl text-center mx-auto">
+          Together, these techniques help individuals move from confusion to clarity, pain to purpose, and stagnation to growth.
+        </p>
       </section>
 
       {/* Who I Work With Section */}
@@ -328,9 +332,10 @@ const WhatWeDo = () => {
               <span className="font-bold">Manokalp bridges that gap.</span> We
               offer{" "}
               <span className="font-bold">
-                scientific, grounded, and emotionally intelligent care that
-                feels approachable yet powerful.
+                scientific, grounded, and emotionally intelligent care{" "}  
               </span>
+               that
+                feels approachable yet powerful.
             </p>
             <p className="lg:text-[1.2vw] text-[3vw] text-gray-700">
               Here, you’ll find a team trained not just to help you manage your
@@ -382,7 +387,7 @@ const WhatWeDo = () => {
               <p className="text-black font-semibold lg:text-[1.5vw] text-[3.5vw] px-2 text-center">
                 Content Creator
               </p>
-                <p className="text-black px-6 lg:text-[1.0vw] text-[3.5vw]">
+              <p className="text-black px-6 lg:text-[1.0vw] text-[3.5vw]">
                 passionate about simplifying mental health for all
               </p>
             </div>
@@ -390,7 +395,7 @@ const WhatWeDo = () => {
               <p className="text-white font-semibold lg:text-[1.5vw] text-[3.5vw] px-6">
                 Writer
               </p>
-                <p className="text-white px-6 lg:text-[1.0vw] text-[3.5vw]">
+              <p className="text-white px-6 lg:text-[1.0vw] text-[3.5vw]">
                 working on my first book on emotional self-leadership
               </p>
             </div>
@@ -428,7 +433,7 @@ const WhatWeDo = () => {
             <p className="lg:text-[1.3vw] text-[3.5vw]">
               If you&apos;re ready to understand yourself better, heal deeply,
               and create the life you know you&apos;re capable of— <span className="font-bold">I&apos;d be
-              honored to walk with you.</span>
+                honored to walk with you.</span>
             </p>
           </div>
         </div>

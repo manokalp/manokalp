@@ -27,7 +27,7 @@ const OCD = () => {
       textColor: "text-black",
     },
     {
-      name: "Environmental and Social Contributors",
+      name: "Environmental and Situational Triggers",
       description:
         "Stressful events, controlling environments, or certain infections in children (PANDAS) may initiate or intensify obsessive-compulsive symptoms.",
       image: "/genetic-factors.webp", // Replace with your actual image path
@@ -71,7 +71,7 @@ const OCD = () => {
       image: "/diseases/forgetfulnessv2/1.webp",
     },
     {
-      title: "Integrated Support Programs",
+      title: "Integrated Support Systems",
       description:
         "Intensive outpatient therapy, residential care for severe cases, support groups, and occupational rehabilitation help reinforce treatment and reduce isolation.",
       image: "/diseases/forgetfulnessv2/3.webp",
@@ -79,7 +79,7 @@ const OCD = () => {
     {
       title: "Complementary Interventions",
       description:
-        "Early behavior tracking, parent training, school awareness programs, and stigma-reduction campaigns improve understanding, early help-seeking, and long-term prognosis.",
+        "Early behavior tracking, parent training, school awareness programs, and stigma-reducing campaigns improve understanding, early help-seeking, and long-term prognosis.",
       image: "/diseases/forgetfulnessv2/4.webp",
     },
   ];

@@ -5,30 +5,31 @@ import { useState } from "react";
 import playfair from "../../../fonts/playfair.module.css";
 
 const Unhappiness = () => {
-  const [activeTab, setActiveTab] = useState<SymptomCategory>("emotional");
+  const [activeTab, setActiveTab] = useState<SymptomCategory>("core");
 
   const causes = [
     {
-      name: "Emotional and Psychological Factors",
-      description:"Low emotional awareness, self-criticism, unrealistic expectations, and limited problem-solving skills can heighten stress responses.",
+      name: "Biological and Genetic Factors",
+      description:
+        "Imbalances in serotonin and dopamine, hormonal disruptions, and family history increase vulnerability to depressive symptoms and emotional instability.",
       image: "/genetic-factors.webp", // Replace with your actual image path
       link: "/genetic-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
       textColor: "text-white",
     },
     {
-      name: "Family and Environmental Factors",
+      name: "Psychological and Emotional Factors",
       description:
-        " Family conflict, parental separation, academic pressure, bullying, and exposure to traumatic news can overwhelm a child's coping ability.",
+        "Low self-worth, negative thought patterns, unresolved trauma, or rigid personality traits like perfectionism often intensify depressive tendencies.",
       image: "/psychological-factors.webp", // Replace with your actual image path
       link: "/psychological-factors",
       bgColor: "bg-[#FFD700]", // Yellow background
       textColor: "text-black",
     },
     {
-      name: "Social and Peer Influences",
+      name: "Environmental and Social Factors",
       description:
-        " Friendship conflicts, peer rejection, social media pressure, and performance competition contribute to childhood stress and anxiety.",
+        "Chronic stress, social isolation, major life changes, or lack of support networks may trigger or worsen depressive episodes over time.",
       image: "/psychological-factors.webp", // Replace with your actual image path
       link: "/psychological-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
@@ -37,66 +38,52 @@ const Unhappiness = () => {
   ];
 
   const symptoms = {
-    emotional: [
-      "Persistent sadness or emptiness",
-      "Feelings of hopelessness or pessimism",
-      "Irritability, frustration, or restlessness"
+    core: [
+      "Persistent low mood and loss of pleasure",
+      "Fatigue, disrupted sleep, or appetite changes",
+      "Psychomotor agitation or slowing",
     ],
-    cognitive: [
-      "Compulsive substance use despite consequences",
-      "Loss of interest in hobbies or responsibilities",
-      "Secretive behavior around substance use",
-      "Risk-taking or dangerous behaviors"
+    cognitiveEmotional: [
+      "Feelings of guilt or worthlessness",
+      "Difficulty concentrating or making decisions",
+      "Thoughts of death or suicide in severe cases",
     ],
-    physical: [
-      "Fatigue and decreased energy",
-      "Insomnia or oversleeping",
-      "Changes in appetite or unplanned weight changes"
+    dsm: [
+      "Five or more symptoms lasting at least two weeks",
+      "Clear functional decline from previous baseline",
+      "Not caused by medical conditions or substance use",
     ],
-    behavioral: [
-      "Loss of interest in previously enjoyed activities",
-      "Moving or talking more slowly than usual",
-      "Social withdrawal and relationship difficulties"
-    ]
   };
 
   const solutionsData = [
     {
-      title: "Medical Interventions",
-      points: [
-        "Detoxification to safely manage withdrawal symptoms",
-        "Medication-Assisted Treatment (MAT) with methadone, buprenorphine, or naltrexone",
-        "Regular health monitoring to address physical complications"
-      ],
-      image: "https://images.unsplash.com/photo-1624638746091-4b7de51514c7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWVkaWNhbCUyMEludGVydmVudGlvbnN8ZW58MHwwfDB8fHww",
-    },
-    {
       title: "Psychotherapeutic Interventions",
       points: [
-        "Cognitive Behavioral Therapy (CBT) to reframe negative thoughts and develop coping skills",
-        "Dialectical Behavior Therapy (DBT) for emotional regulation",
-        "Family Counseling to repair relationships and build support systems"
+        "CBT targets negative thinking",
+        "IPT strengthens relationship skills",
+        "Behavioral activation encourages engagement",
+        "MBCT merges mindfulness with emotional regulation",
       ],
       image: "https://plus.unsplash.com/premium_photo-1661277620352-d729b96c33f1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8UHN5Y2hvdGhlcmFwZXV0aWMlMjBJbnRlcnZlbnRpb25zfGVufDB8MHwwfHx8MA%3D%3D",
     },
     {
-      title: "Relapse Prevention Strategies",
+      title: "Pharmacological Approaches",
       points: [
-        "Identification of personal triggers and development of avoidance strategies",
-        "Mindfulness and meditation techniques to manage cravings",
-        "Regular attendance at peer support groups for accountability"
+        "SSRIs and SNRIs are first-line options",
+        "TCAs and MAOIs are used for treatment-resistant cases",
+        "Mood stabilizers or antipsychotics may support severe or complex depression",
       ],
-      image: "https://images.unsplash.com/photo-1714976694541-98e82692d0a6?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "https://images.unsplash.com/photo-1624638746091-4b7de51514c7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWVkaWNhbCUyMEludGVydmVudGlvbnN8ZW58MHwwfDB8fHww",
     },
     {
-      title: "Complementary Approaches",
+      title: "Support and Coping Strategies",
       points: [
-        "Nutritional guidance to restore physical health and stabilize mood",
-        "Exercise programs to reduce stress and rebuild physical strength",
-        "Vocational training and life skills development for social reintegration"
+        "Routine sleep, exercise, and social support",
+        "Journaling and mindfulness",
+        "Family involvement helps stabilize mood and promote recovery",
       ],
       image: "https://images.unsplash.com/photo-1649326609138-09de2b661544?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    }
+    },
   ];
   
 
@@ -155,10 +142,10 @@ const Unhappiness = () => {
         
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Addiction, also known as substance use disorder, is a chronic medical condition marked by compulsive substance use despite harmful consequences. It affects brain chemistry, behavior, physical health, and emotional well-being.
+          Depressive disorders are chronic mood conditions marked by ongoing sadness, emotional numbness, and loss of interest in daily life. Unlike short-term unhappiness, clinical depression affects emotional, cognitive, physical, and social functioning.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Addiction is not a matter of willpower—it is a complex illness requiring comprehensive intervention, including medical, psychological, and social support.
+          Without intervention, depression can impair relationships, work productivity, and self-care. A timely and personalized treatment plan can significantly reduce symptoms and support recovery.
           </p>
         </div>
 
@@ -172,10 +159,10 @@ const Unhappiness = () => {
           className="text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold mb-8"
           style={{ fontFamily: "Playfair" }}
         >
-          Causes of Addiction
+          Causes of Depressive Disorders
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-          Schizophrenia develops from a complex interplay of genetic, neurobiological, and environmental factors.
+          Depression develops from an interplay of neurochemical imbalances, personal history, and environmental stressors.
         </p>
 
         {/* Causes Grid */}
@@ -210,11 +197,11 @@ const Unhappiness = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >
-          Symptoms of Stress in Children
+          Symptoms of Depressive Disorders
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Childhood stress manifests through emotional, cognitive, physical, and behavioral changes that vary by developmental stage.
+          Diagnosis is based on emotional, physical, and cognitive signs that affect daily functioning.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -228,7 +215,11 @@ const Unhappiness = () => {
                   : "hover:bg-gray-100"
               }`}
             >
-              {tab.charAt(0).toUpperCase() + tab.slice(1)} Symptoms
+              {tab === "core"
+                ? "Core Symptoms"
+                : tab === "cognitiveEmotional"
+                ? "Cognitive and Emotional Symptoms"
+                : "DSM-5 Diagnostic Criteria"}
             </button>
           ))}
         </div>
@@ -247,13 +238,11 @@ const Unhappiness = () => {
           <div className="lg:w-1/2 h-[50vh] relative overflow-hidden rounded-xl">
             <Image
               src={`/diseases/unhappyness/${
-                activeTab === "emotional"
+                activeTab === "core"
                   ? "1"
-                  : activeTab === "cognitive"
+                  : activeTab === "cognitiveEmotional"
                   ? "2"
-                  : activeTab === "physical"
-                  ? "3"
-                  : "4"
+                  : "3"
               }.webp`}
               alt={`${activeTab} symptoms of stress in children`}
               layout="fill"
@@ -269,11 +258,11 @@ const Unhappiness = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold ${playfair.className}`}
         >
-          Solutions for Managing Addiction
+          Solutions for Managing Depressive Disorders
         </h2>
 
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-          Effective addiction treatment requires a comprehensive approach combining medical, psychological, and social support strategies.
+          An integrated approach combining therapy, medication, and lifestyle support offers the most effective relief.
         </p>
 
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">

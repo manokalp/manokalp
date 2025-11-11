@@ -11,7 +11,7 @@ const ChronicPain = () => {
     {
       name: "Genetic and Biological Factors",
       description:
-        "Nerve damage, inflammation, genetic predisposition, or nervous system hypersensitivity can amplify pain signals and lead to ongoing discomfort without clear physical damage.",
+        "Nerve damage, inflammation, genetic predisposition, and nervous system hypersensitivity can amplify pain signals, causing persistent discomfort even when no clear physical injury is present.",
       image: "/genetic-factors.webp", // Replace with your actual image path
       link: "/genetic-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
@@ -20,7 +20,7 @@ const ChronicPain = () => {
     {
       name: "Psychological and Emotional Factors",
       description:
-        "Chronic stress, low mood, past trauma, and reduced physical activity all contribute to pain intensity and make recovery harder without targeted intervention.",
+        "Psychological factors like chronic stress, low mood, and past trauma, along with environmental factors such as lack of social support and sedentary lifestyle, contribute to increased pain intensity and hinder recovery without targeted intervention.",
       image: "/psychological-factors.webp", // Replace with your actual image path
       link: "/psychological-factors",
       bgColor: "bg-[#FFD700]", // Yellow background
@@ -37,12 +37,12 @@ const ChronicPain = () => {
     ],
     behavioral: [
       "Avoidance of physical or social activities",
-      "Inconsistent movement or posture habits",
+      "Irregular movement patterns or poor posture habits",
       "Reliance on medications or passive coping",
       "Decreased participation in daily routines",
     ],
     physical: [
-      "Persistent pain in muscles, joints, or nerves",
+      "Persistent pain affecting muscles, joints, or nerves",
       "Muscle weakness or stiffness",
       "Sleep disturbances or chronic fatigue",
       "Sensitivity to touch, pressure, or temperature",
@@ -59,19 +59,19 @@ const ChronicPain = () => {
     {
       title: "Pharmacological Treatments",
       description:
-        "Non-opioid analgesics, antidepressants, anticonvulsants, or muscle relaxants are used to reduce pain, improve sleep, and regulate nerve signals in chronic conditions.",
+        "Non-opioid analgesics, antidepressants, anticonvulsants, and muscle relaxants are commonly used to reduce pain, improve sleep, and regulate nerve signals, while minimizing opioid use.",
       image: "/diseases/chronic-painv2/1.webp",
     },
     {
       title: "Psychotherapeutic Interventions",
       description:
-        "CBT, ACT, MBSR, and biofeedback help individuals reframe pain-related thoughts, manage emotional distress, and develop resilience to persistent discomfort.",
+        "Cognitive Behavioral Therapy (CBT), Acceptance and Commitment Therapy (ACT), Mindfulness-Based Stress Reduction (MBSR), and biofeedback help individuals reframe pain-related thoughts, manage emotional distress, and build resilience against chronic pain.",
       image: "/diseases/chronic-painv2/2.webp",
     },
     {
       title: "Lifestyle and Alternative Therapies",
       description:
-        "Physiotherapy, acupuncture, spinal adjustments, anti-inflammatory diets, and mind-body practices like yoga or tai chi improve strength, reduce pain, and restore mobility.",
+        "Physiotherapy, acupuncture, chiropractic spinal adjustments, anti-inflammatory diets, and mind-body practices like yoga or tai chi can improve strength, reduce pain, and restore mobility.",
       image: "/diseases/chronic-painv2/3.webp",
     },
     {
@@ -132,17 +132,10 @@ const ChronicPain = () => {
       <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-20 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Chronic pain-related disorders refer to conditions where pain lasts
-            for more than three months, continuing beyond normal healing time.
-            This persistent pain can interfere with movement, sleep, work, and
-            emotional health.
+            Chronic pain-related disorders are conditions characterized by pain lasting longer than three months, persisting beyond the usual healing period. This persistent pain can interfere with movement, sleep, work, daily activities, and emotional well-being.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Common diagnoses include fibromyalgia, chronic back pain, arthritis,
-            and neuropathic pain. These disorders often require a holistic
-            treatment approach, targeting both physical symptoms and
-            psychological distress for long-term relief and improved quality of
-            life.
+            Common diagnoses include conditions such as fibromyalgia, chronic back pain, arthritis, and neuropathic pain. Managing these disorders usually requires a holistic approach that addresses physical symptoms and psychological distress to achieve long-term relief and improve quality of life.
           </p>
         </div>
       </section>

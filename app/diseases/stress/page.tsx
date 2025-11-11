@@ -9,93 +9,82 @@ const Stress = () => {
 
   const causes = [
     {
-      name: "Neurobiological Factors",
-      description: "Chronic stress triggers excessive cortisol and adrenaline production, potentially leading to dysregulation of the body's stress response system and disruption of neurotransmitter function in brain regions that manage emotions and threat perception.",
+      name: "Biological Factors",
+      description:
+        "Family history of mood disorders, imbalanced neurotransmitters like serotonin and cortisol, and long-term hormonal activation increase vulnerability to stress-related conditions.",
       image: "/genetic-factors.webp",
       link: "/genetic-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
       textColor: "text-white",
     },
     {
-      name: "Psychological Vulnerabilities",
+      name: "Environmental and Psychological Factors",
       description:
-        "Personality traits like perfectionism and negative thinking patterns, along with poor coping mechanisms and unresolved past trauma, can significantly increase vulnerability to stress and reduce resilience when facing life challenges.",
+        "Work overload, personal loss, life transitions, or unresolved trauma can elevate stress and disrupt emotional resilience and coping capacity.",
       image: "/psychological-factors.webp",
       link: "/psychological-factors",
       bgColor: "bg-[#FFD700]", // Yellow background
       textColor: "text-black",
     },
-    {
-      name: "Environmental Influences",
-      description:
-        "Work pressure, financial difficulties, relationship conflicts, major life transitions, and ongoing exposure to uncertainty or threat create cumulative stress burdens that can overwhelm adaptive capabilities and lead to chronic stress conditions.",
-      image: "/psychological-factors.webp",
-      link: "/psychological-factors",
-      bgColor: "bg-[#0E7EA0]", // Blue background
-      textColor: "text-white",
-    },
   ];
 
   const symptoms = {
     emotional: [
-      "Persistent feelings of overwhelm, anxiety, and irritability",
-      "Mood swings, including depression and emotional exhaustion",
-      "Decreased enjoyment in previously pleasurable activities"
+      "Persistent irritability or low mood",
+      "Feelings of helplessness or anxiety",
+      "Mood swings or emotional outbursts"
     ],
     cognitive: [
-      "Racing thoughts and difficulty concentrating or focusing",
-      "Constant worry, rumination, and catastrophic thinking",
-      "Memory problems and decision-making difficulties",
-      "Mental fatigue and brain fog"
+      "Trouble concentrating or remembering",
+      "Racing thoughts or persistent worry",
+      "Negative self-talk or pessimism"
     ],
     physical: [
-      "Muscle tension, headaches, and persistent body pain",
-      "Digestive problems including upset stomach, diarrhea, or constipation",
-      "Sleep disturbances, fatigue, and lowered immunity",
-      "Increased heart rate, chest tightness, and shallow breathing"
+      "Muscle tension or headaches",
+      "Gastrointestinal discomfort or fatigue",
+      "Disrupted sleep or appetite changes"
     ],
     behavioral: [
-      "Changes in appetite (eating too much or too little)",
-      "Withdrawal from social activities and relationships",
-      "Increased use of alcohol, drugs, or other substances to cope",
-      "Procrastination, neglecting responsibilities, or decreased productivity"
+      "Withdrawal from responsibilities or social life",
+      "Substance use or compulsive behaviors",
+      "Decreased motivation and productivity"
     ]
   };
 
   const solutionsData = [
     {
-      title: "Stress Reduction Techniques",
+      title: "Pharmacological Treatments",
       points: [
-        "Mindfulness meditation and deep breathing exercises",
-        "Progressive muscle relaxation and guided imagery",
-        "Regular physical activity and movement practices"
-      ],
-      image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
-    {
-      title: "Lifestyle Modifications",
-      points: [
-        "Prioritizing adequate sleep and rest",
-        "Balanced nutrition with regular meals",
-        "Setting boundaries and practicing time management"
+        "SSRIs regulate mood and reduce anxiety",
+        "Beta-blockers manage physical symptoms",
+        "Benzodiazepines offer short-term relief for acute distress but are used cautiously"
       ],
       image: "https://images.unsplash.com/photo-1493836512294-502baa1986e2?q=80&w=2690&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Social Support",
+      title: "Psychotherapeutic Interventions",
       points: [
-        "Building and maintaining supportive relationships",
-        "Communicating needs and feelings with trusted individuals",
-        "Joining support groups with others experiencing similar challenges"
+        "CBT helps challenge stress-inducing thought patterns",
+        "Mindfulness and breathwork build present-moment focus",
+        "Support groups offer emotional validation and coping strategies"
+      ],
+      image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
+    {
+      title: "Lifestyle and Supportive Therapies",
+      points: [
+        "Regular physical activity lowers cortisol levels",
+        "A balanced diet stabilizes hormones",
+        "Consistent sleep supports recovery",
+        "Time management skills help reduce daily overload"
       ],
       image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Professional Interventions",
+      title: "Complementary Interventions",
       points: [
-        "Cognitive-behavioral therapy to address stress-related thought patterns",
-        "Biofeedback training to recognize and regulate physiological stress responses",
-        "Consultation with healthcare providers about medication when appropriate"
+        "Journaling, digital detox, nature exposure, and creative hobbies aid in stress release",
+        "Enhance emotional clarity and coping flexibility"
       ],
       image: "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     }
@@ -155,10 +144,10 @@ const Stress = () => {
        
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Stress is the body&apos;s natural response to pressure from life events or challenges, triggering a cascade of hormonal and physiological reactions designed for short-term adaptation, but which can become harmful when chronically activated.
+          Stress is the body’s response to demands or perceived threats. While short bursts of stress can enhance performance, chronic or unregulated stress may impair emotional, cognitive, and physical functioning.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          While moderate, temporary stress can motivate performance and resilience, chronic stress is associated with serious health consequences including cardiovascular disease, immune dysfunction, mental health disorders, and reduced quality of life.
+          When persistent, it can contribute to burnout, anxiety, depression, and physical health issues. Timely identification and stress-reduction techniques can help restore balance and prevent long-term complications.
           </p>
         </div>
 
@@ -172,10 +161,10 @@ const Stress = () => {
           className="text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold mb-8"
           style={{ fontFamily: "Playfair" }}
         >
-          Causes of Chronic Stress
+          Causes of Stress and Related Problems
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-        Chronic stress develops through complex interactions between biological factors, psychological tendencies, and environmental pressures that overwhelm coping resources.
+          Chronic stress arises from the convergence of genetic sensitivity, hormonal responses, environmental pressures, and unresolved emotional challenges.
         </p>
 
         {/* Causes Grid */}
@@ -210,11 +199,11 @@ const Stress = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >
-          Signs of Chronic Stress
+          Symptoms of Stress and Its Impact
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Chronic stress manifests through diverse symptoms affecting emotional states, thought patterns, physical health, and behavioral patterns.
+          Stress can present through emotional instability, physical discomfort, cognitive overload, and behavioral changes.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -265,15 +254,32 @@ const Stress = () => {
       </section>
 
       {/* Cards-2 Section */}
+      {/* Long-Term Consequences */}
+      <section className="bg-white w-full h-full lg:px-20 px-10 lg:py-10 py-8 text-center">
+        <h2
+          className={`text-[#0E7EA0] lg:text-[3.2vw] text-[7vw] font-semibold ${playfair.className}`}
+        >
+          Long-Term Consequences
+        </h2>
+        <div className="flex justify-center">
+          <ul className="text-left text-black lg:text-[1.0vw] text-[3.5vw] max-w-3xl">
+            <li className="mb-3 border-b-[2px] pb-2">Increased risk of hypertension and heart disease</li>
+            <li className="mb-3 border-b-[2px] pb-2">Emotional burnout, especially in high-stress roles</li>
+            <li className="mb-3 border-b-[2px] pb-2">Onset of anxiety, depression, or panic disorders</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* Cards-2 Section */}
       <section className="bg-white w-full h-full lg:px-20 px-10 lg:py-30 py-10 text-center">
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold ${playfair.className}`}
         >
-          Approaches for Managing Stress
+          Solutions for Managing Stress
         </h2>
 
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-        Effective stress management requires a multifaceted approach combining relaxation techniques, lifestyle adjustments, social connection, and sometimes professional support.
+          Effective stress management includes behavioral strategies, medication when necessary, and supportive lifestyle adjustments.
         </p>
 
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">

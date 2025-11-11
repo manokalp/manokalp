@@ -8,26 +8,26 @@ const Pregnancy = () => {
 
   const causes = [
     {
-      name: "Neurobiological Factors",
-      description: "Hormonal fluctuations during pregnancy affect neurotransmitter functioning, particularly serotonin and dopamine, which can influence mood regulation and emotional well-being.",
+      name: "Biological and Genetic Factors",
+      description: "Family history of complications, hormonal imbalances, and pre-existing conditions like hypertension or diabetes raise the likelihood of developing pregnancy-related disorders.",
       image: "/genetic-factors.webp",
       link: "/genetic-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
       textColor: "text-white",
     },
     {
-      name: "Psychological Vulnerabilities",
+      name: "Environmental and Lifestyle Factors",
       description:
-        "Pre-existing mental health conditions, stress about maternal role transition, and concerns about childbirth can contribute to psychological distress during pregnancy.",
+        "Poor nutrition, substance use, lack of prenatal care, and excessive physical or emotional stress increase the risk of gestational complications and poor fetal outcomes.",
       image: "/psychological-factors.webp",
       link: "/psychological-factors",
       bgColor: "bg-[#FFD700]", // Yellow background
       textColor: "text-black",
     },
     {
-      name: "Environmental Influences",
+      name: "Psychosocial Influences",
       description:
-        "Social support quality, healthcare access, socioeconomic factors, and relationship stability significantly impact maternal mental health and pregnancy outcomes.",
+        "Inadequate support, financial hardship, and cultural barriers can delay care, elevate emotional distress, and worsen pregnancy health outcomes.",
       image: "/psychological-factors.webp",
       link: "/psychological-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
@@ -93,38 +93,26 @@ const Pregnancy = () => {
   const solutionsData = [
     {
       title: "Medical Interventions",
-      points: [
-        "Regular prenatal check-ups to monitor maternal and fetal health",
-        "Appropriate medication management for pregnancy-related conditions",
-        "Specialized care for high-risk pregnancies or complications"
-      ],
+      description:
+        "Antihypertensives, insulin or dietary therapy, iron supplementation, and infection control medications are prescribed based on the condition and risk level.",
       image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Lifestyle Modifications",
-      points: [
-        "Pregnancy-safe exercise routines like prenatal yoga or swimming",
-        "Balanced nutrition focused on essential nutrients for fetal development",
-        "Proper sleep hygiene and rest positioning for pregnancy comfort"
-      ],
+      title: "Psychotherapeutic Approaches",
+      description:
+        "CBT, peer support groups, and medication for severe mood disturbances help manage perinatal mental health concerns safely under medical supervision.",
       image: "https://images.unsplash.com/photo-1611042553484-d61f84d22784?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Supportive Strategies",
-      points: [
-        "Childbirth education classes and pregnancy support groups",
-        "Partner involvement and family support system strengthening",
-        "Mindfulness and stress reduction techniques for pregnancy"
-      ],
+      title: "Lifestyle and Preventive Strategies",
+      description:
+        "Balanced diets, prenatal vitamins, regular check-ups, stress management techniques, and avoiding alcohol or tobacco ensure better outcomes.",
       image: "https://images.unsplash.com/photo-1531983412531-1f49a365ffed?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Professional Support",
-      points: [
-        "Psychological support for prenatal and postpartum mental health",
-        "Consultation with maternal-fetal medicine specialists when needed",
-        "Development of personalized birth plans with healthcare providers"
-      ],
+      title: "Complementary Interventions",
+      description:
+        "Family education, community outreach, school-based prenatal awareness, and early pregnancy tracking support healthier pregnancies across all populations.",
       image: "https://images.unsplash.com/photo-1516726817505-f5ed825624d8?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     }
   ];
@@ -177,10 +165,10 @@ const Pregnancy = () => {
        
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Pregnancy represents a significant life transition that affects physical health, emotional well-being, and social relationships. While often portrayed as exclusively joyful, many women experience complex emotional and psychological challenges during this time.
+            Pregnancy-related disorders refer to a group of medical and psychological conditions that arise during pregnancy, posing risks to both maternal and fetal health. These conditions may result from hormonal changes, pre-existing illnesses, or complications specific to gestation.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Research indicates that approximately 15-25% of women experience significant emotional distress during pregnancy. Proper support, early identification of risk factors, and timely intervention can significantly improve outcomes for both mother and child.
+            Early detection and integrated medical support are essential to reduce complications and improve long-term outcomes for mother and child.
           </p>
         </div>
 
@@ -194,10 +182,10 @@ const Pregnancy = () => {
           className="text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold mb-8"
           style={{ fontFamily: "Playfair" }}
         >
-          Factors Affecting Pregnancy Mental Health
+          Causes of Pregnancy-Related Disorders
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-        Multiple factors influence maternal mental health during pregnancy, including biological mechanisms, psychological predispositions, and environmental support systems.
+          Pregnancy complications are influenced by genetic, medical, lifestyle, and social factors that affect maternal well-being and fetal development.
         </p>
 
         {/* Causes Grid */}
@@ -235,7 +223,7 @@ const Pregnancy = () => {
             className="text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold mb-8"
             style={{ fontFamily: "Playfair" }}
           >
-            Types of Pregnancy
+            Types of Pregnancy-Related Disorders
           </h2>
         </div>
 
@@ -259,7 +247,7 @@ const Pregnancy = () => {
                 : "bg-transparent text-[#0E7EA0] border border-[#0E7EA0]"
             }`}
           >
-            Metabolic Disorders
+            Endocrine and Metabolic Conditions
           </button>
           <button
             onClick={() => setActiveTab("pregnancy_complications")}
@@ -269,9 +257,48 @@ const Pregnancy = () => {
                 : "bg-transparent text-[#0E7EA0] border border-[#0E7EA0]"
             }`}
           >
-            Pregnancy Complications
+            Pregnancy Loss and Fetal Complications
           </button>
         </div>
+
+        {/* Symptoms Section */}
+        <section className="bg-white text-black w-full h-full lg:px-20 px-10 lg:py-20 py-10">
+          <div className="text-center max-w-4xl mx-auto">
+            <h2
+              className="text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold mb-8"
+              style={{ fontFamily: "Playfair" }}
+            >
+              Symptoms of Pregnancy-Related Disorders
+            </h2>
+            <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
+              Symptoms depend on the specific disorder and must be recognized early for proper care.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 max-w-5xl mx-auto">
+            <div className="bg-white p-6 rounded-xl shadow-lg">
+              <h3 className="text-[#0E7EA0] lg:text-[1.5vw] text-[5vw] font-bold mb-4">Common Symptoms</h3>
+              <ul className="list-disc pl-5 space-y-2">
+                <li className="text-black lg:text-[0.95vw] text-[3vw]">High blood pressure and swelling (preeclampsia)</li>
+                <li className="text-black lg:text-[0.95vw] text-[3vw]">Excessive thirst and fatigue (gestational diabetes)</li>
+                <li className="text-black lg:text-[0.95vw] text-[3vw]">Shortness of breath and pallor (anemia)</li>
+                <li className="text-black lg:text-[0.95vw] text-[3vw]">Depressed mood or severe anxiety (perinatal mental health)</li>
+                <li className="text-black lg:text-[0.95vw] text-[3vw]">Vaginal bleeding or pain (miscarriage risk)</li>
+              </ul>
+            </div>
+
+            <div className="bg-white p-6 rounded-xl shadow-lg">
+              <h3 className="text-[#0E7EA0] lg:text-[1.5vw] text-[5vw] font-bold mb-4">Diagnostic Methods</h3>
+              <ul className="list-disc pl-5 space-y-2">
+                <li className="text-black lg:text-[0.95vw] text-[3vw]">Blood Pressure Monitoring: Detects hypertensive complications</li>
+                <li className="text-black lg:text-[0.95vw] text-[3vw]">Glucose Tolerance Test: Screens for gestational diabetes</li>
+                <li className="text-black lg:text-[0.95vw] text-[3vw]">CBC: Identifies anemia</li>
+                <li className="text-black lg:text-[0.95vw] text-[3vw]">Ultrasound: Evaluates fetal growth and placental function</li>
+                <li className="text-black lg:text-[0.95vw] text-[3vw]">Mental Health Screening: Assesses psychological well-being</li>
+              </ul>
+            </div>
+          </div>
+        </section>
 
         {/* Content */}
         <div className="flex flex-col md:flex-row gap-8 items-center ">
@@ -311,13 +338,12 @@ const Pregnancy = () => {
             className="text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold mb-8"
             style={{ fontFamily: "Playfair" }}
           >
-            Supportive Approaches During Pregnancy
+            Solutions for Managing Pregnancy-Related Disorders
           </h2>
           <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-            Comprehensive support strategies can significantly improve pregnancy experiences and outcomes, addressing both physical health and emotional well-being.
+            Comprehensive care involves medical management, psychological support, and preventive strategies.
           </p>
         </div>
-
         {/* Cards */}
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 max-w-5xl mx-auto">
           {solutionsData.map((solution, index) => (
@@ -325,31 +351,12 @@ const Pregnancy = () => {
               key={index}
               className="bg-white p-6 rounded-xl shadow-lg flex flex-col md:flex-row gap-6 items-center"
             >
-              {/* Image */}
               <div className="w-full md:w-1/2 h-48 relative rounded-xl overflow-hidden">
-                <Image
-                  src={solution.image}
-                  alt={solution.title}
-                  fill
-                  className="object-cover"
-                />
+                <Image src={solution.image} alt={solution.title} fill className="object-cover" />
               </div>
-
-              {/* Content */}
               <div className="w-full md:w-1/2">
-                <h3 className="text-[#0E7EA0] lg:text-[1.5vw] text-[5vw] font-bold mb-4">
-                  {solution.title}
-                </h3>
-                <ul className="list-disc pl-5 space-y-2">
-                  {solution.points.map((point, pointIndex) => (
-                    <li
-                      key={pointIndex}
-                      className="text-black lg:text-[0.85vw] text-[3vw]"
-                    >
-                      {point}
-                    </li>
-                  ))}
-                </ul>
+                <h3 className="text-[#0E7EA0] lg:text-[1.5vw] text-[5vw] font-bold mb-4">{solution.title}</h3>
+                <p className="text-black lg:text-[0.95vw] text-[3vw]">{solution.description}</p>
               </div>
             </div>
           ))}

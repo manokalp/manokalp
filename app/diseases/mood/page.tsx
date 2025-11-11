@@ -57,18 +57,11 @@ const Mood = () => {
        
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Mood disorders are a class of mental disorders that directly target
-            an individual&apos;s emotional status. They induce constant mood
-            disturbances that vary from unrelenting melancholy and helplessness
-            in depression to phases of hyperactivity and elation in bipolar
-            disorder.{" "}
+            Mood disorders are a category of mental health conditions that primarily affect an individual&apos;s emotional state and regulation. They cause persistent mood disturbances that range from prolonged sadness and hopelessness in depression to episodes of elevated energy and euphoria in bipolar disorder.
           </p>
 
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Mood disorders affect daily functioning, interpersonal
-            relationships, and overall functioning significantly. Recognizing
-            their cause, symptoms, and options available is essential to manage
-            and heal them effectively.
+            Mood disorders significantly impact daily functioning, interpersonal relationships, and overall quality of life. Understanding their causes, symptoms, and treatment options is essential for effective management and recovery.
           </p>
         </div>
 
@@ -83,9 +76,7 @@ const Mood = () => {
           Causes of Mood Disorders
         </h2>
         <p className="text-black lg:text-[1.25vw] text-[3.5vw] mb-10">
-          Mood disorders are the outcome of an intricate interaction between
-          biological, psychological, and environmental factors. The most
-          frequent causes are:
+          Mood disorders result from a complex interaction of biological, psychological, and environmental factors. The most frequent causes are:
         </p>
 
         <div className="grid lg:grid-cols-7 grid-cols-1 gap-4 mb-60">
@@ -99,9 +90,7 @@ const Mood = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  A history of mood disorders in the family, e.g., depression or
-                  bipolar disorder, raises the likelihood of developing these
-                  conditions.
+                  A family history of mood disorders, such as depression or bipolar disorder, increases the risk of developing these conditions.
                 </p>
               </div>
             </div>
@@ -117,9 +106,7 @@ const Mood = () => {
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Imbalance in neurotransmitters such as serotonin, dopamine,
-                  and norepinephrine is responsible for mood regulation and can
-                  lead to mood disorders.
+                  Imbalances in neurotransmitters such as serotonin, dopamine, and norepinephrine, which are crucial for mood regulation, can contribute to mood disorders.
                 </p>
               </div>
             </div>
@@ -135,8 +122,7 @@ const Mood = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Hormonal changes caused by puberty, pregnancy, menopause, or
-                  thyroid disease can affect mood stability.
+                  Hormonal fluctuations during puberty, pregnancy, menopause, or due to thyroid disorders can significantly impact mood stability.
                 </p>
               </div>
             </div>
@@ -152,9 +138,7 @@ const Mood = () => {
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Emotional trauma, abuse, significant life changes, or chronic
-                  stress can cause mood disorders or make existing conditions
-                  worse.
+                  Emotional trauma, abuse, major life transitions, or chronic stress can trigger mood disorders or exacerbate existing conditions.
                 </p>
               </div>
             </div>
@@ -170,9 +154,7 @@ const Mood = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                   Conditions like heart disease, diabetes, and neurological
-                  disease are associated with an increased risk of developing
-                  depression and other mood disorders.
+                  Medical conditions such as cardiovascular disease, diabetes, and neurological disorders are associated with increased risk of developing depression and other mood disorders.
                 </p>
               </div>
             </div>
@@ -188,8 +170,7 @@ const Mood = () => {
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Alcohol and drug use can change chemistry in the brain,
-                  causing or exacerbating mood disorders.
+                  Alcohol and substance abuse can alter brain chemistry, potentially causing or worsening mood disorders.
                 </p>
               </div>
             </div>
@@ -205,8 +186,7 @@ const Mood = () => {
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Social isolation, loneliness, and a lack of close
-                  relationships can lead to depressive symptoms.
+                  Social isolation, loneliness, and absence of supportive relationships can contribute to the development of depressive symptoms.
                 </p>
               </div>
             </div>
@@ -222,9 +202,7 @@ const Mood = () => {
           Symptoms of Mood Disorders
         </h2>
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Mood disorders express themselves differently, impacting emotions,
-          behavior, and physical health. Symptoms differ according to the
-          condition, yet the following are some common signs:
+          Mood disorders manifest in various ways, affecting emotions, behavior, and physical well-being. While symptoms vary depending on the specific disorder, common signs include:
         </p>
 
         {/* Tab Buttons */}
@@ -277,7 +255,7 @@ const Mood = () => {
               <div className="lg:w-1/2">
                 <ul className="text-left text-black">
                   <li className="mb-8 border-b-[2px]">
-                    Decreased interest in things previously found enjoyable
+                    Loss of interest in previously enjoyable activities
                   </li>
                   <li className="mb-8 border-b-[2px]">
                     Fatigue and lack of energy
@@ -286,7 +264,7 @@ const Mood = () => {
                     Changes in weight and appetite
                   </li>
                   <li className="mb-8 border-b-[2px]">
-                    Disturbance in sleep (insomnia or sleeping too much)
+                    Sleep disturbances (insomnia or hypersomnia)
                   </li>
                   <li className="mb-8 border-b-[2px]">
                     Thoughts of death or suicide
@@ -314,7 +292,7 @@ const Mood = () => {
               <div className="lg:w-1/2">
                 <ul className="text-left text-black">
                   <li className="mb-8 border-b-[2px]">
-                    Increased energy and activity
+                    Elevated energy levels and restlessness
                   </li>
                   <li className="mb-8 border-b-[2px]">
                     Elevated mood, euphoria, or irritability
@@ -423,9 +401,7 @@ const Mood = () => {
           Solutions for Managing Mood Disorders
         </h2>
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-          Mood disorders need a comprehensive treatment plan that involves
-          therapy, lifestyle modification, and in some cases, medication. Some
-          effective strategies are:
+          Mood disorders require a comprehensive treatment approach that combines therapy, lifestyle modifications, and when appropriate, medication. Some effective strategies are:
         </p>
         <div className="grid lg:grid-cols-3 grid-cols-1 gap-4">
           {/* Card 1: Psychotherapy and Counseling */}
@@ -440,9 +416,7 @@ const Mood = () => {
                 Psychotherapy and Counseling
               </h3>
               <p className="text-sm">
-                Cognitive‑Behavioral Therapy (CBT), Dialectical Behavior Therapy
-                (DBT), and other therapies help individuals cope with mood
-                symptoms.
+                Cognitive‑Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and other therapeutic approaches can help individuals manage their mood symptoms effectively.
               </p>
             </div>
           </div>
@@ -457,8 +431,7 @@ const Mood = () => {
             <div className="p-6">
               <h3 className="text-lg font-bold mb-4">Medication</h3>
               <p className="text-sm">
-                Antidepressants, mood stabilizers, and antipsychotics are
-                prescribed to balance brain chemistry.
+                Antidepressants, mood stabilizers, and antipsychotic medications may be prescribed to help regulate brain chemistry.
               </p>
             </div>
           </div>

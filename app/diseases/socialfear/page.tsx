@@ -5,97 +5,76 @@ import { useState } from "react";
 import playfair from "../../../fonts/playfair.module.css";
 
 const SocialFear = () => {
-  const [activeTab, setActiveTab] = useState<SymptomCategory>("emotional");
+  const [activeTab, setActiveTab] = useState<SymptomCategory>("primary");
 
   const causes = [
     {
-      name: "Neurobiological Factors",
-      description: "Heightened amygdala reactivity and altered neurotransmitter function, particularly involving serotonin and dopamine, contribute to excessive fear responses in social situations and difficulty regulating emotions.",
+      name: "Biological Factors",
+      description:
+        "Family history, neurotransmitter imbalances—especially reduced serotonin—and hyperactivity in brain areas like the amygdala contribute to heightened threat perception in social settings.",
       image: "/genetic-factors.webp",
       link: "/genetic-factors",
-      bgColor: "bg-[#0E7EA0]", // Blue background
+      bgColor: "bg-[#0E7EA0]",
       textColor: "text-white",
     },
     {
-      name: "Psychological Vulnerabilities",
+      name: "Psychological and Environmental Factors",
       description:
-        "Early life experiences including criticism, humiliation, or bullying can create negative self-perception and fear of evaluation, while certain personality traits like behavioral inhibition increase vulnerability to social anxiety.",
+        "Negative childhood experiences, critical parenting, peer rejection, and cultural pressures around appearance or achievement often reinforce self-doubt and social avoidance.",
       image: "/psychological-factors.webp",
       link: "/psychological-factors",
-      bgColor: "bg-[#FFD700]", // Yellow background
+      bgColor: "bg-[#FFD700]",
       textColor: "text-black",
-    },
-    {
-      name: "Environmental Influences",
-      description:
-        "Parenting styles that overemphasize social threats or limit social exposure, along with cultural factors emphasizing conformity and fear of shame can significantly impact the development of social anxiety patterns.",
-      image: "/psychological-factors.webp",
-      link: "/psychological-factors",
-      bgColor: "bg-[#0E7EA0]", // Blue background
-      textColor: "text-white",
     },
   ];
 
   const symptoms = {
-    emotional: [
-      "Intense fear or anxiety about being judged, embarrassed, or humiliated",
-      "Overwhelming self-consciousness and feelings of inferiority in social settings",
-      "Persistent worry about upcoming social situations days or weeks in advance"
+    primary: [
+      "Fear of judgment or public embarrassment",
+      "Avoiding conversations, presentations, or group settings",
+      "Physical signs such as trembling, nausea, or sweating",
+      "Discomfort maintaining eye contact",
     ],
-    cognitive: [
-      "Excessive self-focused attention and monitoring of one's behavior",
-      "Negative thought patterns about social performance and others' perceptions",
-      "Mental replaying of social interactions afterward, focusing on perceived failures",
-      "Catastrophic thinking about minor social mistakes"
+    emotionalBehavioral: [
+      "Anticipatory anxiety before events",
+      "Low self-esteem in social environments",
+      "Rumination after interactions",
+      "Withdrawal from social opportunities",
     ],
-    physical: [
-      "Blushing, sweating, trembling, rapid heartbeat during social interactions",
-      "Nausea or upset stomach (butterflies) before or during social events",
-      "Dizziness, lightheadedness, or feeling that you might faint",
-      "Muscle tension, particularly in the face and neck"
-    ],
-    behavioral: [
-      "Avoidance of social situations or enduring them with intense distress",
-      "Speaking quietly or minimizing participation in group settings",
-      "Reliance on safety behaviors (e.g., checking phone, only talking to familiar people)",
-      "Using alcohol or substances to manage anxiety in social settings"
-    ]
   };
 
   const solutionsData = [
     {
-      title: "Therapeutic Approaches",
+      title: "Pharmacological Treatments",
       points: [
-        "Cognitive-behavioral therapy to challenge distorted thinking patterns",
-        "Exposure therapy to gradually face feared social situations",
-        "Acceptance and commitment therapy focusing on mindfulness and value-based action"
-      ],
-      image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
-    {
-      title: "Medical Interventions",
-      points: [
-        "Selective serotonin reuptake inhibitors (SSRIs) to help regulate anxiety",
-        "Beta blockers for managing physical symptoms in specific situations",
-        "Anti-anxiety medications for short-term relief during intense periods"
+        "SSRIs like sertraline help regulate mood",
+        "Beta-blockers manage physical symptoms during performance",
+        "Benzodiazepines may be used briefly for acute anxiety episodes"
       ],
       image: "https://images.unsplash.com/photo-1493836512294-502baa1986e2?q=80&w=2690&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Skill Development",
+      title: "Psychotherapeutic Interventions",
       points: [
-        "Social skills training to build confidence in interpersonal interactions",
-        "Assertiveness training to express needs and boundaries effectively",
-        "Relaxation techniques including deep breathing and progressive muscle relaxation"
+        "CBT helps reframe irrational fears",
+        "Exposure therapy builds confidence through gradual social interaction",
+        "Social skills training improves verbal and nonverbal communication"
+      ],
+      image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
+    {
+      title: "Lifestyle and Supportive Therapies",
+      points: [
+        "Exercise reduces stress hormones and boosts mood",
+        "Limiting caffeine and maintaining balanced nutrition support emotional stability",
+        "Peer groups provide validation and reduce isolation"
       ],
       image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Lifestyle Modifications",
+      title: "Complementary Interventions",
       points: [
-        "Regular physical exercise to reduce overall anxiety levels",
-        "Limiting caffeine and alcohol which can trigger or worsen anxiety",
-        "Gradual expansion of social comfort zone through structured practice"
+        "Mindfulness-based practices improve self-awareness and reduce critical self-talk"
       ],
       image: "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     }
@@ -155,10 +134,10 @@ const SocialFear = () => {
        
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Social anxiety disorder involves intense fear of social situations where one might be judged, embarrassed, or humiliated, going beyond normal shyness to become a persistent condition that significantly impairs daily functioning and relationships.
+            Social fear and social phobia—commonly diagnosed as Social Anxiety Disorder (SAD)—involve an intense, persistent fear of social judgment or embarrassment in everyday interactions. This condition can disrupt education, work performance, and personal relationships.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Affecting approximately 7% of adults globally, social anxiety typically begins in adolescence and, without treatment, often becomes a chronic condition with far-reaching impacts on educational achievement, career advancement, and the formation of meaningful relationships.
+            Despite understanding that the fear is often excessive, individuals may struggle to overcome it without structured intervention. Early identification and targeted therapy greatly improve confidence and daily functioning.
           </p>
         </div>
 
@@ -171,14 +150,14 @@ const SocialFear = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >
-          Causes of Social Anxiety
+          Causes of Social Fear and Social Phobia
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-        Social anxiety develops through a complex interplay of biological predispositions, psychological vulnerabilities, and environmental influences that shape fear responses to social evaluation.
+          The condition arises from genetic predisposition, cognitive biases, and social learning patterns.
         </p>
 
         {/* Causes Grid */}
-        <div className="grid lg:grid-cols-3 grid-cols-1 gap-4 max-w-5xl mx-auto">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 max-w-5xl mx-auto">
           {causes.map((cause, index) => (
             <div key={index} className="[perspective:1000px] cursor-pointer">
               <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
@@ -209,11 +188,10 @@ const SocialFear = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >
-          Signs of Social Anxiety
+          Symptoms of Social Anxiety Disorder
         </h2>
-
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Social anxiety manifests through diverse symptoms affecting emotional states, thought patterns, physical responses, and behavioral adaptations in social contexts.
+          Symptoms affect emotional processing, physical responses, and daily behavior in social or performance situations.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -227,7 +205,7 @@ const SocialFear = () => {
                   : "hover:bg-gray-100"
               }`}
             >
-              {tab.charAt(0).toUpperCase() + tab.slice(1)} Signs
+              {tab === "primary" ? "Primary Symptoms" : "Emotional and Behavioral Symptoms"}
             </button>
           ))}
         </div>
@@ -245,15 +223,7 @@ const SocialFear = () => {
 
           <div className="lg:w-1/2 h-[50vh] relative overflow-hidden rounded-xl">
             <Image
-              src={`/diseases/unhappyness/${
-                activeTab === "emotional"
-                  ? "1"
-                  : activeTab === "cognitive"
-                  ? "2"
-                  : activeTab === "physical"
-                  ? "3"
-                  : "4"
-              }.webp`}
+              src={`/diseases/unhappyness/${activeTab === "primary" ? "1" : "2"}.webp`}
               alt={`${activeTab} signs of social anxiety`}
               layout="fill"
               objectFit="cover"
@@ -268,11 +238,10 @@ const SocialFear = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold ${playfair.className}`}
         >
-          Treatment Approaches for Social Anxiety
+          Solutions for Managing Social Fear and Social Phobia
         </h2>
-
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-        Effective management of social anxiety requires a comprehensive approach combining therapeutic interventions, possible medication, skill development, and supportive lifestyle changes.
+          Comprehensive treatment combines therapy, medication, lifestyle habits, and gradual social exposure.
         </p>
 
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">

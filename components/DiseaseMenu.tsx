@@ -34,8 +34,7 @@ export const diseaseData = {
     { name: "Non-Substance Addictions", link: "/diseases/non-substance" },
     { name: "Opioids and Brown Sugar", link: "/diseases/opioids" }
   ],
-  /*
-  // Original categories retained for future re-enable:
+  
   "Adulthood Problems": [
     { name: "Adjustment-Related Problems", link: "/diseases/adjustment-related" },
     { name: "Adult Psychological Problems", link: "/diseases/adultpsychological" },
@@ -79,8 +78,9 @@ export const diseaseData = {
     { name: "Stress in Children", link: "/diseases/childstress" },
     { name: "Temper Tantrums", link: "/diseases/temper" }
   ]
-  */
-};
+}
+
+
 
 interface CategoryMenuProps {
   category: string;

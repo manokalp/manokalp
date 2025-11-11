@@ -5,12 +5,12 @@ import { useState } from "react";
 import playfair from "../../../fonts/playfair.module.css";
 
 const Personality = () => {
-  const [activeTab, setActiveTab] = useState<SymptomCategory>("manic");
+  const [activeTab, setActiveTab] = useState<SymptomCategory>("common");
   const [activeCluster, setActiveCluster] = useState<number>(0); // Track active cluster tab
 
   const causes = [
     {
-      name: "Biological and Genetic Influences",
+      name: "Biological and Genetic Factors",
       description:
         "Family history, brain structure differences, and neurotransmitter imbalances involving serotonin or dopamine may predispose individuals to emotional instability, impulsivity, or distorted perceptions.",
       image: "/personality.webp",
@@ -19,7 +19,7 @@ const Personality = () => {
       textColor: "text-white",
     },
     {
-      name: "Psychological and Emotional Factors",
+      name: "Psychosocial Influences",
       description:
         "Negative thought patterns, social withdrawal, and coexisting disorders like anxiety, depression, or substance use often worsen emotional volatility and reinforce maladaptive coping styles.",
       image: "/personality.webp",
@@ -28,7 +28,7 @@ const Personality = () => {
       textColor: "text-black",
     },
     {
-      name: "Environmental and Social Contributors",
+      name: "Environmental and Social Factors",
       description:
         "Childhood abuse, neglect, or instability—particularly in early attachment relationships—can lead to chronic emotional dysregulation and difficulty forming healthy interpersonal bonds.",
       image: "/genetic-factors.webp",
@@ -39,21 +39,18 @@ const Personality = () => {
   ];
 
   const symptoms = {
-    manic: [
-      "Excessive energy, restlessness, or euphoria",
-      "Reduced need for sleep",
-      "Racing thoughts and pressured speech",
-      "Impulsivity and poor judgment",
-      "Grandiosity or inflated self-image",
-      "Risk-taking behaviors",
+    common: [
+      "Difficulty maintaining stable relationships",
+      "Extreme emotional reactivity or impulsivity",
+      "Unstable self-image or identity",
+      "Persistent feelings of emptiness or alienation",
+      "Rigid, inflexible ways of thinking and behaving",
     ],
-    depressive: [
-      "Low mood and loss of interest",
-      "Sleep and appetite disturbances",
-      "Fatigue and low motivation",
-      "Feelings of worthlessness or guilt",
-      "Impaired concentration",
-      "Suicidal thoughts or behaviors",
+    dsm: [
+      "Enduring behavior patterns that deviate from cultural expectations in cognition, affect, or impulse control",
+      "Onset in adolescence or early adulthood, with long-term stability",
+      "Impaired functioning in social, work, or personal settings",
+      "Not explained by another condition or substance use",
     ],
   };
 
@@ -71,7 +68,7 @@ const Personality = () => {
       image: "/diseases/forgetfulnessv2/1.webp",
     },
     {
-      title: "Integrated Support Programs",
+      title: "Integrated Programs",
       description:
         "Therapeutic communities, vocational training, substance abuse treatment, and anger management programs support long-term stabilization and reintegration.",
       image: "/diseases/forgetfulnessv2/3.webp",
@@ -187,8 +184,7 @@ const Personality = () => {
           Causes of Personality Disorders
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-          Personality disorders develop from complex interactions between biological vulnerabilities,
-          psychological factors, and environmental influences.
+          These disorders arise from genetic vulnerability, early experiences, and psychological development shaped by environmental stressors.
         </p>
 
         {/* Causes Grid */}
@@ -227,8 +223,7 @@ const Personality = () => {
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Bipolar Disorder presents with alternating mood states that
-          significantly impact cognition, emotion, and behavior.
+          Symptoms are persistent and interfere with emotional, social, and occupational functioning.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -242,7 +237,7 @@ const Personality = () => {
                   : "hover:bg-gray-100"
               }`}
             >
-              {tab.charAt(0).toUpperCase() + tab.slice(1)} Symptoms
+              {tab === "common" ? "Common Symptoms" : "DSM-5 Diagnostic Criteria"}
             </button>
           ))}
         </div>
@@ -261,11 +256,7 @@ const Personality = () => {
           <div className="lg:w-1/2 h-[50vh] relative overflow-hidden rounded-xl">
             <Image
               src={`/diseases/personality/${
-                activeTab === "manic"
-                  ? "4"
-                  : activeTab === "depressive"
-                  ? "5"
-                  : "6"
+                activeTab === "common" ? "4" : "5"
               }.webp`}
               alt={`${activeTab} symptoms illustration`}
               layout="fill"

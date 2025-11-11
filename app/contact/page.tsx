@@ -109,14 +109,50 @@ export default function ContactPage() {
       <div className="max-w-7xl mx-auto h-full flex justify-center flex-col">
         <div className="text-center mb-16">
           <h1
-            className={`text-[#0E7EA0] lg:text-[6vw] text-[8vw] font-bold ${playfair.className} mb-6`}
+            className={`text-[#0E7EA0] lg:text-[6vw] text-[8vw] font-bold ${playfair.className} mb-3`}
           >
-            Book Now
+            Book a Session
           </h1>
-          <p className="text-black lg:text-[1.25vw] text-[4vw] max-w-3xl mx-auto mb-4 md:mb-8">
-            Please fill in the form below and our team will contact you as soon
-            as possible to confirm your session.
+          <h2 className={`text-black lg:text-[2vw] text-[5vw] font-semibold mb-3 ${playfair.className}`}>
+            Take the First Step Toward a Healthier Mind
+          </h2>
+          <p className="text-black lg:text-[1.25vw] text-[3.5vw] max-w-4xl mx-auto mb-6 md:mb-10">
+            Whether you're struggling with anxiety, feeling emotionally overwhelmed, or simply seeking clarity, therapy can help you realign with yourself. At Manokalp, we offer compassionate, science-backed mental health support tailored to your needs—no judgment, just care. We offer sessions online and in-person, for individuals, couples, parents, and organizations.
           </p>
+
+          <div className="max-w-5xl mx-auto text-left">
+            <div className="bg-white border border-[#0E7EA0]/20 rounded-xl p-5 md:p-8 mb-6">
+              <h3 className={`text-[#0E7EA0] text-xl md:text-2xl font-bold mb-4 ${playfair.className}`}>🧠 Services You Can Book</h3>
+              <ul className="list-disc pl-5 space-y-2 text-black lg:text-[1.1vw] text-[3.6vw]">
+                <li>Individual Consultations (CBT + Mindfulness Based)</li>
+                <li>Couples & Relationship Counseling</li>
+                <li>Parental Guidance & Child Emotional Coaching</li>
+                <li>Adolescent Mental Health Sessions</li>
+                <li>Psychiatric Evaluation & Medication Management (if needed)</li>
+                <li>Corporate Wellness Workshops</li>
+                <li>School-based Emotional Programs</li>
+              </ul>
+            </div>
+
+            <div className="bg-white border border-[#0E7EA0]/20 rounded-xl p-5 md:p-8 mb-6">
+              <h3 className={`text-[#0E7EA0] text-xl md:text-2xl font-bold mb-4 ${playfair.className}`}>🕰️ Session Timings</h3>
+              <ul className="list-disc pl-5 space-y-2 text-black lg:text-[1.1vw] text-[3.6vw]">
+                <li>Sessions are available by appointment only.</li>
+                <li>Flexible slots are offered Monday to Saturday, including early mornings and late evenings for working professionals and students.</li>
+              </ul>
+            </div>
+
+            {/* <div className="bg-white border border-[#0E7EA0]/20 rounded-xl p-5 md:p-8">
+              <h3 className={`text-[#0E7EA0] text-xl md:text-2xl font-bold mb-4 ${playfair.className}`}>🧾 Consultation Details</h3>
+              <ul className="list-none pl-0 space-y-2 text-black lg:text-[1.1vw] text-[3.6vw]">
+                <li><span className="font-semibold">📍 Location:</span> [Your Clinic Address or “Online via Video”]</li>
+                <li><span className="font-semibold">⏳ Duration:</span> 45–60 minutes</li>
+                <li><span className="font-semibold">💳 Fees:</span> Shared upon confirmation (based on session type)</li>
+                <li><span className="font-semibold">📞 Contact:</span> +91-XXXXXXXXXX</li>
+                <li><span className="font-semibold">✉️ Email:</span> connect@manokalp.in</li>
+              </ul>
+            </div> */}
+          </div>
         </div>
 
         <div className="max-w-[1400px] mx-auto bg-white rounded-lg shadow-lg p-4 md:p-8">

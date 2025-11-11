@@ -9,29 +9,21 @@ const StressinChildren = () => {
 
   const causes = [
     {
-      name: "Emotional and Psychological Factors",
-      description:"Low emotional awareness, self-criticism, unrealistic expectations, and limited problem-solving skills can heighten stress responses.",
-      image: "/genetic-factors.webp", // Replace with your actual image path
+      name: "Genetic and Neurobiological Factors",
+      description:
+        "Family history, neurotransmitter imbalances—particularly dopamine and glutamate—and structural changes in the brain increase vulnerability to schizophrenia and psychosis.",
+      image: "/genetic-factors.webp",
       link: "/genetic-factors",
-      bgColor: "bg-[#0E7EA0]", // Blue background
+      bgColor: "bg-[#0E7EA0]",
       textColor: "text-white",
     },
     {
-      name: "Family and Environmental Factors",
+      name: "Environmental and Psychological Factors",
       description:
-        " Family conflict, parental separation, academic pressure, bullying, and exposure to traumatic news can overwhelm a child’s coping ability.",
-      image: "/psychological-factors.webp", // Replace with your actual image path
+        "Early trauma, psychoactive substance use, urban stress, and unstable family environments are known to trigger or exacerbate symptoms in predisposed individuals.",
+      image: "/psychological-factors.webp",
       link: "/psychological-factors",
-      bgColor: "bg-[#FFD700]", // Yellow background
-      textColor: "text-black",
-    },
-    {
-      name: "Social and Peer Influences",
-      description:
-        " Friendship conflicts, peer rejection, social media pressure, and performance competition contribute to childhood stress and anxiety.",
-      image: "/psychological-factors.webp", // Replace with your actual image path
-      link: "/psychological-factors",
-      bgColor: "bg-[#FFD700]", // Yellow background
+      bgColor: "bg-[#FFD700]",
       textColor: "text-black",
     },
   ];
@@ -159,10 +151,10 @@ const StressinChildren = () => {
         
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Stress in children is a growing concern that affects emotional, cognitive, and social development. It occurs when children feel overwhelmed by demands or situations they cannot fully understand or control.
+            Schizophrenia is a chronic psychiatric disorder that affects how individuals think, perceive, and interact with the world. It often includes episodes of psychosis, marked by hallucinations, delusions, and disorganized thinking. Affecting roughly 1% of the global population, schizophrenia significantly disrupts emotional expression, cognition, and daily functioning.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Unlike adults, children may lack the emotional tools to recognize and articulate their stress, leading to behavioral changes, academic struggles, or physical symptoms. Early identification and support are critical to fostering resilience and healthy coping skills.
+            With early intervention and a comprehensive treatment plan, individuals can experience long-term improvement and better integration into daily life.
           </p>
         </div>
 
@@ -176,10 +168,10 @@ const StressinChildren = () => {
           className="text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold mb-8"
           style={{ fontFamily: "Playfair" }}
         >
-          Causes of Schizophrenia
+          Causes of Schizophrenia and Psychosis
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-          Schizophrenia develops from a complex interplay of genetic, neurobiological, and environmental factors.
+          The disorder emerges from a complex mix of genetic, neurochemical, and environmental factors.
         </p>
 
         {/* Causes Grid */}
@@ -218,7 +210,7 @@ const StressinChildren = () => {
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Schizophrenia symptoms are categorized into positive, negative, and cognitive domains that affect perception, emotion, and thinking.
+          Symptoms are divided into three primary categories—positive, negative, and cognitive—and vary in severity and presentation.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -271,11 +263,11 @@ const StressinChildren = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold ${playfair.className}`}
         >
-          Solutions for Managing Schizophrenia
+          Solutions for Managing Schizophrenia and Psychosis
         </h2>
 
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-          Schizophrenia treatment requires integrated care combining medication, therapy, and comprehensive support.
+          A long-term treatment approach involving medication, therapy, and community support is essential for recovery.
         </p>
 
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">

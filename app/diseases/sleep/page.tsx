@@ -5,68 +5,76 @@ import { useState } from "react";
 import playfair from "../../../fonts/playfair.module.css";
 
 const Sleep = () => {
-  const [activeTab, setActiveTab] = useState<SymptomCategory>("primary");
+  const [activeTab, setActiveTab] = useState<SymptomCategory>("common");
 
   const causes = [
     {
-      name: "Biological Factors",
+      name: "Medical and Neurological Factors",
       description:
-        "Hormonal imbalances, neurological disorders, vascular conditions, and side effects of medications can all impair sexual arousal, desire, and performance across genders and life stages.",
-      image: "/genetic-factors.webp", // Replace with your actual image path
+        "Chronic pain, hormonal imbalances, and neurological conditions such as epilepsy or Parkinson’s disease can disturb sleep structure and reduce restorative rest.",
+      image: "/genetic-factors.webp",
       link: "/genetic-factors",
-      bgColor: "bg-[#0E7EA0]", // Blue background
+      bgColor: "bg-[#0E7EA0]",
       textColor: "text-white",
     },
     {
-      name: "Psychological and Environmental Factors",
+      name: "Psychological and Emotional Factors",
       description:
-        "Chronic stress, low mood, trauma history, or cultural stigma can interfere with emotional intimacy, create fear of intimacy, and diminish sexual confidence or satisfaction.",
-      image: "/psychological-factors.webp", // Replace with your actual image path
+        "Anxiety, depression, trauma, and maladaptive thought patterns often lead to insomnia, fragmented sleep, or distressing nighttime awakenings.",
+      image: "/psychological-factors.webp",
       link: "/psychological-factors",
-      bgColor: "bg-[#FFD700]", // Yellow background
+      bgColor: "bg-[#FFD700]",
       textColor: "text-black",
     },
-   
+    {
+      name: "Lifestyle and Environmental Factors",
+      description:
+        "Irregular routines, stimulant use, screen exposure, and shift work can disrupt circadian rhythms and delay natural sleep onset or depth.",
+      image: "/psychological-factors.webp",
+      link: "/psychological-factors",
+      bgColor: "bg-[#FFD700]",
+      textColor: "text-black",
+    },
   ];
 
   const symptoms = {
-    primary: [
-      "Erectile dysfunction or arousal difficulties",
-      "Premature or delayed ejaculation",
-      "Low libido or lack of sexual interest",
-      "Painful intercourse or involuntary muscle tension",
+    common: [
+      "Trouble falling or staying asleep",
+      "Excessive daytime sleepiness",
+      "Loud snoring, gasping, or choking",
+      "Irritability and impaired concentration",
+      "Discomfort or tingling in limbs before sleep",
     ],
-    emotionalAndBehavioral: [
-      "Intimacy avoidance or relationship detachment",
-      "Body image concerns lowering confidence",
-      "Conflict due to mismatched desires",
-      "Obsessive sexual behavior causing emotional distress",
+    dsm: [
+      "Sleep issues occurring at least three nights a week for three months",
+      "Significant impact on social, academic, or occupational functioning",
+      "Symptoms not better explained by another medical or psychiatric condition",
     ],
   };
 
   const solutionsData = [
     {
-      title: "Psychotherapeutic Interventions",
+      title: "Behavioral and Psychological Interventions",
       description:
-        "Medications such as PDE5 inhibitors, hormone replacement therapies, or mood stabilizers are used to improve sexual function or manage underlying emotional conditions.",
+        "CBT-I addresses unhelpful beliefs about sleep; relaxation techniques reduce arousal; sleep hygiene training promotes habits that support consistent rest.",
       image: "/diseases/impulsivityv2/1.webp",
     },
     {
-      title: "Pharmacological Treatments",
+      title: "Medical and Pharmacological Treatments",
       description:
-        "CBT helps reduce anxiety and reframe sexual beliefs; sex therapy improves confidence and performance; couples counseling enhances communication and emotional connection.",
+        "Melatonin, sedative medications, CPAP for apnea, and dopamine agents for RLS are used based on diagnosis severity and symptom profile.",
       image: "/diseases/impulsivityv2/2.webp",
     },
     {
-      title: "Lifestyle and Social Support",
+      title: "Lifestyle and Home-Based Strategies",
       description:
-        "Regular exercise, nutrient-rich diets, body-positive practices, and stress reduction techniques like yoga or mindfulness can improve self-esteem, hormonal balance, and sexual responsiveness.",
+        "Maintaining regular sleep-wake cycles, avoiding caffeine or heavy meals before bed, creating a calming environment, and exercising earlier in the day support healthy sleep.",
       image: "/diseases/impulsivityv2/3.webp",
     },
     {
       title: "Complementary Interventions",
       description:
-        "Support groups, guided intimacy exercises, and trauma-informed therapy foster emotional safety and deeper relational understanding.",
+        "Mindfulness practices, white noise machines, light therapy for circadian regulation, and guided imagery techniques enhance readiness for sleep.",
       image: "/diseases/impulsivityv2/4.webp",
     },
   ];
@@ -178,12 +186,11 @@ const Sleep = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >
-          Symptoms of Sleep-Related Disorders
+          Symptoms of Sleep Disorders
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Cognitive, emotional, and behavioral changes appear gradually and
-          worsen over time, often leading to loss of independence.
+          These disorders present with both nighttime disturbances and daytime impairments.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -197,7 +204,7 @@ const Sleep = () => {
                   : "hover:bg-gray-100"
               }`}
             >
-              {tab.charAt(0).toUpperCase() + tab.slice(1)} Symptoms
+              {tab === "common" ? "Common Symptoms" : "DSM-5 Diagnostic Criteria"}
             </button>
           ))}
         </div>
@@ -215,15 +222,7 @@ const Sleep = () => {
 
           <div className="lg:w-1/2 h-[50vh] relative overflow-hidden rounded-xl">
             <Image
-              src={`/diseases/sleep/${
-                activeTab === "primary"
-                  ? "1"
-                  : activeTab === "emotionalAndBehavioral"
-                  ? "2"
-                  : activeTab === "physical"
-                  ? "3"
-                  : "4"
-              }.webp`}
+              src={`/diseases/sleep/${activeTab === "common" ? "1" : "2"}.webp`}
               alt={`${activeTab} symptoms illustration`}
               layout="fill"
               objectFit="cover"
@@ -238,12 +237,11 @@ const Sleep = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold ${playfair.className}`}
         >
-          Solutions for Managing Impulsivity and Aggression
+          Solutions for Managing Sleep Disorders
         </h2>
 
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-          Treatment requires a blend of behavioral therapy, medication, and
-          structured interventions across settings.
+          Effective treatment requires a multidisciplinary approach involving behavioral therapy, medication, and routine optimization.
         </p>
 
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">

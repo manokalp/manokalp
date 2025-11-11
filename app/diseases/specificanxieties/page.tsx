@@ -5,7 +5,7 @@ import { useState } from "react";
 import playfair from "../../../fonts/playfair.module.css";
 
 const SpecificAnxieties = () => {
-  const [activeTab, setActiveTab] = useState<SymptomCategory>("emotional");
+  const [activeTab, setActiveTab] = useState<SymptomCategory>("primary");
 
   const causes = [
     {
@@ -37,64 +37,53 @@ const SpecificAnxieties = () => {
   ];
 
   const symptoms = {
-    emotional: [
-      "Immediate intense fear or anxiety when exposed to the phobic stimulus",
-      "Persistent, excessive worry about encountering the feared object or situation",
-      "Significant emotional distress that is recognized as disproportionate to the actual danger"
+    primary: [
+      "Intense panic or fear in response to the trigger",
+      "Active avoidance of feared situations or objects",
+      "Physical symptoms like sweating, dizziness, or rapid heartbeat",
+      "Impaired ability to function in daily routines",
     ],
-    cognitive: [
-      "Catastrophic thinking about what might happen if exposed to the feared object/situation",
-      "Difficulty concentrating when anticipating exposure to the phobic stimulus",
-      "Intrusive thoughts or mental images related to the feared object or situation"
+    emotionalBehavioral: [
+      "Persistent worry about encountering the phobic trigger",
+      "Panic attacks in severe cases",
+      "Shame about the intensity of fear",
+      "Interference with work, relationships, or responsibilities",
     ],
-    physical: [
-      "Rapid heartbeat, shortness of breath, and sweating when confronting phobic triggers",
-      "Trembling, dizziness, or feeling faint during exposure",
-      "Chest tightness, dry mouth, and nausea or other gastrointestinal distress",
-      "Muscle tension and physical freezing responses"
-    ],
-    behavioral: [
-      "Active avoidance of the feared object or situation",
-      "Elaborate safety behaviors to prevent encounters with phobic triggers",
-      "Significant interference with normal routine and functioning",
-      "Enduring phobic situations only with extreme distress or with a companion"
-    ]
   };
 
   const solutionsData = [
     {
-      title: "Exposure Therapy",
+      title: "Pharmacological Treatments",
       points: [
-        "Gradual, systematic exposure to feared objects or situations",
-        "Virtual reality exposure for phobias difficult to recreate in real life",
-        "In vivo exposure with therapist guidance and support"
-      ],
-      image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
-    {
-      title: "Cognitive Approaches",
-      points: [
-        "Cognitive restructuring to challenge catastrophic thinking patterns",
-        "Mindfulness and acceptance strategies for anxiety management",
-        "Education about the nature and development of specific phobias"
+        "SSRIs lower general anxiety sensitivity",
+        "Beta-blockers reduce physical symptoms in trigger-specific settings",
+        "Benzodiazepines may be used short-term for acute relief"
       ],
       image: "https://images.unsplash.com/photo-1493836512294-502baa1986e2?q=80&w=2690&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Supportive Techniques",
+      title: "Psychotherapeutic Interventions",
       points: [
-        "Relaxation training including deep breathing and progressive muscle relaxation",
-        "Applied tension techniques for blood-injection-injury phobias",
-        "Stress management strategies to reduce overall anxiety"
+        "CBT restructures distorted beliefs about the fear",
+        "Exposure therapy builds tolerance",
+        "VR therapy simulates triggers safely",
+        "Mindfulness improves emotional control"
+      ],
+      image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
+    {
+      title: "Lifestyle and Supportive Therapies",
+      points: [
+        "Exercise reduces stress hormones",
+        "Dietary regulation supports mood stability",
+        "Support groups provide reassurance, peer insights, and practical coping tools"
       ],
       image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Medical Interventions",
+      title: "Complementary Interventions",
       points: [
-        "Beta-blockers for managing physical symptoms in specific situations",
-        "Short-term anti-anxiety medication for severe cases",
-        "Combined pharmacological and psychological approaches for complex cases"
+        "Guided relaxation, visualization, and breathwork techniques help individuals regulate anxiety during exposure and promote desensitization over time"
       ],
       image: "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     }
@@ -154,10 +143,10 @@ const SpecificAnxieties = () => {
        
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Specific phobias are intense, irrational fears of particular objects, animals, or situations that pose little or no actual danger. They trigger immediate anxiety responses and avoidance behaviors that can significantly impair daily functioning.
+            Specific anxieties and phobias are marked by intense, irrational fear of particular objects, situations, or environments. These fears are narrowly focused yet can cause severe avoidance and functional disruption.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Affecting approximately 12.5% of adults at some point in their lives, specific phobias often develop in childhood but can emerge at any age. Common types include fears of animals, natural environments, situations like flying or heights, blood-injection-injury, and other specific triggers.
+            Common phobic triggers include animals, flying, heights, injections, or enclosed spaces. Despite recognizing their fear as excessive, individuals often feel powerless to control their response without structured treatment.
           </p>
         </div>
 
@@ -173,7 +162,7 @@ const SpecificAnxieties = () => {
           Causes of Specific Phobias
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-        Specific phobias develop through complex interactions between biological predispositions, psychological factors, and environmental influences that shape intense fear responses to particular stimuli.
+          These fears stem from a combination of genetic sensitivity, cognitive conditioning, and environmental reinforcement.
         </p>
 
         {/* Causes Grid */}
@@ -204,15 +193,15 @@ const SpecificAnxieties = () => {
       </section>
 
       {/* Tab Section */}
-      shogun<section className="bg-white w-full h-full lg:px-40 px-10 lg:pt-35 py-10 text-center">
+      <section className="bg-white w-full h-full lg:px-40 px-10 lg:pt-35 py-10 text-center">
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >
-          Signs of Specific Phobias
+          Symptoms of Specific Anxieties and Phobias
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Specific phobias manifest through diverse symptoms affecting emotional states, thought patterns, physical responses, and behavioral adaptations when confronted with feared stimuli.
+          Symptoms manifest during exposure or in anticipation of a feared stimulus, affecting both behavior and emotional well-being.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -226,7 +215,7 @@ const SpecificAnxieties = () => {
                   : "hover:bg-gray-100"
               }`}
             >
-              {tab.charAt(0).toUpperCase() + tab.slice(1)} Signs
+              {tab === "primary" ? "Primary Symptoms" : "Emotional and Behavioral Symptoms"}
             </button>
           ))}
         </div>
@@ -244,15 +233,7 @@ const SpecificAnxieties = () => {
 
           <div className="lg:w-1/2 h-[50vh] relative overflow-hidden rounded-xl">
             <Image
-              src={`/diseases/unhappyness/${
-                activeTab === "emotional"
-                  ? "1"
-                  : activeTab === "cognitive"
-                  ? "2"
-                  : activeTab === "physical"
-                  ? "3"
-                  : "4"
-              }.webp`}
+              src={`/diseases/unhappyness/${activeTab === "primary" ? "1" : "2"}.webp`}
               alt={`${activeTab} signs of specific phobias`}
               layout="fill"
               objectFit="cover"
@@ -271,7 +252,7 @@ const SpecificAnxieties = () => {
         </h2>
 
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-        Effective treatment for specific phobias involves a multifaceted approach focusing on exposure techniques, cognitive strategies, supportive methods, and occasionally medication for severe cases.
+          Treatment often combines psychological therapy with supportive medication and lifestyle modification.
         </p>
 
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">
@@ -318,4 +299,4 @@ const SpecificAnxieties = () => {
   );
 };
 
-export default SpecificAnxieties;    
+export default SpecificAnxieties;

@@ -60,13 +60,13 @@ const Mania = () => {
     {
       title: "Psychotherapeutic Approaches",
       description:
-        "CBT restructures impulsive thinking patterns, DBT builds emotional regulation, and anger management teaches control over triggers and reactive behaviors.",
+        "CBT targets distorted thinking and behavior cycles; IPSRT stabilizes routines and social interactions; psychoeducation empowers individuals and families; family therapy strengthens support networks.",
       image: "/diseases/forgetfulnessv2/2.webp",
     },
     {
       title: "Pharmacological Treatments",
       description:
-        "Mood stabilizers, antipsychotics, SSRIs, and beta-blockers may be used to reduce emotional volatility and physical symptoms of aggression.",
+        "Mood stabilizers like lithium, atypical antipsychotics for manic phases, cautious antidepressant use, and short-term benzodiazepines for acute agitation help manage emotional highs and lows.",
       image: "/diseases/forgetfulnessv2/1.webp",
     },
     {

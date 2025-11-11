@@ -59,7 +59,7 @@ const Impulsivity = () => {
       image: "/diseases/impulsivityv2/1.webp",
     },
     {
-      title: "Pharmacological Treatments",
+      title: "Pharmacological Support",
       description:
         "Mood stabilizers, antipsychotics, SSRIs, and beta-blockers may be used to reduce emotional volatility and physical symptoms of aggression.",
       image: "/diseases/impulsivityv2/2.webp",
@@ -184,12 +184,11 @@ const Impulsivity = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >
-          Symptoms of Forgetfulness and Dementia
+          Symptoms of Impulsivity and Aggression
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Cognitive, emotional, and behavioral changes appear gradually and
-          worsen over time, often leading to loss of independence.
+          Impulsivity and aggression manifest through emotional, behavioral, and cognitive disruptions that may vary by age and context.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">

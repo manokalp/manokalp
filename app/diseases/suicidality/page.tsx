@@ -5,24 +5,25 @@ import { useState } from "react";
 import playfair from "../../../fonts/playfair.module.css";
 
 const Suicidality = () => {
-  const [activeTab, setActiveTab] = useState<SymptomCategory>("emotional");
+  const [activeTab, setActiveTab] = useState<SymptomCategory>("behavioralIndicators");
 
   const causes = [
     {
-      name: "Neurobiological Factors",
-      description: "Altered serotonin function, hyperactive stress response systems, and genetic predispositions affecting brain regions that regulate mood and impulse control contribute to vulnerability for suicidal thoughts and behaviors.",
+      name: "Biological Factors",
+      description:
+        "Genetic predisposition, low serotonin levels, and underlying psychiatric disorders such as depression, bipolar disorder, or substance use increase suicide risk significantly.",
       image: "/genetic-factors.webp",
       link: "/genetic-factors",
-      bgColor: "bg-[#0E7EA0]", // Blue background
+      bgColor: "bg-[#0E7EA0]",
       textColor: "text-white",
     },
     {
-      name: "Psychological Vulnerabilities",
+      name: "Environmental and Psychological Factors",
       description:
-        "Severe depression, hopelessness, feelings of perceived burdensomeness, thwarted belongingness, and cognitive factors like problem-solving deficits and black-and-white thinking increase susceptibility to suicidal ideation.",
+        "Chronic stress, trauma, marginalization, or isolation can overwhelm coping capacity, leading to feelings of hopelessness and suicidal ideation.",
       image: "/psychological-factors.webp",
       link: "/psychological-factors",
-      bgColor: "bg-[#FFD700]", // Yellow background
+      bgColor: "bg-[#FFD700]",
       textColor: "text-black",
     },
     {
@@ -31,74 +32,62 @@ const Suicidality = () => {
         "Trauma exposure, childhood adversity, social isolation, acute life stressors, access to lethal means, and exposure to suicide in one's social network or media significantly impact suicide risk, particularly in vulnerable individuals.",
       image: "/psychological-factors.webp",
       link: "/psychological-factors",
-      bgColor: "bg-[#0E7EA0]", // Blue background
+      bgColor: "bg-[#0E7EA0]",
       textColor: "text-white",
     },
   ];
 
   const symptoms = {
-    emotional: [
-      "Persistent feelings of hopelessness and despair",
-      "Overwhelming emotional pain that feels unbearable",
-      "Sense of worthlessness, guilt, or self-hatred",
-      "Feeling like a burden to others or that others would be better off without them"
+    behavioralIndicators: [
+      "Talking about wanting to die or feeling like a burden",
+      "Withdrawing from relationships and daily responsibilities",
+      "Reckless behavior or increased substance use",
+      "Sudden calmness after intense distress",
+      "Giving away personal items or saying goodbye unexpectedly",
     ],
-    cognitive: [
-      "Preoccupation with thoughts of death or suicide",
-      "Difficulty seeing alternatives to suicide or solutions to problems",
-      "Perception of being trapped with no way out",
-      "Narrowed thinking and tunnel vision focused on ending pain"
+    emotionalCognitive: [
+      "Persistent hopelessness or despair",
+      "Guilt, shame, or feelings of worthlessness",
+      "Difficulty concentrating or making decisions",
+      "Emotional numbness or disconnection",
     ],
-    physical: [
-      "Changes in sleep patterns (insomnia or hypersomnia)",
-      "Significant changes in appetite and weight",
-      "Physical manifestations of depression or anxiety",
-      "Fatigue and lack of energy"
-    ],
-    behavioral: [
-      "Giving away possessions or putting affairs in order",
-      "Increased substance use or other risk-taking behaviors",
-      "Withdrawal from friends, family, and normal activities",
-      "Researching suicide methods or acquiring means for suicide"
-    ]
   };
 
   const solutionsData = [
     {
-      title: "Crisis Interventions",
+      title: "Crisis Intervention and Immediate Support",
       points: [
-        "Immediate access to crisis support through hotlines and text services",
-        "Emergency psychiatric evaluation and hospitalization when necessary",
-        "Creating safety plans to manage suicidal urges and remove access to lethal means"
+        "Emergency services, suicide helplines, and psychiatric hospitalization ensure safety during acute crises",
+        "Safety planning includes coping steps, emergency contacts, and warning sign monitoring"
       ],
       image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Therapeutic Approaches",
+      title: "Pharmacological Treatments",
       points: [
-        "Evidence-based psychotherapies like Cognitive Behavioral Therapy (CBT) and Dialectical Behavior Therapy (DBT)",
-        "Collaborative Assessment and Management of Suicidality (CAMS)",
-        "Treatment of underlying mental health conditions such as depression or PTSD"
+        "SSRIs relieve depressive symptoms",
+        "Lithium reduces suicide risk in bipolar disorder",
+        "Antipsychotics are used when psychosis or mood dysregulation contributes to suicidal thoughts"
       ],
       image: "https://images.unsplash.com/photo-1493836512294-502baa1986e2?q=80&w=2690&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Social Support",
+      title: "Psychotherapeutic Interventions",
       points: [
-        "Building strong connections with family, friends, and community",
-        "Peer support groups for those who have experienced suicidal thoughts",
-        "Developing a support network that understands and responds appropriately to warning signs"
+        "CBT addresses cognitive distortions",
+        "DBT supports individuals with self-harm risk",
+        "Psychodynamic therapy explores underlying emotional conflicts fueling suicidal ideation"
       ],
-      image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      title: "Medical Interventions",
+      title: "Social and Lifestyle Support",
       points: [
-        "Medication management for underlying psychiatric conditions",
-        "Close monitoring during initiation and adjustment of antidepressants",
-        "Consideration of treatments like ketamine for acute suicidal crises in appropriate cases"
+        "Peer groups reduce isolation",
+        "Family involvement strengthens emotional support",
+        "Structured routines, physical activity, and sleep regulation promote stability and resilience"
       ],
-      image: "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     }
   ];
   
@@ -156,10 +145,10 @@ const Suicidality = () => {
        
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Suicidality encompasses a spectrum of thoughts and behaviors ranging from fleeting thoughts about death to detailed planning and suicide attempts. It represents intense psychological distress that has reached a critical point where death seems like the only escape from unbearable pain.
+            Suicidality includes a spectrum of thoughts and behaviors related to ending one’s life—ranging from ideation and planning to attempts. Suicide is the intentional act of self-inflicted death. These are serious mental health crises often fueled by emotional pain, psychiatric illness, trauma, and social disconnection.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-          Suicide claims nearly 800,000 lives globally each year, with many more attempting suicide. It&apos;s a complex public health issue influenced by multiple biological, psychological, social, and environmental factors, and is often associated with mental health conditions, though not exclusively.
+            Early detection, compassionate communication, and comprehensive treatment are essential to reducing risk and fostering recovery.
           </p>
         </div>
 
@@ -173,10 +162,10 @@ const Suicidality = () => {
           className="text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold mb-8"
           style={{ fontFamily: "Playfair" }}
         >
-          Causes of Suicidality
+          Causes of Suicidality and Suicide
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-        Suicidality emerges from complex interactions between biological vulnerabilities, psychological states, and environmental pressures that overwhelm a person&apos;s coping resources and sense of hope.
+          These behaviors emerge from an interplay of biological vulnerability, unresolved emotional distress, and situational adversity.
         </p>
 
         {/* Causes Grid */}
@@ -211,11 +200,10 @@ const Suicidality = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >
-          Warning Signs of Suicidality
+          Warning Signs and Symptoms of Suicidality
         </h2>
-
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Suicidal risk presents through various warning signs affecting emotions, thoughts, physical health, and behaviors that may indicate someone is in danger.
+          Suicidality can present through verbal cues, mood changes, and behavioral shifts that should never be ignored.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -229,7 +217,7 @@ const Suicidality = () => {
                   : "hover:bg-gray-100"
               }`}
             >
-              {tab.charAt(0).toUpperCase() + tab.slice(1)} Signs
+              {tab === "behavioralIndicators" ? "Behavioral Indicators" : "Emotional and Cognitive Signs"}
             </button>
           ))}
         </div>
@@ -247,15 +235,7 @@ const Suicidality = () => {
 
           <div className="lg:w-1/2 h-[50vh] relative overflow-hidden rounded-xl">
             <Image
-              src={`/diseases/unhappyness/${
-                activeTab === "emotional"
-                  ? "1"
-                  : activeTab === "cognitive"
-                  ? "2"
-                  : activeTab === "physical"
-                  ? "3"
-                  : "4"
-              }.webp`}
+              src={`/diseases/unhappyness/${activeTab === "behavioralIndicators" ? "1" : "2"}.webp`}
               alt={`${activeTab} warning signs of suicidality`}
               layout="fill"
               objectFit="cover"
@@ -270,11 +250,11 @@ const Suicidality = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold ${playfair.className}`}
         >
-          Approaches for Suicide Prevention
+          Solutions for Managing Suicidality and Suicide Risk
         </h2>
 
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-        Effective suicide prevention requires a comprehensive approach combining immediate crisis intervention, therapeutic support, social connection, and appropriate medical treatment.
+        Crisis management, therapy, medication, and social support play key roles in prevention and treatment.
         </p>
 
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">

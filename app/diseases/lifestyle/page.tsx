@@ -59,12 +59,7 @@ const Lifestyle = () => {
         </div>
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Lifestyle diseases, also known as non-communicable diseases (NCDs),
-            are health conditions that develop due to how people live their
-            daily lives. Unlike infectious diseases, which are caused by
-            bacteria or viruses, lifestyle diseases develop from unhealthy
-            eating, lack of physical activity, excessive stress, and harmful
-            coping mechanisms. These conditions typically develop over time.
+            Lifestyle diseases, also known as non-communicable diseases (NCDs), are health conditions that develop primarily due to unhealthy lifestyle choices and behaviors. Unlike infectious diseases caused by pathogens such as bacteria or viruses, lifestyle diseases result from poor habits including unhealthy eating patterns, physical inactivity, chronic stress, and harmful coping mechanisms. These conditions typically develop gradually over time but can become severe, resulting in serious long-term health complications and reduced quality of life.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
             Such as an unhealthy eating, lack of physical activity, excessive
@@ -84,8 +79,7 @@ const Lifestyle = () => {
           Causes of Lifestyle Diseases
         </h2>
         <p className="text-black lg:text-[1.25vw] text-[3.5vw] mb-10">
-          Lifestyle diseases arise from a combination of poor habits and
-          behaviors, which impact both physical and mental health.
+          Lifestyle diseases arise from a combination of poor habits and behaviors that negatively impact both physical and mental well-being.
         </p>
 
         <div className="grid lg:grid-cols-4 grid-cols-1 gap-4 mb-20">
@@ -99,9 +93,7 @@ const Lifestyle = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Consumption of processed foods high in sugar, salt, and
-                  unhealthy fats contributes to numerous health issues including
-                  obesity, diabetes, and heart disease.
+                  Regular consumption of highly processed foods, sugary snacks, and fast food items contributes to numerous health issues including obesity, diabetes, and heart disease.
                 </p>
               </div>
             </div>
@@ -117,9 +109,7 @@ const Lifestyle = () => {
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Sedentary lifestyles and lack of regular exercise lead to
-                  decreased metabolism, muscle weakness, and increased risk of
-                  cardiovascular diseases.
+                  Prolonged periods of sitting at work, home, or while using digital devices, and insufficient physical activity or absence of regular aerobic exercise and strength training lead to decreased metabolism, muscle weakness, and increased risk of cardiovascular diseases.
                 </p>
               </div>
             </div>
@@ -135,9 +125,7 @@ const Lifestyle = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Chronic stress affects hormonal balance and immune function,
-                  contributing to various health problems including hypertension
-                  and digestive issues.
+                  Persistent stress from work pressures, relationship conflicts, or personal challenges affects hormonal balance and immune function, contributing to various health problems including hypertension and digestive issues.
                 </p>
               </div>
             </div>
@@ -153,9 +141,7 @@ const Lifestyle = () => {
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Exposure to pollution, toxins, and other environmental hazards
-                  can increase the risk of respiratory diseases, allergies, and
-                  certain cancers.
+                  Increased exposure to air pollution, noise pollution, and overcrowded living conditions can increase the risk of respiratory diseases, allergies, and certain cancers.
                 </p>
               </div>
             </div>

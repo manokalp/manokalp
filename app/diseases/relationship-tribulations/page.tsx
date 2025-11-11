@@ -10,29 +10,29 @@ const RelationshipTribulations = () => {
 
   const causes = [
     {
+      name: "Emotional and Psychological Factors",
+      description:
+        "Unresolved trauma, communication gaps, insecurity, and attachment differences can disrupt emotional closeness and lead to chronic misunderstanding between partners.",
+      image: "/personality.webp",
+      link: "/psychosocial-factors",
+      bgColor: "bg-[#0E7EA0]", // Blue background
+      textColor: "text-white",
+    },
+    {
       name: "External and Social Influences",
       description:
         "Financial pressure, cultural expectations, work stress, and social media comparisons can strain relationship balance and emotional availability.",
       image: "/personality.webp",
       link: "/external-factors",
-      bgColor: "bg-[#0E7EA0]", // Blue background
-      textColor: "text-white",
-    },
-    {
-      name: "Environmental and Lifestyle Factors",
-      description:
-        "Infidelity, addiction, emotional neglect, and conflicting goals or values often erode trust, reduce intimacy, and intensify existing relational conflicts.",
-      image: "/personality.webp",
-      link: "/environmental-factors",
       bgColor: "bg-[#FFD700]", // Yellow background
       textColor: "text-black",
     },
     {
-      name: "Psychosocial Influences",
+      name: "Behavioral and Lifestyle Contributors",
       description:
-        "Unresolved trauma, communication gaps, insecurity, and attachment differences can disrupt emotional closeness and lead to chronic misunderstanding between partners.",
+        "Infidelity, addiction, emotional neglect, and conflicting goals or values often erode trust, reduce intimacy, and intensify existing relational conflicts.",
       image: "/genetic-factors.webp",
-      link: "/psychosocial-factors",
+      link: "/environmental-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
       textColor: "text-white",
     },
@@ -60,25 +60,25 @@ const RelationshipTribulations = () => {
     {
       title: "Psychotherapeutic Interventions",
       description:
-        "CBT, peer support groups, and medication for severe mood disturbances help manage relationship concerns safely under professional supervision.",
+        "Couples therapy improves communication; CBT reshapes distorted thinking; EFT deepens emotional bonds; mindfulness promotes calm and perspective in difficult conversations.",
       image: "/diseases/forgetfulnessv2/2.webp",
     },
     {
       title: "Communication and Conflict Resolution Strategies",
       description:
-        "Effective dialogue skills, active listening, empathy building, and constructive problem-solving techniques strengthen relationship bonds and understanding.",
+        "Practicing active listening, using non-blaming language, setting clear boundaries, and validating each other’s feelings are foundational for conflict resolution.",
       image: "/diseases/impulsivityv2/2.webp",
     },
     {
       title: "Rebuilding Trust and Intimacy",
       description:
-        "Transparency, consistent actions, emotional availability, and shared experiences help restore connection and deepen mutual understanding.",
+        "Consistency, openness, shared time, forgiveness, and nurturing touch help repair broken bonds and revive emotional closeness.",
       image: "/diseases/impulsivityv2/3.webp",
     },
     {
       title: "Lifestyle Changes for Relationship Health",
       description:
-        "Family education, community outreach, school-based relationship awareness, and early intervention support healthier partnerships across all populations.",
+        "Prioritizing the relationship, encouraging mutual growth, maintaining individual well-being, and seeking outside support when needed can strengthen partnership resilience.",
       image: "/diseases/impulsivityv2/4.webp",
     },
     {
@@ -91,34 +91,34 @@ const RelationshipTribulations = () => {
 
   const typesData = [
     {
-      title: "Communication Barriers",
+      title: "Communication Difficulties",
       disorders: [
-        "Misunderstandings between partners",
+        "Misunderstood intentions and tone",
         "Avoidance, stonewalling, or emotional shutdown",
-        "Recurring trust, safety, or security challenges"
+        "Escalation from defensive or aggressive dialogue"
       ],
       image: "/diseases/relationship/t1.webp"
     },
     {
-      title: "Trust and Betrayal Issues",
+      title: "Trust and Commitment Issues",
       disorders: [
-        "Breach of trust issues",
-        "Unresolved expectations or fear of commitment",
-        "Resistance through withdrawal or inconsistency"
+        "Jealousy and possessiveness",
+        "Emotional unavailability or fear of commitment",
+        "Broken trust through dishonesty or inconsistency"
       ],
       image: "/diseases/relationship/t2.webp"
     },
     {
-      title: "Emotional Regulation Challenges",
+      title: "Emotional Disconnection",
       disorders: [
-        "Feeling stuck in reactiveness",
-        "Decreased ability to process or regulate emotions",
-        "Disrupted emotional coping styles"
+        "Feeling unseen or undervalued",
+        "Decreased ability to express or receive affection",
+        "Divergent emotional coping styles"
       ],
       image: "/diseases/relationship/t3.webp"
     },
     {
-      title: "Attachment Difficulties",
+      title: "Conflict and Control Dynamics",
       disorders: [
         "Frequent arguments without resolution",
         "Power struggles or dominance behaviors",
@@ -127,20 +127,20 @@ const RelationshipTribulations = () => {
       image: "/diseases/relationship/t4.webp"
     },
     {
-      title: "Life Transition Stress",
+      title: "Infidelity and Betrayal",
       disorders: [
-        "Depression or cycles of stress",
-        "Anxiety or trauma responses in life",
-        "Symptoms arising in life turning"
+        "Emotional or physical affairs",
+        "Secrets or hidden aspects of life",
+        "Persistent distrust after betrayal"
       ],
       image: "/diseases/relationship/t5.webp"
     },
     {
-      title: "Intimacy and Connection Issues",
+      title: "Intimacy and Affection Challenges",
       disorders: [
-        "Difficulty in physical or emotional intimacy",
-        "Mismatched needs in relationship depth",
-        "Blocked pathways to true or meaningful support"
+        "Loss of physical closeness or romance",
+        "Mismatch in sexual or emotional needs",
+        "Relationship becoming routine or emotionally stagnant"
       ],
       image: "/diseases/relationship/t6.webp"
     }
@@ -197,18 +197,10 @@ const RelationshipTribulations = () => {
         
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Relationship tribulations refer to ongoing emotional, psychological,
-            or behavioral difficulties within interpersonal
-            partnerships—especially romantic relationships. These challenges can
-            arise from communication breakdowns, unmet needs, unresolved past
-            experiences,
+            Relationship tribulations refer to ongoing emotional, psychological, or behavioral difficulties within interpersonal partnerships—especially romantic relationships. These challenges can arise from communication breakdowns, unmet needs, unresolved past experiences, or lifestyle stressors.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            or lifestyle stressors. If left unaddressed, such issues may lead to
-            chronic conflict, emotional exhaustion, and even the breakdown of
-            otherwise meaningful connections. Strengthening awareness and
-            investing in conflict resolution are crucial steps toward relational
-            well-being.
+            If left unaddressed, such issues may lead to chronic conflict, emotional exhaustion, and even the breakdown of otherwise meaningful connections. Strengthening awareness and investing in conflict resolution are crucial steps toward relational well-being.
           </p>
         </div>
 
@@ -279,7 +271,11 @@ const RelationshipTribulations = () => {
                   : "hover:bg-gray-100"
               }`}
             >
-              {tab.charAt(0).toUpperCase() + tab.slice(1)} Symptoms
+              {tab === "emotional"
+                ? "Emotional Symptoms"
+                : tab === "behavioral"
+                ? "Behavioral Symptoms"
+                : "Psychological and Physical Impact"}
             </button>
           ))}
         </div>
@@ -318,12 +314,11 @@ const RelationshipTribulations = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] mb-4 font-semibold ${playfair.className}`}
         >
-          Types of Personality Disorders
+          Types of Relationship Tribulations
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          The DSM-5 classifies personality disorders into three clusters based
-          on behavioral patterns:
+          These challenges vary in intensity and impact but often fall into specific relational categories:
         </p>
 
         {/* Tab Navigation */}

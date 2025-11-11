@@ -11,7 +11,7 @@ const Forgetfulness = () => {
     emotional: [
       "Unexplained irritability or sadness",
       "Emotional detachment or mood swings",
-      "Fear, confusion, or anxiety in unfamiliar settings",
+      "Fear, confusion, or anxiety in new or unfamiliar environments",
       "Suspicion or delusional thinking",
     ],
     behavioral: [
@@ -27,10 +27,10 @@ const Forgetfulness = () => {
       "Dependency in completing daily tasks",
     ],
     cognitive: [
-      "Difficulty recalling names, conversations, or recent events",
+      "Difficulty recalling names, conversations, or recent events.",
       "Poor problem-solving and decision-making",
       "Disorientation in time or location",
-      "Language issues such as word-finding difficulty",
+      "Language problems, such as difficulty finding words",
     ],
   };
   const solutionsData = [

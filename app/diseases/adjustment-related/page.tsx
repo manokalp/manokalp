@@ -11,27 +11,27 @@ const AdjustmentRelated = () => {
     {
       title: "Cognitive Behavioral Therapy (CBT)",
       description:
-        "CBT reframes negative thoughts about change and teaches adaptive coping techniques to manage stress more effectively.",
+        "CBT helps individuals reframe negative thoughts about change and develop adaptive coping strategies for more effective stress management.",
     },
     {
       title: "Supportive Counseling",
       description:
-        "This approach offers a safe environment for emotional expression, helping individuals process life changes and explore actionable solutions.",
+        "This therapeutic approach provides a safe space for emotional expression, helping individuals process life transitions and develop practical solutions.",
     },
     {
       title: "Mindfulness-Based Stress Reduction (MBSR)",
       description:
-        "MBSR improves emotional resilience by increasing present-moment awareness and calming physiological responses to stress.",
+        "MBSR enhances emotional resilience by cultivating present-moment awareness and reducing physiological stress responses.",
     },
     {
       title: "Interpersonal Therapy (IPT)",
       description:
-        "IPT focuses on strengthening communication skills and resolving interpersonal conflicts that may be amplifying distress.",
+        "IPT emphasizes improving communication skills and resolving interpersonal conflicts that may be exacerbating emotional distress.",
     },
     {
       title: "Pharmacological Support",
       description:
-        "SSRIs and anxiolytics are used to reduce emotional distress, sleep aids support rest, and beta-blockers help manage physical symptoms like palpitations.",
+        "SSRIs and anxiolytics may be prescribed to alleviate emotional distress, sleep medications can improve rest quality, and beta-blockers help manage physical symptoms such as heart palpitations.",
     },
     {
       title: "Complementary Interventions",
@@ -43,20 +43,20 @@ const AdjustmentRelated = () => {
   const symptoms = {
     emotional: [
       "Persistent feelings of sadness or anxiety",
-      "Heightened emotional reactivity or crying spells",
-      "Overwhelming sense of helplessness or emotional shutdown",
+      "Increased emotional reactivity or frequent crying episodes",
+      "Profound feelings of helplessness or emotional numbing",
     ],
     behavioral: [
-      "Avoidance of social contact or daily activities",
-      "Irritability, anger outbursts, or impulsivity",
-      "Sleep or appetite disturbances",
-      "Engagement in reckless or harmful behaviors",
+      "Social withdrawal or avoidance of routine activities",
+      "Increased irritability, angry outbursts, or impulsive behaviors",
+      "Disrupted sleep patterns or appetite changes",
+      "Participation in risky or self-destructive behaviors",
     ],
     cognitive: [
-      "Impaired attention and decision-making",
-      "Self-critical thoughts or pessimism",
-      "Intrusive worries about the stressor",
-      "Fearful anticipation of future events",
+      "Compromised concentration and decision-making abilities",
+      "Negative self-evaluation or pessimistic thinking patterns",
+      "Persistent, intrusive thoughts about the stressful situation",
+      "Anxious anticipation about future challenges",
     ],
   };
 
@@ -110,16 +110,10 @@ const AdjustmentRelated = () => {
       <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-20 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Adjustment-related problems occur when individuals face difficulty
-            adapting to significant life changes such as relocation, job loss,
-            relationship breakdown, or bereavement. These stressors can disrupt
-            emotional regulation, behavior, and daily functioning.
+            Adjustment-related problems arise when individuals experience difficulty adapting to significant life changes such as relocation, job loss, relationship breakdowns, or bereavement. These stressors can significantly disrupt emotional regulation, behavioral patterns, and daily functioning.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            When the resulting distress is excessive or prolonged, it may be
-            diagnosed as Adjustment Disorder under DSM-5 guidelines. This
-            condition can impair personal, social, or occupational life unless
-            timely intervention is provided.
+            When the resulting distress becomes excessive or prolonged, it may meet criteria for Adjustment Disorder according to DSM-5 diagnostic guidelines. This condition can significantly impair personal relationships, social functioning, and occupational performance without timely intervention.
           </p>
         </div>
       </section>
@@ -132,8 +126,7 @@ const AdjustmentRelated = () => {
           Causes of Adjustment-Related Problems
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-          These problems stem from a blend of biological sensitivity,
-          psychological traits, and environmental stressors.
+          These problems result from a complex interaction of biological vulnerability, psychological factors, and environmental stressors.
         </p>
 
         <div className="grid lg:grid-cols-3 grid-cols-1 gap-4 mb-0">
@@ -147,10 +140,7 @@ const AdjustmentRelated = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Genetic predisposition, disrupted stress regulation (like HPA
-                  axis dysfunction), and existing mental health conditions such
-                  as anxiety or depression increase the risk of adjustment
-                  difficulties.
+                  Genetic predisposition, disrupted stress response systems (such as HPA axis dysfunction), and pre-existing mental health conditions including anxiety or depression increase vulnerability to adjustment difficulties.
                 </p>
               </div>
             </div>
@@ -166,9 +156,7 @@ const AdjustmentRelated = () => {
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Unexpected life changes—such as moving cities, divorce, job
-                  loss, or trauma—can overwhelm one&apos;s coping capacity and
-                  trigger psychological distress or dysfunction.
+                  Unexpected life transitions—such as relocating, divorce, job loss, or traumatic events—can overwhelm an individual&apos;s coping capacity and trigger significant psychological distress.
                 </p>
               </div>
             </div>
@@ -184,9 +172,7 @@ const AdjustmentRelated = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Limited support systems, unhealthy coping behaviors, societal
-                  pressure, and poor conflict-resolution skills can hinder
-                  emotional adaptation and increase vulnerability to stress.
+                  Inadequate support systems, maladaptive coping strategies, social pressures, and poor conflict-resolution skills can impede emotional adaptation and increase stress vulnerability.
                 </p>
               </div>
             </div>
@@ -203,8 +189,7 @@ const AdjustmentRelated = () => {
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Symptoms often appear within three months of a stressor and affect
-          mood, behavior, and cognitive processing.
+          Symptoms typically emerge within three months of the triggering stressor and impact mood regulation, behavioral patterns, and cognitive functioning.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-between gap-4 text-black mb-16">
@@ -263,9 +248,7 @@ const AdjustmentRelated = () => {
         </h2>
 
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-          Managing adjustment issues involves emotional regulation, cognitive
-          restructuring, lifestyle changes, and sometimes therapeutic
-          intervention. Here are some recommended solutions:
+          Effective treatment requires a comprehensive approach integrating psychological therapies, medication when indicated, and community-based support systems.
         </p>
 
         <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
