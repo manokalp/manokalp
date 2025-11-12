@@ -117,7 +117,7 @@ export default function ContactPage() {
             Take the First Step Toward a Healthier Mind
           </h2>
           <p className="text-black lg:text-[1.25vw] text-[3.5vw] max-w-4xl mx-auto mb-6 md:mb-10">
-            Whether you're struggling with anxiety, feeling emotionally overwhelmed, or simply seeking clarity, therapy can help you realign with yourself. At Manokalp, we offer compassionate, science-backed mental health support tailored to your needs—no judgment, just care. We offer sessions online and in-person, for individuals, couples, parents, and organizations.
+            Whether you&apos;re struggling with anxiety, feeling emotionally overwhelmed, or simply seeking clarity, therapy can help you realign with yourself. At Manokalp, we offer compassionate, science-backed mental health support tailored to your needs—no judgment, just care. We offer sessions online and in-person, for individuals, couples, parents, and organizations.
           </p>
 
           <div className="max-w-5xl mx-auto text-left">
