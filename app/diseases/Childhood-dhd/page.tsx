@@ -57,19 +57,11 @@ const ChildhoodADHD = () => {
      
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Attention-Deficit/Hyperactivity Disorder (ADHD) in children is a
-            neurodevelopmental disorder characterized by persistent patterns of
-            inattention, hyperactivity, and impulsivity that significantly
-            interfere with the child&apos;s ability to function in daily life.
+            Childhood Attention-Deficit/Hyperactivity Disorder (ADHD) is a common neurodevelopmental disorder marked by ongoing patterns of inattention, hyperactivity, and impulsivity that impact daily functioning at home, school, and socially.
           </p>
 
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Children with ADHD often have difficulty focusing on tasks, even
-            those they enjoy, and may be overly energetic, impulsive, and
-            struggle to complete tasks or follo17.w instructions. These
-            behaviors are present in various situations—at school, at home, and
-            with friends—and can disrupt emotional, social, and intellectual
-            development.
+            Children with ADHD frequently struggle to maintain focus on both enjoyable and routine tasks, exhibit excessive energy and impulsivity, and find it challenging to complete assignments or follow instructions consistently. These behaviors occur across settings—at school, at home, and with friends—and can disrupt emotional, social, and academic development.
           </p>
         </div>
 
@@ -81,19 +73,13 @@ const ChildhoodADHD = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[8vw] ${playfair.className} mb-8`}
         >
-          Is ADHD a Serious Problem?
+          Is Childhood ADHD a Serious Problem?
         </h2>
 
         <div className="flex flex-col lg:flex-row justify-between gap-8 text-left">
           <div className="lg:w-1/2">
             <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium">
-              ADHD is a serious condition that affects about 2.2% of children
-              worldwide. While many children have occasional lapses in attention
-              or bursts of energy, children with ADHD experience these
-              challenges consistently. These difficulties are not limited to
-              schoolwork but also extend to emotional regulation. Children with
-              ADHD have heightened emotional reactions and struggle to manage
-              frustration, anger, sadness, and nervousness.{" "}
+              Childhood ADHD affects approximately 2.2% of children worldwide and is recognized as a significant neurodevelopmental disorder requiring early diagnosis and intervention. While many children have occasional lapses in attention or bursts of energy, children with ADHD experience these challenges consistently and across settings.
             </p>
           </div>
           <div className="lg:w-1/2">
@@ -113,18 +99,13 @@ const ChildhoodADHD = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[8vw] ${playfair.className} mb-8`}
         >
-          Can I Wait it Out and Delay ADHD Treatment?
+          Delaying treatment for childhood ADHD is not recommended.
         </h2>
 
         <div className="flex flex-col lg:flex-row justify-between gap-8 text-left">
           <div className="lg:w-1/2">
             <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium">
-              Waiting for ADHD to &quot;go away&quot; is not advisable. Without
-              treatment, children with ADHD may continue to struggle with
-              emotional regulation, frustration tolerance, and completing tasks,
-              which can lead to long-term challenges in both personal and
-              academic life. Untreated ADHD can cause children to experience
-              feelings of failure{" "}
+              Delaying treatment for childhood ADHD is not recommended. Without intervention, children with ADHD may continue to struggle with emotional regulation, frustration tolerance, and completing tasks, which can lead to long-term challenges in both personal and academic life.
             </p>
           </div>
           <div className="lg:w-1/2">
@@ -147,17 +128,12 @@ const ChildhoodADHD = () => {
           What Causes ADHD in Children?
         </h2>
         <p className="text-black lg:text-[1.25vw] text-[3.5vw] mb-10">
-          The causes of ASD are still unknown, but it is said to be the result
-          of a combination of genetic and environmental factors. The major
-          factors that contribute to autism are:
+          ADHD results from a combination of genetic and biological factors.
         </p>
         <div className="flex flex-col lg:flex-row justify-between gap-8 text-left">
           <div className="lg:w-1/2">
             <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium">
-              ADHD is thought to result from a combination of genetic and
-              biological factors. Research suggests that certain imbalances in
-              brain chemicals, particularly noradrenaline, contribute to ADHD
-              symptoms.
+              Scientific studies indicate that imbalances in neurotransmitters such as noradrenaline play a key role in the development of ADHD symptoms in children.
             </p>
           </div>
           <div className="lg:w-1/2">
@@ -177,13 +153,10 @@ const ChildhoodADHD = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}
         >
-          Signs and Symptoms of ADHD in Children
+          Common Symptoms of ADHD in Children
         </h2>
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          ADHD manifests in three main areas: inattention, hyperactivity, and
-          impulsivity. These symptoms can appear independently in many children
-          but are chronic and pervasive in children with ADHD. Here are some
-          common signs to watch for:
+          Childhood ADHD symptoms primarily fall into three categories: inattention, hyperactivity, and impulsivity, which affect academic performance and social interactions.
         </p>
 
         {/* Tab Buttons */}
@@ -238,7 +211,7 @@ const ChildhoodADHD = () => {
               <div className="lg:w-1/2">
                 <ul className="text-left text-black">
                   <li className="mb-8 border-b-[2px]">
-                    Difficulty focusing on tasks or details
+                    Difficulty focusing on tasks or details, a key symptom of childhood ADHD.
                   </li>
                   <li className="mb-8 border-b-[2px]">
                     Frequent careless mistakes in schoolwork
@@ -325,7 +298,7 @@ const ChildhoodADHD = () => {
                     Interrupting or intruding on others&apos; conversations or games
                   </li>
                   <li className="mb-8 border-b-[2px]">
-                    Acting without thinking about consequences
+                    Impulsive actions without considering risks
                   </li>
                   <li className="mb-8 border-b-[2px]">
                     Difficulty delaying gratification
@@ -401,13 +374,10 @@ const ChildhoodADHD = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold mb-10 ${playfair.className}`}
         >
-          Treatment of ADHD in Children
+          Effective Treatment Options for Childhood ADHD
         </h2>
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Managing ADHD involves a combination of behavioral strategies,
-          lifestyle changes, and, in some cases, medication. The goal is to help
-          children develop self-regulation, improve focus, and manage their
-          emotions effectively.
+          Effective management of childhood ADHD combines behavioral strategies, lifestyle changes, and medication.
         </p>
         <div className="grid lg:grid-cols-5 grid-cols-1 gap-2">
           {/* Card 1 */}
@@ -422,10 +392,7 @@ const ChildhoodADHD = () => {
             <div className="p-6">
               <h3 className="text-lg font-bold mb-4">Behavior Therapy</h3>
               <p className="text-sm">
-                Focuses on teaching children strategies for managing impulsive
-                behaviors and improving attention. This often involves setting
-                routines, positive reinforcement, and teaching organizational
-                skills.
+                Behavior therapy teaches children strategies to manage impulsivity and improve attention.
               </p>
             </div>
           </div>
@@ -442,12 +409,7 @@ const ChildhoodADHD = () => {
             <div className="p-6">
               <h3 className="text-lg font-bold mb-4">Parenting Techniques</h3>
               <p className="text-sm">
-                Parents can benefit from learning how to manage ADHD-related
-                behaviors through consistent and structured routines,
-                encouragement of healthy habits (e.g., adequate sleep, limited
-                screen time), and teaching children how to focus on tasks.
-                Behavior modification techniques, such as rewards for staying on
-                task, are often effective.
+                Parenting techniques provide tools for managing ADHD behaviors through routines and positive reinforcement.
               </p>
             </div>
           </div>
@@ -464,10 +426,7 @@ const ChildhoodADHD = () => {
             <div className="p-6">
               <h3 className="text-lg font-bold mb-4">Medication</h3>
               <p className="text-sm">
-                In some cases, medication may be recommended to help manage
-                symptoms, particularly for children with more severe ADHD.
-                Stimulants and non-stimulants can help improve focus and reduce
-                hyperactivity and impulsivity.
+                Medications like stimulants and non-stimulants help improve focus and reduce hyperactivity in children with severe ADHD.
               </p>
             </div>
           </div>
@@ -483,14 +442,10 @@ const ChildhoodADHD = () => {
             />
             <div className="p-6">
               <h3 className="text-lg font-bold mb-4">
-                Therapy Goals for Parents{" "}
+                Key Therapy Goals for Parents Managing Childhood ADHD
               </h3>
               <p className="text-sm">
-                Learn about ADHD and how to manage behavior effectively.
-                Implement behavior reinforcement strategies. Develop skills for
-                crisis management and emotional regulation. Teach communication
-                and social skills. Keep calm and consistent in addressing
-                challenging behaviors{" "}
+                Therapy goals for parents include understanding childhood ADHD, implementing effective behavior management techniques, and fostering emotional support.
               </p>
             </div>
           </div>
@@ -506,13 +461,10 @@ const ChildhoodADHD = () => {
             />
             <div className="p-6">
               <h3 className="text-lg font-bold mb-4">
-                Therapy Goals for Children:
+                Therapy Goals for Children with ADHD
               </h3>
               <p className="text-sm">
-                Channel excess energy in a positive way. Develop frustration
-                tolerance and emotional regulation. Set and follow routines.
-                Improve self-esteem and social skills. Build assertive
-                communication skills.
+                Therapy for children with ADHD focuses on channeling hyperactivity constructively, enhancing frustration tolerance, and developing social and communication skills.
               </p>
             </div>
           </div>
@@ -525,14 +477,11 @@ const ChildhoodADHD = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[8vw] font-bold ${playfair.className} mb-10`}
         >
-          Support for ADHD
+          Ongoing Support and Care for Children with ADHD
         </h2>
         <div className="flex flex-col lg:flex-row justify-between items-center text-left text-black gap-20 mb-50">
           <p>
-            ADHD is a lifelong condition, and while treatment can significantly
-            help children manage symptoms, ongoing support is essential. Parent
-            education, behavior therapy, cognitive therapy, and specialized
-            interventions all play a role in maximizing a child&apos;s potential.
+            Childhood ADHD is a lifelong condition; continuous support through therapy, education, and medication is crucial for helping children reach their full potential.
           </p>
           <p>
             {" "}

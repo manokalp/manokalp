@@ -9,27 +9,27 @@ const StressinChildren = () => {
 
   const causes = [
     {
-      name: "Psychological and Emotional Factors",
+      name: "Emotional and Psychological Factors",
       description:
-        " Unresolved trauma, low self-esteem, chronic stress, or co-occurring mental health conditions may fuel addictive behavior.",
+        "Low emotional awareness, self-criticism, unrealistic expectations, and limited problem-solving skills can heighten stress responses.",
       image: "/genetic-factors.webp", // Replace with your actual image path
       link: "/genetic-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
       textColor: "text-white",
     },
     {
-      name: "Biological Factors",
+      name: "Family and Environmental Factors",
       description:
-        " Genetic predisposition, neurotransmitter imbalances, and brain changes from substance use increase addiction risk.",
+        "Family conflict, parental separation, academic pressure, bullying, and exposure to traumatic news can overwhelm a child’s coping ability.",
       image: "/genetic-factors.webp", // Replace with your actual image path
       link: "/genetic-factors",
       bgColor: "bg-[#FFD700]", // Yellow background
       textColor: "text-black",
     },
     {
-      name: "Environmental and Social Factors",
+      name: "Social and Peer Influences",
       description:
-        "  Peer pressure, family dysfunction, exposure to substance use, and lack of social support elevate addiction risk.",
+        "Friendship conflicts, peer rejection, social media pressure, and performance competition contribute to childhood stress and anxiety.",
       image: "/psychological-factors.webp", // Replace with your actual image path
       link: "/psychological-factors",
       bgColor: "bg-[#0E7EA0]", // Blue background
@@ -183,11 +183,10 @@ const StressinChildren = () => {
           className="text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold mb-8"
           style={{ fontFamily: "Playfair" }}
         >
-          Causes of Schizophrenia
+          Causes of Stress in Children
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-          Schizophrenia develops from a complex interplay of genetic,
-          neurobiological, and environmental factors.
+          Childhood stress is triggered by a mix of personal, social, and environmental factors.
         </p>
 
         {/* Causes Grid */}
@@ -226,8 +225,7 @@ const StressinChildren = () => {
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Childhood stress manifests through emotional, cognitive, physical, and
-          behavioral changes that vary by developmental stage.
+          Stress in children can appear through emotional, cognitive, physical, and behavioral changes.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-center gap-4 text-black mb-16">
@@ -282,12 +280,11 @@ const StressinChildren = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold ${playfair.className}`}
         >
-          Solutions for Managing Childhood Stress
+          Solutions for Managing Stress in Children
         </h2>
 
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-          Childhood stress management requires supportive approaches that build
-          resilience and healthy coping skills.
+          Managing childhood stress involves emotional support, positive lifestyle habits, and a nurturing environment.
         </p>
 
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4">

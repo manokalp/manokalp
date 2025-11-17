@@ -55,20 +55,11 @@ const Autism = () => {
        
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Autism Spectrum Disorder (ASD) is a neurodevelopmental disorder that
-            involves communication, social interaction, and behavior. It is
-            referred to as a spectrum disorder because it covers a broad
-            spectrum of symptoms and severity levels, ranging from mild to
-            severe. People with ASD can have difficulties in comprehending
-            social cues,
+            Autism Spectrum Disorder (ASD) is a neurodevelopmental disorder characterized by difficulties in communication, social interaction, and behavior. It is called a spectrum disorder because it encompasses a wide range of symptoms and severity levels, from mild to severe.
           </p>
 
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            expressing emotions, and participating in normal social
-            interactions. Although autism is a lifelong disorder, early
-            diagnosis and treatment can make a big difference to one&apos;s
-            quality of life and assist a person in acquiring the necessary
-            skills to effectively function in the world.
+            People with ASD often struggle with interpreting social cues, expressing emotions, and engaging in typical social interactions. Although autism is a lifelong condition, early diagnosis and intervention can significantly improve quality of life and help individuals acquire essential skills for daily functioning.
           </p>
         </div>
 
@@ -83,9 +74,7 @@ const Autism = () => {
           Causes of Autistic Disorders
         </h2>
         <p className="text-black lg:text-[1.25vw] text-[3.5vw] mb-10">
-          The causes of ASD are still unknown, but it is said to be the result
-          of a combination of genetic and environmental factors. The major
-          factors that contribute to autism are:
+          The exact causes of ASD remain unknown; however, it is believed to result from a combination of genetic and environmental factors. Key contributing factors include:
         </p>
 
         <div className="grid lg:grid-cols-6 grid-cols-1 gap-4 mb-60">
@@ -99,9 +88,7 @@ const Autism = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Research suggests that ASD is highly genetic. People with a
-                  history of autism in their family are more likely to develop
-                  the disorder.
+                  Research indicates that genetics play a significant role, with a higher likelihood of ASD in individuals with a family history of the disorder.
                 </p>
               </div>
             </div>
@@ -117,8 +104,7 @@ const Autism = () => {
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Brain differences, especially in neural connections and
-                  function, are thought to contribute to ASD.
+                  Differences in brain structure and neural connectivity are believed to contribute to ASD development.
                 </p>
               </div>
             </div>
@@ -134,9 +120,7 @@ const Autism = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Prenatal exposure to environmental hazards, including maternal
-                  infection, toxin exposure, or birth complications, can raise
-                  the risk of autism.
+                  Prenatal exposure to environmental hazards—such as maternal infections, toxin exposure, or birth complications—may increase the risk of autism.
                 </p>
               </div>
             </div>
@@ -152,8 +136,7 @@ const Autism = () => {
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Certain studies indicate that immune system dysfunction or
-                  inflammation during early brain development can lead to ASD.
+                  Some studies suggest that immune system dysfunction or inflammation during early brain development may contribute to ASD.
                 </p>
               </div>
             </div>
@@ -169,10 +152,7 @@ const Autism = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Although not a direct cause, some environmental triggers, such
-                  as exposure to heavy metals, pollution, and certain
-                  medications taken during pregnancy, are under investigation
-                  for their role in ASD.
+                  While not direct causes, environmental triggers like heavy metal exposure, pollution, and certain prenatal medications are being studied for their potential roles in ASD.
                 </p>
               </div>
             </div>
@@ -188,9 +168,7 @@ const Autism = () => {
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  The combination of genetic susceptibility and environmental
-                  exposure has the potential to change gene expression, which
-                  impacts brain development and results in autism.
+                  Epigenetic mechanisms—interactions between genetic susceptibility and environmental exposure—may alter gene expression, impacting brain development and contributing to autism.
                 </p>
               </div>
             </div>
@@ -287,27 +265,11 @@ const Autism = () => {
             <div className="flex flex-col lg:flex-row justify-between items-center w-full">
               <div className="lg:w-1/2">
                 <ul className="text-left text-black">
-                  <li className="mb-8 border-b-[2px]">
-                    Repetitive movements such as rocking, flapping, or spinning
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Strict adherence to routines and resistance to change
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Intense focus on specific interests or topics
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Lining up toys or objects in specific patterns
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Repetitive speech patterns or echolalia (repeating words or phrases)
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Ritualistic behaviors that must be followed precisely
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Attachment to unusual objects or parts of objects
-                  </li>
+                  <li className="mb-8 border-b-[2px]">Repetitive movements such as hand-flapping, rocking, or spinning</li>
+                  <li className="mb-8 border-b-[2px]">Insistence on sameness and resistance to changes in routine</li>
+                  <li className="mb-8 border-b-[2px]">Intense focus on specific subjects, objects, or tasks</li>
+                  <li className="mb-8 border-b-[2px]">Excessive fixation or unusual preoccupation with certain items</li>
+                  <li className="mb-8 border-b-[2px]">Echolalia, or repeating words/phrases without understanding their meaning</li>
                 </ul>
               </div>
               <div className="lg:w-[40%] w-[80vw] h-[40vh] lg:mt-0 mt-8">
@@ -327,27 +289,9 @@ const Autism = () => {
             <div className="flex flex-col lg:flex-row justify-between items-center w-full">
               <div className="lg:w-1/2">
                 <ul className="text-left text-black">
-                  <li className="mb-8 border-b-[2px]">
-                    Heightened sensitivity to sounds, lights, textures, or smells
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Unusual responses to sensory input (covering ears, avoiding certain textures)
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Seeking sensory stimulation (touching objects, making loud noises)
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Apparent indifference to pain, temperature, or discomfort
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Fascination with lights, spinning objects, or moving parts
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Unusual visual examination of objects (peripheral vision, close inspection)
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Difficulties with food textures or strong preferences for certain foods
-                  </li>
+                  <li className="mb-8 border-b-[2px]">Hypersensitivity or hyposensitivity to sensory stimuli such as light, noise, touch, textures, or odors</li>
+                  <li className="mb-8 border-b-[2px]">Extreme sensitivity to loud noises or bright lights</li>
+                  <li className="mb-8 border-b-[2px]">Seeking sensory input through excessive touching or self-stimulatory behaviors</li>
                 </ul>
               </div>
               <div className="lg:w-[40%] w-[80vw] h-[40vh] lg:mt-0 mt-8">
@@ -367,27 +311,9 @@ const Autism = () => {
             <div className="flex flex-col lg:flex-row justify-between items-center w-full">
               <div className="lg:w-1/2">
                 <ul className="text-left text-black">
-                  <li className="mb-8 border-b-[2px]">
-                    Uneven cognitive abilities (strengths in some areas, challenges in others)
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Exceptional memory for facts, details, or special interests
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Difficulty with abstract concepts or understanding other&apos;s perspectives
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Challenges with executive functioning (planning, organizing, problem-solving)
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Emotional regulation difficulties or unexpected emotional responses
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Anxiety, particularly in unfamiliar or overwhelming situations
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Literal thinking and difficulty with nuanced communication
-                  </li>
+                  <li className="mb-8 border-b-[2px]">Difficulty understanding abstract concepts or figurative language</li>
+                  <li className="mb-8 border-b-[2px]">Challenges with problem-solving and flexible thinking</li>
+                  <li className="mb-8 border-b-[2px]">Emotional regulation difficulties, which may cause meltdowns or anxiety</li>
                 </ul>
               </div>
               <div className="lg:w-[40%] w-[80vw] h-[40vh] lg:mt-0 mt-8">
@@ -417,31 +343,31 @@ const Autism = () => {
     {[
       {
         title: "Early Intervention Programs",
-        desc: "Early diagnosis and treatment, such as speech therapy, occupational therapy, and behavior therapy, can contribute to major differences in developmental outcome.",
+        desc: "Early diagnosis and intervention—including speech therapy, occupational therapy, and behavioral therapy—can significantly improve developmental outcomes.",
         img: "https://images.pexels.com/photos/8613086/pexels-photo-8613086.jpeg",
         alt: "Therapist helping child with autism"
       },
       {
         title: "Applied Behavior Analysis (ABA)",
-        desc: "Antidepressants, mood stabilizers, and antipsychotic drugs are often prescribed to balance brain chemistry.",
+        desc: "Applied Behavior Analysis (ABA) is a widely used therapy that encourages desired behaviors and reduces challenging behaviors through structured techniques.",
         img: "https://images.pexels.com/photos/4101130/pexels-photo-4101130.jpeg",
         alt: "Therapist engaging in behavior therapy session"
       },
       {
         title: "Speech and Language Therapy",
-        desc: "Assists an individual in the development of communications skills, both verbal and non-verbal strategies like picture exchange systems or aid communication devices.",
+        desc: "Speech and language therapy helps develop communication skills using verbal and non-verbal strategies, such as picture exchange systems and assistive communication devices.",
         img: "https://images.pexels.com/photos/8613072/pexels-photo-8613072.jpeg",
         alt: "Speech therapist working with a child"
       },
       {
         title: "Social Skills Training",
-        desc: "Provides instruction in how to get around social interactions, form relationships, and learn social rules.",
+        desc: "Social skills training teaches navigating social interactions, building relationships, and understanding social rules.",
         img: "https://images.pexels.com/photos/8363132/pexels-photo-8363132.jpeg",
         alt: "Children interacting in a therapy setting"
       },
       {
         title: "Occupational Therapy",
-        desc: "Seeks to enhance sensory integration, motor skills, and daily living skills to maximize independence.",
+        desc: "Occupational therapy improves sensory integration, motor skills, and daily living abilities to promote independence.",
         img: "https://images.pexels.com/photos/8613082/pexels-photo-8613082.jpeg",
         alt: "Therapist helping child with motor skills"
       },
@@ -453,55 +379,55 @@ const Autism = () => {
       },
       {
         title: "Cognitive-Behavioral Therapy (CBT)",
-        desc: "Assists with controlling anxiety, stress, and emotional regulation issues.",
+        desc: "Cognitive-Behavioral Therapy (CBT) helps manage anxiety, stress, and emotional regulation challenges.",
         img: "https://images.pexels.com/photos/4101143/pexels-photo-4101143.jpeg",
         alt: "Counselor talking to patient"
       },
       {
         title: "Educational Support and Individualized Learning Plans (IEPs)",
-        desc: "Institutions can deliver special education plans to meet varying learning styles and academic achievement.",
+        desc: "Educational support through Individualized Education Programs (IEPs) addresses diverse learning styles and academic needs.",
         img: "https://images.pexels.com/photos/3184300/pexels-photo-3184300.jpeg",
         alt: "Teacher helping student in class"
       },
       {
         title: "Sensory Integration Therapy",
-        desc: "Aims at assisting the person in dealing with sensory sensitivities and enhancing sensory processing.",
+        desc: "Sensory integration therapy helps individuals manage sensory sensitivities and improve sensory processing.",
         img: "https://images.pexels.com/photos/8613071/pexels-photo-8613071.jpeg",
         alt: "Child playing with sensory toy"
       },
       {
         title: "Medication Management",
-        desc: "Although there is no drug to cure autism, some drugs may be used to manage symptoms like anxiety, hyperactivity, or sleep disturbances.",
+        desc: "While no medication cures autism, certain drugs can manage symptoms such as anxiety, hyperactivity, and sleep disturbances.",
         img: "https://images.pexels.com/photos/4058218/pexels-photo-4058218.jpeg",
         alt: "Close-up of prescribed pills"
       },
       {
         title: "Parental Support and Training",
-        desc: "Empowering parents with strategies and tools to support their child&apos;s development and well-being is key to effective management of ASD.",
+        desc: "Parental support and training equip caregivers with strategies to promote their child’s development and well-being.",
         img: "https://images.unsplash.com/photo-1517841905240-472988babdf9",
         alt: "Parent helping child at home"
       },
       {
         title: "Structured Routine and Visual Supports",
-        desc: "Structured routines, social stories, and visual schedules can assist individuals with ASD in comprehending expectations and minimizing anxiety.",
+        desc: "Structured routines, social stories, and visual schedules help individuals with ASD understand expectations and reduce anxiety.",
         img: "https://images.pexels.com/photos/8535247/pexels-photo-8535247.jpeg",
         alt: "Routine board with visual schedule"
       },
       {
         title: "Facilitating Special Interests and Strengths",
-        desc: "Most people with ASD possess exceptional talents or special interests in a particular area. Facilitating these strengths will build confidence and career prospects.",
+        desc: "Many individuals with ASD have special interests or talents; nurturing these strengths builds confidence and opens career opportunities.",
         img: "https://images.pexels.com/photos/4145352/pexels-photo-4145352.jpeg",
         alt: "Young boy building with blocks"
       },
       {
         title: "Community and Peer Support Groups",
-        desc: "Being part of autism support communities offers emotional support, resources, and chances of social interaction.",
+        desc: "Participation in autism support groups provides emotional support, resources, and social interaction opportunities.",
         img: "https://images.pexels.com/photos/7422074/pexels-photo-7422074.jpeg",
         alt: "Support group sitting in circle"
       },
       {
         title: "Self-Care and Well-being",
-        desc: "Providing the people with ASD with access to those activities promoting relaxation and overall well-being, for example, exercise, hobbying, or practicing mindfulness.",
+        desc: "Encouraging self-care activities such as exercise, hobbies, and mindfulness promotes relaxation and overall well-being for individuals with ASD.",
         img: "https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg",
         alt: "Person meditating peacefully"
       },
@@ -534,18 +460,10 @@ const Autism = () => {
         </h2>
         <div className="flex flex-col lg:flex-row justify-between items-center text-left text-black gap-20 mb-50">
           <p>
-            Autism Spectrum Disorder is a highly complex and varied condition
-            with implications for how the individual experiences life.
-            Difficulties certainly present themselves, yet early intervention,
-            individualized therapy, and proper environment can improve an
-            individual&apos;s capacity for survival immensely.
+            Autism Spectrum Disorder is a complex and diverse condition that profoundly shapes an individual's life experience. Although challenges exist, early intervention, personalized therapies, and supportive environments can greatly enhance quality of life.
           </p>
           <p>
-            By emphasizing strengths, promoting inclusivity, and offering proper
-            resources, society can build a more accommodating and accepting
-            world for those with autism. Greater awareness and education about
-            ASD can contribute to making sure that those with autism get the
-            help that they need to live happy and fulfilling lives
+            By focusing on strengths, fostering inclusivity, and providing adequate resources, society can create a more welcoming and supportive world for individuals with autism. Increased awareness and education are vital to ensuring that people with ASD receive the help they need to live fulfilling lives.
           </p>
         </div>
       </section>

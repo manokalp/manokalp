@@ -57,18 +57,10 @@ const ChildhoodAnxiety = () => {
        
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Childhood anxiety is a common mental health disorder that occurs in
-            children of various ages and backgrounds. Although it is natural for
-            children to have occasional fears and worries, excessive anxiety can
-            disrupt their daily functioning, school performance, and social
-            relationships.
+            Childhood anxiety disorder is a prevalent mental health condition affecting children across different ages and backgrounds. While occasional fears are normal, excessive childhood anxiety can severely disrupt daily activities, academic performance, and social interactions.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Anxiety in children can be expressed in different forms, such as
-            chronic nervousness, avoidance behaviors, and somatic symptoms.
-            Learning about the causes, symptoms, and remedies for child anxiety
-            is critical for parents, caregivers, and educators to enable
-            children to manage their feelings well and become resilient.
+            Understanding the causes, symptoms, and treatment options for childhood anxiety is essential for parents, caregivers, and educators to support children's emotional resilience.
           </p>
         </div>
 
@@ -83,9 +75,7 @@ const ChildhoodAnxiety = () => {
           Causes of Child Anxiety
         </h2>
         <p className="text-black lg:text-[1.25vw] text-[3.5vw] mb-10">
-          Childhood anxiety can be caused by a combination of genetic,
-          environmental, and psychological factors. Some of the most prevalent
-          causes are:
+          Childhood anxiety develops due to a combination of genetic predisposition, environmental influences, and psychological factors. Key causes of childhood anxiety include:
         </p>
 
         <div className="grid lg:grid-cols-7 grid-cols-1 gap-4 mb-60">
@@ -99,8 +89,7 @@ const ChildhoodAnxiety = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                   Children whose family has a history of anxiety or mental
-                  illness have a higher chance of developing anxiety.
+                  Children with a family history of anxiety or mental health disorders are more likely to develop childhood anxiety.
                 </p>
               </div>
             </div>
@@ -111,13 +100,12 @@ const ChildhoodAnxiety = () => {
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [backface-visibility:hidden]">
                 <h3 className="lg:text-[1.25vw] text-[4vw] font-bold">
-                  Brain Chemistry and Development
+                  Brain Chemistry
                 </h3>
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Dysregulation of neurotransmitters like serotonin and dopamine
-                  can lead to increased anxiety in children.
+                  Imbalances in neurotransmitters such as serotonin and dopamine contribute to childhood anxiety symptoms.
                 </p>
               </div>
             </div>
@@ -128,14 +116,12 @@ const ChildhoodAnxiety = () => {
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#0E7EA0]  w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [backface-visibility:hidden]">
                 <h3 className="lg:text-[1.25vw] text-[4vw] font-bold">
-                  Trauma and Stressful Life Events
+                  Trauma and Stress
                 </h3>
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Having experienced traumatic events, including a divorce of
-                  parents, bullying, or the loss of a parent, leads to anxiety
-                  in children.
+                  Experiences like parental divorce, bullying, or loss of a loved one often trigger anxiety in children.
                 </p>
               </div>
             </div>
@@ -146,13 +132,12 @@ const ChildhoodAnxiety = () => {
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [backface-visibility:hidden]">
                 <h3 className="lg:text-[1.25vw] text-[4vw] font-bold">
-                  Parental Overprotectiveness and Influence
+                  Parental Influence
                 </h3>
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Overprotective or overly anxious parents tend to reinforce
-                  anxiety in children unwittingly.
+                  Overprotective or anxious parenting styles can unintentionally increase anxiety in children.
                 </p>
               </div>
             </div>
@@ -163,13 +148,12 @@ const ChildhoodAnxiety = () => {
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [backface-visibility:hidden]">
                 <h3 className="lg:text-[1.25vw] text-[4vw] font-bold">
-                  Academic Pressures
+                  Academic Pressure
                 </h3>
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Fear of failure, social interactions at school, and academic
-                  expectations place immense stress and anxiety on children.
+                  Fear of failure and social challenges at school contribute significantly to childhood anxiety.
                 </p>
               </div>
             </div>
@@ -185,9 +169,7 @@ const ChildhoodAnxiety = () => {
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Fear of being separated from a caregiver is normal in young
-                  children but can evolve into separation anxiety disorder if
-                  continued.
+                  While normal in toddlers, prolonged fear of caregiver separation may develop into separation anxiety disorder.
                 </p>
               </div>
             </div>
@@ -198,13 +180,12 @@ const ChildhoodAnxiety = () => {
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [backface-visibility:hidden]">
                 <h3 className="lg:text-[1.25vw] text-[4vw] font-bold">
-                  Environmental and Societal Factors
+                  Environmental Factors
                 </h3>
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Exposure to negative news, family conflict, or unsafe
-                  environments can contribute to childhood anxiety.
+                  Exposure to family conflict, unsafe surroundings, or distressing news increases risk of childhood anxiety.
                 </p>
               </div>
             </div>
@@ -217,12 +198,10 @@ const ChildhoodAnxiety = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}
         >
-          Symptoms of Childhood Anxiety
+          Common Symptoms of Childhood Anxiety Disorder
         </h2>
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Anxiety in children appears in the form of a mix of physical,
-          emotional, and behavioral symptoms. Some of the most frequent signs
-          are:
+          Children with anxiety exhibit a combination of physical, emotional, and behavioral symptoms.
         </p>
         
         {/* Tab Buttons */}
@@ -285,9 +264,7 @@ const ChildhoodAnxiety = () => {
                   <li className="mb-8 border-b-[2px]">
                     Sweating or trembling
                   </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Restlessness and tiredness
-                  </li>
+                  <li className="mb-8 border-b-[2px]">Restlessness and fatigue</li>
                   <li className="mb-8 border-b-[2px]">
                     Difficulty sleeping or frequent nightmares
                   </li>
@@ -310,21 +287,11 @@ const ChildhoodAnxiety = () => {
             <div className="flex flex-col lg:flex-row justify-between items-center w-full">
               <div className="lg:w-1/2">
                 <ul className="text-left text-black">
-                  <li className="mb-8 border-b-[2px]">
-                    Excessive worry and fear
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Irritability or mood swings
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Feeling overwhelmed or panicky
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Intense fear of specific situations or objects
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Persistent feelings of dread or impending danger
-                  </li>
+                  <li className="mb-8 border-b-[2px]">Excessive worry about future events</li>
+                  <li className="mb-8 border-b-[2px]">Difficulty concentrating or focusing</li>
+                  <li className="mb-8 border-b-[2px]">Frequent crying or emotional outbursts</li>
+                  <li className="mb-8 border-b-[2px]">Irritability and mood swings</li>
+                  <li className="mb-8 border-b-[2px]">Low self-esteem and feelings of helplessness</li>
                 </ul>
               </div>
               <div className="lg:w-[40%] w-[80vw] h-[40vh] lg:mt-0 mt-8">
@@ -344,21 +311,11 @@ const ChildhoodAnxiety = () => {
             <div className="flex flex-col lg:flex-row justify-between items-center w-full">
               <div className="lg:w-1/2">
                 <ul className="text-left text-black">
-                  <li className="mb-8 border-b-[2px]">
-                    Avoidance of certain activities or places
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Clinginess or difficulty separating from parents
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Refusing to go to school or social gatherings
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Tantrums, crying, or freezing in stressful situations
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Seeking constant reassurance or approval
-                  </li>
+                  <li className="mb-8 border-b-[2px]">Avoidance of social or school activities</li>
+                  <li className="mb-8 border-b-[2px]">Clinging excessively to caregivers</li>
+                  <li className="mb-8 border-b-[2px]">Difficulty making friends or joining groups</li>
+                  <li className="mb-8 border-b-[2px]">Repetitive behaviors or compulsions</li>
+                  <li className="mb-8 border-b-[2px]">Frequent need for reassurance</li>
                 </ul>
               </div>
               <div className="lg:w-[40%] w-[80vw] h-[40vh] lg:mt-0 mt-8">
@@ -378,21 +335,9 @@ const ChildhoodAnxiety = () => {
             <div className="flex flex-col lg:flex-row justify-between items-center w-full">
               <div className="lg:w-1/2">
                 <ul className="text-left text-black">
-                  <li className="mb-8 border-b-[2px]">
-                    Negative thinking patterns or catastrophizing
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Difficulty concentrating or mind going blank
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Perfectionism or fear of making mistakes
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Overthinking or obsessing over details
-                  </li>
-                  <li className="mb-8 border-b-[2px]">
-                    Excessive self-criticism or worry about judgment
-                  </li>
+                  <li className="mb-8 border-b-[2px]">Persistent negative thoughts and overanalyzing situations</li>
+                  <li className="mb-8 border-b-[2px]">Difficulty making decisions due to worry</li>
+                  <li className="mb-8 border-b-[2px]">Inability to relax or disengage from fearful thoughts</li>
                 </ul>
               </div>
               <div className="lg:w-[40%] w-[80vw] h-[40vh] lg:mt-0 mt-8">
@@ -412,10 +357,10 @@ const ChildhoodAnxiety = () => {
 {/* Solutions in Managing Childhood Anxiety */}
 <section className="bg-white w-full h-full lg:px-20 px-10 lg:py-20 py-10 text-center">
   <h2 className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold ${playfair.className}`}>
-    Solutions in Managing Childhood Anxiety
+    Effective Strategies for Managing Childhood Anxiety
   </h2>
   <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-    Managing childhood anxiety effectively requires a collaborative plan that includes parents, teachers, and mental health clinicians. Below are some strategies useful in reducing child anxiety:
+    Managing childhood anxiety requires a collaborative approach involving parents, educators, and mental health professionals.
   </p>
   <div className="grid lg:grid-cols-3 grid-cols-1 gap-4">
 
@@ -423,8 +368,8 @@ const ChildhoodAnxiety = () => {
     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
       <img src="https://images.pexels.com/photos/8653951/pexels-photo-8653951.jpeg" alt="parent listening to child" className="w-full h-48 object-cover rounded-2xl mb-6" />
       <div className="p-6">
-        <h3 className="text-lg font-bold mb-4">Promoting Open Communication</h3>
-        <p className="text-sm">Allowing children a secure environment to express fears helps them feel heard and comforted.</p>
+        <h3 className="text-lg font-bold mb-4">Open Communication</h3>
+        <p className="text-sm">Creating a safe space for children to express fears helps them feel supported and understood.</p>
       </div>
     </div>
 
@@ -432,8 +377,8 @@ const ChildhoodAnxiety = () => {
     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
       <img src="https://images.pexels.com/photos/7447266/pexels-photo-7447266.jpeg" alt="child doing breathing exercise" className="w-full h-48 object-cover rounded-2xl mb-6" />
       <div className="p-6">
-        <h3 className="text-lg font-bold mb-4">Education on Relaxation Techniques</h3>
-        <p className="text-sm">Deep breathing, mindfulness, and guided imagery assist anxious children in relaxing their minds.</p>
+        <h3 className="text-lg font-bold mb-4">Relaxation Techniques</h3>
+        <p className="text-sm">Teaching deep breathing, mindfulness, and guided imagery helps children reduce anxiety.</p>
       </div>
     </div>
 
@@ -441,8 +386,8 @@ const ChildhoodAnxiety = () => {
     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
       <img src="https://images.pexels.com/photos/3810789/pexels-photo-3810789.jpeg" alt="family planning daily routine" className="w-full h-48 object-cover rounded-2xl mb-6" />
       <div className="p-6">
-        <h3 className="text-lg font-bold mb-4">Developing a Routine</h3>
-        <p className="text-sm">Structured schedules and habits help give anxious children a sense of stability and security.</p>
+        <h3 className="text-lg font-bold mb-4">Establishing Routines</h3>
+        <p className="text-sm">Consistent daily schedules provide stability and reduce anxiety in children.</p>
       </div>
     </div>
 
@@ -450,8 +395,8 @@ const ChildhoodAnxiety = () => {
     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
       <img src="https://images.pexels.com/photos/4098285/pexels-photo-4098285.jpeg" alt="therapy session teaching coping skills" className="w-full h-48 object-cover rounded-2xl mb-6" />
       <div className="p-6">
-        <h3 className="text-lg font-bold mb-4">Developing Coping Skills</h3>
-        <p className="text-sm">Teaching children problem-solving and emotional control techniques helps them better manage anxiety.</p>
+        <h3 className="text-lg font-bold mb-4">Coping Skills</h3>
+        <p className="text-sm">Teaching problem-solving and emotional regulation empowers children to handle anxiety.</p>
       </div>
     </div>
 
@@ -459,8 +404,8 @@ const ChildhoodAnxiety = () => {
     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
       <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9" alt="child gradually encountering fear with support" className="w-full h-48 object-cover rounded-2xl mb-6" />
       <div className="p-6">
-        <h3 className="text-lg font-bold mb-4">Exposure to Fears Gradually</h3>
-        <p className="text-sm">Exposing children to fears in small steps can decrease avoidance and build confidence.</p>
+        <h3 className="text-lg font-bold mb-4">Gradual Exposure</h3>
+        <p className="text-sm">Slowly introducing feared situations reduces avoidance and builds confidence.</p>
       </div>
     </div>
 
@@ -468,8 +413,8 @@ const ChildhoodAnxiety = () => {
     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
       <img src="https://images.pexels.com/photos/4065905/pexels-photo-4065905.jpeg" alt="child being active and healthy snack" className="w-full h-48 object-cover rounded-2xl mb-6" />
       <div className="p-6">
-        <h3 className="text-lg font-bold mb-4">Healthy Lifestyle Habits</h3>
-        <p className="text-sm">A balanced diet, regular exercise, and proper sleep contribute to overall emotional well‑being.</p>
+        <h3 className="text-lg font-bold mb-4">Healthy Habits</h3>
+        <p className="text-sm">Balanced nutrition, physical activity, and adequate sleep support emotional wellbeing.</p>
       </div>
     </div>
 
@@ -477,8 +422,8 @@ const ChildhoodAnxiety = () => {
     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
       <img src="https://images.pexels.com/photos/4065907/pexels-photo-4065907.jpeg" alt="child unplugging from screen" className="w-full h-48 object-cover rounded-2xl mb-6" />
       <div className="p-6">
-        <h3 className="text-lg font-bold mb-4">Restricting Screen Use & Stressful Info</h3>
-        <p className="text-sm">Limiting exposure to upsetting news and social media can reduce sources of anxiety.</p>
+        <h3 className="text-lg font-bold mb-4">Limiting Screen Time</h3>
+        <p className="text-sm">Reducing exposure to distressing news and social media decreases anxiety triggers.</p>
       </div>
     </div>
 
@@ -487,7 +432,7 @@ const ChildhoodAnxiety = () => {
       <img src="https://images.pexels.com/photos/7008012/pexels-photo-7008012.jpeg" alt="child receiving praise and encouragement" className="w-full h-48 object-cover rounded-2xl mb-6" />
       <div className="p-6">
         <h3 className="text-lg font-bold mb-4">Positive Reinforcement</h3>
-        <p className="text-sm">Praising efforts in managing anxiety encourages children to continue using coping strategies.</p>
+        <p className="text-sm">Encouraging children’s efforts boosts motivation to develop coping skills.</p>
       </div>
     </div>
 
@@ -495,8 +440,8 @@ const ChildhoodAnxiety = () => {
     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
       <img src="https://images.pexels.com/photos/4145035/pexels-photo-4145035.jpeg" alt="parent modeling calm behavior" className="w-full h-48 object-cover rounded-2xl mb-6" />
       <div className="p-6">
-        <h3 className="text-lg font-bold mb-4">Demonstrating Calm & Positive Actions</h3>
-        <p className="text-sm">Adults can model stress management, reinforcing constructive emotional responses.</p>
+        <h3 className="text-lg font-bold mb-4">Modeling Calm Behavior</h3>
+        <p className="text-sm">Caregivers managing their own stress set positive examples for anxious children.</p>
       </div>
     </div>
 
@@ -504,8 +449,8 @@ const ChildhoodAnxiety = () => {
     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
       <img src="https://images.pexels.com/photos/7008011/pexels-photo-7008011.jpeg" alt="child with therapist for guidance" className="w-full h-48 object-cover rounded-2xl mb-6" />
       <div className="p-6">
-        <h3 className="text-lg font-bold mb-4">Pursuing Professional Guidance</h3>
-        <p className="text-sm">When anxiety impacts daily functioning, a child psychologist or therapist can provide expert advice.</p>
+        <h3 className="text-lg font-bold mb-4">Professional Help</h3>
+        <p className="text-sm">Consulting a child psychologist is essential when anxiety severely disrupts daily life.</p>
       </div>
     </div>
 
@@ -514,7 +459,7 @@ const ChildhoodAnxiety = () => {
       <img src="https://images.pexels.com/photos/7008010/pexels-photo-7008010.jpeg" alt="child in CBT session" className="w-full h-48 object-cover rounded-2xl mb-6" />
       <div className="p-6">
         <h3 className="text-lg font-bold mb-4">Cognitive‑Behavioral Therapy (CBT)</h3>
-        <p className="text-sm">CBT helps shift negative thinking and builds coping skills—highly effective for anxious youth.</p>
+        <p className="text-sm">CBT helps children change negative thinking patterns and develop effective coping strategies.</p>
       </div>
     </div>
 
@@ -522,8 +467,8 @@ const ChildhoodAnxiety = () => {
     <div className="bg-[#0E7EA0] rounded-3xl text-white text-center">
       <img src="https://images.pexels.com/photos/7008009/pexels-photo-7008009.jpeg" alt="child with supportive medication context" className="w-full h-48 object-cover rounded-2xl mb-6" />
       <div className="p-6">
-        <h3 className="text-lg font-bold mb-4">Medication When Needed</h3>
-        <p className="text-sm">In certain cases, medication alongside therapy and healthy habits may be advised under supervision.</p>
+        <h3 className="text-lg font-bold mb-4">Medication</h3>
+        <p className="text-sm">In severe cases, doctors may prescribe medication alongside therapy to manage childhood anxiety symptoms.</p>
       </div>
     </div>
 
@@ -541,17 +486,7 @@ const ChildhoodAnxiety = () => {
         </h2>
         <div className="flex flex-col lg:flex-row justify-between items-center text-left text-black gap-20 mb-50">
           <p>
-            Anxiety in children is a critical issue that can affect a
-            child&apos;s emotional and psychological growth if not treated.
-            Knowing its causes and symptoms, parents, educators, and caregivers
-            can take decisive action to assist children to overcome their
-            anxiety in the most effective way. With proper intervention,
-          </p>
-          <p>
-            children can be helped to develop resilience, confidence, and coping
-            mechanisms that will carry them through adulthood. Childhood anxiety
-            management needs patience, consistency, and a warm environment, but
-            if managed well, children can enjoy happy and worry-free lives.
+            Childhood anxiety disorder can significantly impact a child’s emotional and psychological development if untreated. By recognizing its causes and symptoms early, parents, educators, and caregivers can implement effective strategies and professional treatments to help children overcome anxiety. With consistent support and appropriate interventions, children can build resilience, confidence, and healthy coping skills that improve their quality of life and future wellbeing.
           </p>
         </div>
       </section>

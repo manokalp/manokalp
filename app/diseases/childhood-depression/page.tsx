@@ -87,20 +87,10 @@ const ChildhoodDepression = () => {
       <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-20 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Childhood depression is a serious mental health condition that
-            affects many children and adolescents worldwide. It goes beyond
-            occasional sadness and can significantly impact a child&apos;s
-            emotional, social, and academic life. Unlike adults, children may
-            not always have the vocabulary or understanding to express their
-            feelings,
+            Childhood depression is a significant mental health disorder affecting children and adolescents globally. Unlike normal sadness, childhood depression severely impacts emotional wellbeing, social relationships, and academic performance.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            making it crucial for caregivers, parents, and educators to
-            recognize the signs early. If not treated, depression in children
-            can cause long-term mental illnesses, impacting the development of a
-            child and overall health. Knowledge about its causes, symptoms, and
-            remedies is important in ensuring recovery and overcoming of
-            children.
+            Children often lack the words to describe their feelings, making it vital for caregivers to recognize early signs of depression. Untreated childhood depression can lead to chronic mental health problems, affecting overall development and wellbeing. Understanding causes, symptoms, and treatments is essential for helping children recover from depression.
           </p>
         </div>
       </section>
@@ -113,8 +103,7 @@ const ChildhoodDepression = () => {
           Causes of Childhood Depression
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-          Childhood depression can be caused by many biological, psychological,
-          and environmental reasons. Some of the most prevalent causes are:
+          Biological, psychological, and environmental factors contribute to childhood depression. Common causes of childhood depression include:
         </p>
 
         <div className="grid lg:grid-cols-5 grid-cols-1 gap-4 mb-50">
@@ -122,14 +111,11 @@ const ChildhoodDepression = () => {
           <div className="[perspective:1000px] cursor-pointer ">
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [backface-visibility:hidden]">
-                <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">
-                  Genetic Predisposition
-                </h3>
+                <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">Genetic Factors</h3>
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Children whose family has a history of anxiety or mental
-                  illness have a higher chance of developing anxiety.
+                  A family history of depression or mental illness increases a child's risk of developing depression.
                 </p>
               </div>
             </div>
@@ -139,14 +125,11 @@ const ChildhoodDepression = () => {
           <div className="[perspective:1000px] cursor-pointer">
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [backface-visibility:hidden]">
-                <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">
-                  Brain Chemistry and Hormonal Imbalances
-                </h3>
+                <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">Brain Chemistry</h3>
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  An imbalance of neurotransmitters, including low serotonin and
-                  dopamine levels, can lead to depression.
+                  Imbalances in neurotransmitters like serotonin and dopamine contribute to childhood depression.
                 </p>
               </div>
             </div>
@@ -156,14 +139,11 @@ const ChildhoodDepression = () => {
           <div className="[perspective:1000px] cursor-pointer">
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#0E7EA0]  w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [backface-visibility:hidden]">
-                <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">
-                  Trauma and Stressful Life Events
-                </h3>
+                <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">Trauma and Stress</h3>
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                   Loss of a loved one, divorce of parents, abuse, neglect, or
-                  bullying are some experiences that can cause depression.
+                  Experiences such as parental divorce, abuse, neglect, bullying, or loss of a loved one often trigger depression.
                 </p>
               </div>
             </div>
@@ -173,15 +153,11 @@ const ChildhoodDepression = () => {
           <div className="[perspective:1000px] cursor-pointer">
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [backface-visibility:hidden]">
-                <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">
-                  Social Isolation and Loneliness
-                </h3>
+                <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">Social Isolation</h3>
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Children who have difficulty making friends or are left out of
-                  social situations tend to develop sadness and feelings of
-                  worthlessness.
+                  Difficulty forming friendships or social exclusion can lead to feelings of loneliness and depression.
                 </p>
               </div>
             </div>
@@ -191,15 +167,11 @@ const ChildhoodDepression = () => {
           <div className="[perspective:1000px] cursor-pointer">
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [backface-visibility:hidden]">
-                <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">
-                  Academic Pressure and High Expectations
-                </h3>
+                <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">Academic Pressure</h3>
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Overwhelming stress about schoolwork, tests, or expectations
-                  from parents can result in depression and feelings of
-                  inadequacy.
+                  Stress from schoolwork, exams, and parental expectations can contribute to childhood depression.
                 </p>
               </div>
             </div>
@@ -211,14 +183,11 @@ const ChildhoodDepression = () => {
           <div className="[perspective:1000px] cursor-pointer">
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [backface-visibility:hidden]">
-                <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">
-                  Low Self-Esteem and Negative Self-Image
-                </h3>
+                <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">Low Self-Esteem</h3>
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Children who are hypercritical of themselves or frequently
-                  fail may develop depressive symptoms.
+                  Negative self-image and frequent failures increase risk of depression in children.
                 </p>
               </div>
             </div>
@@ -227,14 +196,11 @@ const ChildhoodDepression = () => {
           <div className="[perspective:1000px] cursor-pointer">
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [backface-visibility:hidden]">
-                <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">
-                  Chronic Illness or Disability
-                </h3>
+                <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">Chronic Illness</h3>
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Physical illness can lead to emotional distress and cause
-                  depression.
+                  Ongoing physical health issues may trigger emotional distress and depression.
                 </p>
               </div>
             </div>
@@ -243,15 +209,11 @@ const ChildhoodDepression = () => {
           <div className="[perspective:1000px] cursor-pointer">
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [backface-visibility:hidden]">
-                <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">
-                  Substance Abuse in Family or Child
-                </h3>
+                <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">Substance Abuse</h3>
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Being exposed to parental alcohol or drug abuse or
-                  experimenting with drugs and alcohol can put one at higher
-                  risk of depression.
+                  Exposure to parental substance abuse or personal experimentation raises the risk of childhood depression.
                 </p>
               </div>
             </div>
@@ -260,14 +222,11 @@ const ChildhoodDepression = () => {
           <div className="[perspective:1000px] cursor-pointer">
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [backface-visibility:hidden]">
-                <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">
-                  Lack of Emotional Support
-                </h3>
+                <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">Lack of Support</h3>
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Failure by the caregivers to show nurturing care and emotional
-                  support can leave children unloved and develop depression.
+                  Insufficient emotional nurturing by caregivers can lead to feelings of neglect and depression.
                 </p>
               </div>
             </div>
@@ -276,14 +235,11 @@ const ChildhoodDepression = () => {
           <div className="[perspective:1000px] cursor-pointer">
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [backface-visibility:hidden]">
-                <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">
-                  Bullying and Peer Pressure
-                </h3>
+                <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">Bullying and Peer Pressure</h3>
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Experiencing bullying or pressure to fit in with others can be
-                  harmful to a child&apos;s mental well-being.
+                  Negative peer interactions are significant contributors to childhood depression.
                 </p>
               </div>
             </div>
@@ -296,13 +252,10 @@ const ChildhoodDepression = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[3.5vw] text-[7vw] font-bold ${playfair.className} mb-12`}
         >
-          Symptoms of Childhood Depression
+          Common Symptoms of Childhood Depression
         </h2>
-
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Depression in children appears in the form of a mix of physical,
-          emotional, and behavioral symptoms. Some of the most frequent signs
-          are:
+          Symptoms of depression in children often differ from those seen in adults.
         </p>
 
         <div className="flex flex-col lg:flex-row justify-between gap-4 text-black mb-16">
@@ -357,12 +310,10 @@ const ChildhoodDepression = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold  ${playfair.className}`}
         >
-          Solutions to Overcoming Childhood Depression
+          Effective Treatments and Solutions for Childhood Depression
         </h2>
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-          Treatment of childhood depression involves multi-pronged measures that
-          comprise emotional support, counseling, dietary modifications, and, in
-          a few instances, medication. Following are some beneficial solutions:
+          Treating childhood depression requires a comprehensive approach including emotional support, therapy, lifestyle changes, and sometimes medication.
         </p>
 
         <div className="grid lg:grid-cols-3 grid-cols-1 gap-6 mb-6">
@@ -587,14 +538,8 @@ const ChildhoodDepression = () => {
               className="w-full h-48 object-cover rounded-t-3xl"
             />
             <div className="p-6">
-              <h3 className="text-lg font-bold mb-4">
-                Cognitive-Behavioral Therapy (CBT)
-              </h3>
-              <p className="text-sm">
-                Cognitive-behavioral therapy that addresses altering negative
-                patterns of thinking and educating coping skills can be very
-                effective in treating anxious children.
-              </p>
+              <h3 className="text-lg font-bold mb-4">Cognitive-Behavioral Therapy (CBT)</h3>
+              <p className="text-sm">CBT helps children change negative thinking patterns and develop effective coping strategies.</p>
             </div>
           </div>
 
@@ -622,11 +567,11 @@ const ChildhoodDepression = () => {
       {/* Footer Section */}
       {/* Prognosis and Future Outlook Section*/}
       <section className="bg-[#FFD266] w-full h-full lg:px-80 px-10 lg:pt-20 lg:pb-20 pt-20 pb-20 text-center z-0">
-        {/* <h2 className={`text-[#0E7EA0] lg:text-[3.5vw] text-[8vw] font-bold ${playfair.className} mb-10`}>Conclusion</h2>
-                <div className="flex flex-col lg:flex-row justify-between items-center text-left text-black gap-20 mb-50">
-                    <p>Anxiety in children is a critical issue that can affect a child&apos;s emotional and psychological growth if not treated. Knowing its causes and symptoms, parents, educators, and caregivers can take decisive action to assist children to overcome their anxiety in the most effective way. With proper intervention,</p>
-                    <p>children can be helped to develop resilience, confidence, and coping mechanisms that will carry them through adulthood. Childhood anxiety management needs patience, consistency, and a warm environment, but if managed well, children can enjoy happy and worry-free lives.</p>
-                </div> */}
+        <div className="flex flex-col lg:flex-row justify-between items-center text-left text-black gap-20 mb-50">
+          <p>
+            Childhood depression is a complex mental health disorder requiring early recognition and compassionate care. With support from parents, educators, and mental health professionals, children can recover and regain emotional stability. Increasing awareness and reducing stigma around childhood depression encourages timely intervention and helps children lead healthy, fulfilling lives.
+          </p>
+        </div>
       </section>
     </main>
   );

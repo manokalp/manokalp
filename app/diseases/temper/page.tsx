@@ -9,95 +9,93 @@ const ChildhoodDepression = () => {
   const [activeTab, setActiveTab] = useState<SymptomCategory>("physical");
   const temperSolutions = [
     {
-      title: "Early Identification and Intervention",
+      title: "Stay Calm and Patient",
       description:
-        "Identifying temper issues early and seeking help can prevent escalation and long-term behavioral problems.",
+        "Responding calmly helps de-escalate the situation and sets a positive example.",
     },
     {
-      title: "Therapy and Counseling",
+      title: "Validate Emotions While Setting Boundaries",
       description:
-        "Professional counseling, including behavioral therapy and parent-child interaction therapy, can help manage emotional outbursts.",
+        "Acknowledge feelings but reinforce acceptable behavior (e.g., ‘I understand you’re upset, but hitting is not okay.’).",
     },
     {
-      title: "Open Communication and Emotional Support",
+      title: "Teach Emotional Regulation",
       description:
-        "Creating a safe space for children to talk about their feelings helps in emotional regulation and understanding.",
+        "Encourage deep breathing, mindfulness, or counting techniques to manage frustration.",
     },
     {
-      title: "Healthy Lifestyle Changes",
+      title: "Offer Limited Choices",
       description:
-        "Consistent routines, nutritious meals, and adequate sleep can greatly improve emotional stability and reduce temper tantrums.",
+        "Giving options helps individuals feel more in control and reduces power struggles.",
     },
     {
-      title: "Enhancing Self-Esteem and Confidence",
+      title: "Encourage Clear Communication",
       description:
-        "Acknowledging good behavior and encouraging independent problem-solving boosts confidence and reduces frustration.",
+        "Help develop alternative ways to express needs, like using words or gestures.",
     },
     {
-      title: "School-Based Support Systems",
+      title: "Use Positive Reinforcement",
       description:
-        "Teachers and counselors can support children by fostering inclusive classrooms and emotional awareness programs.",
+        "Praise and reward appropriate behavior rather than giving attention to tantrums.",
     },
     {
-      title: "Parental Involvement and Education",
+      title: "Establish Consistent Routines",
       description:
-        "Educating parents on positive discipline and emotional coaching can significantly reduce outbursts at home.",
+        "Predictable schedules can reduce anxiety and prevent tantrum triggers.",
     },
     {
-      title: "Encouraging Social Connections",
+      title: "Redirect Attention",
       description:
-        "Facilitating playdates and team activities helps children learn patience, sharing, and social coping mechanisms.",
+        "Involve the individual in a different activity to divert focus from frustration.",
     },
     {
-      title: "Mindfulness and Relaxation Strategies",
+      title: "Promote Problem-Solving Skills",
       description:
-        "Introducing breathing exercises, guided imagery, and calming routines can help kids self-regulate more effectively.",
+        "Teach alternative ways to handle problems instead of tantrums.",
     },
     {
-      title: "Behavioral Rewards and Charts",
+      title: "Use Time-Outs When Appropriate",
       description:
-        "Using star charts and positive reinforcement motivates children to manage their temper better.",
+        "A quiet break can help regain composure without reinforcing negative behavior.",
     },
     {
-      title: "Consistent Boundaries and Expectations",
+      title: "Avoid Giving In to Tantrums",
       description:
-        "Clear, firm, and loving boundaries help children feel secure and understand limits without frustration.",
+        "Maintain firm boundaries to prevent reinforcement of unwanted behavior.",
     },
     {
-      title: "Cognitive-Behavioral Techniques",
+      title: "Encourage Self-Soothing Techniques",
       description:
-        "CBT-based tools help children recognize triggers, reframe thoughts, and develop coping mechanisms.",
+        "Use calming tools like music, sensory activities, or breathing exercises.",
     },
   ];
 
   const symptoms = {
     physical: [
-      "Crying loudly and uncontrollably",
-      "Throwing objects or hitting",
-      "Rolling on the floor or stamping feet",
-      "Clenching fists or jaw",
-      "Changes in breathing pattern",
+      "Crying, screaming, or shouting",
+      "Stomping, kicking, or throwing objects",
+      "Holding breath or rapid breathing (hyperventilation)",
+      "Tense muscles and clenched fists",
+      "Hitting others or attempting to flee",
     ],
     emotional: [
       "Intense frustration or anger",
-      "Sudden mood changes",
-      "Overreaction to small issues",
-      "Feeling overwhelmed",
-      "Fear or anxiety",
+      "Feelings of helplessness or being trapped",
+      "Sudden mood swings or emotional outbursts",
+      "Difficulty calming down after an emotional trigger",
     ],
     behavioral: [
-      "Refusal to follow instructions",
-      "Screaming or shouting",
-      "Running away or hiding",
-      "Lying on the floor or becoming limp",
-      "Demanding or bossy behavior",
+      "Refusing to obey instructions",
+      "Ignoring attempts to comfort or calm them",
+      "Physical or verbal aggression",
+      "Overreacting to gain attention",
+      "Repeating tantrum behaviors when demands are unmet",
     ],
     cognitive: [
-      "Inability to express feelings verbally",
-      "Distorted perception of fairness",
-      "Blaming others constantly",
-      "Lack of patience or impulse control",
-      "Difficulty focusing during distress",
+      "Rigid thinking and resistance to change",
+      "Negative thoughts about the situation or others",
+      "Poor problem-solving and rationalization skills",
+      "Blaming others for their frustration",
     ],
   };
 
@@ -151,17 +149,10 @@ const ChildhoodDepression = () => {
       <section className="bg-[#0E7EA0] rounded-full w-full h-full lg:px-40 px-10 lg:py-20 py-20 text-center lg:mt-[-20vw] mt-[-0vw]">
         <div className="flex flex-col lg:flex-row justify-center lg:gap-20 gap-10 items-center text-center mb-20">
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Temper tantrums refer to emotional outbursts characterized by
-            usually crying, screaming, kicking, and other physical and verbal
-            displays of frustration. Tantrums are most typical in young children
-            but may also appear in older adults who have difficulty managing
-            their emotions.
+            Temper tantrums are emotional outbursts usually characterized by crying, screaming, kicking, and other physical or verbal expressions of frustration. They are most common in young children but can also occur in older individuals who struggle to manage their emotions.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            These outbursts may result from unmet needs, frustration, or
-            ineffectiveness in expressing feelings. It is important to know the
-            causes, symptoms, and remedies of temper tantrums to deal with them
-            and promote better emotional reactions.
+            These outbursts often result from unmet needs, frustration, or difficulty expressing feelings. Understanding the causes, symptoms, and ways to manage temper tantrums is essential for promoting healthier emotional responses.
           </p>
         </div>
       </section>
@@ -171,11 +162,10 @@ const ChildhoodDepression = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[3.8vw] text-[7vw] font-bold ${playfair.className} mb-8`}
         >
-          Causes of Childhood Depression
+          Causes of Temper Tantrums
         </h2>
         <p className="text-black lg:text-[1.0vw] text-[3.5vw] mb-10">
-          Childhood depression can be caused by many biological, psychological,
-          and environmental reasons. Some of the most prevalent causes are:
+          Temper tantrums can arise from a variety of psychological, developmental, and environmental factors. Common causes include:
         </p>
 
         <div className="grid lg:grid-cols-5 grid-cols-1 gap-4 mb-40">
@@ -184,14 +174,12 @@ const ChildhoodDepression = () => {
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [backface-visibility:hidden]">
                 <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">
-                  Frustration and Communication Problems
+                  Frustration and Communication Difficulties
                 </h3>
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Children who are very young or who have poor communication
-                  skills may throw tantrums when they are not able to convey
-                  their needs or feelings.
+                  Young children or those with limited communication skills may throw tantrums when unable to express their needs or feelings.
                 </p>
               </div>
             </div>
@@ -202,13 +190,12 @@ const ChildhoodDepression = () => {
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [backface-visibility:hidden]">
                 <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">
-                  Unfulfilled Needs or Wants
+                  Unmet Needs or Desires
                 </h3>
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  When things don&apos;t go as expected, a tantrum may be used
-                  to communicate disappointment or frustration.
+                  When expectations are not met, tantrums may serve as an expression of disappointment or frustration.
                 </p>
               </div>
             </div>
@@ -219,13 +206,12 @@ const ChildhoodDepression = () => {
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#0E7EA0]  w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [backface-visibility:hidden]">
                 <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">
-                  Oversimulation and Tiredness
+                  Oversimulation, Hunger, or Fatigue
                 </h3>
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Oversimulation, hunger, or insufficient sleep can decrease
-                  frustration tolerance and increase the chances of a tantrum.
+                  Excessive stimulation, hunger, or lack of sleep can lower frustration tolerance and increase tantrum likelihood.
                 </p>
               </div>
             </div>
@@ -236,14 +222,12 @@ const ChildhoodDepression = () => {
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [backface-visibility:hidden]">
                 <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">
-                  Need for Attention
+                  Attention-Seeking
                 </h3>
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Tantrums are some times triggered by feelings of neglect or
-                  attention seeking from caregivers, peers, or authority
-                  figures.
+                  Sometimes tantrums are triggered by feelings of neglect or a desire to gain attention from caregivers, peers, or authority figures.
                 </p>
               </div>
             </div>
@@ -254,13 +238,12 @@ const ChildhoodDepression = () => {
             <div className="relative w-full aspect-square transition-all duration-500 [transform-style:preserve-3d] hover:[transform:rotateY(180deg)]">
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [backface-visibility:hidden]">
                 <h3 className="lg:text-[1.0vw] text-[4vw] font-bold">
-                  Ineffective Emotional Regulation Skills
+                  Poor Emotional Regulation Skills
                 </h3>
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Some children and some adults lack good coping skills to
-                  manage stress and frustration. 
+                  Some individuals lack effective coping mechanisms to manage stress and frustration.
                 </p>
               </div>
             </div>
@@ -278,8 +261,7 @@ const ChildhoodDepression = () => {
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  If tantrums have worked in the past to gain attention or
-                  rewards, people will employ them as a means to an end.
+                  If tantrums have previously resulted in attention or rewards, individuals may use them to achieve their goals.
                 </p>
               </div>
             </div>
@@ -295,9 +277,7 @@ const ChildhoodDepression = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Some medical or psychological conditions, including ADHD,
-                  autism, or sensory processing disorders, may result in more
-                  intense and more frequent tantrums.
+                  Conditions like ADHD, autism, or sensory processing disorders can lead to more frequent and intense tantrums.
                 </p>
               </div>
             </div>
@@ -313,9 +293,7 @@ const ChildhoodDepression = () => {
               </div>
               <div className="absolute inset-0 bg-[#FFD700] w-full lg:h-[50vh] rounded-xl p-6 text-black flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  Alterations in daily routines or sudden changes in environment
-                  may create anxiety and frustration, thus resulting in
-                  tantrums.
+                  Disruptions in daily routines or sudden changes in the environment can cause anxiety and frustration, resulting in tantrums.
                 </p>
               </div>
             </div>
@@ -332,9 +310,7 @@ const ChildhoodDepression = () => {
         </h2>
 
         <p className="text-black lg:text-[1.5vw] text-[3vw] mb-10">
-          Temper tantrums may result from different psychological,
-          developmental, and environmental factors. Some of the most prevalent
-          causes are:
+          Symptoms of temper tantrums can vary in severity and duration but typically include:
         </p>
 
         <div className="flex flex-col lg:flex-row justify-between gap-4 text-black mb-16">
@@ -389,12 +365,10 @@ const ChildhoodDepression = () => {
         <h2
           className={`text-[#0E7EA0] lg:text-[4vw] text-[7vw] font-semibold ${playfair.className}`}
         >
-          Solutions to Managing Temper Tantrums
+          Effective Strategies for Managing Temper Tantrums
         </h2>
         <p className="text-black lg:text-[1.55vw] text-[3.5vw] font-medium mb-10">
-          Effective temper management includes emotional education, consistent
-          parenting, therapy, and lifestyle adjustments. Here are some
-          recommended solutions:
+          Managing temper tantrums effectively requires a combination of prevention, emotional regulation, and behavioral strategies.
         </p>
 
         <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
