@@ -60,7 +60,7 @@ const ChildhoodAnxiety = () => {
             Childhood anxiety disorder is a prevalent mental health condition affecting children across different ages and backgrounds. While occasional fears are normal, excessive childhood anxiety can severely disrupt daily activities, academic performance, and social interactions.
           </p>
           <p className="lg:text-[1.55vw] text-[3.5vw] font-medium text-left">
-            Understanding the causes, symptoms, and treatment options for childhood anxiety is essential for parents, caregivers, and educators to support children's emotional resilience.
+            Understanding the causes, symptoms, and treatment options for childhood anxiety is essential for parents, caregivers, and educators to support children&apos;s emotional resilience.
           </p>
         </div>
 

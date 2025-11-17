@@ -460,7 +460,7 @@ const Autism = () => {
         </h2>
         <div className="flex flex-col lg:flex-row justify-between items-center text-left text-black gap-20 mb-50">
           <p>
-            Autism Spectrum Disorder is a complex and diverse condition that profoundly shapes an individual's life experience. Although challenges exist, early intervention, personalized therapies, and supportive environments can greatly enhance quality of life.
+            Autism Spectrum Disorder is a complex and diverse condition that profoundly shapes an individual&apos;s life experience. Although challenges exist, early intervention, personalized therapies, and supportive environments can greatly enhance quality of life.
           </p>
           <p>
             By focusing on strengths, fostering inclusivity, and providing adequate resources, society can create a more welcoming and supportive world for individuals with autism. Increased awareness and education are vital to ensuring that people with ASD receive the help they need to live fulfilling lives.

@@ -115,7 +115,7 @@ const ChildhoodDepression = () => {
               </div>
               <div className="absolute inset-0 bg-[#0E7EA0] w-full lg:lg:h-[50vh] rounded-xl p-6 text-white flex flex-col items-center justify-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <p className="lg:text-[1vw] text-[3vw]">
-                  A family history of depression or mental illness increases a child's risk of developing depression.
+                  A family history of depression or mental illness increases a child&apos;s risk of developing depression.
                 </p>
               </div>
             </div>
