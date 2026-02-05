@@ -40,3 +40,16 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .qodo
+
+# IDE and cache
+.vscode/
+.idea/
+.turbo/
+.cache/
+
+# temp folders
+/tmp/
+/logs/
+
+# Windows metadata
+Thumbs.db
